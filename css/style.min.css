@@ -1327,6 +1327,32 @@ a.bttn {
 .toc-link:hover {
   text-decoration: underline; }
 
+.dropdown__container {
+  width: 10.25rem;
+  height: 1.60rem;
+  border: 1px solid #fff;
+  margin-left: 1.05rem;
+  padding: 0 0.60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer; }
+  .dropdown__container:hover .dropdown__arrow {
+    transform: translateY(2px); }
+
+.dropdown__text {
+  font-size: 0.70rem;
+  font-family: Univers, Arial, Helvetica, sans-serif;
+  color: #fff; }
+
+.dropdown__arrow {
+  transition: .3s all;
+  height: 0.70rem;
+  width: 0.80rem; }
+  .dropdown__arrow > * {
+    height: 100%;
+    width: 100%; }
+
 .header__container {
   display: flex;
   align-items: flex-start; }
@@ -2691,6 +2717,7 @@ body {
     align-items: baseline;
     transition: all .2s; }
   .question__content--2 {
+    position: relative;
     height: 11.35rem;
     width: 16.40rem;
     padding-top: 0.70rem; }

@@ -1,1 +1,0 @@
-# cloud-assessment-test
