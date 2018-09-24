@@ -239,7 +239,7 @@ $Breakpoint argument choices:
 
 /* Slider */
 .slick-slide > .container {
-  padding: 3.9rem 0 0 0;
+  padding: 0 0 0;
   width: 1180px;
   height: 100%;
   margin-left: auto;
