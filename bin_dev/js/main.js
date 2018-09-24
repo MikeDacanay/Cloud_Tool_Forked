@@ -18,6 +18,60 @@ var tracker = {
     '8':8,                   
 };
 
+var region_currency = {
+    'as': [
+        ['Australian Dollar','$'],
+        ['CFP Franc','₣'],
+        ['Fiji Dollar','$'],
+        ['Hong Kong Dollar','$'],
+        ['New Zealand Dollar','$'],
+        ['Philippine Peso','₱'],
+        ['Singapore Dollar','$'],
+        ['South Korean Won','₩'],
+        ['Taiwan Dollar','$'],
+        ['Yen','¥']
+    ],
+    'eu': [
+        ['Bulgarian Lev','лв'],
+        ['Czech Koruna','Kč'],
+        ['Denar','ден'],
+        ['Euro','€'],
+        ['Russian Ruble','р.'],
+        ['Norwegian Krone','kr'],
+        ['Pound Sterling','£'],
+        ['Swedish Krona','kr'],
+        ['Swiss Franc','₣'],
+        ['Turkish Lira','₤']
+    ],
+    'af': [
+        ['Algerian Dinar','د.ج'],
+        ['Cape Verde Escudo','$'],
+        ['CFA Franc BCEAO','₣'],
+        ['Egyptian Pound','£'],
+        ['Jordanian Dinar','د.ا'],
+        ['Kuwaiti Dinar','د.ك'],
+        ['Leone','Le'],
+        ['New Israeli Shekel','₪'],
+        ['Tanzanian Shilling','Sh'],
+        ['UAE Dirham','د.إ']
+    ],
+    'na': [
+        ['Canadian Dollar', '$'],
+        ['Cayman Islands Dollar', '$'],
+        ['US Dollar', '$'],
+    ],
+    'sa': [
+        ['Brazilian Real','R$'],
+        ['Colombian Peso','$'],
+        ['Costa Rican Colon','₡'],
+        ['East Caribbean Dollar','$'],
+        ['Guyana Dollar','$'],
+        ['Mexican Peso','$'],
+        ['Peso Uruguayo','$'],
+        ['Trinidad and Tobago Dollar','$']
+    ]
+}
+
 window.onload = function(e) {
     $("input.dial__input").val('0%');
     $("input.dial__input").trigger('change');
@@ -1158,6 +1212,15 @@ $(document).ready(function() {
     //     });
     // });
 
+    $('.dropdown__container, .dropdown__content').click(function(){
+        $('.dropdown__content').toggleClass('dropdown__content--active');
+    });
+
+    // $('.dropdown__option').click(function(){
+    //     console.log('hello');
+    //     // $('.dropdown__content').removeClass('dropdown__content--active');
+    // });
+
     var slider = $('.book-slider').slick({      
         // vertical: true,  
         adaptiveHeight: true,
@@ -1275,7 +1338,8 @@ $(document).ready(function() {
     // });
 
         // Single region
-    $('.map-composition__holder').click(function(){        
+    $('.map-composition__holder').click(function(){    
+        $('.dropdown__container').css('display','flex');    
         a.region=$(this).attr('value');
         if($('.map_active')[0] !== undefined){
             var src_hold = $('.map_active').children("img").attr('src');
@@ -1287,6 +1351,17 @@ $(document).ready(function() {
         $(this).children("img").attr('src',$(this).children("img").attr('alt'));
         $(this).children("img").attr('alt', src_hold1);           
         $(this).toggleClass('map_active');
+
+        $('.dropdown__text').text('Choose Your Currency');    
+        $('.dropdown__option').remove();    
+        for(var i=0;i<region_currency[a.region].length;i++){        
+            $( ".dropdown__content" ).append( 
+                "<div class='dropdown__option dropdown__option--"+i+"'>"+
+                region_currency[a.region][i][0]+
+                "</div>"
+            );
+        };             
+        // console.log(region_currency[a.region].length);   
     });
 
     // ADD or REMOVE sector 
