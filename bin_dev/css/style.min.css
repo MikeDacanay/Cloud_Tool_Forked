@@ -239,14 +239,13 @@ $Breakpoint argument choices:
 
 /* Slider */
 .slick-slide > .container {
-  padding: 0 0 0;
-  width: 1180px;
+  padding: 3.90rem 3.60rem;
+  /*  padding: 119px 33px 0 64px;*/
+  padding-bottom: 0.50rem;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
   z-index: 0;
-  position: relative;
-}
+  position: relative; }
 
 .slide-page {
   position: absolute;
@@ -1328,6 +1327,32 @@ a.bttn {
 .toc-link:hover {
   text-decoration: underline; }
 
+.dropdown__container {
+  width: 10.25rem;
+  height: 1.60rem;
+  border: 1px solid #fff;
+  margin-left: 1.05rem;
+  padding: 0 0.60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer; }
+  .dropdown__container:hover .dropdown__arrow {
+    transform: translateY(2px); }
+
+.dropdown__text {
+  font-size: 0.70rem;
+  font-family: Univers, Arial, Helvetica, sans-serif;
+  color: #fff; }
+
+.dropdown__arrow {
+  transition: .3s all;
+  height: 0.70rem;
+  width: 0.80rem; }
+  .dropdown__arrow > * {
+    height: 100%;
+    width: 100%; }
+
 .header__container {
   display: flex;
   align-items: flex-start; }
@@ -1375,13 +1400,7 @@ svg:not(:root) {
 .logo__container {
   height: 2.40rem;
   width: 7.30rem;
-  margin-right: auto;
-  position: absolute;
-  left:0;
-  top:50%;
-  transform:translateY(-50%);
-
-}
+  margin-right: auto; }
   .logo__container--1 {
     width: 9.25rem;
     height: 3.00rem; }
@@ -1617,18 +1636,15 @@ ul.no-dots-ul {
     border-top-right-radius: 0.20rem; }
 
 .nav-bar {
-  padding-top: 0;
-  position: relative;
-  width: 1180px;
-  height: 78px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  padding: .725rem 3.60rem;
+  position: absolute;
   top: 0;
   z-index: 5;
   transition-delay: 5s;
   transition: .25s all ease-in-out;
   display: flex;
-}
+  align-items: center; }
   .nav-bar a {
     text-decoration: none;
     letter-spacing: -.04em; }
@@ -1643,12 +1659,7 @@ ul.no-dots-ul {
     padding-bottom: 1.52rem; }
 
 .tracker__container {
-  display: flex;
-  position: absolute;
-  right:0;
-  top:50%;
-  transform:translateY(-50%);
-}
+  display: flex; }
 
 .tracker__group {
   cursor: pointer; }
@@ -2226,18 +2237,15 @@ table {
     width: calc(100% - (100% - 3 * 0.5rem)/4 - 0.5rem); }
 
 .main_container {
-  width: 100vw;
+  width: 63.10rem;
   position: relative;
   margin: 0 auto;
   overflow: hidden; }
 
 .book-slider {
-  width: 1180px;
+  width: 100%;
   height: 47.00rem;
-  z-index: 3;
-  margin-left: auto;
-  margin-right: auto;
-}
+  z-index: 3; }
 
 .page {
   position: relative;
@@ -2258,453 +2266,409 @@ body {
   background-size: cover;
   background-image: url("../assets/images/desktop/backgrounds/bg-01.png"); }
 
-/**ERIN FIXIN**/
-.blue-city-bg{
-  background-image:  url("../assets/images/desktop/backgrounds/bg-02.png");
-  opacity: 1!important;
-}
 .city__bg {
   height: 100vh;
   min-width: 100%;
   position: absolute;
   opacity: 0;
-  transition: opacity .3s;
-  background-repeat: no-repeat!important;
-  background-size: cover;
-}
-
-@media screen and (max-width: 2000px) {
-  .city__bg {
-    background-size: 2000px;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg {
-    background-size: 1600px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg {
-    background-size: 1200px;
-    background-position-y: 241px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .city__bg {
-    background-size: cover;
-  }
-}
-
-.city__bg--0 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-01-sf.png");
-  background-position-y: 114px;
-}
-@media screen and (max-height: 875px) {
-  .city__bg--0{
-    background-position-y: -37px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--0{
-    background-position-y: 92px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--0{
-      background-position-y: -55px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--0{
-    background-position-y: 198px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--0{
-      background-position-y: 15px;
-    }
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .city__bg--0{
-    background-position-y:250px ;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--0{
-      background-position-y: 93px;
-    }
-  }
-}
-
-.city__bg--1 {
-  background-image:url("../assets/images/desktop/backgrounds/bg-02-paris.png");
-  background-position-y: 267px;
-  background-size: 111%;
-}
-@media screen and (max-height: 875px) {
-  .city__bg--1{
-    background-position-y: 127px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--1{
-    background-size: 2200px;
-
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--1{
-      background-position-y: 44px;
-      background-position-x:-140px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--1{
-    background-size: 1700px;
-    background-position-x: 0px;
-    background-position-y: 454px;
-
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--1{
-      background-position-y: 170px;
-      background-position-x: 0;
-      background-size: 1682px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--1{
-    background-size: 1200px!important;
-    background-position-x: 20px;
-    background-position-x: 96%;
-    background-position-y: 534px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--1{
-      background-size: 1600px!important;
-      background-position-x: -131px;
-      background-position-y: 189px;
-
-    }
-  }
-}
-
-.city__bg--2 {
-  background-image:  url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png");
-
-}
-@media screen and (max-height: 875px) {
-  .city__bg--2{
-    background-position-y: -443px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--2{
-    background-size: 2000px;
-    background-position-y: -180px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--2{
-      background-position-y: -239px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--2{
-    background-size: 1640px;
-    background-position-y: 60px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--2{
-      background-position-y: -239px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--2{
-    background-size: 1200px;
-    background-position-y: 178px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--2{
-      background-position-y: -39px;
-      background-size: cover;
-    }
-  }
-}
-
-.city__bg--3 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-04-ny-d.png");
-  background-position-y: -110px;
-}
-@media screen and (max-height: 875px) {
-  .city__bg--3{
-    background-position-y: -368px;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--3{
-    background-position-y: 67px;
-  }
-  @media screen and (max-height: 875px) {
-    .city__bg--3{
-      background-position-y: -186px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--3 {
-    background-position-y: 239px;
-  }
-  @media screen and (max-height: 875px){
-    .city__bg--3 {
-      background-position-y: -10px;
-    }
-  }
-
-}
-
-
-.city__bg--4 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-05-london.png");
-  background-position-y: 535px;
-}
-@media screen and (max-height: 875px){
-  .city__bg--4 {
-    background-position-y: 310px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--4 {
-    background-position-y: 535px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--4 {
-      background-position-y: 315px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--4 {
-    background-position-y: 567px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--4 {
-      background-position-y: 335px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--4 {
-    background-position-y: 600px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--4 {
-      background-position-y: 386px;
-    }
-  }
-}
-
-
-/**BG 5**/
-.city__bg--5 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-06-sing.png");
-}
-@media screen and (max-height: 875px){
-  .city__bg--5 {
-    background-position-y: 0px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--5 {
-    background-position-y: 184px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--5 {
-      background-position-y: -32px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--5 {
-    background-position-y: 287px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--5 {
-      background-position-y: 43px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--5 {
-    background-position-y: 411px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--5 {
-      background-position-y: 195px;
-    }
-  }
-}
-
-
-
-
-
-
-/**BG 5**/
-.city__bg--6 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-07-sp.png");
-  background-position-y: 160px;
-}
-@media screen and (max-height: 875px){
-  .city__bg--6 {
-    background-position-y: 0px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--6 {
-    background-position-y: 160px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--6 {
-      background-position-y: -27px;
-
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--6 {
-    background-position-y: 265px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--6 {
-      background-position-y: 86px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  city__bg--6 {
-    background-position-y: 438px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--6 {
-      background-position-y: 185px;
-    }
-  }
-}
-
-
-
-.city__bg--7 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-08-sydney.png"); }
-
-@media screen and (max-height: 875px){
-  .city__bg--7 {
-    background-position-y: 0px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--7 {
-    background-position-y: 443px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--7 {
-      background-position-y: 201px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--7 {
-    background-position-y: 506px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--7 {
-      background-position-y: 235px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--7 {
-    background-position-y: 600px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--7 {
-      background-position-y: 325px;
-    }
-  }
-}
-
-.city__bg--8 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-09-sf.png");
-  background-position-y: 345px;
-
-}
-@media screen and (max-height: 875px){
-  .city__bg--8 {
-    background-position-y: 115px;
-  }
-}
-@media screen and (max-width: 2000px) {
-  .city__bg--8 {
-    background-position-y: 443px;
-    background-position-y: 345px;
-
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--8 {
-      background-position-y: 115px;
-    }
-  }
-}
-@media screen and (max-width: 1600px) {
-  .city__bg--8 {
-    background-position-y: 506px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--8 {
-      background-position-y: 172px;
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .city__bg--8 {
-    background-position-y: 513px;
-  }
-
-  @media screen and (max-height: 875px){
-    .city__bg--8 {
-      background-position-y: 285px;
-    }
-  }
-}
-.city__bg--9 {
-  background-image:  url("../assets/images/desktop/backgrounds/bg-10-chicago.png");
-}
-@media only screen and (max-width: 2400px) {
-  .city__bg--9 {
-    background: 0px 18.5rem url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+  transition: opacity .3s; }
+  .city__bg--0 {
+    background: 0px 11.5rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
     background-repeat: no-repeat;
-    background-size: cover; } }
-.city__bg--active {
-  opacity: .99; }
-
-
-.city__bg--active {
+    background-size: cover; }
+    @media only screen and (max-width: 2600px) {
+      .city__bg--0 {
+        background: 0px 9.5rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--0 {
+        background: 0px 11.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--0 {
+        background: 0px 14.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--0 {
+        background: 0px 15.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1700px) {
+      .city__bg--0 {
+        background: 0px 17.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1600px) {
+      .city__bg--0 {
+        background: 0px 19.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--0 {
+        background: 0px 13.2rem url("../assets/images/desktop/backgrounds/bg-01-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--1 {
+    background: 0px 11.5rem url("../assets/images/desktop/backgrounds/bg-02-paris.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 104%; }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--1 {
+        min-width: 104%;
+        background: 0px 19.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--1 {
+        min-width: 107%;
+        background: 0px 19.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2200px) {
+      .city__bg--1 {
+        min-width: 107%;
+        background: 0px 19.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--1 {
+        min-width: 122%;
+        background: -23rem 19.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--1 {
+        min-width: 122%;
+        background: -21rem 20.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--1 {
+        min-width: 122%;
+        background: -2rem 15.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1800px) {
+      .city__bg--1 {
+        min-width: 116%;
+        background: -13rem 23.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1700px) {
+      .city__bg--1 {
+        min-width: 112%;
+        background: -9rem 25.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1500px) {
+      .city__bg--1 {
+        min-width: 112%;
+        background: -8rem 25.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--1 {
+        min-width: 112%;
+        background: 0rem 14.5rem url(../assets/images/desktop/backgrounds/bg-02-paris.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--2 {
+    background: 0px -19rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--2 {
+        background: 0px -14rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--2 {
+        background: 0px -12rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--2 {
+        background: 0px -11rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--2 {
+        background: 0px -8.5rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--2 {
+        background: 0px -6rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--2 {
+        background: 0px -3.6rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1800px) {
+      .city__bg--2 {
+        background: 0px -1.2rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1700px) {
+      .city__bg--2 {
+        background: 0px 0.8rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1600px) {
+      .city__bg--2 {
+        background: 0px 2.8rem url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--2 {
+        background: 0px -9.2rem url(../assets/images/desktop/backgrounds/bg-03-tokyo-c.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--3 {
+    background: 0px -15rem url("../assets/images/desktop/backgrounds/bg-04-ny-d.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2600px) {
+      .city__bg--3 {
+        background: 0px -19.5rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--3 {
+        background: 0px -12.8rem url("../assets/images/desktop/backgrounds/bg-04-ny-d.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--3 {
+        background: 0px -10.4rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2200px) {
+      .city__bg--3 {
+        background: 0px -8rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--3 {
+        background: 0px -6rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--3 {
+        background: 0px -3.5rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--3 {
+        background: 0px -1rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1800px) {
+      .city__bg--3 {
+        background: 0px 1rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1700px) {
+      .city__bg--3 {
+        background: 0px 4rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1600px) {
+      .city__bg--3 {
+        background: 0px 6rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1500px) {
+      .city__bg--3 {
+        background: 0px 8rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--3 {
+        background: 0px -7rem url(../assets/images/desktop/backgrounds/bg-04-ny-d.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--4 {
+    background: 0px 26.5rem url("../assets/images/desktop/backgrounds/bg-05-london.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2600px) {
+      .city__bg--4 {
+        background: 0px 23rem url(../assets/images/desktop/backgrounds/bg-05-london.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--4 {
+        background: 0px 24.5rem url(../assets/images/desktop/backgrounds/bg-05-london.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2200px) {
+      .city__bg--4 {
+        background: 0px 26rem url(../assets/images/desktop/backgrounds/bg-05-london.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--4 {
+        background: 0px 27rem url(../assets/images/desktop/backgrounds/bg-05-london.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1600px) {
+      .city__bg--4 {
+        background: 0px 28rem url(../assets/images/desktop/backgrounds/bg-05-london.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--5 {
+    background: 0px 16.5rem url("../assets/images/desktop/backgrounds/bg-06-sing.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2600px) {
+      .city__bg--5 {
+        background: 0px 9.5rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--5 {
+        background: 0px 13.5rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2200px) {
+      .city__bg--5 {
+        background: 0px 15.5rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--5 {
+        background: 0px 16.2rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--5 {
+        background: 0px 18.2rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--5 {
+        background: 0px 14.7rem url(../assets/images/desktop/backgrounds/bg-06-sing.png), url(../assets/images/desktop/backgrounds/bg-02.png);
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--6 {
+    background: 0px 12.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2600px) {
+      .city__bg--6 {
+        background: 0px 2.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--6 {
+        background: 0px 6.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--6 {
+        background: 0px 9.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--6 {
+        background: 0px 12.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1500px) {
+      .city__bg--6 {
+        background: 0px 15.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1400px) {
+      .city__bg--6 {
+        background: 0px 16.5rem url("../assets/images/desktop/backgrounds/bg-07-sp.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--7 {
+    background: 0px 16.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--7 {
+        background: 0px 18.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--7 {
+        background: 0px 20.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--7 {
+        background: 0px 21.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--7 {
+        background: 0px 23.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1800px) {
+      .city__bg--7 {
+        background: 0px 24.5rem url("../assets/images/desktop/backgrounds/bg-08-sydney.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--8 {
+    background: 0px 19.9rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--8 {
+        background: 0px 14.5rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2300px) {
+      .city__bg--8 {
+        background: 0px 16.5rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2100px) {
+      .city__bg--8 {
+        background: 0px 18.5rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 2000px) {
+      .city__bg--8 {
+        background: 0px 18.9rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1900px) {
+      .city__bg--8 {
+        background: 0px 20.9rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1700px) {
+      .city__bg--8 {
+        background: 0px 22.9rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    @media only screen and (max-width: 1500px) {
+      .city__bg--8 {
+        background: 0px 23.9rem url("../assets/images/desktop/backgrounds/bg-09-sf.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--9 {
+    background: 0px 11.5rem url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-01.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 2400px) {
+      .city__bg--9 {
+        background: 0px 18.5rem url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+        background-repeat: no-repeat;
+        background-size: cover; } }
+  .city__bg--active {
     opacity: .99; }
 
 .question__container {
@@ -2753,6 +2717,7 @@ body {
     align-items: baseline;
     transition: all .2s; }
   .question__content--2 {
+    position: relative;
     height: 11.35rem;
     width: 16.40rem;
     padding-top: 0.70rem; }
