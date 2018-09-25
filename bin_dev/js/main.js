@@ -20,55 +20,55 @@ var tracker = {
 
 var region_currency = {
     'as': [
-        ['Australian Dollar','$'],
-        ['CFP Franc','₣'],
-        ['Fiji Dollar','$'],
-        ['Hong Kong Dollar','$'],
-        ['New Zealand Dollar','$'],
-        ['Philippine Peso','₱'],
-        ['Singapore Dollar','$'],
-        ['South Korean Won','₩'],
-        ['Taiwan Dollar','$'],
-        ['Yen','¥']
+        ['Australian Dollar','$','AUD'],
+        ['CFP Franc','₣','XPF'],
+        ['Fiji Dollar','$','FJD'],
+        ['Hong Kong Dollar','$','HKD'],
+        ['New Zealand Dollar','$','NZD'],
+        ['Philippine Peso','₱','PHP'],
+        ['Singapore Dollar','$','SGD'],
+        ['South Korean Won','₩','KRW'],
+        ['Taiwan Dollar','$','TWD'],
+        ['Yen','¥','JPY']
     ],
     'eu': [
-        ['Bulgarian Lev','лв'],
-        ['Czech Koruna','Kč'],
-        ['Denar','ден'],
-        ['Euro','€'],
-        ['Russian Ruble','р.'],
-        ['Norwegian Krone','kr'],
-        ['Pound Sterling','£'],
-        ['Swedish Krona','kr'],
-        ['Swiss Franc','₣'],
-        ['Turkish Lira','₤']
+        ['Bulgarian Lev','лв','BGN'],
+        ['Czech Koruna','Kč','CZK'],
+        ['Denar','ден','MKD'],
+        ['Euro','€','EUR'],        
+        ['Norwegian Krone','kr','NOK'],
+        ['Pound Sterling','£','GBP'],
+        ['Swedish Krona','kr','SEK'],
+        ['Swiss Franc','₣','CHF'],
+        ['Russian Ruble','р.','RUB'],
+        ['Turkish Lira','₤','TRY']
     ],
     'af': [
-        ['Algerian Dinar','د.ج'],
-        ['Cape Verde Escudo','$'],
-        ['CFA Franc BCEAO','₣'],
-        ['Egyptian Pound','£'],
+        ['Algerian Dinar','د.ج','DZD'],
+        ['Cape Verde Escudo','$','CVE'],
+        ['CFA Franc BCEAO','₣','XAF'],
+        ['Egyptian Pound','£','EGP'],
         ['Jordanian Dinar','د.ا'],
-        ['Kuwaiti Dinar','د.ك'],
-        ['Leone','Le'],
-        ['New Israeli Shekel','₪'],
-        ['Tanzanian Shilling','Sh'],
-        ['UAE Dirham','د.إ']
+        ['Kuwaiti Dinar','د.ك', 'KWD'],
+        ['Leone','Le','SLL'],
+        ['New Israeli Shekel','₪','ILS'],
+        ['Tanzanian Shilling','Sh','TZS'],
+        ['UAE Dirham','د.إ','AED']
     ],
     'na': [
-        ['Canadian Dollar', '$'],
-        ['Cayman Islands Dollar', '$'],
-        ['US Dollar', '$'],
+        ['Canadian Dollar', '$','CAD'],
+        ['Cayman Islands Dollar', '$','KYD'],
+        ['US Dollar', '$','USD'],
     ],
     'sa': [
-        ['Brazilian Real','R$'],
-        ['Colombian Peso','$'],
-        ['Costa Rican Colon','₡'],
-        ['East Caribbean Dollar','$'],
-        ['Guyana Dollar','$'],
-        ['Mexican Peso','$'],
-        ['Peso Uruguayo','$'],
-        ['Trinidad and Tobago Dollar','$']
+        ['Brazilian Real','R$','BRL'],
+        ['Colombian Peso','$','COP'],
+        ['Costa Rican Colon','₡','CRC'],
+        ['East Caribbean Dollar','$','XCD'],
+        ['Guyana Dollar','$','GYD'],
+        ['Mexican Peso','$','MXN'],
+        ['Peso Uruguayo','$','UYU'],
+        ['Trinidad and Tobago Dollar','$','TTD']
     ]
 }
 
@@ -1212,9 +1212,14 @@ $(document).ready(function() {
     //     });
     // });
 
+    $('.dropdown__content .dropdown__option').click(function(){
+        console.log('fadsijfaoidsjf');
+    });
+
     $('.dropdown__container, .dropdown__content').click(function(){
         $('.dropdown__content').toggleClass('dropdown__content--active');
     });
+
 
     // $('.dropdown__option').click(function(){
     //     console.log('hello');
@@ -1356,8 +1361,8 @@ $(document).ready(function() {
         $('.dropdown__option').remove();    
         for(var i=0;i<region_currency[a.region].length;i++){        
             $( ".dropdown__content" ).append( 
-                "<div class='dropdown__option dropdown__option--"+i+"'>"+
-                region_currency[a.region][i][0]+
+                "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"'>"+
+                    region_currency[a.region][i][0]+
                 "</div>"
             );
         };             
