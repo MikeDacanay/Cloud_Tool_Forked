@@ -1212,13 +1212,26 @@ $(document).ready(function() {
     //     });
     // });
 
-    $('.dropdown__content .dropdown__option').click(function(){
-        console.log('fadsijfaoidsjf');
+
+    $(document).on("click",'.dropdown__option',function(){
+        var currency=$(this).attr('value');                 
+        //GET Request Currency Rate
+        // $.getJSON( 'http://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', function(data){
+        //         for(i in data){
+        //             // console.log(data[i]);
+        //             for(j in data[i]){                    
+        //                 // console.log(data[i][j]);
+        //             }
+        //         }
+        //     }
+        // );
+
+        $('.question__revenue--1').text('testing');
     });
 
-    $('.dropdown__container, .dropdown__content').click(function(){
-        $('.dropdown__content').toggleClass('dropdown__content--active');
-    });
+    // $('.dropdown__container, .dropdown__content').click(function(){
+    //     $('.dropdown__content').toggleClass('dropdown__content--active');
+    // });
 
 
     // $('.dropdown__option').click(function(){

@@ -1445,6 +1445,10 @@ svg:not(:root) {
     width: 10.85rem;
     height: 2.40rem;
     margin-right: 2.50rem; }
+  .logo__container--3 {
+    width: 9.39rem;
+    height: 2.98rem;
+    margin-right: 0; }
 
 .img--1 {
   height: 6.85rem;
@@ -2200,7 +2204,6 @@ table {
     z-index: 100; }
 
 .content-holder {
-  height: 100%;
   position: relative; }
 
 .cover-text-box {
@@ -2629,6 +2632,7 @@ body {
 .question__text {
   font-size: 1.05rem;
   color: #fff;
+  transform: translateY(-0.2rem);
   margin-bottom: 0.60rem; }
 
 .question__content {
