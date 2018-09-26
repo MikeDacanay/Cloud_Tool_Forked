@@ -6,6 +6,7 @@ var cloud_user;
 var cloud_peers;
 var tracker_node_holder=0;
 var tracker_sum=0;
+var page_tracker=0;
 var tracker = {
     '0': 0,
     '1':1,
@@ -548,7 +549,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': "50%",
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -565,7 +566,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': '50%',
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -589,7 +590,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -600,7 +601,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -624,7 +625,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -635,7 +636,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -660,7 +661,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -671,7 +672,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -696,7 +697,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -707,7 +708,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -732,7 +733,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -743,7 +744,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -768,7 +769,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -779,7 +780,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -804,7 +805,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -815,7 +816,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -840,7 +841,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -851,7 +852,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -876,7 +877,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -887,7 +888,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -912,7 +913,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -923,7 +924,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90, 
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -949,7 +950,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -966,7 +967,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -991,7 +992,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -1008,7 +1009,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -1033,7 +1034,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -1050,7 +1051,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -1075,7 +1076,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -1092,7 +1093,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -1117,7 +1118,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
@@ -1134,7 +1135,7 @@ $(document).ready(function() {
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
-        'width': '100%',
+        // 'width': '100%',
         // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
@@ -1143,6 +1144,11 @@ $(document).ready(function() {
         'readOnly': true
     });          
 
+
+    $(window).on('load',function(){
+        $('canvas').css('width','100%');
+        $('section').css('width','63.1rem');
+    })
     // if(sessionStorage.user_h){
     //     cloud_user=(100-summary.user)+'%';   
     // }else{
@@ -1232,21 +1238,35 @@ $(document).ready(function() {
     //     // $('.dropdown__content').removeClass('dropdown__content--active');
     // });
 
+    $(window).resize(function(){    
+        $("section").css("width", '63.10rem');                
+        
+        setTimeout(
+            function(){
+                $('.book-slider').slick('slickGoTo', page_tracker);
+            },
+            1
+        );        
+    });
+
     var slider = $('.book-slider').slick({      
         // vertical: true,  
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         accessibility:false,
         draggable: false,
         infinite: false,
         // arrows: true,
         arrows: false,
+        slidesToShow: 1,
+
+        // variableWidth: true,
         responsive: [
             {
                 breakpoint: 750,
                 settings: {
                     speed: 300,
                     slidesToShow: 1,
-                    adaptiveHeight: true,
+                    // adaptiveHeight: true,
                     appendArrows: $(".footer-phone")
                 }
             }
@@ -1554,7 +1574,7 @@ var flag=false;
 
 
 $('.book-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-
+    page_tracker = currentSlide;
     $('html, body').animate({ scrollTop: 0}, 200);
     var lastSlide = $('section.slick-slide:not(.slick-cloned)').length - 1;
 
