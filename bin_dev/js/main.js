@@ -196,7 +196,7 @@ var page_move= function(arr){
   }
   if(mover === true){
     // $('.slick-slider').slick('slickNext');
-    $('.slick-slider').slick('slickGoTo',4);
+    $('.slick-slider').slick('slickGoTo',10);
   }
 };
 
