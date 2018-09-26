@@ -334,7 +334,11 @@ $Breakpoint argument choices:
   pointer-events: none; }
 
 .slick-initialized .slick-slide {
-  display: block; }
+  display: block;
+opacity: 0}
+.slick-initialized .slick-slide.slick-current{
+  opacity:1;
+}
 
 .slick-loading .slick-slide {
   visibility: hidden; }

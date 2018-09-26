@@ -15,7 +15,7 @@ var tracker = {
     '5':5,    
     '6':6,  
     '7':7,    
-    '8':8,                   
+    '8':8
 };
 
 var region_currency = {
@@ -58,7 +58,7 @@ var region_currency = {
     'na': [
         ['Canadian Dollar', '$','CAD'],
         ['Cayman Islands Dollar', '$','KYD'],
-        ['US Dollar', '$','USD'],
+        ['US Dollar', '$','USD']
     ],
     'sa': [
         ['Brazilian Real','R$','BRL'],
@@ -110,7 +110,7 @@ if ( $window.width() <= 1024) {
     if ($window.width() <= 767) {
         context = 'small';
     };
-};
+}
 
 var bg_changer=function(x){
     $('.city__bg--active').removeClass('city__bg--active');
@@ -193,18 +193,13 @@ var page_move= function(arr){
   if((arr[0]==='int' && int4.a.length<3)){
     mover=false;
   }
-
-
   if(mover === true){
     $('.slick-slider').slick('slickNext');
-    // $('.slick-slider').slick('slickGoTo', 9); 
   }
 };
 
 var show_next= function(arr){
-
   var mover = true;
-
   if($('.map-composition__holder').hasClass('map_active')){
     mover = true;
   }else{
@@ -333,9 +328,7 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
           
         $('.loading--'+class_trigger).css('display','flex');
         $('.loading__container').fadeIn();
-        $('.loading__container').addClass('loading__container--active');  
-
-        
+        $('.loading__container').addClass('loading__container--active');
         setTimeout(function(){        
             $('.loading__period--1').css('visibility', 'visible');
         },500);
@@ -1779,7 +1772,14 @@ jQuery.fn.extend(
         }
     });
 
+
+
 /**event listeners**/
+
+$( window ).resize(function() {
+    $('.book-slider').slick('resize');
+
+});
 
  $('a[data-slide]').click(function(e) {
    e.preventDefault();
