@@ -1447,7 +1447,7 @@ svg:not(:root) {
     margin-right: 2.50rem; }
   .logo__container--3 {
     width: 9.39rem;
-    height: 2.98rem;
+    height: 4.00rem;
     margin-right: 0; }
 
 .img--1 {
@@ -2301,7 +2301,7 @@ body {
   background: none;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../assets/images/desktop/backgrounds/bg-01.png"); }
+  background-image: url("../assets/images/desktop/backgrounds/bg-cover-complete.png"); }
 
 /**ERIN FIXIN**/
 .blue-city-bg {
