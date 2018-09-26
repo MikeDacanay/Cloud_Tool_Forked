@@ -355,7 +355,7 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
                 $(arr[i]).show("slide", { direction: "down" });                    
             };
             
-            $('.slider__holder').removeAttr('onclick');
+            $('.slider__group').removeAttr('onclick');
         }, 2000);          
     }
 };
@@ -1145,7 +1145,6 @@ $(document).ready(function() {
         'readOnly': true
     });          
 
-
     $(window).on('load',function(){
         $('canvas').css('width','100%');
         $('section').css('width','63.1rem');
@@ -1358,6 +1357,8 @@ $(document).ready(function() {
         );
         $('.slider__ticker--'+value).css('transform','translateX('+slide_ticker+'rem)');           
         $('.slider__ticker--'+value).show("slide", { direction: "down" }, 500);     
+
+        page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
     });
 
     // Select region in map
