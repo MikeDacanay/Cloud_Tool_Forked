@@ -18,6 +18,60 @@ var tracker = {
     '8':8,                   
 };
 
+var region_currency = {
+    'as': [
+        ['Australian Dollar','$','AUD'],
+        ['CFP Franc','₣','XPF'],
+        ['Fiji Dollar','$','FJD'],
+        ['Hong Kong Dollar','$','HKD'],
+        ['New Zealand Dollar','$','NZD'],
+        ['Philippine Peso','₱','PHP'],
+        ['Singapore Dollar','$','SGD'],
+        ['South Korean Won','₩','KRW'],
+        ['Taiwan Dollar','$','TWD'],
+        ['Yen','¥','JPY']
+    ],
+    'eu': [
+        ['Bulgarian Lev','лв','BGN'],
+        ['Czech Koruna','Kč','CZK'],
+        ['Denar','ден','MKD'],
+        ['Euro','€','EUR'],        
+        ['Norwegian Krone','kr','NOK'],
+        ['Pound Sterling','£','GBP'],
+        ['Swedish Krona','kr','SEK'],
+        ['Swiss Franc','₣','CHF'],
+        ['Russian Ruble','р.','RUB'],
+        ['Turkish Lira','₤','TRY']
+    ],
+    'af': [
+        ['Algerian Dinar','د.ج','DZD'],
+        ['Cape Verde Escudo','$','CVE'],
+        ['CFA Franc BCEAO','₣','XAF'],
+        ['Egyptian Pound','£','EGP'],
+        ['Jordanian Dinar','د.ا'],
+        ['Kuwaiti Dinar','د.ك', 'KWD'],
+        ['Leone','Le','SLL'],
+        ['New Israeli Shekel','₪','ILS'],
+        ['Tanzanian Shilling','Sh','TZS'],
+        ['UAE Dirham','د.إ','AED']
+    ],
+    'na': [
+        ['Canadian Dollar', '$','CAD'],
+        ['Cayman Islands Dollar', '$','KYD'],
+        ['US Dollar', '$','USD'],
+    ],
+    'sa': [
+        ['Brazilian Real','R$','BRL'],
+        ['Colombian Peso','$','COP'],
+        ['Costa Rican Colon','₡','CRC'],
+        ['East Caribbean Dollar','$','XCD'],
+        ['Guyana Dollar','$','GYD'],
+        ['Mexican Peso','$','MXN'],
+        ['Peso Uruguayo','$','UYU'],
+        ['Trinidad and Tobago Dollar','$','TTD']
+    ]
+}
+
 window.onload = function(e) {
     $("input.dial__input").val('0%');
     $("input.dial__input").trigger('change');
@@ -1158,6 +1212,33 @@ $(document).ready(function() {
     //     });
     // });
 
+
+    $(document).on("click",'.dropdown__option',function(){
+        var currency=$(this).attr('value');                 
+        //GET Request Currency Rate
+        // $.getJSON( 'http://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', function(data){
+        //         for(i in data){
+        //             // console.log(data[i]);
+        //             for(j in data[i]){                    
+        //                 // console.log(data[i][j]);
+        //             }
+        //         }
+        //     }
+        // );
+
+        $('.question__revenue--1').text('testing');
+    });
+
+    // $('.dropdown__container, .dropdown__content').click(function(){
+    //     $('.dropdown__content').toggleClass('dropdown__content--active');
+    // });
+
+
+    // $('.dropdown__option').click(function(){
+    //     console.log('hello');
+    //     // $('.dropdown__content').removeClass('dropdown__content--active');
+    // });
+
     var slider = $('.book-slider').slick({      
         // vertical: true,  
         adaptiveHeight: true,
@@ -1275,7 +1356,8 @@ $(document).ready(function() {
     // });
 
         // Single region
-    $('.map-composition__holder').click(function(){        
+    $('.map-composition__holder').click(function(){    
+        $('.dropdown__container').css('display','flex');    
         a.region=$(this).attr('value');
         if($('.map_active')[0] !== undefined){
             var src_hold = $('.map_active').children("img").attr('src');
@@ -1287,6 +1369,17 @@ $(document).ready(function() {
         $(this).children("img").attr('src',$(this).children("img").attr('alt'));
         $(this).children("img").attr('alt', src_hold1);           
         $(this).toggleClass('map_active');
+
+        $('.dropdown__text').text('Choose Your Currency');    
+        $('.dropdown__option').remove();    
+        for(var i=0;i<region_currency[a.region].length;i++){        
+            $( ".dropdown__content" ).append( 
+                "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"'>"+
+                    region_currency[a.region][i][0]+
+                "</div>"
+            );
+        };             
+        // console.log(region_currency[a.region].length);   
     });
 
     // ADD or REMOVE sector 
