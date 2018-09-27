@@ -985,6 +985,13 @@ a.bttn {
     width: 7.62rem;
     padding-right: 0.55rem;
     transform: translateY(-0.3rem); }
+  .btn--5 {
+    padding-left: 0.45rem;
+    padding-top: 0.40rem;
+    padding-bottom: 0.40rem;
+    padding-right: 0.55rem;
+    transform: translateY(-0.3rem);
+    width: 10.60rem; }
   .btn__arrow {
     background-image: url("../assets/graphics/arrow-blue.svg");
     background-repeat: no-repeat;
@@ -1035,7 +1042,7 @@ a.bttn {
   font-family: Univers, Arial, Helvetica, sans-serif; }
   .callout__header--bold {
     font-family: Univers-Bold, Arial, Helvetica, sans-serif;
-    font-size: 1.05rem; }
+    font-size: .9rem; }
 
 .callout__sub {
   font-family: Univers, Arial, Helvetica, sans-serif;
@@ -1179,7 +1186,7 @@ a.bttn {
   .dial__holder {
     height: 12.30rem;
     flex: 0 0 13.00rem;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 59, 77, 0.2);
     padding-top: 1.05rem;
     border-radius: 1.05rem;
     position: relative; }
@@ -1941,9 +1948,9 @@ table {
   .thermo__holder--1 {
     padding-bottom: 1.55rem; }
   .thermo__holder--2 {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(0, 59, 77, 0.2); }
   .thermo__holder--3 {
-    background-color: rgba(255, 255, 255, 0.3); }
+    background-color: rgba(0, 59, 77, 0.3); }
   .thermo__holder--4 {
     padding-top: 0.65rem;
     padding-bottom: 1.80rem; }
