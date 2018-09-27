@@ -509,10 +509,11 @@ var meter_button_3= function(section, group, direction, data_section){
 var isMac = navigator.platform.toUpperCase().indexOf('MACINTEL')>=0;
 
 if(isMac==true){
-    $('.header__num').addClass('mac');
-    $('.tracker__num').addClass('mac');
-    $('.question__num').addClass('mac');
-    $('.btn__txt').addClass('mac');
+    // $('.header__num').addClass('mac');
+    // $('.tracker__num').addClass('mac');
+    // $('.question__num').addClass('mac');
+    // $('.btn__txt').addClass('mac');
+    $("html").addClass("mac"); 
 }
 
 //fix the textarea layout

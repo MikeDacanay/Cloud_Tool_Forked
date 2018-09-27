@@ -1437,6 +1437,8 @@ a.bttn {
   font-size: 2.40rem;
   color: #fff;
   transform: translateY(-0.5rem); }
+  .header__title.mac {
+    transform: translateY(-0.25rem); }
 
 .header__tut {
   font-size: 0.60rem;
