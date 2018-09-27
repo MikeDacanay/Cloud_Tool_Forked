@@ -691,11 +691,17 @@ img.inline {
 .width-90 {
   width: 90%; }
 
+.u-width-1 {
+  width: 10.10rem; }
+
 .marg-center {
   margin: 0 auto; }
 
 .marg-left {
   margin-left: auto; }
+
+.marg-top-tiny--1 {
+  margin-top: 0.10rem; }
 
 .marg-top-tiny {
   margin-top: 0.20rem; }
@@ -732,6 +738,9 @@ img.inline {
 
 .marg-top-med--3 {
   margin-top: 1.5rem; }
+
+.marg-top-med--4 {
+  margin-top: 1.35rem; }
 
 .mar-top-large--9 {
   margin-top: 2rem; }
@@ -971,8 +980,10 @@ a.bttn {
     padding: .5rem 0.65rem;
     padding-left: 0.95rem;
     line-height: 1;
-    margin-right: 1.85rem;
+    margin-right: 4.20rem;
     margin-top: 0.70rem; }
+    .btn--3a {
+      transform: translateY(-2.6rem); }
     .btn--3-1 {
       width: 14.77rem;
       margin-left: auto;
@@ -1023,6 +1034,9 @@ a.bttn {
   .btn__txt--1 {
     font-size: 0.60rem;
     line-height: normal;
+    font-family: Univers, Arial, Helvetica, sans-serif; }
+  .btn__txt--2 {
+    font-size: 0.80rem;
     font-family: Univers, Arial, Helvetica, sans-serif; }
   .btn__txt.mac {
     padding-top: 0.10rem; }
@@ -1463,7 +1477,8 @@ svg:not(:root) {
 
 .img--1 {
   height: 6.85rem;
-  flex: 0 0 12.00rem; }
+  flex: 0 0 12.00rem;
+  margin-right: 0.80rem; }
 
 .t-nail {
   flex: 0 0 12.00rem;
@@ -2746,7 +2761,7 @@ body {
       flex: 0 0 24.00rem;
       background-color: rgba(255, 255, 255, 0.1);
       padding-left: 1.45rem;
-      padding-top: 1.10rem;
+      padding-top: 1.80rem;
       padding-right: 2.10rem;
       padding-bottom: 1.60rem; }
     .results__container--1-2 {
@@ -2768,29 +2783,42 @@ body {
       justify-content: space-between; }
   .results__content--2 {
     flex-direction: column; }
-  .results__content--3 {
-    justify-content: flex-end; }
-  .results__content--4 {
+  .results__content--3, .results__content--4 {
     justify-content: space-between; }
 
 .results__cloud {
   width: 9.00rem;
   flex: 0 0 5.10rem;
   height: 5.10rem; }
+  .results__cloud--stroke {
+    position: absolute;
+    height: 5.40rem;
+    width: 9.10rem; }
+    .results__cloud--stroke--1 {
+      top: 10.00rem; }
 
 .results__text {
   color: #fff; }
   .results__text--1 {
     font-size: 1.05rem;
     line-height: normal;
-    transform: translateY(-0.15rem); }
+    transform: translateY(-0.15rem);
+    color: #BDE6EE; }
   .results__text--2 {
     font-size: 0.70rem;
     line-height: 1.05rem;
+    font-family: Univers, Arial, Helvetica, sans-serif;
     transform: translateY(-0.15rem); }
     .results__text--2 .results__text--header {
       font-size: .8rem;
       font-family: Univers-Bold, Arial, Helvetica, sans-serif; }
+    .results__text--2-2 {
+      font-size: 0.90rem;
+      line-height: 1.20rem; }
+      .results__text--2-2a {
+        margin-right: 3rem; }
+      .results__text--2-2b {
+        margin-right: 0.2rem; }
   .results__text--3 {
     font-size: .9rem;
     line-height: 1.33;
@@ -2806,6 +2834,32 @@ body {
     transform: translateY(-0.2rem); }
   .results__score--2 {
     color: #F29111; }
+
+.results__point--container {
+  display: flex;
+  align-self: flex-start;
+  align-items: baseline; }
+  .results__point--container:not(:first-oftype) {
+    margin-top: 1.05rem; }
+
+.results__point--text {
+  font-size: .9rem;
+  line-height: 1.05rem;
+  font-family: Univers, Arial, Helvetica, sans-serif;
+  color: #fff;
+  flex: 0 0 27rem;
+  align-self: center; }
+  .results__point--text > a {
+    color: #BDE6EE; }
+    .results__point--text > a:hover {
+      text-decoration: underline; }
+
+.results__arrow {
+  height: 1.05rem;
+  flex: 0 0 1.05rem;
+  margin-right: 0.35rem; }
+  .results__arrow--1 {
+    align-self: flex-start; }
 
 .social-media__container {
   margin-top: 0.60rem;
@@ -2849,5 +2903,8 @@ a:hover {
 
 .c-u-marg-top--1 {
   margin-top: 0.65rem; }
+
+.c-u-marg-top_1 {
+  margin-top: -0.40rem; }
 
 /**********Tablet Landscape***************/
