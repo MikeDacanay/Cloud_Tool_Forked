@@ -1299,7 +1299,7 @@ a.bttn {
   .dial__header--img {
     position: relative; }
     .dial__header--img--1 {
-      width: 3.10rem;
+      flex: 0 0 3.10rem;
       height: 2.25rem; }
     .dial__header--img--2 {
       height: 2.20rem;
@@ -1315,16 +1315,26 @@ a.bttn {
       .dial__header--img--2 > * {
         flex: 0 0 2.50rem; }
     .dial__header--img--3 {
-      flex: 0 0 2.1rem;
-      width: 3.05rem; }
+      height: 2.30rem;
+      flex: 0 0 2.60rem; }
     .dial__header--img--4 {
-      width: 1.75rem;
-      height: 2.35rem; }
+      height: 2.40rem;
+      flex: 0 0 2.40rem; }
+    .dial__header--img--5 {
+      height: 2.30rem;
+      flex: 0 0 2.10rem; }
+    .dial__header--img--6 {
+      margin-right: .5rem;
+      height: 2.35rem;
+      flex: 0 0 1.75rem; }
+    .dial__header--img--7 {
+      height: 2.15rem;
+      flex: 0 0 2.95rem; }
   .dial__header--text {
     font-size: 0.90rem;
     line-height: 1; }
     .dial__header--text--1 {
-      margin-left: 0.75rem; }
+      margin-left: 0.5rem; }
     .dial__header--text--2 {
       margin-left: 0.55rem;
       line-height: 1.17; }
@@ -1437,7 +1447,7 @@ a.bttn {
   font-size: 2.40rem;
   color: #fff;
   transform: translateY(-0.5rem); }
-  .header__title.mac {
+  .mac .header__title {
     transform: translateY(-0.25rem); }
 
 .header__tut {
@@ -1548,10 +1558,6 @@ ul.no-dots-ul {
   position: absolute;
   transition: transform .2s;
   cursor: pointer; }
-  .map-composition__holder:hover {
-    transform: scale(1.03) rotate(0.02deg); }
-  .map-composition__holder:active {
-    transform: scale(1.01) rotate(0.02deg); }
   .map-composition__holder--selected {
     color: #003B4D; }
   .map-composition__holder--na {
@@ -2709,10 +2715,8 @@ body {
     margin-bottom: 0.70rem; }
   .question__revenue:hover {
     color: #003B4D;
-    transform: translateY(-2px) rotate(0.02deg);
     background-color: rgba(255, 255, 255, 0.8); }
   .question__revenue:active {
-    transform: translateY(0) rotate(0.02deg);
     background-color: rgba(255, 255, 255, 0.6); }
   .question__revenue--active {
     color: #003B4D;
@@ -2738,10 +2742,8 @@ body {
     transform: translateX(1.65rem); }
   .question__sector:hover {
     color: #003B4D;
-    transform: translateY(-2px) rotate(0.02deg);
     background-color: rgba(255, 255, 255, 0.8); }
   .question__sector:active {
-    transform: translateY(0) rotate(0.02deg);
     background-color: rgba(255, 255, 255, 0.6); }
   .question__sector--active {
     color: #003B4D;
