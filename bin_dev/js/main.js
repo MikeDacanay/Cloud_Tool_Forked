@@ -1147,6 +1147,7 @@ $(document).ready(function() {
 
     $(window).on('load',function(){
         $('canvas').css('width','100%');
+        $('canvas').css('height','100%');
         $('section').css('width','63.1rem');
     })
     // if(sessionStorage.user_h){
