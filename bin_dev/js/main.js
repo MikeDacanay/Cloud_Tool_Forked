@@ -195,8 +195,8 @@ var page_move= function(arr){
     mover=false;
   }
   if(mover === true){
-    // $('.slick-slider').slick('slickNext');
-    $('.slick-slider').slick('slickGoTo',10);
+    $('.slick-slider').slick('slickNext');
+    // $('.slick-slider').slick('slickGoTo',10);
   }
 };
 
