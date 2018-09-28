@@ -1045,15 +1045,17 @@ a.bttn {
     .btn--3:hover .btn__arrow {
       background-image: url("../assets/graphics/arrow-blue.svg");
       transform: translateX(0.2rem); }
+  .mac .btn__txt {
+    transform: translateY(0.1em); }
   .btn__txt--1 {
     font-size: 0.60rem;
     line-height: normal;
     font-family: Univers, Arial, Helvetica, sans-serif; }
+    .mac .btn__txt--1 {
+      transform: translateY(0.1em); }
   .btn__txt--2 {
     font-size: 0.80rem;
     font-family: Univers, Arial, Helvetica, sans-serif; }
-  .btn__txt.mac {
-    padding-top: 0.10rem; }
 
 .callout__holder {
   flex: 0 0 28.30rem;
@@ -1074,7 +1076,9 @@ a.bttn {
     font-size: .9rem; }
     .callout__header--bold-1 {
       font-family: Univers, Arial, Helvetica, sans-serif;
-      font-size: 0.70rem; }
+      font-size: 0.70rem;
+      transform: translateY(-0.15rem);
+      display: inline-block; }
 
 .callout__sub {
   font-family: Univers, Arial, Helvetica, sans-serif;
@@ -1465,8 +1469,8 @@ a.bttn {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .header__num.mac {
-    padding-top: 0.20rem; }
+  .mac .header__num {
+    transform: translateY(0.1em); }
 
 .header__title {
   font-size: 2.40rem;
@@ -1573,6 +1577,8 @@ ul.no-dots-ul {
     color: #fff;
     font-family: Univers-lt, Arial, Helvetica, sans-serif;
     font-size: 1.05rem; }
+    .mac .loading__text {
+      transform: translateY(0.1em); }
     .loading__text--orange {
       color: #F29111; }
   .loading__period {
@@ -1801,8 +1807,8 @@ ul.no-dots-ul {
   font-size: 0.90rem;
   line-height: .9rem;
   color: #FFF; }
-  .tracker__num.mac {
-    padding-top: 0.15rem; }
+  .mac .tracker__num {
+    transform: translateY(0.1em); }
 
 .tracker__group--active-1 > .tracker__node > .tracker__num,
 .tracker__group--active > .tracker__node > .tracker__num {
@@ -2706,8 +2712,8 @@ body {
 .question__num {
   font-size: 0.90rem;
   color: #003B4D; }
-  .question__num.mac {
-    padding-top: 0.10rem; }
+  .mac .question__num {
+    transform: translateY(0.1em); }
 
 .question__text {
   font-size: 1.05rem;
