@@ -1727,7 +1727,7 @@ ul.no-dots-ul {
       border-bottom-left-radius: 0.20rem;
       border-bottom-right-radius: 0.20rem; }
   .meter__radio-active {
-    background-color: #fff; }
+    background-color: #BDE6EE; }
   .meter__radio-active--1 {
     border-top-left-radius: 0.20rem;
     border-top-right-radius: 0.20rem; }
@@ -2814,7 +2814,8 @@ body {
   .results__cloud--stroke {
     position: absolute;
     height: 5.40rem;
-    width: 9.10rem; }
+    width: 9.10rem;
+    left: -0.05rem; }
     .results__cloud--stroke--1 {
       top: 10.00rem; }
 
