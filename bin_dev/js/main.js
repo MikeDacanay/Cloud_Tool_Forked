@@ -551,7 +551,7 @@ $(document).ready(function() {
         'angleOffset': -90,   
         'thickness':  0.1538461538461538, 
         'displayInput': false,
-        // 'width': '100%',
+        'width': '100%',
         // 'height': "50%",
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',

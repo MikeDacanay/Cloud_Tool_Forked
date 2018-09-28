@@ -351,6 +351,16 @@ $Breakpoint argument choices:
 .slick-arrow.slick-hidden {
   display: none; }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; }
+  from {
+    transform: translateY(0.5rem); }
+  to {
+    transform: translateY(0); } }
+
 *,
 *::after,
 *::before {
@@ -991,8 +1001,8 @@ a.bttn {
       margin-top: .4rem; }
   .btn--4 {
     padding-left: 0.45rem;
-    padding-top: 0.40rem;
-    padding-bottom: 0.40rem;
+    padding-top: 0.3rem;
+    padding-bottom: .3rem;
     width: 7.62rem;
     padding-right: 0.55rem;
     transform: translateY(-0.3rem); }
@@ -1003,6 +1013,10 @@ a.bttn {
     padding-right: 0.55rem;
     transform: translateY(-0.3rem);
     width: 10.60rem; }
+  .btn--6 {
+    padding-left: 2.40rem; }
+  .btn--animate {
+    animation: fadeIn .3s; }
   .btn__arrow {
     background-image: url("../assets/graphics/arrow-blue.svg");
     background-repeat: no-repeat;
@@ -1046,7 +1060,8 @@ a.bttn {
   height: 6.00rem;
   background-color: rgba(255, 255, 255, 0.9);
   padding-top: 0.70rem;
-  padding-left: 1.20rem; }
+  padding-left: 1.20rem;
+  animation: fadeIn .3s; }
 
 .callout__header {
   font-size: 0.70rem;
