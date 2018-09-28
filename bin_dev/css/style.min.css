@@ -1312,8 +1312,6 @@ a.bttn {
       height: 2.70rem; }
     .dial__header--holder--2 {
       align-items: flex-start; }
-    .dial__header--holder--3 {
-      flex-direction: column; }
   .dial__header--img {
     position: relative; }
     .dial__header--img--1 {
@@ -1348,9 +1346,18 @@ a.bttn {
     .dial__header--img--7 {
       height: 2.15rem;
       flex: 0 0 2.95rem; }
+    .dial__header--img--8 {
+      height: 2.55rem;
+      width: 2.55rem;
+      display: flex;
+      align-items: start; }
+    .dial__header--img--9 {
+      height: 2.10rem;
+      flex: 0 0 3.05rem; }
   .dial__header--text {
     font-size: 0.90rem;
-    line-height: 1; }
+    line-height: 1;
+    margin-left: 0.50rem; }
     .dial__header--text--1 {
       margin-left: 0.5rem; }
     .dial__header--text--2 {
@@ -2034,9 +2041,11 @@ table {
   .thermo__image--2 {
     width: 3.60rem; }
   .thermo__image--3 {
-    width: 2.85rem; }
+    width: 3.13rem;
+    height: 2.80rem; }
   .thermo__image--4 {
-    width: 1.65rem; }
+    width: 1.65rem;
+    height: 2.30rem; }
   .thermo__image--5 {
     width: 3.05rem; }
   .thermo__image--6 {
@@ -2082,6 +2091,10 @@ table {
     line-height: normal; }
     .thermo__title--2 > span {
       display: block; }
+  .thermo__title--3 {
+    margin-top: 0.55rem; }
+  .thermo__title--4 {
+    margin-top: 1.05rem; }
 
 .video-thumbnail {
   cursor: pointer;
