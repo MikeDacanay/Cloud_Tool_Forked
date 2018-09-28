@@ -114,6 +114,7 @@ if ( $window.width() <= 1024) {
     };
 }
 
+
 var bg_changer=function(x){
     $('.city__bg--active').removeClass('city__bg--active');
     $('.city__bg--'+x).addClass('city__bg--active');
@@ -1380,7 +1381,24 @@ $(document).ready(function() {
     //     $(this).toggleClass('map_active');
     // });
 
-        // Single region
+    // Single region
+    
+
+    // Hover event over map
+    $('.map-composition__holder').hover(
+        function() {
+            var map_holder = $(this).children().attr('src');
+            $(this).children().attr('src',$(this).children().attr('alt-1'));
+            $(this).children().attr('alt-1',map_holder);
+        }, 
+        function() {
+            var map_holder = $(this).children().attr('src');
+            $(this).children().attr('src',$(this).children().attr('alt-1'));
+            $(this).children().attr('alt-1',map_holder);
+        }
+    );
+
+    // Click event over map
     $('.map-composition__holder').click(function(){    
         $('.dropdown__container').css('display','flex');    
         a.region=$(this).attr('value');
@@ -1406,6 +1424,12 @@ $(document).ready(function() {
         };             
         // console.log(region_currency[a.region].length);   
     });
+
+
+
+
+
+
 
     // ADD or REMOVE sector 
     $('.question__sector').click(function(){
