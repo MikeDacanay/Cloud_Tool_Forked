@@ -1072,6 +1072,9 @@ a.bttn {
   .callout__header--bold {
     font-family: Univers-Bold, Arial, Helvetica, sans-serif;
     font-size: .9rem; }
+    .callout__header--bold-1 {
+      font-family: Univers, Arial, Helvetica, sans-serif;
+      font-size: 0.70rem; }
 
 .callout__sub {
   font-family: Univers, Arial, Helvetica, sans-serif;
@@ -1665,8 +1668,8 @@ ul.no-dots-ul {
     position: relative; }
     .meter__group::before {
       content: "";
-      border-top: solid 0.1rem rgba(255, 255, 255, 0.2);
-      width: 0.80rem;
+      border-top: solid 0.1rem rgba(255, 255, 255, 0.4);
+      width: 1rem;
       position: absolute;
       margin: 0 auto;
       left: 0;
@@ -1681,14 +1684,13 @@ ul.no-dots-ul {
       margin-bottom: .7rem; }
       .meter__group:last-of-type::after {
         content: "";
-        border-top: solid 0.1rem rgba(255, 255, 255, 0.2);
-        width: 0.80rem;
+        border-top: solid 0.1rem rgba(255, 255, 255, 0.4);
+        width: 1rem;
         position: absolute;
         margin: 0 auto;
         left: 0;
         right: 0;
-        bottom: 0.00rem;
-        z-index: -1; }
+        bottom: 0.00rem; }
   .meter__button {
     width: 0.80rem;
     height: 0.69rem;
