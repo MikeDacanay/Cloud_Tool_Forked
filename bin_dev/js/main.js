@@ -7,6 +7,7 @@ var cloud_peers;
 var tracker_node_holder=0;
 var tracker_sum=0;
 var page_tracker=0;
+var slider_trigger;
 var tracker = {
     '0': 0,
     '1':1,
@@ -1360,7 +1361,14 @@ $(document).ready(function() {
         $('.slider__ticker--'+value).css('transform','translateX('+slide_ticker+'rem)');           
         $('.slider__ticker--'+value).show("slide", { direction: "down" }, 500);     
 
-        page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
+
+        if(slider_trigger!==true){
+        	page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
+        }
+        if(l.dev1.a>0&&l.dev1.b>0){
+        	slider_trigger=true;
+        }
+    		
     });
 
     // Select region in map
