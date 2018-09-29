@@ -1385,34 +1385,37 @@ $(document).ready(function() {
     
 
     // Hover event over map
-    $('.map-composition__holder').hover(
-        function() {
-            var map_holder = $(this).children().attr('src');
-            $(this).children().attr('src',$(this).children().attr('alt-1'));
-            $(this).children().attr('alt-1',map_holder);
-        }, 
-        function() {
-            var map_holder = $(this).children().attr('src');
-            $(this).children().attr('src',$(this).children().attr('alt-1'));
-            $(this).children().attr('alt-1',map_holder);
-        }
-    );
+    // $('.map-composition__holder').hover(
+    //     function() {
+    //         var map_holder = $(this).children().attr('src');
+    //         $(this).children().attr('src',$(this).children().attr('alt-1'));
+    //         $(this).children().attr('alt-1',map_holder);
+    //     }, 
+    //     function() {
+    //         var map_holder = $(this).children().attr('src');
+    //         $(this).children().attr('src',$(this).children().attr('alt-1'));
+    //         $(this).children().attr('alt-1',map_holder);
+    //     }
+    // );
 
     // Click event over map
     $('.map-composition__holder').click(function(){    
+        // For currency dropdown
         $('.dropdown__container').css('display','flex');    
+        
         a.region=$(this).attr('value');
         if($('.map_active')[0] !== undefined){
             var src_hold = $('.map_active').children("img").attr('src');
             $('.map_active').children("img").attr('src',$('.map_active').children("img").attr('alt'));
             $('.map_active').children("img").attr('alt', src_hold);            
-        $('.map_active').removeClass('map_active'); 
+            $('.map_active').removeClass('map_active'); 
         }
         var src_hold1 = $(this).children("img").attr('src');
         $(this).children("img").attr('src',$(this).children("img").attr('alt'));
         $(this).children("img").attr('alt', src_hold1);           
         $(this).toggleClass('map_active');
 
+        // For currency options
         $('.dropdown__text').text('Choose Your Currency');    
         $('.dropdown__option').remove();    
         for(var i=0;i<region_currency[a.region].length;i++){        
@@ -1422,7 +1425,6 @@ $(document).ready(function() {
                 "</div>"
             );
         };             
-        // console.log(region_currency[a.region].length);   
     });
 
 
