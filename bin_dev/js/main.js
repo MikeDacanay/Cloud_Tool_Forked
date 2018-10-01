@@ -2,6 +2,7 @@
  * Created by ekerrigan on 9/21/16.
  * Updated by Code Rodeo on 7/16/16.
 */
+// var userbrowser=$(window).browser.browser();
 var cloud_user;
 var cloud_peers;
 var tracker_node_holder=0;
@@ -31,7 +32,8 @@ var region_currency = {
         ['Singapore Dollar','$','SGD'],
         ['South Korean Won','₩','KRW'],
         ['Taiwan Dollar','$','TWD'],
-        ['Yen','¥','JPY']
+        ['Yen','¥','JPY'],
+        ['US Dollar', '$','USD']
     ],
     'eu': [
         ['Bulgarian Lev','лв','BGN'],
@@ -43,7 +45,8 @@ var region_currency = {
         ['Swedish Krona','kr','SEK'],
         ['Swiss Franc','₣','CHF'],
         ['Russian Ruble','р.','RUB'],
-        ['Turkish Lira','₤','TRY']
+        ['Turkish Lira','₤','TRY'],
+        ['US Dollar', '$','USD']
     ],
     'af': [
         ['Algerian Dinar','د.ج','DZD'],
@@ -55,7 +58,8 @@ var region_currency = {
         ['Leone','Le','SLL'],
         ['New Israeli Shekel','₪','ILS'],
         ['Tanzanian Shilling','Sh','TZS'],
-        ['UAE Dirham','د.إ','AED']
+        ['UAE Dirham','د.إ','AED'],
+        ['US Dollar', '$','USD']        
     ],
     'na': [
         ['Canadian Dollar', '$','CAD'],
@@ -70,7 +74,8 @@ var region_currency = {
         ['Guyana Dollar','$','GYD'],
         ['Mexican Peso','$','MXN'],
         ['Peso Uruguayo','$','UYU'],
-        ['Trinidad and Tobago Dollar','$','TTD']
+        ['Trinidad and Tobago Dollar','$','TTD'],
+        ['US Dollar', '$','USD']
     ]
 }
 
@@ -198,7 +203,7 @@ var page_move= function(arr){
   }
   if(mover === true){
     $('.slick-slider').slick('slickNext');
-    // $('.slick-slider').slick('slickGoTo',8);
+    // $('.slick-slider').slick('slickGoTo',9);
   }
 };
 
@@ -517,6 +522,11 @@ if(isMac==true){
     // $('.btn__txt').addClass('mac');
     $("html").addClass("mac"); 
 }
+
+if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)){
+  $("html").addClass("ie"); 
+}
+
 
 //fix the textarea layout
 [].forEach.call(document.querySelectorAll('textarea'), function($pre) {
@@ -1215,32 +1225,48 @@ $(document).ready(function() {
     //     });
     // });
 
-
     $(document).on("click",'.dropdown__option',function(){
-        var currency=$(this).attr('value');                 
-        //GET Request Currency Rate
-        // $.getJSON( 'http://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', function(data){
-        //         for(i in data){
-        //             // console.log(data[i]);
-        //             for(j in data[i]){                    
-        //                 // console.log(data[i][j]);
-        //             }
-        //         }
-        //     }
-        // );
+        var currency=$(this).attr('value');
+        var curr_sign=$(this).attr('value1');                 
+        var calc1;
+        var calc2;
+        var calc3;
+        var calc4;        
+        // GET Request Currency Rate
+        $.getJSON( 'http://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', 
+            function(data){
+                for(i in data){
+                    console.log(data[i]);
+                    for(j in data[i]){                    
+                        calc1=1*data[i][j];
+                        // if(calc<1 && calc>.001){
+                        //     calc1=11
+                        // }
+                    }
+                }
+                $('.dropdown__text').text($(this).text());
+                $('.question__revenue--1').text(curr_sign+calc1+" Billion+ ("+currency+")");
+                $('.question__revenue--2').text(curr_sign+calc2+" Million - "+curr_sign+calc3+" Billion ("+currency+")");
+                $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc4+" Million ("+currency+")"); 
+            },
+        );
 
-        $('.question__revenue--1').text('testing');
+
+        // $('.dropdown__text').text($(this).text());
+        // $('.question__revenue--1').text(curr_sign+1+" Billion+ ("+currency+")");
+        // $('.question__revenue--2').text(curr_sign+"50 Million - "+curr_sign+"1 Billion ("+currency+")");
+        // $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+"50 Million ("+currency+")");
     });
 
-    // $('.dropdown__container, .dropdown__content').click(function(){
-    //     $('.dropdown__content').toggleClass('dropdown__content--active');
-    // });
+    $('.dropdown__container, .dropdown__content').click(function(){
+        $('.dropdown__content').toggleClass('dropdown__content--active');
+    });
 
 
-    // $('.dropdown__option').click(function(){
-    //     console.log('hello');
-    //     // $('.dropdown__content').removeClass('dropdown__content--active');
-    // });
+    $('.dropdown__option').click(function(){
+        // console.log('hello');
+        $('.dropdown__content').removeClass('dropdown__content--active');
+    });
 
     $(window).resize(function(){    
         $("section").css("width", '63.10rem');                
@@ -1384,21 +1410,55 @@ $(document).ready(function() {
     // Single region
     
 
-    // Hover event over map
-    // $('.map-composition__holder').hover(
-    //     function() {
-    //         var map_holder = $(this).children().attr('src');
-    //         $(this).children().attr('src',$(this).children().attr('alt-1'));
-    //         $(this).children().attr('alt-1',map_holder);
-    //     }, 
-    //     function() {
-    //         var map_holder = $(this).children().attr('src');
-    //         $(this).children().attr('src',$(this).children().attr('alt-1'));
-    //         $(this).children().attr('alt-1',map_holder);
-    //     }
-    // );
-
     // Click event over map
+    // $('.map-composition__holder').click(function(){    
+    //     // For currency dropdown
+    //     $('.dropdown__container').css('display','flex');    
+        
+    //     a.region=$(this).attr('value');
+    //     if($('.map_active')[0] !== undefined){
+    //         var src_hold = $('.map_active').children("img").attr('src');
+    //         $('.map_active').children("img").attr('src',$('.map_active').children("img").attr('alt'));
+    //         $('.map_active').children("img").attr('alt', src_hold);            
+    //         $('.map_active').removeClass('map_active'); 
+    //     }
+    //     var src_hold1 = $(this).children("img").attr('src');
+    //     $(this).children("img").attr('src',$(this).children("img").attr('alt'));
+    //     $(this).children("img").attr('alt', src_hold1);           
+    //     $(this).toggleClass('map_active');
+
+    //     // For currency options
+    //     $('.dropdown__text').text('Choose Your Currency');    
+    //     $('.dropdown__option').remove();    
+    //     for(var i=0;i<region_currency[a.region].length;i++){        
+    //         $( ".dropdown__content" ).append( 
+    //             "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"'>"+
+    //                 region_currency[a.region][i][0]+
+    //             "</div>"
+    //         );
+    //     };             
+    // });
+
+
+    //TEST
+
+    $('.map-composition__holder').hover(
+        function(){
+            if(!$(this).hasClass('map_active')){
+                var src_holdx = $(this).children("img").attr('src');
+                $(this).children("img").attr('src',$(this).children("img").attr('alt-1'));
+                $(this).children("img").attr('alt-1',src_holdx);
+            }
+        },
+        function(){
+            if(!$(this).hasClass('map_active')){
+                var src_holdy = $(this).children("img").attr('src');
+                $(this).children("img").attr('src',$(this).children("img").attr('alt-1'));
+                $(this).children("img").attr('alt-1',src_holdy);
+            }
+        }
+    );
+
     $('.map-composition__holder').click(function(){    
         // For currency dropdown
         $('.dropdown__container').css('display','flex');    
@@ -1412,22 +1472,21 @@ $(document).ready(function() {
         }
         var src_hold1 = $(this).children("img").attr('src');
         $(this).children("img").attr('src',$(this).children("img").attr('alt'));
-        $(this).children("img").attr('alt', src_hold1);           
+        $(this).children("img").attr('alt', $(this).children("img").attr('alt-1'));  
+        $(this).children("img").attr('alt-1', src_hold1);             
         $(this).toggleClass('map_active');
 
         // For currency options
-        $('.dropdown__text').text('Choose Your Currency');    
+        $('.dropdown__text').text('US Dollar');    
         $('.dropdown__option').remove();    
         for(var i=0;i<region_currency[a.region].length;i++){        
             $( ".dropdown__content" ).append( 
-                "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"'>"+
+                "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"' value1="+region_currency[a.region][i][1]+">"+
                     region_currency[a.region][i][0]+
                 "</div>"
             );
         };             
     });
-
-
 
 
 
@@ -1448,16 +1507,19 @@ $(document).ready(function() {
     });  
     // Revenue selection 
     $('.question__revenue').click(function(){
-        
-        if($(this).attr('value')==='more'){
-            a.revenue='high';            
-            $('.question__revenue--1').removeClass('question__revenue--active');
-            $('.question__revenue--2').addClass('question__revenue--active');
-        }else{
-            a.revenue='low';
-            $('.question__revenue--2').removeClass('question__revenue--active');
-            $('.question__revenue--1').addClass('question__revenue--active');
-        }
+
+        a.revenue=$(this).attr('value');
+        $('.question__revenue--active').removeClass('question__revenue--active');
+        $(this).addClass('question__revenue--active');
+        // if($(this).attr('value')==='more'){
+        //     a.revenue='high';            
+        //     $('.question__revenue--1').removeClass('question__revenue--active');
+        //     $('.question__revenue--2').addClass('question__revenue--active');
+        // }else{
+        //     a.revenue='low';
+        //     $('.question__revenue--2').removeClass('question__revenue--active');
+        //     $('.question__revenue--1').addClass('question__revenue--active');
+        // }
     });
 
     if(window.innerHeight < 880){
