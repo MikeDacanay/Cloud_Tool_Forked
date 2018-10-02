@@ -78,7 +78,9 @@ var region_currency = {
         ['US Dollar', '$','USD']
     ]
 }
-
+$('.book-slider').on('init', function(event, slick){
+    $('.book-slider').addClass('loaded');
+});
 window.onload = function(e) {
     $("input.dial__input").val('0%');
     $("input.dial__input").trigger('change');
@@ -149,8 +151,10 @@ var ease_dial=function(x, y){
 };
 
 var cloud_filler=function(myValue,cloud,timing){
+    console.log('cloud filler running')
 
     if(h.summary_user){
+        console.log('cloud filler if')
     // if(sessionStorage.user_h){
         // cloud_user=(100-summary.user)+'%';   
         $({
@@ -165,6 +169,7 @@ var cloud_filler=function(myValue,cloud,timing){
             }
         })
     }else{
+        console.log('cloud filler else')
         $(cloud).attr('offset','100%');
     }
 
@@ -1605,8 +1610,6 @@ $(document).ready(function() {
 
         $('body').css('height', window.innerHeight);
         $('.book-slider').slick('unslick');
-          
-
         $('.book-slider').slick({
             infinite: false,
             responsive: [
@@ -1620,7 +1623,7 @@ $(document).ready(function() {
                         accessibility:false,
                         infinite:false,
                         swipeToSlide:true
-                    }
+                    },
                 }
             ]
         });
@@ -1628,14 +1631,6 @@ $(document).ready(function() {
 
     }
 
-
-
-    $('.scrollbar-inner').scrollbar();
-
-    $('h1, h2, h3, h4, h5, h6, li, p, .quote, .cover-title, .widowFix').widowFix();
-    $('.rewidow').each(function(){
-        $(this).html($(this).html().replace(/&nbsp;/gi,' '));
-    });      
     var hash = window.location.hash.split('/');
     var hashVal = hash[2];
     $('.book-slider').slick('slickGoTo', hashVal);
@@ -1665,7 +1660,7 @@ $(document).ready(function() {
     	iframe.attr('src', iframe.attr('src'));
     });
 
-    
+
    $('.slick-arrow').on('click',function(){
       var curSlide = $('.slick-current').prev();
       if($(this).hasClass('slick-prev')) {
@@ -1680,6 +1675,7 @@ $(document).ready(function() {
 	      $('.modal__close[for="' + $(this).attr('id') + '"]').trigger('click');
        });
     });
+
 
 
 });
