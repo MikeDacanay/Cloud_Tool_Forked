@@ -151,10 +151,8 @@ var ease_dial=function(x, y){
 };
 
 var cloud_filler=function(myValue,cloud,timing){
-    console.log('cloud filler running')
 
     if(h.summary_user){
-        console.log('cloud filler if')
     // if(sessionStorage.user_h){
         // cloud_user=(100-summary.user)+'%';   
         $({
@@ -169,7 +167,7 @@ var cloud_filler=function(myValue,cloud,timing){
             }
         })
     }else{
-        console.log('cloud filler else')
+
         $(cloud).attr('offset','100%');
     }
 
