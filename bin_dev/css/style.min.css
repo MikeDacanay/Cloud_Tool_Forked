@@ -1616,8 +1616,8 @@ ul.no-dots-ul {
     left: 8.12rem;
     top: 4.76rem; }
   .map-composition__holder--as {
-    width: 5.83rem;
-    height: 3.87rem;
+    width: 6.70rem;
+    height: 6.10rem;
     left: 10.70rem;
     top: 3.61rem; }
   .map-composition__holder--aus {
@@ -2026,10 +2026,9 @@ table {
   font-size: 0.80rem;
   line-height: 1.12;
   color: #fff;
+  font-family: Univers-lt, Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 1.20rem;
-  height: 3.5rem;
-}
+  margin-bottom: 1.20rem; }
   .thermo__text:last-of-type {
     margin-top: 1.05rem;
     margin-bottom: 0; }
@@ -2679,11 +2678,14 @@ background-size: cover}
 @media screen and (max-width: 1200px) and (max-height: 875px) {
   .city__bg--8 {
     background-position-y: 285px; } }
+
 /* BG9*/
 .city__bg--9 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-10-chicago.png"); }
+  background-image: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"), url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-@media screen and (max-height: 875px) {
+@media only screen and (max-height: 875px) {
   .city__bg--9 {
     background-position-y: 0px; } }
 
@@ -2710,7 +2712,6 @@ background-size: cover}
 @media screen and (max-width: 1200px) and (max-height: 875px) {
   .city__bg--9 {
     background-position-y: 285px; } }
-
 
 .city__bg--active {
   opacity: .99; }
