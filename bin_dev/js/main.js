@@ -1239,13 +1239,30 @@ $(document).ready(function() {
                     console.log(data[i]);
                     for(j in data[i]){                    
                         calc1=1*data[i][j];
-                        // if(calc<1 && calc>.001){
-                        //     calc1=11
-                        // }
+                        // calc2=50*data[i][j];
+                        // calc3=1*data[i][j];
+                        // calc4=50*data[i][j]; 
+
+                        calc2='50';
+                        calc3='1';
+                        calc4='50';
                     }
                 }
+
+                if(calc1<1&&calc1>.001){
+                    calc1= Math.round(calc1*1000) + ' Millions';
+                    console.log('first');
+                }else if (calc1<.001){
+                    calc1=Math.round(calc1 * 10000) / 100 + ' Millions';
+                    console.log('second');
+                }else{
+                    calc1=calc1+' Billions';
+                    console.log('third');
+                }
+
+
                 $('.dropdown__text').text($(this).text());
-                $('.question__revenue--1').text(curr_sign+calc1+" Billion+ ("+currency+")");
+                $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" Million - "+curr_sign+calc3+" Billion ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc4+" Million ("+currency+")"); 
             },
