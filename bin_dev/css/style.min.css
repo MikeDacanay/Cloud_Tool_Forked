@@ -1817,8 +1817,8 @@ ul.no-dots-ul {
   color: #003B4D; }
 
 .tracker__reset {
-  width: 1.60rem;
-  height: 1.86rem;
+  width: 1.45rem;
+  height: 1.45rem;
   cursor: pointer;
   transition: all .1s; }
   .tracker__reset:hover {
@@ -2363,7 +2363,11 @@ table {
 .book-slider {
   width: 100%;
   height: 47.00rem;
-  z-index: 3; }
+  z-index: 3;
+  opacity: 0; }
+
+.book-slider.loaded {
+  opacity: 1; }
 
 .page {
   position: relative;
@@ -2890,6 +2894,9 @@ body {
     flex-basis: 13.35rem;
     margin-left: 0.85rem;
     letter-spacing: -.4px; }
+
+.results .ie .results__text--1.marg-top-reg-4 {
+  margin-top: 1.75rem; }
 
 .results__score {
   font-size: 6.00rem;
