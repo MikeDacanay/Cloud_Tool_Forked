@@ -1279,7 +1279,7 @@ $(document).ready(function() {
                 $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
-            },
+            }
         );
 
 
@@ -1625,10 +1625,6 @@ $(document).ready(function() {
             ]
         });
 
-
-        if($('body').width() <768) {
-
-        }
 
     }
 
