@@ -722,7 +722,9 @@ img.inline {
 
 .marg-top-reg-4 {
   margin-top: .5rem; }
-.ie .results__text--1.ma
+.ie .results__text--1.marg-top-reg-4 {
+  margin-top: 1.75rem;
+}
 
 .marg-top-reg-3 {
   margin-top: 0.55rem; }
