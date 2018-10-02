@@ -53,7 +53,7 @@ var region_currency = {
         ['Cape Verde Escudo','$','CVE'],
         ['CFA Franc BCEAO','₣','XAF'],
         ['Egyptian Pound','£','EGP'],
-        ['Jordanian Dinar','د.ا'],
+        ['Jordanian Dinar','د.ا', 'JOD'],
         ['Kuwaiti Dinar','د.ك', 'KWD'],
         ['Leone','Le','SLL'],
         ['New Israeli Shekel','₪','ILS'],
