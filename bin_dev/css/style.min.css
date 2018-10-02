@@ -722,6 +722,7 @@ img.inline {
 
 .marg-top-reg-4 {
   margin-top: .5rem; }
+.ie .results__text--1.ma
 
 .marg-top-reg-3 {
   margin-top: 0.55rem; }
@@ -999,8 +1000,6 @@ a.bttn {
       margin-left: auto;
       margin-right: 0;
       margin-top: .4rem; }
-    .ie .btn--3 {
-      margin-top: -0.40rem; }
   .btn--4 {
     padding-left: 0.45rem;
     padding-top: 0.3rem;
@@ -2775,7 +2774,7 @@ background-size: cover;
 
 .results__score {
   font-size: 6.00rem;
-  line-height: initial; }
+  line-height: 6rem; }
   .results__score--1 {
     color: #fff;
     transform: translateY(-0.2rem); }
