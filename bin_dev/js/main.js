@@ -1248,7 +1248,7 @@ $(document).ready(function() {
                 $('.question__revenue--1').text(curr_sign+calc1+" Billion+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" Million - "+curr_sign+calc3+" Billion ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc4+" Million ("+currency+")"); 
-            },
+            }
         );
 
 
