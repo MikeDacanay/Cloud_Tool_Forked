@@ -958,8 +958,6 @@ a.bttn {
   background-image: url("../assets/graphics/icons/arrow_blue_lt.svg");
   background-position: 85% center; }
 
-
-
 .btn {
   padding: 0.45rem;
   padding-left: 1.85rem;
@@ -1903,8 +1901,7 @@ ul.no-dots-ul {
   display: flex;
   z-index: 13;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4)
-}
+  background-color: rgba(255, 255, 255, 0.4); }
 
 .slider__progress {
   width: 100%;
@@ -1931,8 +1928,7 @@ ul.no-dots-ul {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
-     }
+    cursor: pointer; }
   .slider__radio:nth-child(1) {
     flex: 0 0 2.57rem; }
   .slider__radio:nth-child(2) {
@@ -2583,7 +2579,7 @@ body {
 /**BG 5**/
 .city__bg--6 {
   background-image: url("../assets/images/desktop/backgrounds/bg-07-sp.png");
-background-size: cover}
+  background-size: cover; }
 
 @media screen and (max-height: 875px) {
   .city__bg--6 {
@@ -2605,8 +2601,7 @@ background-size: cover}
 
 @media screen and (max-width: 1600px) and (max-height: 875px) {
   .city__bg--6 {
-    background-position-y: 90px;
-   } }
+    background-position-y: 90px; } }
 
 @media screen and (max-width: 1200px) {
   .city__bg--6 {
@@ -2637,8 +2632,7 @@ background-size: cover}
 
 @media screen and (max-width: 1600px) and (max-height: 875px) {
   .city__bg--7 {
-    background-position-y: 299px;
-  } }
+    background-position-y: 299px; } }
 
 @media screen and (max-width: 1200px) {
   .city__bg--7 {
@@ -2692,10 +2686,6 @@ background-size: cover}
 @media screen and (max-width: 2000px) {
   .city__bg--9 {
     background-position-y: 443px; } }
-
-@media screen and (max-width: 1900px) {
-  .city__bg--9 {
-    background-position-y: 0px; } }
 
 @media screen and (max-width: 2000px) and (max-height: 875px) {
   .city__bg--9 {
@@ -2851,11 +2841,11 @@ background-size: cover}
   .results__content--1 {
     flex: 0 0 9.05rem;
     height: 15.20rem;
-    padding-top: 1.10rem;
+    padding-top: .3rem;
     flex-direction: column;
     justify-content: space-between; }
     .results__content--1-1 {
-      padding-top: .3rem;
+      padding-top: 0;
       margin-left: 1.05rem;
       justify-content: space-between; }
   .results__content--2 {
@@ -2917,7 +2907,7 @@ background-size: cover}
     transform: translateY(-0.2rem); }
   .results__score--2 {
     color: #F29111;
-    line-height: 6.3rem;}
+    line-height: 6.3rem; }
 
 .results__point--container {
   display: flex;
