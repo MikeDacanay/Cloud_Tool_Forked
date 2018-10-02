@@ -245,7 +245,8 @@ $Breakpoint argument choices:
   height: 100%;
   width: auto;
   z-index: 0;
-  position: relative; }
+  position: relative;
+}
 
 .slide-page {
   position: absolute;
@@ -958,6 +959,8 @@ a.bttn {
   display: inline-block;
   background-image: url("../assets/graphics/icons/arrow_blue_lt.svg");
   background-position: 85% center; }
+
+
 
 .btn {
   padding: 0.45rem;
@@ -1900,7 +1903,8 @@ ul.no-dots-ul {
   display: flex;
   z-index: 13;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4); }
+  background-color: rgba(255, 255, 255, 0.4)
+}
 
 .slider__progress {
   width: 100%;
@@ -1927,7 +1931,8 @@ ul.no-dots-ul {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer; }
+    cursor: pointer;
+     }
   .slider__radio:nth-child(1) {
     flex: 0 0 2.57rem; }
   .slider__radio:nth-child(2) {
@@ -2023,7 +2028,8 @@ table {
   color: #fff;
   font-family: Univers-lt, Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 1.20rem; }
+  margin-bottom: 1.20rem;
+height: 3.5rem}
   .thermo__text:last-of-type {
     margin-top: 1.05rem;
     margin-bottom: 0; }
@@ -2362,7 +2368,12 @@ table {
 .book-slider {
   width: 100%;
   height: 47.00rem;
-  z-index: 3; }
+  z-index: 3;
+opacity:0;}
+
+.book-slider.loaded {
+  opacity: 1;
+}
 
 .page {
   position: relative;
@@ -2421,278 +2432,153 @@ body {
 .city__bg--0 {
   background-image: url("../assets/images/desktop/backgrounds/bg-01-sf.png");
   background-size: cover;
-  background-position-y: 220px; }
-
-@media screen and (max-height: 875px) {
-  .city__bg--0 {
-    background-position-y: 50px; } }
+    background-position-y: 50px;  }
 
 @media screen and (max-width: 1440px) {
-  .city__bg--0 {
-    background-position-y: 250px; } }
-
-@media screen and (max-width: 1440px) and (max-height: 875px) {
   .city__bg--0 {
     background-position-y: 139px; } }
 
 .city__bg--1 {
   background-image: url("../assets/images/desktop/backgrounds/bg-02-paris.png");
   background-size: 121% !important;
-  background-position-y: 367px;
-  background-position-x: 0%; }
-
-@media screen and (max-height: 875px) {
-  .city__bg--1 {
-    background-position-y: 127px; } }
+  background-position-x: 0%;
+    background-position-y: 127px; }
 
 @media screen and (max-width: 1600px) {
   .city__bg--1 {
-    background-position-x: 96%;
-    background-position-y: 354px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--1 {
     background-position-y: 170px;
     background-position-x: 0px;
-    background-size: 1611px !important; } }
+    background-size: 1611px !important;  } }
+
 
 @media screen and (max-width: 1200px) {
   .city__bg--1 {
-    background-size: 1200px !important;
-    background-position-x: 20px;
-    background-position-x: 96%;
-    background-position-y: 534px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--1 {
     background-size: 1600px !important;
     background-position-x: -131px;
-    background-position-y: 189px; } }
+  }}
 
 .city__bg--2 {
   background-image: url("../assets/images/desktop/backgrounds/bg-03-tokyo-c.png");
-  background-position-y: -143px; }
-
-@media screen and (max-height: 875px) {
-  .city__bg--2 {
-    background-position-y: -422px; } }
+  background-position-y: -202px; } }
 
 @media screen and (max-width: 1600px) {
   .city__bg--2 {
     background-size: 1640px !important;
-    background-position-y: -160px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--2 {
     background-position-y: -239px; } }
+
+@media screen and (max-width: 1200px) {
+  .city__bg--2 {
+    background-size: 1200px !important;
+    background-position-y: -50px; } }
+
 
 .city__bg--3 {
   background-image: url("../assets/images/desktop/backgrounds/bg-04-ny-d.png");
-  background-position-y: -110px; }
-
-@media screen and (max-height: 875px) {
-  .city__bg--3 {
-    background-position-y: -368px; } }
+    background-position-y: -368px;  }
 
 @media screen and (max-width: 1600px) {
   .city__bg--3 {
-    background-position-y: -67px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--3 {
-    background-position-y: -186px; } }
+    background-position-y: -186px; }}
 
 @media screen and (max-width: 1200px) {
   .city__bg--3 {
-    background-position-y: 239px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--3 {
-    background-position-y: -10px; } }
+    background-position-y: -10px;  }}
 
 .city__bg--4 {
   background-image: url("../assets/images/desktop/backgrounds/bg-05-london.png");
-  background-position-y: 535px; }
-
-@media screen and (max-height: 875px) {
-  .city__bg--4 {
-    background-position-y: 310px; } }
+    background-position-y: 310px;  }
 
 @media screen and (max-width: 2000px) {
   .city__bg--4 {
-    background-image: url("../assets/images/desktop/backgrounds/bg-05-london.png");
-    background-position-y: 535px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--4 {
-    background-position-y: 315px; } }
+    background-position-y: 315px; }}
 
 @media screen and (max-width: 1600px) {
   .city__bg--4 {
-    background-position-y: 567px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--4 {
-    background-position-y: 367px; } }
+    background-position-y: 367px;  }}
 
 @media screen and (max-width: 1200px) {
   .city__bg--4 {
-    background-position-y: 600px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--4 {
-    background-position-y: 386px; } }
+    background-position-y: 386px;  }}
 
 /**BG 5**/
 .city__bg--5 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-06-sing.png"); }
-
-@media screen and (max-height: 875px) {
-  .city__bg--5 {
-    background-position-y: 0px; } }
+  background-image: url("../assets/images/desktop/backgrounds/bg-06-sing.png");
+    background-position-y: 0px; }
 
 @media screen and (max-width: 2000px) {
   .city__bg--5 {
-    background-position-y: 184px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--5 {
-    background-position-y: 15px; } }
+    background-position-y: 15px;  }}
 
 @media screen and (max-width: 1600px) {
   .city__bg--5 {
-    background-position-y: 87px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--5 {
-    background-position-y: 75px; } }
+    background-position-y: 75px;  }}
 
 @media screen and (max-width: 1200px) {
   .city__bg--5 {
-    background-position-y: 411px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--5 {
-    background-position-y: 285px; } }
+    background-position-y: 285px;  }}
 
 /**BG 5**/
 .city__bg--6 {
   background-image: url("../assets/images/desktop/backgrounds/bg-07-sp.png");
-  background-position-y: 0px; }
+background-size: cover;
+    background-position-y: 0px; } }
 
 @media screen and (max-width: 2000px) {
   .city__bg--6 {
     background-repeat: no-repeat;
-    background-size: 2000px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--6 {
-    background-position-y: 15px; } }
+    background-size: 2000px;
+    background-position-y: 15px; }}
 
 @media screen and (max-width: 1600px) {
   .city__bg--6 {
     background-size: 1600px;
-    background-position-y: 90px; } }
+    background-position-y: 90px;
+   }}
 
 @media screen and (max-width: 1200px) {
-  .city__bg--6 {
-    background-position-y: 600px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
   .city__bg--6 {
     background-position-y: 285px; } }
 
 .city__bg--7 {
   background-image: url("../assets/images/desktop/backgrounds/bg-08-sydney.png"); }
-
-@media screen and (max-height: 875px) {
-  .city__bg--7 {
-    background-position-y: 0px; } }
+    background-position-y: 0px; }
 
 @media screen and (max-width: 2000px) {
   .city__bg--7 {
-    background-position-y: 443px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--7 {
-    background-position-y: 15px; } }
+    background-position-y: 15px;  }}
 
 @media screen and (max-width: 1600px) {
   .city__bg--7 {
-    background-position-y: 299px; } }
+    background-position-y: 299px;
+  }}
 
 @media screen and (max-width: 1200px) {
-  .city__bg--7 {
-    background-position-y: 600px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
   .city__bg--7 {
     background-position-y: 285px; } }
 
 .city__bg--8 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-09-sf.png"); }
-
-@media screen and (max-height: 875px) {
-  .city__bg--8 {
-    background-position-y: 0px; } }
+  background-image: url("../assets/images/desktop/backgrounds/bg-09-sf.png");
+    background-position-y: 0px; }
 
 @media screen and (max-width: 2000px) {
   .city__bg--8 {
-    background-position-y: 443px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--8 {
-    background-position-y: 15px; } }
+    background-position-y: 15px;  }}
 
 @media screen and (max-width: 1600px) {
   .city__bg--8 {
-    background-position-y: 282px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--8 {
-    background-position-y: 235px; } }
+    background-position-y: 235px; }}
 
 @media screen and (max-width: 1200px) {
   .city__bg--8 {
-    background-position-y: 600px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--8 {
-    background-position-y: 285px; } }
+    background-position-y: 285px;  }}
 
 /* BG9*/
 .city__bg--9 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"), url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+  background-image: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"), url("../assets/images/desktop/backgrounds/bg-10-chicago.png");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position-y: 0px;  }
 
-@media only screen and (max-height: 875px) {
-  .city__bg--9 {
-    background-position-y: 0px; } }
-
-@media screen and (max-width: 2000px) {
-  .city__bg--9 {
-    background-position-y: 443px; } }
-
-@media screen and (max-width: 2000px) and (max-height: 875px) {
-  .city__bg--9 {
-    background-position-y: 15px; } }
-
-@media screen and (max-width: 1600px) {
-  .city__bg--9 {
-    background-position-y: 506px; } }
-
-@media screen and (max-width: 1600px) and (max-height: 875px) {
-  .city__bg--9 {
-    background-position-y: 235px; } }
-
-@media screen and (max-width: 1200px) {
-  .city__bg--9 {
-    background-position-y: 600px; } }
-
-@media screen and (max-width: 1200px) and (max-height: 875px) {
-  .city__bg--9 {
-    background-position-y: 285px; } }
 
 .city__bg--active {
   opacity: .99; }
@@ -2828,11 +2714,11 @@ body {
   .results__content--1 {
     flex: 0 0 9.05rem;
     height: 15.20rem;
-    padding-top: .3rem;
+    padding-top: 1.10rem;
     flex-direction: column;
     justify-content: space-between; }
     .results__content--1-1 {
-      padding-top: 0;
+      padding-top: .3rem;
       margin-left: 1.05rem;
       justify-content: space-between; }
   .results__content--2 {
@@ -2894,7 +2780,7 @@ body {
     transform: translateY(-0.2rem); }
   .results__score--2 {
     color: #F29111;
-    line-height: 6.3rem; }
+    line-height: 6.3rem;}
 
 .results__point--container {
   display: flex;
@@ -2964,12 +2850,6 @@ a:hover {
 
 .c-u-marg-top--1 {
   margin-top: 0.65rem; }
-
-.c-u-marg-top--2 {
-  margin-top: 1.2rem; }
-
-.c-u-marg-top--3 {
-  margin-top: 1.4rem; }
 
 .c-u-marg-top_1 {
   margin-top: -0.40rem; }

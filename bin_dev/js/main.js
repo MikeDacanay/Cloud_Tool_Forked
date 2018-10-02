@@ -167,6 +167,7 @@ var cloud_filler=function(myValue,cloud,timing){
             }
         })
     }else{
+
         $(cloud).attr('offset','100%');
     }
 
