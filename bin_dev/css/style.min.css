@@ -2689,6 +2689,10 @@ body {
   .city__bg--9 {
     background-position-y: 443px; } }
 
+@media screen and (max-width: 1900px) {
+  .city__bg--9 {
+    background-position-y: 0px; } }
+
 @media screen and (max-width: 2000px) and (max-height: 875px) {
   .city__bg--9 {
     background-position-y: 15px; } }
@@ -2978,6 +2982,12 @@ a:hover {
 
 .c-u-marg-top--1 {
   margin-top: 0.65rem; }
+
+.c-u-marg-top--2 {
+  margin-top: 1.2rem; }
+
+.c-u-marg-top--3 {
+  margin-top: 1.4rem; }
 
 .c-u-marg-top_1 {
   margin-top: -0.40rem; }
