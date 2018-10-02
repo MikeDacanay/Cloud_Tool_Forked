@@ -1516,7 +1516,11 @@ $(document).ready(function() {
                     region_currency[a.region][i][0]+
                 "</div>"
             );
-        };             
+        };   
+
+        $('.question__revenue--1').text('$1 Billion+ (USD)');
+        $('.question__revenue--2').text('$50 Million - $1 Billion (USD)');
+        $('.question__revenue--3').text('$0 - $50 Million (USD)');           
     });
 
 
