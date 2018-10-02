@@ -245,7 +245,8 @@ $Breakpoint argument choices:
   height: 100%;
   width: auto;
   z-index: 0;
-  position: relative; }
+  position: relative;
+}
 
 .slide-page {
   position: absolute;
@@ -2368,7 +2369,12 @@ height: 3.5rem}
 .book-slider {
   width: 100%;
   height: 47.00rem;
-  z-index: 3; }
+  z-index: 3;
+opacity:0;}
+
+.book-slider.loaded {
+  opacity: 1;
+}
 
 .page {
   position: relative;
