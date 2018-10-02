@@ -2467,6 +2467,10 @@ body {
     background-size: 1640px !important;
     background-position-y: -239px; } }
 
+@media screen and (max-width: 1200px) {
+  .city__bg--2 {
+    background-size: 1200px !important;
+    background-position-y: -50px; } }
 
 
 .city__bg--3 {
@@ -2571,22 +2575,11 @@ background-size: cover;
 
 /* BG9*/
 .city__bg--9 {
-  background-image: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"), url("../assets/images/desktop/backgrounds/bg-10-chicago.png"), url("../assets/images/desktop/backgrounds/bg-02.png");
+  background-image: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"), url("../assets/images/desktop/backgrounds/bg-10-chicago.png");
   background-repeat: no-repeat;
   background-size: cover;
-    background-position-y: 0px;  }
+  background-position-y: 0px;  }
 
-@media screen and (max-width: 2000px) {
-  .city__bg--9 {
-    background-position-y: 15px;  }}
-
-@media screen and (max-width: 1600px) {
-  .city__bg--9 {
-    background-position-y: 235px; }}
-
-@media screen and (max-width: 1200px) {
-  .city__bg--9 {
-    background-position-y: 285px;  }}
 
 .city__bg--active {
   opacity: .99; }
