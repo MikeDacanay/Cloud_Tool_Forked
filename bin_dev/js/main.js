@@ -79,7 +79,6 @@ var region_currency = {
     ]
 }
 $('.book-slider').on('init', function(event, slick){
-    console.log('LOADED');
     $('.book-slider').addClass('loaded');
 });
 window.onload = function(e) {
@@ -1629,11 +1628,6 @@ $(document).ready(function() {
 
     }
 
-
-    $('h1, h2, h3, h4, h5, h6, li, p, .quote, .cover-title, .widowFix').widowFix();
-    $('.rewidow').each(function(){
-        $(this).html($(this).html().replace(/&nbsp;/gi,' '));
-    });      
     var hash = window.location.hash.split('/');
     var hashVal = hash[2];
     $('.book-slider').slick('slickGoTo', hashVal);
