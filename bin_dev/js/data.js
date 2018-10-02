@@ -967,5 +967,25 @@ var summary = new Vue({
 
 			return (isNaN(aggregate_user_score)?0:(aggregate_user_score*100).toFixed(0));
 		},
+		uservpeer: function(){    				
+			// var results_text= 'Congratulations! Your business is ahead of its peers. A score in this range means that your company realizes the business value in upgrading to the Cloud.';
+			var text;
+			if(this.user && this.peers){
+				if(Number(summary.user) > Number(summary.peers)){
+					text = 'Congratulations! Your business is ahead of its peers. A score in this range means that your company realizes the business value in upgrading to the Cloud.';
+				}
+				if(Number(summary.user) < Number(summary.peers)){
+					text = 'Peers is ahead Peers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is ahead';
+				}
+				if(Number(summary.user) === Number(summary.peers)){
+					text = 'equalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequal';
+				}
+				return text;
+			}else{
+				return 'none';
+			}
+
+			
+		},		
 	},
 });
