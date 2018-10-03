@@ -1326,12 +1326,9 @@ $(document).ready(function() {
         // variableWidth: true,
         responsive: [
             {
-                breakpoint: 750,
+                breakpoint: 768,
                 settings: {
-                    speed: 300,
-                    slidesToShow: 1,
-                    // adaptiveHeight: true,
-                    appendArrows: $(".footer-phone")
+                    adaptiveHeight: true
                 }
             }
         ]

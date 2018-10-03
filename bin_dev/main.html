@@ -182,7 +182,7 @@
 	                    <img src="assets/images/desktop/aus.svg" alt="assets/images/desktop/aus2.svg" alt-1="assets/images/desktop/aus1.svg">
                     </div> -->                                            
 									</div>
-									<select class="mobile mobile-select">
+									<select class="mobile mobile-select mobile-tab">
 										<option selected disabled>Choose here</option>
 										<option value="na">North America</option>
 										<option value="sa">South America</option>
@@ -212,7 +212,7 @@
 										<div class="question__sector question__sector--1" value='health'><span>Healthcare</span></div>
 										<div class="question__sector question__sector--2" value='tot'><span>Other</span></div>							
 									</div>
-									<select class="mobile mobile-select">
+									<select class="mobile mobile-select mobile-tab">
 										<option selected disabled>Select</option>
 										<option value="auto">Automotive</option>
 										<option value="insur">Insurance</option>
@@ -249,13 +249,13 @@
 										<div class="question__revenue question__revenue--2" value='med'>$50 Million - $1 Billion (USD)</div>
 										<div class="question__revenue question__revenue--3" value='small'>$0 - $50 Million (USD)</div>
 									</div>
-									<select class="mobile mobile-select currency-select">
+									<select class="mobile mobile-select currency-select mobile-tab">
 										<option selected disabled>Select your currency</option>
 										<option>USD</option>
 										<option>Peso</option>
 										<option>CAD</option>
 									</select>
-									<div class="mobile">
+									<div class="mobile mobile-tab">
 									<div class="mobile-radio-group"> <input name="company-size" type="radio" class="mobile-radio question__revenue--1" value='big'><span class="radio-text">$1 Billion+ (USD)</span></div>
 										<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--2" value='med' ><span class="radio-text">$50 Million - $1 Billion (USD)</span></div>
 											<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--3" value='small'><span  class="radio-text">$0 - $50 Million (USD)</span></div>
@@ -305,7 +305,7 @@
 								</div>							
 								<div class="container-dial marg-top-reg container-dial__second">
 									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--1",'dial--1',90);>
 												Planning
 											</div>
@@ -329,15 +329,20 @@
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--1",'dial--1',180);>Doing</span>
 											</div>
 										</div>																
-										<div class="dial__header--holder dial__header--holder--1 marg-top-med--2">
+										<div class="dial__header--holder dial__header--holder--1 marg-top-med--2 ">
 											<div class="dial__header--img dial__header--img--1">
-												<img src="assets/images/desktop/icon--2_1.svg" alt="icon--2_1" class='dial__icon'> 
+												<img src="assets/images/desktop/icon--2_1.svg" alt="icon--2_1" class='dial__icon desktop'>
 											</div>
-											<div class="dial__header--text dial__header--text--1">Migrating</div>
+											<div class="dial__header--text dial__header--text--1 mobile-tab">Migrating</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.a" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>
 									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--2",'dial--2',90);>
 												Planning
 											</div>
@@ -362,11 +367,16 @@
 											<div class="dial__header--img dial__header--img--3">
 												<img src="assets/images/desktop/icon--2_2.svg" alt="icon--2_2" class='dial__icon'>
 											</div>
-											<div class="dial__header--text dial__header--text--1">Developing</div>
+											<div class="dial__header--text dial__header--text--1 mobile-tab">Developing</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.b" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>
 									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--3",'dial--3',90);>
 												Planning
 											</div>
@@ -391,13 +401,18 @@
 											<div class="dial__header--img dial__header--img--4">
 												<img src="assets/images/desktop/icon--2_3.svg" alt="icon--2_3" class='dial__icon'>
 											</div>
-											<div class="dial__header--text dial__header--text--1">Integrating</div>
+											<div class="dial__header--text dial__header--text--1 mobile-tab">Integrating</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.c" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>							
 								</div>
 								<div class="container-dial marg-top-reg container-dial__second">
 									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--4",'dial--4',90);>
 												Planning
 											</div>
@@ -423,6 +438,11 @@
 												<img src="assets/images/desktop/icon--2_4.svg" alt="icon--2_4" class='dial__icon'>
 											</div>
 											<div class="dial__header--text dial__header--text--1">Storing</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.d" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>
 									<div class="dial__holder">
@@ -452,6 +472,11 @@
 												<img src="assets/images/desktop/icon--2_5.svg" alt="icon--2_5" class='dial__icon'>
 											</div>
 											<div class="dial__header--text dial__header--text--6">Securing</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.e" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>
 									<div class="dial__holder">
@@ -481,6 +506,11 @@
 												<img src="assets/images/desktop/icon--2_6.svg" alt="icon--2_6" class='dial__icon'>
 											</div>
 											<div class="dial__header--text dial__header--text--1">Analysis</div>
+											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.f" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.f"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.f" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+											</div>
 										</div>																	
 									</div>
 								</div>																			
@@ -2340,7 +2370,7 @@
 											</div>
 
 											<div class="dial__group--text dial__group--text-2 marg-top-reg-3">
-												<span  class='dial__group--text-2' onclick=dial_move("input--12",'dial--12',.5);>Impeded</span>
+												<span  class='dial__group--text-2' onclick=dial_move("input--12",'dial--12',.5);>Impede</span>
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--12",'dial--12',180);>Improve</span>
 											</div>
 										</div>
@@ -2372,7 +2402,7 @@
 											</div>
 
 											<div class="dial__group--text dial__group--text-2 marg-top-reg-3">
-												<span  class='dial__group--text-2' onclick=dial_move("input--13",'dial--13',.5);>Impeded</span>
+												<span  class='dial__group--text-2' onclick=dial_move("input--13",'dial--13',.5);>Impede</span>
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--13",'dial--13',180);>Improve</span>
 											</div>
 										</div>
@@ -2404,7 +2434,7 @@
 											</div>
 
 											<div class="dial__group--text dial__group--text-2 marg-top-reg-3">
-												<span  class='dial__group--text-2' onclick=dial_move("input--14",'dial--14',.5);>Impeded</span>
+												<span  class='dial__group--text-2' onclick=dial_move("input--14",'dial--14',.5);>Impede</span>
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--14",'dial--14',180);>Improve</span>
 											</div>
 										</div>
@@ -2438,7 +2468,7 @@
 											</div>
 
 											<div class="dial__group--text dial__group--text-2 marg-top-reg-3">
-												<span  class='dial__group--text-2' onclick=dial_move("input--15",'dial--15',.5);>Impeded</span>
+												<span  class='dial__group--text-2' onclick=dial_move("input--15",'dial--15',.5);>Impede</span>
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--15",'dial--15',180);>Improve</span>
 											</div>
 										</div>
@@ -2470,7 +2500,7 @@
 											</div>
 
 											<div class="dial__group--text dial__group--text-2 marg-top-reg-3">
-												<span  class='dial__group--text-2' onclick=dial_move("input--16",'dial--16',.5);>Impeded</span>
+												<span  class='dial__group--text-2' onclick=dial_move("input--16",'dial--16',.5);>Impede</span>
 												<span class='dial__group--text-2-2nd' onclick=dial_move("input--16",'dial--16',180);>Improve</span>
 											</div>
 										</div>
