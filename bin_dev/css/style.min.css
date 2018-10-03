@@ -468,7 +468,8 @@ html {
 body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5em;
-  font-family: Univers, Arial, Helvetica, sans-serif;
+  font-family: Univers-lt, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
   color: #4e5052; }
 
 a {
@@ -493,7 +494,7 @@ strong {
 h1 {
   color: #00758f;
   line-height: normal;
-  font-family: Univers, Arial, Helvetica, sans-serif;
+  font-family: Univers-lt, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
   letter-spacing: 0.02em;
   font-weight: 400; }
 
@@ -501,11 +502,11 @@ h2 {
   line-height: 1.2em;
   color: #00758f;
   font-weight: 400;
-  font-family: Univers, Arial, Helvetica, sans-serif; }
+  font-family: Univers-lt, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif; }
 
 h3 {
   color: #003b4d;
-  font-family: Univers, Arial, Helvetica, sans-serif;
+  font-family: Univers-lt, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.555555555555556em; }
 
@@ -2991,5 +2992,125 @@ a:hover {
 
 .c-u-marg-top_2 {
   margin-top: -0.85rem; }
+.mobile-tracker{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+/**********Tablet POrtrait***************/
 
-/**********Tablet Landscape***************/
+@media only screen and (max-width: 910px) {
+  .mobile{
+    display: inherit;
+  }
+  .desktop{
+    display: none;
+  }
+  .book-slider{
+    height: 100vh;
+  }
+
+
+  .city__bg--0,.city__bg--1,.city__bg--2.city__bg--3.city__bg--4,.city__bg--5,.city__bg--6,.city__bg--7.city__bg--8{
+    background-image: none;
+  }
+  .mobile-tracker{
+    display: block;
+    float: right;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 15px;
+    letter-spacing : 0.8px;
+  }
+  .tracker__group{
+    display: none;
+  }
+  .tracker__group:last-of-type{
+    display: block;
+  }
+  h1{
+    font-size: 21px;
+
+  }
+  .nav-bar{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .slick-slide > .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  html {
+    font-size: 100%;
+  }
+  .main_container{
+    width: 100vw;
+  }
+  .question__text{
+    font-size: 16px;
+  }
+  .question__container{
+    display: block;
+  }
+  .question__group{
+    flex: none;
+    width: 100%;
+    float: none;
+    display: table;
+    margin-bottom: 40px;
+  }
+  .mobile-select{
+    -webkit-appearance: none;
+    width: 210px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 0;
+    border: 1px solid #cde1e5;
+    background-color: transparent;
+    background-image: url(../assets/images/desktop/thermo/triangle-white--1.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 182px 6px;
+    color: #FFFFFF;
+  }
+
+
+  input[type="radio"] {
+    position: relative;
+    display: inline-block;
+    border: 8px solid #cde1e5;
+    border-radius: 100%;
+    outline: none !important;
+    -webkit-appearance: none;
+    color: #FFFFFF;
+  }
+
+  input[type="radio"]::before {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    content: '';
+    background: white;
+    padding-right: 10px;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+  }
+  input[type="radio"]:checked::before {
+    background: #000000;
+    border-color: #cde1e5;
+  }
+  .radio-text{
+    color: #FFFFFF;
+    margin-left: 15px;
+  }
+  .mobile-radio{
+    display: block;
+  }
+
+
+
+
+
+}

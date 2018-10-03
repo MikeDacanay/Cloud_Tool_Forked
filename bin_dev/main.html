@@ -43,6 +43,7 @@
 				<div class="logo__container">
 					<img src="assets/images/desktop/oracle_intro_logo.svg" alt="oracle_intro_logo.svg" class="logo__img">
 				</div>
+				<div class="mobile-tracker" id="mobile-tracker">1/9</div>
 				<div class="tracker__container">
 					<div class="tracker__group tracker__group--0 tracker__group--active" onclick=tracker_navigator(0);>
 						<div class="tracker__node">
@@ -146,7 +147,7 @@
 										<!-- <h2 class="question__text widowFix">In which regions does your company operate?</h2> -->
 										<h2 class="question__text widowFix">Where is your company&nbsp;headquartered?</h2>
 									</div>
-									<div class="question__content relative" onclick=show_next([a.sector,a.revenue]);>                    							
+									<div class="question__content relative desktop" onclick=show_next([a.sector,a.revenue]);>
                     <div class="map-composition__holder map-composition__holder--na" value='na' >
                     	<img src="assets/images/desktop/na.svg" alt="assets/images/desktop/na2.svg" alt-1="assets/images/desktop/na1.svg">
 	                    <!-- svg class='map-composition map-composition__na'>
@@ -181,6 +182,14 @@
 	                    <img src="assets/images/desktop/aus.svg" alt="assets/images/desktop/aus2.svg" alt-1="assets/images/desktop/aus1.svg">
                     </div> -->                                            
 									</div>
+									<select class="mobile mobile-select">
+										<option selected disabled>Choose here</option>
+										<option value="na">North America</option>
+										<option value="sa">South America</option>
+										<option value="eu">Europe</option>
+										<option value="as">Asia</option>
+										<option value="af">Aftrica</option>
+									</select>
 								</div>
 
 								<div class="question__group">
@@ -190,7 +199,8 @@
 										</div>
 										<h2 class="question__text widowFix">In which sector does your company&nbsp;operate?</h2>
 									</div>
-									<div class="question__content question__content--1" onclick=show_next([a.sector,a.revenue]);>			
+
+									<div class="desktop question__content question__content--1" onclick=show_next([a.sector,a.revenue]);>
 										<div class="question__sector question__sector--1" value='auto'><span>Automotive</span></div>
 										<div class="question__sector question__sector--2" value='insur'><span>Insurance</span></div>
 										<div class="question__sector question__sector--1" value='cons'><span>Consumer goods</span></div>										
@@ -199,11 +209,22 @@
 										<div class="question__sector question__sector--2" value='ret'><span>Retail</span></div>
 										<div class="question__sector question__sector--1" value='fin'><span>Financial Services</span> </div>
 										<div class="question__sector question__sector--2" value='tel'><span>Telecom/Media/Ent.</span></div>
-
 										<div class="question__sector question__sector--1" value='health'><span>Healthcare</span></div>
-
 										<div class="question__sector question__sector--2" value='tot'><span>Other</span></div>							
 									</div>
+									<select class="mobile mobile-select">
+										<option selected disabled>Select</option>
+										<option value="auto">Automotive</option>
+										<option value="insur">Insurance</option>
+										<option value="cons">Consumer goods</option>
+										<option value="oil">Oil and Gas</option>
+										<option value="ener">Energy/Utilities</option>
+										<option value="ret">Retail</option>
+										<option value="fin">Financial Services</option>
+										<option value="tel">Telecom/Media/Ent.</option>
+										<option value="health">Healthcare</option>
+										<option value="tot">Other</option>
+									</select>
 								</div>
 								<div class="question__group">
 									<div class="question__header">
@@ -212,7 +233,7 @@
 										</div>
 										<h2 class="question__text widowFix">What is your company's annual global revenue?</h2>
 									</div>
-									<div class="question__content question__content--2" onclick=show_next([a.sector,a.revenue]);>		
+									<div class="desktop question__content question__content--2" onclick=show_next([a.sector,a.revenue]);>
 										<div class="dropdown__container marg-bot-reg--1">
 											<div class="dropdown__text">Change Currency</div>
 											<div class="dropdown__arrow">
@@ -228,6 +249,17 @@
 										<div class="question__revenue question__revenue--2" value='med'>$50 Million - $1 Billion (USD)</div>
 										<div class="question__revenue question__revenue--3" value='small'>$0 - $50 Million (USD)</div>
 									</div>
+									<select class="mobile mobile-select">
+										<option selected disabled>Select your currency</option>
+										<option>USD</option>
+										<option>Peso</option>
+										<option>CAD</option>
+									</select>
+									<div class="mobile">
+									<div class="mobile-radio-group"> <input name="company-size" type="radio" class="mobile-radio question__revenue--1" value='big'><span class="radio-text">$1 Billion+ (USD)</span></div>
+										<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--2" value='med' ><span class="radio-text">$50 Million - $1 Billion (USD)</span></div>
+											<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--3" value='small'><span  class="radio-text">$0 - $50 Million (USD)</span></div>
+							</div>
 		<!-- 								<div class="btn marg-center marg-top-med--1" onclick=$('.book-slider').slick('slickGoTo',1);>		 -->
 									<div class="btn marg-center marg-top-med--1 btn__nxt btn__nxt--1 c-u-marg-left--1 btn--animate" onclick=page_move([a.sector,a.revenue]);>		
 										<span class="btn__txt">Next</span>

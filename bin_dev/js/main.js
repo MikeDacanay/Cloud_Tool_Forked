@@ -1607,6 +1607,7 @@ $(document).ready(function() {
         });
 
         $('body').css('height', window.innerHeight);
+        /*
         $('.book-slider').slick('unslick');
         $('.book-slider').slick({
             infinite: false,
@@ -1625,6 +1626,7 @@ $(document).ready(function() {
                 }
             ]
         });
+        */
 
 
     }
@@ -1702,6 +1704,7 @@ $('.book-slider').on('afterChange', function(event, slick, currentSlide, nextSli
     page_tracker = currentSlide;
     $('html, body').animate({ scrollTop: 0}, 200);
     var lastSlide = $('section.slick-slide:not(.slick-cloned)').length - 1;
+    $('#mobile-tracker').innerHTML=(currentSlide+"/9");
 
 	//set URL bar
     if(flag==false){
