@@ -3009,6 +3009,9 @@ a:hover {
   }
   .book-slider{
     height: 100vh;
+    background-image: url("../assets/images/desktop/backgrounds/bg-02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
 
@@ -3033,6 +3036,9 @@ a:hover {
     font-size: 21px;
 
   }
+  .header__container{
+    width: 70%;
+  }
   .nav-bar{
     padding-left: 30px;
     padding-right: 30px;
@@ -3049,6 +3055,7 @@ a:hover {
   }
   .question__text{
     font-size: 16px;
+    margin-bottom: 17px;
   }
   .question__container{
     display: block;
@@ -3107,6 +3114,12 @@ a:hover {
   }
   .mobile-radio{
     display: block;
+  }
+  .question__num-box{
+    margin-right: 18px;
+  }
+  .currency-select{
+    margin-bottom: 17px;
   }
 
 
