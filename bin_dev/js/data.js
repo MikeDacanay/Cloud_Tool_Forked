@@ -972,17 +972,17 @@ var summary = new Vue({
 			var text;
 			if(this.user && this.peers){
 				if(Number(summary.user) > Number(summary.peers)){
-					text = 'Congratulations! Your business is ahead of its peers. A score in this range means that your company realizes the business value in upgrading to the Cloud.';
+					text = 'Congratulations! Your score indicates that you are ahead of your peers with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
 				}
 				if(Number(summary.user) < Number(summary.peers)){
-					text = 'Peers is ahead Peers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is aheadPeers is ahead';
+					text = 'Your score indicates that you are behind your peers with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
 				}
 				if(Number(summary.user) === Number(summary.peers)){
-					text = 'equalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequalequal';
+					text = 'Your score indicates that you are on par with your peers with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
 				}
 				return text;
 			}else{
-				return 'none';
+				return '';
 			}
 
 			

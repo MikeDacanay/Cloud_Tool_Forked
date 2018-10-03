@@ -1239,7 +1239,7 @@ $(document).ready(function() {
 
         var calc_arr;
         // GET Request Currency Rate
-        $.getJSON( 'http://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', 
+        $.getJSON( 'https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y', 
             function(data){
                 for(i in data){
                     console.log(data[i]);
