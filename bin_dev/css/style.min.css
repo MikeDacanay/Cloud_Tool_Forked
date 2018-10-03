@@ -1406,7 +1406,7 @@ a.bttn {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  display: none; }
+}
   .dropdown__container:hover .dropdown__arrow {
     transform: translateY(2px); }
 
@@ -1746,7 +1746,9 @@ ul.no-dots-ul {
     background-color: #BDE6EE; }
   .meter__radio-active--1 {
     border-top-left-radius: 0.20rem;
-    border-top-right-radius: 0.20rem; }
+    border-top-right-radius: 0.20rem;
+    margin-bottom: -0.20rem;
+    margin-top: 0.20rem;}
 
 .nav-bar {
   width: 100%;
@@ -2998,22 +3000,25 @@ a:hover {
 .mobile{
   display: none;
 }
-/**********Tablet POrtrait***************/
+/**********Phone***************/
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 768px) {
   .mobile{
     display: inherit;
   }
   .desktop{
-    display: none;
+    display: none!important;
   }
   .book-slider{
     height: 100vh;
-    background-image: url("../assets/images/desktop/backgrounds/bg-02.png");
-    background-size: contain;
+    background-image: url(../assets/images/_mobile/mobile-background.png);
+    background-size: cover;
     background-repeat: no-repeat;
+    overflow-y: scroll;
   }
-
+  .slick-initialized .slick-slide {
+    height: auto;
+  }
 
   .city__bg--0,.city__bg--1,.city__bg--2.city__bg--3.city__bg--4,.city__bg--5,.city__bg--6,.city__bg--7.city__bg--8{
     background-image: none;
@@ -3022,8 +3027,8 @@ a:hover {
     display: block;
     float: right;
     color: #FFFFFF;
-    font-size: 16px;
-    margin-right: 15px;
+    font-size: 1rem;
+    margin-right:  0.9375rem;
     letter-spacing : 0.8px;
   }
   .tracker__group{
@@ -3032,20 +3037,21 @@ a:hover {
   .tracker__group:last-of-type{
     display: block;
   }
-  h1{
-    font-size: 21px;
+  h1.header__title{
+    margin-top: 0.125rem;
+    font-size: 1.3125rem;
 
   }
   .header__container{
     width: 70%;
   }
   .nav-bar{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left:  0.9375rem;
+    padding-right:  0.9375rem;
   }
   .slick-slide > .container{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
   html {
     font-size: 100%;
@@ -3054,8 +3060,9 @@ a:hover {
     width: 100vw;
   }
   .question__text{
-    font-size: 16px;
+    font-size: font-size: 1rem;
     margin-bottom: 17px;
+    transform:translateY(0);
   }
   .question__container{
     display: block;
@@ -3069,57 +3076,90 @@ a:hover {
   }
   .mobile-select{
     -webkit-appearance: none;
-    width: 210px;
-    padding: 2px 15px 2px 15px;
+    width: 13.13rem;
+    padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
     border-radius: 0;
     border: 1px solid #cde1e5;
     background-color: transparent;
     background-image: url(../assets/images/desktop/thermo/triangle-white--1.svg);
-    background-size: 15px 15px;
+    background-size:  0.9375rem  0.9375rem;
     background-repeat: no-repeat;
-    background-position: 182px 6px;
+    background-position:  11.38rem 0.375rem;
     color: #FFFFFF;
+  }
+  .mobile-radio-group{
+    margin-bottom: .9rem;
+  }
+  .mobile-tab{
+    margin-left: 2.5625rem ;
   }
 
 
   input[type="radio"] {
     position: relative;
     display: inline-block;
-    border: 8px solid #cde1e5;
+    border: .35rem solid #61B3BC;
     border-radius: 100%;
     outline: none !important;
     -webkit-appearance: none;
+    transform: translateY(0.1875rem);
     color: #FFFFFF;
   }
 
   input[type="radio"]::before {
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     display: block;
     content: '';
     background: white;
-    padding-right: 10px;
+    padding-right:  0.5rem;
     border-radius: 100%;
-    width: 9px;
-    height: 9px;
+    width: 0.5rem;
+    height: 0.5rem;
   }
   input[type="radio"]:checked::before {
     background: #000000;
-    border-color: #cde1e5;
+    border-color: #c147F92;
   }
   .radio-text{
     color: #FFFFFF;
-    margin-left: 15px;
+    margin-left:  0.9375rem;
   }
   .mobile-radio{
     display: block;
   }
   .question__num-box{
-    margin-right: 18px;
+    margin-right: 1.125rem;
   }
   .currency-select{
-    margin-bottom: 17px;
+    margin-bottom: 1.063rem;
+  }
+  /*Q2*/
+  .container-dial {
+    display: block;
+  }
+  .dial__header--holder{
+    display: block;
+  }
+  .dial__holder {
+    width: 100vw;
+    margin-left: -4.125rem;
+  }
+  .dial__header--img{
+    display: none;
+  }
+  .mobile-radio-cont{
+    width: 100%;
+    display: block;
+  }
+  .dial__header--text{
+    font-family: "Univers", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    display: block;
+    width: 100%;
+    letter-spacing: 0.01125rem;
+    margin-bottom: 1rem;
   }
 
 
