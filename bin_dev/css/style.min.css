@@ -1405,7 +1405,8 @@ a.bttn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer; }
+  cursor: pointer;
+  display: none; }
   .dropdown__container:hover .dropdown__arrow {
     transform: translateY(2px); }
 
@@ -2924,6 +2925,8 @@ body {
 .results__score {
   font-size: 6.00rem;
   line-height: initial; }
+  .mac .results__score {
+    transform: translateY(0.8rem); }
   .results__score--1 {
     color: #fff;
     transform: translateY(-0.2rem); }
