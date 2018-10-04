@@ -631,14 +631,14 @@ var int4 = new Vue({
   	// }
   },  
 });
-var j = new Vue({
+var dial_seven = new Vue({
 	el: '#dat3',
   data: {
-  	a:'',
-  	b:'',
-  	c:'',
-  	d:'',
-  	e:'',  	
+  	a:"",
+  	b:"",
+  	c:"",
+  	d:"",
+  	e:"",  	
   },
   computed:{
   	a1: function(){
@@ -940,7 +940,7 @@ var summary = new Vue({
         + d.summary_user
         + e.summary_user
         + l.summary_user
-        + j.summary_user
+        + dial_seven.summary_user
         + g.summary_user
         + h.summary_user;
 
@@ -961,7 +961,7 @@ var summary = new Vue({
         d.summary_peers+
         e.summary_peers+
         l.summary_peers+
-        j.summary_peers+
+        dial_seven.summary_peers+
         g.summary_peers+
         h.summary_peers;         				
 
