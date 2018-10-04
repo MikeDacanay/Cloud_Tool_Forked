@@ -631,14 +631,14 @@ var int4 = new Vue({
   	// }
   },  
 });
-var j = new Vue({
+var dial_seven = new Vue({
 	el: '#dat3',
   data: {
-  	a:'',
-  	b:'',
-  	c:'',
-  	d:'',
-  	e:'',  	
+  	a:"",
+  	b:"",
+  	c:"",
+  	d:"",
+  	e:"",  	
   },
   computed:{
   	a1: function(){
