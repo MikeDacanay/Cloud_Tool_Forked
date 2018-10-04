@@ -1,0 +1,175 @@
+.thermo{
+	&__group{	
+		flex: 1 0;
+		
+	}
+
+	&__holder{
+		padding-top: 1.15rem;
+		padding-bottom: 2.40rem;
+		// DEV
+		position: relative;		
+		
+
+		& > *{
+			margin: auto;
+		}
+
+		&--1{
+			padding-bottom: 1.55rem;
+		}
+
+		&--2{
+			background-color: rgba(0,59,77,.2);
+		}
+		&--3{
+			background-color: rgba(0,59,77,.3);
+		}
+		&--4{
+			padding-top: 0.65rem;
+			padding-bottom: 1.80rem;
+		}
+		&--5{
+			padding-top: 0.65rem;
+			padding-bottom: 0.75rem;
+		}
+	}
+
+	&__overlay{
+		height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+	}
+	&__text{
+		font-size: 0.80rem;
+		line-height: 1.12;
+		color: #fff;
+		font-family: $font-lt;
+		text-align: center;
+		margin-bottom: 1.20rem;
+		
+		&:last-of-type{
+			margin-top: 1.05rem;
+			margin-bottom: 0;
+		}
+
+		&--1{
+			width: 69%;
+		}
+		&--2{
+			font-size: 0.70rem;
+		}
+
+	}
+// DEV
+	&__wrap{
+		background-color: orangered;
+		width: 1.60rem;
+		height: 12.00rem;
+		padding: 0.40rem 0.30rem;
+	}
+
+	&__image{
+		margin: auto;
+		margin-top: 1rem;
+		height: 2.10rem;
+
+		&--1{
+			width: 2.40rem;
+		}
+		&--2{
+			width: 3.60rem;
+		}
+		&--3{
+			width: 3.13rem;
+			height: 2.80rem;
+		}
+		&--4{
+			width: 1.65rem;
+			height: 2.30rem;
+		}
+		&--5{
+			width: 3.05rem;
+		}		
+
+		&--6{
+			width: 2.40rem;
+			height: 2.70rem;
+		}
+		&--7{
+			width: 2rem;
+			height: 2.70rem;	
+		}
+		&--8{
+			width: 3.20rem;
+			height: 2.70rem;	
+		}
+		&--9{
+			width: 2.68rem;
+			height: 2.70rem;	
+		}
+
+		&--10{
+			width: 3.60rem;
+		}
+		&--11,
+		&--15{
+			width: 4.10rem;	
+		}
+		&--12{
+			width: 4.85rem;	
+		}
+		&--13{
+			width: 3.10rem;	
+		}		
+		&--14{
+			width: 3.35rem;	
+		}	
+
+		&--10,
+		&--11,
+		&--12,
+		&--13,
+		&--14,
+		&--15{
+			height: 3.10rem;
+			display: flex;
+			align-items: center;
+		}
+
+	}
+
+
+
+	&__title{
+    color: #fff;
+    font-size: 0.90rem;
+    line-height: 1;
+    margin-top: 1.25rem;
+    text-align: center;
+
+    &--1{
+    	margin-top: 0.65rem;
+    	line-height: normal;    	
+    	& > span{
+    		display: block;
+    	}
+    }
+
+    &--2{
+    	margin-top: 0.70rem;
+    	line-height: normal;    	
+    	& > span{
+    		display: block;
+    	}
+    }
+
+    &--3{
+	    margin-top: 0.55rem;
+    }
+    &--4{
+    	margin-top: 1.05rem;
+    }    
+	}
+}

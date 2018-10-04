@@ -1,0 +1,280 @@
+.dial{
+	&__group{
+		display: flex;
+
+		&--1{
+			flex-direction: column;
+			align-items: center;
+		}
+		&--2{
+			// justify-content: center;
+			> .dial{
+				margin: 0 auto;
+			}
+		}
+		&--text{
+			font-size: 0.7rem;
+			line-height: 1.29;
+			color: #fff;
+			cursor: pointer;
+
+			&-2{
+		    justify-content: space-between;
+		    display: flex;
+		    width: 70%;
+		    cursor: pointer;
+
+		    &-2nd{
+		    	transform: translateX(-0.80rem);
+					cursor: pointer;
+		    }		    
+			}
+
+			&-3{
+		    justify-content: space-between;
+		    display: flex;
+				padding: 0 0.45rem;
+		    cursor: pointer;
+        width: 100%;
+        position: absolute;
+        margin-top: 2.50rem;
+		    > span > span{
+		    	height: 0;
+		    	line-height: 0;
+		    }
+			}
+		}		
+	}
+
+
+	&__holder{
+		height: 12.30rem;
+		flex: 0 0 13.00rem;
+		background-color: rgba(0,59,77,.2);
+		padding-top: 1.05rem;
+		border-radius: 1.05rem;
+		position: relative;
+		
+		&--1{
+			padding-top: 2rem;
+		}
+	}
+
+	&__overlay{
+		position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: calc(#{100%} - #{1.55rem});
+    z-index: 10;
+    border-radius: 1.05rem;
+	}
+
+
+	position: relative;
+	width: 6.50rem;
+	height: 3.25rem;
+	cursor: pointer;
+	
+	&__user{
+		position: absolute; 
+		width: 6.50rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: .99;
+	}
+
+	&__industry{
+		position: absolute; 
+		top: .5rem; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+		width: 5.5rem;
+
+		@include bph(875){
+			// // left: 0.53rem;
+	    width: 5.6rem;
+	    top: 6px;
+		}
+	}
+
+	&__crown{
+    height: 0.60rem;
+    width: 0.60rem;
+    background-color: #003B4D;
+    position: relative;
+    top: 2.95rem;
+    border-radius: 50%;
+    
+  	left: 0;
+		right: 0;
+		margin: 0 auto;
+	}		
+	&__hand{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0.14rem 2.25rem 0.14rem;
+    border-color: transparent transparent #003B4D transparent;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 50% 100%;		
+    top: 0.98rem;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		// &--1{
+	 //    border-width: none;
+	 //    border-color: none;	
+	 //    width: 150px;
+	 //    height: 150px;		
+		// }
+	}	
+	&__marker{
+		border-bottom: 1px solid #003B4D;
+		width: 1rem;
+		position: absolute;
+		z-index: 2;
+		@include bph(875){
+			width: 1rem;
+		}	
+		&--1{
+	    transform: rotate(60deg);
+	    left: 1.40rem;
+	    top: 0.85rem;
+			@include bph(875){
+				top: 11px;
+			}	
+		}
+		&--2{
+	    transform: rotate(-60deg);
+	    right: 1.40rem;
+	    top: 0.85rem;
+			@include bph(875){
+				top: 11px;	
+			}	
+	    &-a{
+
+	    }
+		}
+		// @include bph(875){
+		// 	top: 0.80rem;
+		// }		
+		&--3{
+	    transform: rotate(90deg) translateX(-50%);
+	    right: calc(50% + -0.50rem);
+	    top: 1.00rem;
+  		@include bph(875){
+				top: 1rem;
+			}	
+		}
+
+
+	}
+	&__header{
+		&--holder{
+			display: flex;
+			color: #fff;
+	    justify-content: center;
+		  align-items: center;
+			&--1{
+		    align-items: center;
+				height: 2.70rem;
+			}		
+			&--2{		  
+				align-items: flex-start;
+			}
+			// &--3{
+			// 	// flex-direction: column;
+			// }
+		}
+	
+		&--img{
+			// display: flex		;
+			position: relative;
+			&--1{
+		    flex: 0 0 3.10rem;
+				height: 2.25rem;
+			}
+			&--2{
+				height: 2.20rem;
+				width: 2.50rem;
+				display: flex;
+				align-items: start;
+
+				&-1{
+					height: 2.65rem;
+					width: 2rem;
+				}
+				&-2{
+					width: 2.90rem;
+					height: 2.15rem;
+				}
+				> *{
+					flex: 0 0 2.50rem;
+				}
+			}		
+			&--3{	
+				height: 2.30rem;
+				flex: 0 0 2.60rem;
+			}	
+			&--4{
+				height: 2.40rem;
+				flex: 0 0 2.40rem;
+			}	
+			&--5{
+				height: 2.30rem;
+				flex: 0 0 2.10rem;
+			}		
+			&--6{
+				margin-right: .5rem;
+				height: 2.35rem;
+				flex: 0 0 1.75rem;
+			}	
+			&--7{
+				height: 2.15rem;
+				flex: 0 0 2.95rem;
+			}		
+
+			&--8{
+				height: 2.55rem;
+				width: 2.55rem;
+				display: flex;
+				align-items: start;
+
+			}		
+			&--9{
+		    height: 2.10rem;
+		    flex: 0 0 3.05rem;
+			}								
+		}
+
+		&--text{
+			font-size: 0.90rem;
+			line-height: 1;
+			margin-left: 0.50rem;
+			&--1{
+				margin-left: 0.5rem;
+			}		
+			&--2{
+				margin-left: 0.55rem;
+				line-height: 1.17;
+				
+				&_1{
+					flex: 0 0 5.5rem;
+				}
+				&_2{
+					flex: 0 0 7.75rem;
+				}
+			}						
+		}
+	}
+
+	&__icon{
+		@include absCenter;
+		width: 100%;
+		height: 100%;
+	}
+}

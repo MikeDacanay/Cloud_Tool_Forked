@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Univers-Bold";
+    src: url("../fonts/Univers-LT-Std-65-Bold.ttf");
+    font-weight: normal;
+}
+@font-face {
+    /*55 Roman*/
+    font-family: "Univers";
+    src: url("../fonts/UniversLTStd.otf");
+    font-weight: normal;
+}
+@font-face {
+    /*45 Light*/
+    font-family: "Univers-lt";
+    src: url("../fonts/UniversLTStd-Light.otf");
+    font-weight: normal;
+}
+
+
+html {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+body {
+  /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.5em;
+  font-family: $font-lt;
+  font-weight: 400;
+  color: #4e5052;
+}
+
+a {
+  background-color: transparent;
+  cursor: pointer;
+  color: #1f4f82;
+  text-decoration: none;    
+  &:active{
+    outline: 0;  
+  }
+  &:hover{
+    outline: 0; 
+    text-decoration: underline;
+  }
+}
+
+.link{
+  &__none{
+    &:hover{
+      text-decoration: none;
+    }
+  }  
+}
+b,
+strong {
+  font-family: $font-bold;
+    font-weight: 400;
+}
+
+h1 {
+    color:#00758f;
+    line-height: normal;
+    font-family: $font-lt;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+h2{
+    line-height: 1.2em;
+    color:#00758f;
+    font-weight: 400;
+    font-family: $font-lt;
+}
+
+h3{
+    color: #003b4d;
+    font-family: $font-lt;
+    font-weight: 400;
+    line-height: 1.555555555555556em;
+}
+h4{    
+    color: #00758f;
+    font-family: $font-bold;
+    font-weight: 400;
+}
+h6{
+    color: #00758f;
+    font-weight: normal;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.3em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.cover-title{
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: .01em;
+  color: $color-white-1;
+  
+  &--main{
+    font-family: $font-bold;
+    font-size: $big-font-size-5;
+    display: block;
+  }
+  &--sub{
+    font-family: $font-reg;
+    display: block;
+    font-size: $big-font-size-2;    
+  }  
+}
+
+.header{
+  color: $color-blue-1;
+
+  &--main{
+    font-family: $font-bold;
+    font-size: 2.10;
+    display: block;
+  }
+  &--sub{
+    display: block;
+  }
+  
+}
+
+.pg{
+  font-size: $default-font-size;
+  line-height: 1.5em;
+  &:not(:last-child){
+    margin-bottom: 1.20;
+  }
+}
+.container{
+  &-legend{
+    &__text{
+      font-size: 0.90rem;
+      line-height: .9rem;
+      color: #fff;
+    }
+  }
+}
+
+.introduction{
+  &__header{
+    color: #fff;
+    font-family: $font-bold;
+  
+    &--sub{
+      font-size: 2.40rem;
+    }
+    &--main{
+      font-size: 3.60rem;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+  } 
+
+  &__text{
+    color: #fff;
+    &--1{
+      font-size: 1.10rem;
+      letter-spacing: .04em;
+      line-height: 2.40rem;
+    }
+    &--2{
+      font-size: 0.90rem;
+      line-height: 1.33;
+      letter-spacing: .01em;
+    }
+  }
+
+  &__paragraph{
+    font-size: 0.90rem;
+    line-height: 1.20rem;
+    color: #fff;
+    &--1{
+      width: 62%;
+    }
+  } 
+}

@@ -1,0 +1,18 @@
+.contact-bar{
+    width: 2.75rem;
+    height: 13.00rem;
+    float: right;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    cursor: pointer;
+    top: 13.10rem;
+    background-image: url(../assets/images/desktop/smedia-icons.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    &__cell{
+        flex: 1 0;
+        width: 100%;
+    }
+}

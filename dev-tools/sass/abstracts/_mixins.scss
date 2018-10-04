@@ -1,0 +1,99 @@
+@mixin clearfix{
+	&::after{
+		content:'';
+		display: table;
+		clear:	both;
+	}
+}
+
+@mixin artboard-top-center{	 
+  transform-origin: top center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin absCenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-lame{
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;	
+}
+
+@mixin dial-property($args...){
+	height: divide_width($args);
+	width: $args;
+	border-radius: $args $args 0 0;
+	position: absolute;
+}
+
+@mixin bp($point) {
+  @media only screen and (max-width: $point+px){ @content; }           
+}
+
+@mixin bph($point){
+  @media only screen and (max-height: $point+px){ @content; }             
+}
+
+
+
+
+
+// MEDIA QUERY MANAGER
+
+/*
+		0-767px:      Phone
+		768-910px:    Tablet portrait
+		910-1024:     Tablet landscape
+		1025- x:      Desktop
+*/
+
+@mixin respond-phone{
+	@media (max-width: 	767px){ @content };
+}
+
+/*
+$Breakpoint argument choices:
+-phone
+-port
+-land
+-desk
+*/
+
+// ORDER: Base + typography > gen layout + grid > page layout > components
+
+@mixin respond($br){
+	
+	@if $br == port{
+		@media only screen and (max-width: 	910px){ @content };
+	}
+	@if $br == l-height{
+		@media screen and (max-height: 875px){ @content };
+	}	
+	@if $br == phone{
+		@media only screen and (max-width: 	767px){ @content };
+	}
+	@if $br == land{
+		@media only screen and (max-width: 	1024px){ @content };
+	}
+	@if $br == port{
+		@media only screen and (max-width: 	910px){ @content };
+	}
+	@if $br == phone{
+		@media only screen and (max-width: 	767px){ @content };
+	}
+}

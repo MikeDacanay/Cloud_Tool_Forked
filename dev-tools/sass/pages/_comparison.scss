@@ -1,0 +1,20 @@
+.container-comparison{
+	padding-top: 2.10rem;
+	padding-bottom: 0.75rem;
+	padding-right: 0.45rem;	
+	float: left;
+	width: 100%;
+	&__header{
+		height: 16.80rem;
+		background-color: orangered;
+	}
+}
+
+.backdrop{
+	width: 10000%;
+	height: 100%;
+	position: absolute;
+		&--1{
+			background-color: rgba(0,0,0,.2);
+		}	
+}

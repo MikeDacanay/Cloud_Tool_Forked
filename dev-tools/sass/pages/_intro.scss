@@ -1,0 +1,138 @@
+.question{
+	&__container{
+		display: flex;
+    margin-top: 2.40rem;
+	}
+	&__group{
+		display: flex;
+		flex-direction: column;
+		flex: 0 0 19rem;
+		&:not(:last-of-type){
+			margin-right: 0.75rem;
+		}
+	}	
+	&__header{
+		display: flex;
+		align-items: baseline;		
+	}
+	&__num-box{
+		height: 1.40rem;
+		flex: 0 0 1.40rem;
+		background-color: rgba(255,255,255,.8);	
+		margin-right: 0.45rem;
+		
+		@include flexCenter;
+	}
+	&__num{
+		font-size: 0.90rem;
+		color: #003B4D;
+		.mac & {
+			transform: translateY(0.1em);
+		}
+	}
+	&__text{
+		font-size: 1.05rem;
+		color: #fff;
+    transform: translateY(-0.20rem);
+		margin-bottom: 0.60rem;
+	}
+
+
+	&__content{
+		width: 19rem;
+		height: 11.35rem;
+		background-color: rgba(255,255,255,.2);
+
+		&--1{			
+			padding: 0.40rem 0;	
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			transition: all .2s;
+		}
+
+		&--2{
+			position: relative;
+			height: 11.35rem;				
+			width: 16.40rem;
+			padding-top: 0.70rem;
+		}		
+	}
+
+	&__revenue{
+		font-size: 0.90rem;
+		line-height: normal;
+		display: flex;
+		align-items: center;
+		height: 1.35rem;
+		color: #fff;
+		padding-left: 1.05rem;
+		cursor: pointer;
+		transition: all .1s;
+
+		&:not(:last-child){
+			margin-bottom: 0.70rem;
+		}
+
+		&:hover{
+			color: #003B4D;
+			// transform: translateY(-2px) rotate(0.02deg);		
+			background-color: rgba(255,255,255,.8);
+		}
+		&:active{
+			// transform: translateY(0) rotate(0.02deg);;
+			background-color: rgba(255,255,255,.6);
+		}
+
+		&--active{
+			color: #003B4D;
+			background-color: rgba(255,255,255,.6);
+		}
+	}
+
+
+	&__sector{
+		font-size: 0.75rem;
+		color: #fff;
+		display: flex;
+		line-height: normal;
+    flex: 0 0 50%;
+    height: 1.35rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .1s;
+		margin-bottom: 0.95rem;
+
+    &:nth-child(10),
+    &:nth-child(9){
+			margin-bottom: 0;
+    }    
+		
+		&--1 > span{
+			transform: translateX(1.10rem);	
+		}
+		&--2 > span{									
+			transform: translateX(1.65rem);			
+		}
+
+		&:hover{
+			color: #003B4D;
+			// transform: translateY(-2px) rotate(0.02deg);		
+			background-color: rgba(255,255,255,.8);
+		}
+		&:active{
+			// transform: translateY(0) rotate(0.02deg);
+			background-color: rgba(255,255,255,.6);
+		}
+
+		&--active{
+			color: #003B4D;
+			background-color: rgba(255,255,255,.6);
+		}
+	}
+
+
+
+}
+

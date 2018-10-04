@@ -1,0 +1,72 @@
+img {
+  border: 0;
+  max-width: 100%;
+  max-height: 100%;	
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.img-right img, .img-responsive img{
+    width: 100%;
+}
+
+.logo__container{
+	height: 2.40rem;
+	width: 7.30rem;
+	margin-right: auto;
+
+	&--1{
+		width: 9.25rem;
+		height: 3.00rem;
+		& > img{
+			width: 100%;
+			height: 100%;
+		}
+		&-1{
+	    margin-right: 2.50rem;
+		}
+	}
+
+	&--2{
+		width: 10.85rem;
+		height: 2.40rem;
+		margin-right: 2.50rem;
+	}
+	&--3{
+		width: 9.39rem;
+		height: 4.00rem;		
+		margin-right: 0;
+	}	
+}
+
+.img{
+	&--1{
+		height: 6.85rem;
+		flex: 0 0 12.00rem;
+		margin-right: 0.80rem;
+	}
+}
+
+.t-nail{
+	flex: 0 0 12.00rem;
+	height: 6.85rem;
+	
+	&--1{
+		margin-right: 0.90rem;
+	}
+}
+
+.composition{
+	position: absolute;
+	& > *{
+		width: 100%;
+		height: 100%;
+	}
+	&--1{
+		width: 13.98rem;
+		height: 26.85rem;	
+		right: 0;
+	}
+}

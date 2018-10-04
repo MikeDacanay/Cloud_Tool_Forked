@@ -1,0 +1,109 @@
+.map-composition{
+	// fill: currentColor;
+	// transition: transform .2s;	
+
+	
+	&__holder{
+		color: #fff;
+		position: absolute;
+		transition: transform .2s;	
+		cursor: pointer;
+
+		// &:hover{
+		// 	transform: scale(1.03) rotate(0.02deg);		
+		// }
+		// &:active{
+		// 	transform: scale(1.01) rotate(0.02deg);;
+		// }
+
+
+		&--selected{
+			color: #003B4D;			
+		}
+
+		&--na{
+			width: 7.00rem;
+			height: 5.45rem;
+			top: 1.10rem;
+	    left: 1.40rem;
+		}	
+
+		&--sa{
+			width: 2.32rem;
+			height: 4.07rem;
+			top: 6.25rem;
+	    left: 4.90rem;
+		}	
+
+		&--eu{
+			width: 8.84rem;
+			height: 3.67rem;
+			top: 1.36rem;
+	    left: 8.41rem;
+		}	
+
+		&--af{
+			width: 3.76rem;
+			height: 4.19rem;
+			left: 8.12rem;
+			top: 4.76rem;
+		}	
+
+		&--as{			
+	    width: 6.70rem;
+    	height: 6.10rem;
+			left: 10.70rem;
+			top: 3.61rem;
+		}		
+
+		&--aus{
+			width: 3.04rem;
+			height: 2.22rem;
+			left: 14.36rem;
+			top: 7.51rem;
+		}		
+	}
+
+
+	&__na{
+		width: 7.00rem;
+		height: 5.45rem;
+		// top: 1.10rem;
+    // left: 1.40rem;
+	}	
+
+	&__sa{
+		width: 2.32rem;
+		height: 4.07rem;
+		// top: 6.25rem;
+    // left: 4.90rem;
+	}	
+
+	&__eu{
+		width: 8.84rem;
+		height: 3.67rem;
+		// top: 1.36rem;
+    // left: 8.41rem;
+	}	
+
+	&__af{
+		width: 3.76rem;
+		height: 4.19rem;
+		// left: 8.12rem;
+		// top: 4.76rem;
+	}	
+
+	&__as{
+		width: 5.83rem;
+		height: 3.87rem;
+		// left: 10.70rem;
+		// top: 3.61rem;
+	}		
+
+	&__aus{
+		width: 3.04rem;
+		height: 2.22rem;
+		// left: 14.36rem;
+		// top: 7.51rem;
+	}			
+}

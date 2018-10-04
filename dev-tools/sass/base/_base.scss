@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+*:focus{
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow:hidden;
+  font-size: 125.00%;
+  box-sizing: border-box;
+  @include artboard-top-center;
+
+  @include bph(930){
+    font-size: 84%;        //67% from 20px base
+  }
+
+  @include respond(phone){
+    font-size: 46.875%;
+  }
+
+}
+
+body {
+  @include artboard-top-center;
+
+}
+
+// @media screen and (max-height: 875px) {
+//     body{
+//         transform: scale(0.75);
+//         // transform-origin: top center;
+//     }
+// }
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+
+abbr[title] {
+  border-bottom: 0.50rem dotted;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+section{
+  &.slick-slide{
+    overflow: hidden;
+  }
+}
+

@@ -1,0 +1,168 @@
+.meter{
+
+	// testing
+	margin-top: 0.25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.40rem 0.30rem;
+	width: 1.60rem;
+	position: relative;
+	background-color: rgba(0,59,77,.2);
+	border-radius: 0.80rem;
+	margin-bottom: 1.05rem;
+	&__sector{
+		position: absolute; 			
+		display: flex;
+		// top: 72%;
+		top: 81%;
+		width: 3.29rem;
+		// transition: top .4s ease-in;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+
+	&__sector-pointer{
+		width: 0.69rem;
+		height: 0.80rem;
+		border-style: solid;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+		&--1{
+			// border-width: 0.40rem 0 0.40rem 0.69rem;
+			// border-color: transparent transparent transparent #F29111;
+	    margin-right: auto;
+	  	background-image: url('../assets/images/desktop/thermo/triangle-orange.svg');
+		}
+		&--2{
+			background-image: url('../assets/images/desktop/thermo/triangle-orange--1.svg');
+			// border-width: 0.4rem 0.69rem 0.4rem 0;
+			// border-color: transparent #F29111 transparent transparent;
+		}
+	}
+
+
+	&__group{
+		display: inherit;
+		position: relative;
+
+		&::before{
+	    content: "";
+      border-top: solid 0.1rem rgba(255, 255, 255, 0.4);
+	    width: 1rem;
+	    position: absolute;
+	    margin: 0 auto;
+	    left: 0;
+	    right: 0;
+
+	    @include bph(875){
+		    border-top: solid 1.34px rgba(255,255,255,.2);
+	    	width: 10.72px;
+	    }
+		}
+
+		&:first-of-type{
+			margin-top: 0.70rem;
+		}
+		&:last-of-type{
+			margin-bottom: .7rem;
+			&::after{
+		    content: "";
+	      border-top: solid 0.1rem rgba(255, 255, 255, 0.4);
+		    width: 1rem;
+		    position: absolute;
+		    margin: 0 auto;
+		    left: 0;
+		    right: 0;
+		    bottom: 0.00rem;
+		    // z-index: -1;
+			}			
+		}
+	}
+
+	&__button{
+
+		width: 0.80rem;
+		height: 0.69rem;
+		padding: 0;
+		border: none;
+		// background-image: url('../assets/images/desktop/thermo/triangle-white.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		// border-style: solid;
+		// border-width: 0 0.40rem 0.69rem 0.40rem;
+		// border-color: transparent transparent #fff transparent;		
+		// height: 0.70rem;
+		// width: 0.80rem;
+		// @include button-lame;
+		background-color: transparent;
+		transform: scale(1);
+		transition: all .2s ease;
+		display: flex;
+		justify-content: center;
+
+		&:hover{
+			transform: scale(1.07) translateY(-	.050rem);
+		}
+		&:active{
+			transform: scale(1.05) translateY(-	.050rem);
+		}		
+
+		&--2{
+			// border-width: 0.69rem 0.40rem 0 .4rem;
+			// border-color: #fff transparent transparent  transparent;
+			// background-image: url('../assets/images/desktop/thermo/triangle-white--1.svg');
+		}
+	}
+
+
+	&__radio-input{
+		display: none;
+	}
+
+	&__radio-label{	
+		cursor: pointer;
+		position: relative;
+    display: inline-block;
+	}
+
+	&__radio-button{
+    height: 1.20rem;
+    width: 1rem;
+    background-color: transparent;
+		display: block;
+		transition: background-color .3s ease, transform .2s ease;
+		transform: scale(1);
+		// &::after{
+		// 	content: "";
+		// 	border-radius: 50%;
+	 //    height: 1.00rem;
+	 //    width: 2.00rem;
+		// }	
+
+		&--1{
+	    border-top-left-radius: 0.20rem;
+    	border-top-right-radius: 0.20rem;
+		}
+		&--2{
+	    border-bottom-left-radius: 0.20rem;
+    	border-bottom-right-radius: 0.20rem;
+		}		
+
+		// &:active{
+		// 	transform: scale(1.05);
+		// }
+	}	
+	
+	&__radio-active{
+		background-color: #BDE6EE;
+	}
+
+	&__radio-active--1{
+    border-top-left-radius: 0.20rem;
+		border-top-right-radius: 0.20rem;
+    margin-bottom: -0.20rem;
+    margin-top: 0.20rem;
+  }
+}

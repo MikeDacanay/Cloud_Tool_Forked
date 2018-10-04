@@ -1,0 +1,3 @@
+@function divide_width($x){
+  @return calc(#{$x}/2);
+}
