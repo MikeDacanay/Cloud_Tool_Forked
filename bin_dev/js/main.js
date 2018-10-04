@@ -374,7 +374,7 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
 var page_trigger4= function(class_trigger,arr){
     var mover=true;
 
-    if(arr.length<2){
+    if(arr.length<3){
         var mover=false;        
     };
 
@@ -1362,8 +1362,7 @@ $(document).ready(function() {
                 $('.check-boxer__holder--'+value+' .check-boxer__checkmark--1').css('visibility','visible');
             }            
         }
-
-        console.log(int4.a);
+        page_trigger4("sixth",int4.a);
     });
 
     $('.slider__label').click(function(){
