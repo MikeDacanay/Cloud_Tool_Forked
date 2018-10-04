@@ -625,7 +625,7 @@ var int4 = new Vue({
   	// 	for(i in this._data){  			  	
   	// 		if(y === this._data[i]){
   	// 			this._data[i] = '';
-  	// 		}
+  	// 		}asasdfasdf
   	// 	}
   	// 	this[x]=y;
   	// }
