@@ -1406,7 +1406,7 @@ a.bttn {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  display: none; }
+   }
   .dropdown__container:hover .dropdown__arrow {
     transform: translateY(2px); }
 
