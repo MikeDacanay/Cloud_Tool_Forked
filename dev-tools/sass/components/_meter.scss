@@ -134,6 +134,8 @@
 		display: block;
 		transition: background-color .3s ease, transform .2s ease;
 		transform: scale(1);
+	  margin-bottom: -0.20em;
+	  margin-top: 0.20em}		
 		// &::after{
 		// 	content: "";
 		// 	border-radius: 50%;
@@ -153,7 +155,7 @@
 		// &:active{
 		// 	transform: scale(1.05);
 		// }
-	}	
+
 	
 	&__radio-active{
 		background-color: #BDE6EE;
@@ -165,4 +167,4 @@
     margin-bottom: -0.20rem;
     margin-top: 0.20rem;
   }
-}
+}	
