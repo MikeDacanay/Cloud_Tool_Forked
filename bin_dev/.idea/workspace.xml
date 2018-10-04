@@ -39,8 +39,8 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="1393" column="20" selection-start-line="1393" selection-start-column="20" selection-end-line="1393" selection-end-column="20" />
+            <state relative-caret-position="193">
+              <caret line="1733" column="34" selection-start-line="1733" selection-start-column="34" selection-end-line="1733" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -361,7 +361,7 @@
       <workItem from="1538432099259" duration="325000" />
       <workItem from="1538493562462" duration="4000" />
       <workItem from="1538493573595" duration="35738000" />
-      <workItem from="1538664095391" duration="5110000" />
+      <workItem from="1538664095391" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1537971927882</created>
@@ -524,11 +524,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538671363573</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="dd always visible">
+      <created>1538671456488</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538671456488</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48862000" />
+    <option name="totallyTimeSpent" value="49194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="57" width="1320" height="797" extended-state="0" />
@@ -580,7 +587,8 @@
     <MESSAGE value="Dave's QA" />
     <MESSAGE value="Background fixes. AGAIN." />
     <MESSAGE value="map click" />
-    <option name="LAST_COMMIT_MESSAGE" value="map click" />
+    <MESSAGE value="dd always visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd always visible" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="1393" column="20" selection-start-line="1393" selection-start-column="20" selection-end-line="1393" selection-end-column="20" />
+        <state relative-caret-position="193">
+          <caret line="1733" column="34" selection-start-line="1733" selection-start-column="34" selection-end-line="1733" selection-end-column="34" />
           <folding />
         </state>
       </provider>
