@@ -1499,8 +1499,10 @@ $(document).ready(function() {
     $('.map-composition__holder').click(function(){    
         // For currency dropdown
         $('.dropdown__container').css('display','flex');
+
         CurrencyConversion(region_currency[$(this).attr('value')],region_currency[$(this).attr('value')][0] );
         setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
+            $('.dropdown__content').removeClass('dropdown__content--active');
         }, 100);
 
         a.region=$(this).attr('value');
