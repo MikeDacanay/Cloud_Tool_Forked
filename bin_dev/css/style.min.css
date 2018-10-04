@@ -2733,12 +2733,12 @@ body {
     transform: translateX(1.65rem); }
   .question__sector:hover {
     color: #003B4D;
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.6); }
   .question__sector:active {
-    background-color: rgba(255, 255, 255, 0.6); }
-  .question__sector--active {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .question__sector--active,.question__sector--active:hover {
     color: #003B4D;
-    background-color: rgba(255, 255, 255, 0.6); }
+    background-color: rgba(255, 255, 255, 0.8); }
 
 .results__header {
   color: #fff;
