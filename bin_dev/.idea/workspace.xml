@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="1305" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1305" selection-end-column="0" />
+            <state relative-caret-position="159">
+              <caret line="1506" column="16" selection-start-line="1506" selection-start-column="16" selection-end-line="1506" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -363,7 +361,7 @@
       <workItem from="1538432099259" duration="325000" />
       <workItem from="1538493562462" duration="4000" />
       <workItem from="1538493573595" duration="35738000" />
-      <workItem from="1538664095391" duration="4713000" />
+      <workItem from="1538664095391" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1537971927882</created>
@@ -512,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538667341990</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="map click">
+      <created>1538671101125</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1538671101125</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48465000" />
+    <option name="totallyTimeSpent" value="48771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="57" width="1320" height="797" extended-state="0" />
@@ -567,7 +572,8 @@
     <MESSAGE value="Some mobile, Dave's QA" />
     <MESSAGE value="Dave's QA" />
     <MESSAGE value="Background fixes. AGAIN." />
-    <option name="LAST_COMMIT_MESSAGE" value="Background fixes. AGAIN." />
+    <MESSAGE value="map click" />
+    <option name="LAST_COMMIT_MESSAGE" value="map click" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="1305" column="0" selection-start-line="1239" selection-start-column="0" selection-end-line="1305" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="1506" column="16" selection-start-line="1506" selection-start-column="16" selection-end-line="1506" selection-end-column="16" />
           <folding />
         </state>
       </provider>

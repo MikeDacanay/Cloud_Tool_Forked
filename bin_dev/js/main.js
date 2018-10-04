@@ -1233,7 +1233,6 @@ $(document).ready(function() {
         $('.dropdown__container, .dropdown__content').click(function(){
             $('.dropdown__content').toggleClass('dropdown__content--active');
         });
-
     });
 
     function CurrencyConversion(curr, currsign){
@@ -1291,7 +1290,7 @@ $(document).ready(function() {
 
 
 
-                $('#dropdown__text').text(curr_sign + currency );
+                $('#dropdown__text').text(curr_sign + " " + currency );
                 $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
@@ -1505,7 +1504,7 @@ $(document).ready(function() {
         $('.dropdown__container').css('display','flex');
         CurrencyConversion(region_currency[$(this).attr('value')],region_currency[$(this).attr('value')][0] );
         setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
-        }, 1000);
+        }, 100);
 
         a.region=$(this).attr('value');
         if($('.map_active')[0] !== undefined){
