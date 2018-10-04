@@ -36,10 +36,10 @@ var region_currency = {
         ['US Dollar', '$','USD']
     ],
     'eu': [
+        ['Euro','€','EUR'],
         ['Bulgarian Lev','лв','BGN'],
         ['Czech Koruna','Kč','CZK'],
         ['Denar','ден','MKD'],
-        ['Euro','€','EUR'],        
         ['Norwegian Krone','kr','NOK'],
         ['Pound Sterling','£','GBP'],
         ['Swedish Krona','kr','SEK'],
@@ -49,6 +49,7 @@ var region_currency = {
         ['US Dollar', '$','USD']
     ],
     'af': [
+        ['South African Rand','R','ZAR'],
         ['Algerian Dinar','د.ج','DZD'],
         ['Cape Verde Escudo','$','CVE'],
         ['CFA Franc BCEAO','₣','XAF'],
@@ -62,9 +63,9 @@ var region_currency = {
         ['US Dollar', '$','USD']        
     ],
     'na': [
+        ['US Dollar', '$','USD'],
         ['Canadian Dollar', '$','CAD'],
         ['Cayman Islands Dollar', '$','KYD'],
-        ['US Dollar', '$','USD']
     ],
     'sa': [
         ['Brazilian Real','R$','BRL'],
@@ -234,8 +235,8 @@ var show_next= function(arr){
   }
 };
 
-var page_trigger1= function(class_trigger,check,arr,arr1){   
-
+var page_trigger1= function(class_trigger,check,arr,arr1){
+    console.log(check);
     var mover = true;
 
     for(var i=0; i < check.length; i++){
@@ -1285,12 +1286,8 @@ $(document).ready(function() {
                     calc2= Math.round(calc2) + ' Million';
                 }
 
-                console.log('option text'+ option_this.text());
-
-
-
-
-                $('#dropdown__text').text(curr_sign + " " + currency );
+                var option_text=region_currency[a.region][0][0];
+                $('#dropdown__text').text(option_text );
                 $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
@@ -1520,7 +1517,7 @@ $(document).ready(function() {
         $(this).toggleClass('map_active');
 
         // For currency options
-        $('.dropdown__text').text($('.dropdown__option--0').innerHTML);
+      //  $('.dropdown__text').text($('.dropdown__option--0').innerHTML);
         $('.dropdown__option').remove();    
         for(var i=0;i<region_currency[a.region].length;i++){        
             $( ".dropdown__content" ).append( 
