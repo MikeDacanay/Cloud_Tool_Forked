@@ -702,12 +702,12 @@ var dial_seven = new Vue({
 			return dial_path;		
   	},  
 		summary_user: function(){
-			var summary_user=(j.a/180)+(j.b/180)+(j.c/180)+(j.d/180)+(j.e/180);
+			var summary_user=(dial_seven.a/180)+(dial_seven.b/180)+(dial_seven.c/180)+(dial_seven.d/180)+(dial_seven.e/180);
 			summary_user=(summary_user/5)/7;
 			return summary_user;
 		},
 		summary_peers: function(){
-			return (((j.a1/180)+(j.b1/180)+(j.c1/180)+(j.d1/180)+(j.e1/180))/5)/7;
+			return (((dial_seven.a1/180)+(dial_seven.b1/180)+(dial_seven.c1/180)+(dial_seven.d1/180)+(dial_seven.e1/180))/5)/7;
 		},	
   },
   methods:{
