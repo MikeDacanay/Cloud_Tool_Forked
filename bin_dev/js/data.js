@@ -968,24 +968,55 @@ var summary = new Vue({
 			return (isNaN(aggregate_user_score)?0:(aggregate_user_score*100).toFixed(0));
 		},
 		uservpeer: function(){    				
-			// var results_text= 'Congratulations! Your business is ahead of its peers. A score in this range means that your company realizes the business value in upgrading to the Cloud.';
 			var text;
 			if(this.user && this.peers){
 				if(Number(summary.user) > Number(summary.peers)){
-					text = 'Congratulations! Your score indicates that you are ahead of your peers with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
+					text = 'Congratulations! Your score indicates that you are ';
 				}
 				if(Number(summary.user) < Number(summary.peers)){
-					text = 'Your score indicates that you are behind your peers with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
+					text = 'Your score indicates that you are ';
 				}
 				if(Number(summary.user) === Number(summary.peers)){
-					text = 'Your score indicates that you are on par with your peers with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
+					text = 'Your score indicates that you are ';
 				}
 				return text;
 			}else{
 				return '';
-			}
-
-			
+			}			
 		},		
+		uservpeer1: function(){    				
+			var text;
+			if(this.user && this.peers){
+				if(Number(summary.user) > Number(summary.peers)){
+					text = 'ahead of your peers';
+				}
+				if(Number(summary.user) < Number(summary.peers)){
+					text = 'behind your peers';
+				}
+				if(Number(summary.user) === Number(summary.peers)){
+					text = 'on par with your peers';
+				}
+				return text;
+			}else{
+				return '';
+			}			
+		},
+		uservpeer2: function(){    				
+			var text;
+			if(this.user && this.peers){
+				if(Number(summary.user) > Number(summary.peers)){
+					text = ' with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
+				}
+				if(Number(summary.user) < Number(summary.peers)){
+					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
+				}
+				if(Number(summary.user) === Number(summary.peers)){
+					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that come with cloud adoption.';
+				}
+				return text;
+			}else{
+				return '';
+			}			
+		},				
 	},
 });

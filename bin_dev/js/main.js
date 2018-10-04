@@ -1699,6 +1699,7 @@ var flag=false;
 
 
 $('.book-slider').on('afterChange', function(event, slick, currentSlide, nextSlide) {
+
     page_tracker = currentSlide;
     $('html, body').animate({ scrollTop: 0}, 200);
     var lastSlide = $('section.slick-slide:not(.slick-cloned)').length - 1;
