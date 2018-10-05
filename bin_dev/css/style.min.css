@@ -246,6 +246,10 @@ $Breakpoint argument choices:
   width: auto;
   z-index: 0;
   position: relative; }
+  .slick-slide > .container--4 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0; }
 
 .slide-page {
   position: absolute;
@@ -558,8 +562,16 @@ textarea {
     font-family: Univers-Bold, Arial, Helvetica, sans-serif;
     font-size: 2.10;
     display: block; }
+    .header--main-1 {
+      font-size: 2.6rem;
+      color: #fff;
+      line-height: 2.81rem; }
   .header--sub {
     display: block; }
+    .header--sub-1 {
+      font-family: Univers-lt, Arial, Helvetica, sans-serif;
+      color: #fff;
+      font-size: 2.4rem; }
 
 .pg {
   font-size: 0.8rem;
@@ -768,6 +780,9 @@ img.inline {
 .mar-top-large--6 {
   margin-top: 2.50rem; }
 
+.mar-top-large--11 {
+  margin-top: 2.60rem; }
+
 .mar-top-large--1 {
   margin-top: 2.75rem; }
 
@@ -861,6 +876,11 @@ img.inline {
 
 [dir='rtl'] .slick-next {
   right: auto; }
+
+.arrow__dd {
+  width: 0.95rem;
+  height: 2.15rem;
+  margin-left: auto; }
 
 button,
 input,
@@ -1775,6 +1795,10 @@ ul.no-dots-ul {
   .nav-bar--1 {
     padding-top: 1.52rem;
     padding-bottom: 1.52rem; }
+  .nav-bar--2 {
+    width: 63.10rem;
+    margin: 0 auto;
+    position: relative; }
 
 .tracker__container {
   display: flex; }
@@ -2294,9 +2318,6 @@ table {
   position: relative; }
   .content-holder--1 {
     height: 100%; }
-  .content-holder--2 {
-    overflow: auto;
-    height: 100%; }
 
 .cover-text-box {
   background-color: orangered;
@@ -2368,6 +2389,8 @@ table {
   position: relative;
   margin: 0 auto;
   overflow: hidden; }
+  .main_container--1 {
+    width: 100%; }
 
 .book-slider {
   width: 100%;
@@ -2630,9 +2653,6 @@ body {
   opacity: .99; }
 
 .container-comparison {
-  padding-top: 2.10rem;
-  padding-bottom: 0.75rem;
-  padding-right: 0.45rem;
   float: left;
   width: 100%; }
   .container-comparison__header {
@@ -2650,6 +2670,14 @@ body {
   position: absolute; }
   .backdrop--1 {
     background-color: rgba(0, 0, 0, 0.2); }
+
+.comparison__content {
+  width: 63.10rem;
+  padding-left: 72px;
+  padding-top: 2.10rem;
+  padding-bottom: 0.75rem;
+  margin: 0 auto;
+  padding-right: 0.45rem; }
 
 .question__container {
   display: flex;

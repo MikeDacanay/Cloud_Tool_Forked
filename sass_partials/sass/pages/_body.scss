@@ -3,6 +3,9 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
+  &--1{
+    width: 100%;
+  }
 }
 
 .book-slider {

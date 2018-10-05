@@ -132,10 +132,21 @@ textarea {
     font-family: $font-bold;
     font-size: 2.10;
     display: block;
+    
+    &-1{
+      font-size: 2.6rem;
+      color: #fff;
+      line-height: 2.81rem;
+    }
   }
   &--sub{
     display: block;
-  }
+    &-1{
+      font-family: $font-lt;
+      color: #fff;
+      font-size: 2.4rem;
+    }
+  }  
   
 }
 

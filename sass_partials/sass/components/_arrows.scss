@@ -72,3 +72,11 @@
 [dir='rtl'] .slick-next {
   right: auto;
 }
+
+.arrow{
+  &__dd{
+    width: 0.95rem;
+    height: 2.15rem;
+    margin-left: auto;
+  }
+}

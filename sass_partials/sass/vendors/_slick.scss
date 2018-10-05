@@ -7,6 +7,11 @@
     width: auto;
     z-index: 0;
     position: relative;  
+    &--4{
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+    }
 }
 
 .slide-page {
