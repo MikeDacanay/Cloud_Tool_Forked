@@ -13,7 +13,13 @@
 	}	
 	&__header{
 		display: flex;
-		align-items: baseline;		
+		align-items: baseline;
+		&--1{
+	    padding-left: 4.65rem;
+			&:not(:last-of-type){
+				margin-bottom: 1.50rem;
+			}		
+		}		
 	}
 	&__num-box{
 		height: 1.40rem;
@@ -22,6 +28,10 @@
 		margin-right: 0.45rem;
 		
 		@include flexCenter;
+	
+		&--1{
+			margin-right: 0.80rem;
+		}
 	}
 	&__num{
 		font-size: 0.90rem;
@@ -35,6 +45,9 @@
 		color: #fff;
     transform: translateY(-0.20rem);
 		margin-bottom: 0.60rem;
+		&--1{			
+			margin-bottom: 0;
+		}
 	}
 
 
@@ -132,8 +145,12 @@
 			background-color: rgba(255,255,255,.8);
 		}
 	}
-
-
-
+	&__answer{
+		color: #BDE6EE;
+		font-family: $font-bold;
+		font-size: 1.05rem;		
+		display: block;
+    transform: translateY(0.15rem);
+	}
 }
 
