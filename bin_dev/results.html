@@ -9,7 +9,15 @@
 
 	  <!-- Device Size Detection -->
 	  <script type="text/javascript">
-	      var hashRoot = '/page/';
+		  $(document).ready(function () {
+			  var options = {
+				  iframe: true,
+				  target:'#output1'
+			  }
+			  $('#form1048').ajaxForm(options);
+			  });
+
+			  var hashRoot = '/page/';
 	      var init = '';
 	      var hash = window.location.hash.split('/');
 	      var hashVal = hash[2];
@@ -169,12 +177,11 @@
 		<script src="js/jquery.knob.min.js"></script>
 		<script src="js/jquery.redrawKnob.js"></script>				
 		<script type="text/javascript" src="slick/slick.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>	
-		<script src="js/videos_and_popups.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 
 		<script type="text/javascript" src="js/datasets.js"></script>
 		<script type="text/javascript" src="js/data.js"></script>
-		<script src="js/jquery.widowFix.js"></script>					
+		<script src="js/form.js"></script>
 
 	</body>
 </html>

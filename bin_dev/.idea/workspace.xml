@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/1x/Asset 1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/1x/Asset 3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/_mobile/bg-cover-land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/_mobile/bg-cover-mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/_mobile/bg-cover-port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/_mobile/mobile-background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/eloqua.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/backgrounds.css" afterPath="$PROJECT_DIR$/css/backgrounds.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.html" afterPath="$PROJECT_DIR$/results.html" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +36,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -50,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backgrounds.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="backgrounds.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/backgrounds.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="313" column="37" selection-start-line="313" selection-start-column="37" selection-end-line="313" selection-end-column="37" />
+            <state relative-caret-position="363">
+              <caret line="339" column="0" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,9 +108,21 @@
       <file leaf-file-name="results.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/eloqua.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc;n#validateFields#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +153,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,6 +169,8 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/css/backgrounds.css" />
+        <option value="$PROJECT_DIR$/results.html" />
+        <option value="$PROJECT_DIR$/js/eloqua.js" />
       </list>
     </option>
   </component>
@@ -161,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="103" />
+    <option name="x" value="29" />
+    <option name="y" value="50" />
     <option name="width" value="1288" />
     <option name="height" value="769" />
   </component>
@@ -208,6 +228,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bin_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,7 +362,7 @@
       <workItem from="1538664095391" duration="14378000" />
       <workItem from="1538752010824" duration="5721000" />
       <workItem from="1538758415921" duration="1771000" />
-      <workItem from="1538769675585" duration="300000" />
+      <workItem from="1538769675585" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1537971927882</created>
@@ -554,20 +588,27 @@
       <option name="project" value="LOCAL" />
       <updated>1538758686172</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="url change/form js">
+      <created>1538770033745</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1538770033745</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65922000" />
+    <option name="totallyTimeSpent" value="66884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="103" width="1288" height="769" extended-state="0" />
+    <frame x="29" y="50" width="1288" height="769" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.371118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26714286" sideWeight="0.5348485" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26714286" sideWeight="0.46515152" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26714286" sideWeight="0.46515152" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -637,7 +678,8 @@
     <MESSAGE value="no seriously backgrounds" />
     <MESSAGE value="final bg" />
     <MESSAGE value="OK fine theres a BG css" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK fine theres a BG css" />
+    <MESSAGE value="url change/form js" />
+    <option name="LAST_COMMIT_MESSAGE" value="url change/form js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9480">
@@ -965,14 +999,6 @@
           <folding>
             <marker date="1538763350628" expanded="true" signature="59661:59664" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,9 +1050,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/backgrounds.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="313" column="37" selection-start-line="313" selection-start-column="37" selection-end-line="313" selection-end-column="37" />
+        <state relative-caret-position="363">
+          <caret line="339" column="0" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/eloqua.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#validateFields#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
