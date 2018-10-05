@@ -38,6 +38,35 @@
     margin: 0 auto;
     padding-right: 0.45rem;
 	}
+
+	&__main{
+		display: flex;
+		background-color: orangered;
+	}
+	&__left{
+		background-color: blue;
+		height: 14.90rem;
+		flex: 0 0 20.45rem;
+		margin-right: 2.40rem;
+		display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+	}
+	&__right{
+		background-color: pink;
+		height: 14.90rem;
+		flex: 0 0 28.35rem;
+	}
+	&__cloud--container{
+		flex: 0 0 9.05rem;
+		height: 14.05rem;
+		background-color: black;
+	}
+	&__score--container{
+		flex: 0 0 8.30rem;
+		height: 100%;
+		background-color: grey;
+	}	
 }
 
 .modal{

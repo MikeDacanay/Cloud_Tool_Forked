@@ -618,6 +618,20 @@ textarea {
   .introduction__paragraph--1 {
     width: 62%; }
 
+.comparison__main--header {
+  font-size: 1.05rem;
+  font-family: Univers-Bold, Arial, Helvetica, sans-serif;
+  color: #BDE6EE; }
+
+.comparison__main--text {
+  font-size: 0.90rem;
+  line-height: 1.05rem;
+  padding-right: 8.80rem; }
+  .comparison__main--text > span {
+    display: block;
+    font-family: Univers-Bold, Arial, Helvetica, sans-serif;
+    color: #BDE6EE; }
+
 .pull-right {
   float: right; }
 
@@ -2419,7 +2433,7 @@ table {
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover !important; }
-  .book-slider .page--2 {
+  .book-slider .page--x {
     overflow-y: overlay; }
 
 body {
@@ -2691,6 +2705,34 @@ body {
   padding-bottom: 0.75rem;
   margin: 0 auto;
   padding-right: 0.45rem; }
+
+.comparison__main {
+  display: flex;
+  background-color: orangered; }
+
+.comparison__left {
+  background-color: blue;
+  height: 14.90rem;
+  flex: 0 0 20.45rem;
+  margin-right: 2.40rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between; }
+
+.comparison__right {
+  background-color: pink;
+  height: 14.90rem;
+  flex: 0 0 28.35rem; }
+
+.comparison__cloud--container {
+  flex: 0 0 9.05rem;
+  height: 14.05rem;
+  background-color: black; }
+
+.comparison__score--container {
+  flex: 0 0 8.30rem;
+  height: 100%;
+  background-color: grey; }
 
 .modal {
   width: 100vw;

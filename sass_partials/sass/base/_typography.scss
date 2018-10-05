@@ -212,3 +212,24 @@ textarea {
     }
   } 
 }
+
+.comparison{
+  &__main{
+    &--header{
+      font-size: 1.05rem;
+      font-family: $font-bold;
+      color: #BDE6EE;
+    }  
+
+    &--text{
+      font-size: 0.90rem;      
+      line-height: 1.05rem;
+      padding-right: 8.80rem;
+      & > span{
+        display: block;
+        font-family: $font-bold;
+        color: #BDE6EE;
+      }
+    }
+  }
+}
