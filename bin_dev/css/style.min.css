@@ -2408,6 +2408,8 @@ table {
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover !important; }
+  .page--2 {
+    overflow-y: overlay; }
 
 body {
   background-image: url("../assets/images/desktop/backgrounds/bg-02.png");
@@ -2678,6 +2680,31 @@ body {
   padding-bottom: 0.75rem;
   margin: 0 auto;
   padding-right: 0.45rem; }
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  z-index: 10; }
+  .modal ~ * {
+    filter: blur(5px); }
+  .modal__radio {
+    display: none; }
+    .modal__radio:checked ~ .modal,
+    .modal__radio:checked ~ label {
+      display: none; }
+    .modal__radio:checked ~ .nav-bar,
+    .modal__radio:checked ~ .book-slider {
+      filter: blur(0px); }
+    .modal__radio--container {
+      position: absolute;
+      z-index: 11;
+      background-color: red;
+      filter: blur(0px);
+      cursor: pointer; }
+    .modal__radio--text {
+      color: #fff; }
 
 .question__container {
   display: flex;
