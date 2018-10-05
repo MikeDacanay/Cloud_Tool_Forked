@@ -2294,6 +2294,9 @@ table {
   position: relative; }
   .content-holder--1 {
     height: 100%; }
+  .content-holder--2 {
+    overflow: auto;
+    height: 100%; }
 
 .cover-text-box {
   background-color: orangered;
@@ -2637,7 +2640,8 @@ body {
     background-color: orangered; }
   .container-comparison__main {
     height: 27.80rem; }
-    .container-comparison__main:nth-child(2) {
+    .container-comparison__main:nth-child(2), .container-comparison__main:nth-child(4), .container-comparison__main:nth-child(6), .container-comparison__main:nth-child(8), .container-comparison__main:nth-child(10) {
+      position: relative;
       background-color: green; }
 
 .backdrop {

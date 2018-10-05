@@ -10,8 +10,14 @@
 	}
 	&__main{
 		height: 27.80rem;
-		&:nth-child(2){
+		&:nth-child(2),
+		&:nth-child(4),
+		&:nth-child(6),
+		&:nth-child(8),
+		&:nth-child(10),{
+			position: relative;
 			background-color: green;		
+			
 		}
 	}
 }

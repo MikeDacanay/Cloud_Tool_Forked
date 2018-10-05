@@ -152,6 +152,7 @@
 		height: 100%;
 	}
 	&--2{
-		// over
+		overflow: auto;
+		height: 100%;
 	}
 }
