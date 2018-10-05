@@ -8,6 +8,12 @@
 		height: 16.80rem;
 		background-color: orangered;
 	}
+	&__main{
+		height: 27.80rem;
+		&:nth-child(2){
+			background-color: green;		
+		}
+	}
 }
 
 .backdrop{
