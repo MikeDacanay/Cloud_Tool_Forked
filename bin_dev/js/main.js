@@ -1306,6 +1306,7 @@ $(document).ready(function() {
     $('.dropdown__option').click(function(){
         // console.log('hello');
         $('.dropdown__content').removeClass('dropdown__content--active');
+
     });
 
     $(window).resize(function(){    
