@@ -1231,10 +1231,14 @@ $(document).ready(function() {
 
     $(document).on("click",'.dropdown__option',function(){
         CurrencyConversion($(this).attr('value'),$(this).attr('value1') );
-        $('.dropdown__container, .dropdown__content').click(function(){
-            $('.dropdown__content').toggleClass('dropdown__content--active');
-        });
+        $('#dropdown__text').text($(this).text());
+
+    
+        $('.dropdown__content').removeClass('dropdown__content--active');
     });
+    $('.dropdown__container, .dropdown__content').click(function(){
+        $('.dropdown__content').toggleClass('dropdown__content--active');
+    });    
 
     function CurrencyConversion(curr, currsign){
         var currency= curr;
@@ -1244,7 +1248,6 @@ $(document).ready(function() {
         var calc2;
         var calc3;
         var calc4;        
-        console.log(curr, currsign);
         var calc_arr;
         // GET Request Currency Rate
 
@@ -1286,8 +1289,8 @@ $(document).ready(function() {
                     calc2= Math.round(calc2) + ' Million';
                 }
 
-                var option_text=region_currency[a.region][0][0];
-                $('#dropdown__text').text(option_text );
+                // var option_text=region_currency[a.region][0][0];               
+                // $('#dropdown__text').text(option_text );
                 $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
                 $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
@@ -1304,7 +1307,9 @@ $(document).ready(function() {
 
 
     $('.dropdown__option').click(function(){
-        // console.log('hello');
+        console.log('hello');
+        $('#dropdown__text').text()
+
         $('.dropdown__content').removeClass('dropdown__content--active');
     });
 
@@ -1498,8 +1503,7 @@ $(document).ready(function() {
     $('.map-composition__holder').click(function(){    
         // For currency dropdown
         $('.dropdown__container').css('display','flex');
-
-        CurrencyConversion(region_currency[$(this).attr('value')],region_currency[$(this).attr('value')][0] );
+        CurrencyConversion(region_currency[$(this).attr('value')][0][2],region_currency[$(this).attr('value')][0][1] );
         setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
             $('.dropdown__content').removeClass('dropdown__content--active');
         }, 100);
@@ -1528,6 +1532,7 @@ $(document).ready(function() {
             );
         };   
 
+        $('#dropdown__text').text(region_currency[a.region][0][0]);
        // $('.question__revenue--1').text('$1 Billion+ (USD)');
        // $('.question__revenue--2').text('$50 Million - $1 Billion (USD)');
      //   $('.question__revenue--3').text('$0 - $50 Million (USD)');
