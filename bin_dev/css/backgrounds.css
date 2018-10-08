@@ -14,11 +14,11 @@
 
 @media screen and (max-width: 2000px) {
     .city__bg {
-        background-size: 2000px;!important; } }
+        background-size: 2000px!important; } }
 
 @media screen and (max-width: 1600px) {
     .city__bg {
-        background-size: 1600px;!important; } }
+        background-size: 1600px!important; } }
 
 @media screen and (max-width: 1200px) {
     .city__bg {
