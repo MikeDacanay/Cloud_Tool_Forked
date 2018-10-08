@@ -1,6 +1,6 @@
 /**
  * Created by ekerrigan on 9/21/16.
- * Updated by Code Rodeo on 7/16/16.
+ * Updated by md 10/8/2018.
 */
 // var userbrowser=$(window).browser.browser();
 var cloud_user;

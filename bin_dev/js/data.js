@@ -1,4 +1,6 @@
-
+/**
+ * Created by md on 10/8/2018.
+*/
 var a = new Vue({
   el: '#intro',
   data: {

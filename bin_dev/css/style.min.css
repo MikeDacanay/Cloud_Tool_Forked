@@ -737,6 +737,9 @@ img.inline {
 .width-90 {
   width: 90%; }
 
+.width-95 {
+  width: 95%; }
+
 .u-width-1 {
   width: 10.10rem; }
 
@@ -755,7 +758,7 @@ img.inline {
 .marg-top-tiny--2 {
   margin-top: 0.25rem; }
 
-.marg-top-reg-3 {
+.marg-top-reg-5 {
   margin-top: 0.4rem; }
 
 .marg-top-reg-4 {
@@ -817,6 +820,9 @@ img.inline {
 
 .mar-top-large--8 {
   margin-top: 2.55rem; }
+
+.mar-top-large--12 {
+  margin-top: 3rem; }
 
 .mar-top-large--7 {
   margin-top: 3.1rem; }
@@ -1051,6 +1057,9 @@ a.bttn {
       margin-left: auto;
       margin-right: 0;
       margin-top: .4rem; }
+    .btn--3-2 {
+      width: 14.77rem;
+      margin-top: 0.55rem; }
     .ie .btn--3 {
       margin-top: -0.40rem; }
   .btn--4 {
@@ -2758,6 +2767,31 @@ body {
 
 .comparison__score--peers {
   color: #F29111; }
+
+.comparison__social {
+  width: 19.75rem;
+  display: flex;
+  justify-content: space-between; }
+  .comparison__social--icon {
+    flex: 0 0 3.20rem;
+    height: 3.20rem;
+    cursor: pointer; }
+
+.comparison__conclusion {
+  display: flex;
+  justify-content: space-between; }
+  .comparison__conclusion--left {
+    flex: 0 0 20.85rem;
+    color: #fff; }
+  .comparison__conclusion--right {
+    flex: 0 0 32.25rem; }
+  .comparison__conclusion--header {
+    font-size: 0.80rem;
+    line-height: 1.05rem; }
+  .comparison__conclusion--text {
+    font-size: 0.70rem;
+    display: block;
+    font-family: Univers, Arial, Helvetica, sans-serif; }
 
 .modal {
   width: 100vw;

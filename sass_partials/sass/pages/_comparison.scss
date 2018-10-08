@@ -92,6 +92,36 @@
 			color: #F29111;	
 		}
 	}
+	&__social{
+		width: 19.75rem;
+		display: flex;	
+		justify-content: space-between;	
+		&--icon{
+			flex: 0 0 3.20rem;
+			height: 3.20rem;
+			cursor: pointer;
+		}
+	}	
+	&__conclusion{
+		display: flex;
+		justify-content: space-between;
+		&--left{
+			flex: 0 0 20.85rem;
+			color: #fff;
+		}
+		&--right{
+			flex: 0 0 32.25rem;
+		}
+		&--header{
+			font-size: 0.80rem;
+			line-height: 1.05rem;			
+		}
+		&--text{
+			font-size: 0.70rem;
+			display: block;
+			font-family: $font-reg;
+		}
+	}
 }
 
 .modal{
