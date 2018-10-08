@@ -42,6 +42,9 @@
 	&__main{
 		display: flex;
 		background-color: orangered;
+		&--text{
+			color: #fff;
+		}
 	}
 	&__left{
 		background-color: blue;
@@ -61,12 +64,34 @@
 		flex: 0 0 9.05rem;
 		height: 14.05rem;
 		background-color: black;
+		position: relative;
 	}
-	&__score--container{
-		flex: 0 0 8.30rem;
-		height: 100%;
-		background-color: grey;
-	}	
+	&__score{
+		
+		&--container{
+			flex: 0 0 8.30rem;
+			height: 100%;
+			background-color: grey;
+		}
+		&--text{
+			font-size: 1.05rem;
+			font-family: $font-reg;
+			color: #BDE6EE;
+			transform: translateY(-0.30rem);
+
+		}
+		&--user,
+		&--peers{
+			font-family: $font-lt;
+			font-size: 6.00rem;
+			color: #fff;
+			height: 6rem;
+			margin-top: 1.50rem;			
+		}
+		&--peers{
+			color: #F29111;	
+		}
+	}
 }
 
 .modal{

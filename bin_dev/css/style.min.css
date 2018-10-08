@@ -752,6 +752,9 @@ img.inline {
 .marg-top-tiny {
   margin-top: 0.20rem; }
 
+.marg-top-tiny--2 {
+  margin-top: 0.25rem; }
+
 .marg-top-reg-3 {
   margin-top: 0.4rem; }
 
@@ -787,6 +790,9 @@ img.inline {
 
 .marg-top-med--4 {
   margin-top: 1.35rem; }
+
+.marg-top-med--6 {
+  margin-top: 1.65rem; }
 
 .marg-top-med--5 {
   margin-top: 1.75rem; }
@@ -2709,6 +2715,8 @@ body {
 .comparison__main {
   display: flex;
   background-color: orangered; }
+  .comparison__main--text {
+    color: #fff; }
 
 .comparison__left {
   background-color: blue;
@@ -2727,12 +2735,29 @@ body {
 .comparison__cloud--container {
   flex: 0 0 9.05rem;
   height: 14.05rem;
-  background-color: black; }
+  background-color: black;
+  position: relative; }
 
 .comparison__score--container {
   flex: 0 0 8.30rem;
   height: 100%;
   background-color: grey; }
+
+.comparison__score--text {
+  font-size: 1.05rem;
+  font-family: Univers, Arial, Helvetica, sans-serif;
+  color: #BDE6EE;
+  transform: translateY(-0.3rem); }
+
+.comparison__score--user, .comparison__score--peers {
+  font-family: Univers-lt, Arial, Helvetica, sans-serif;
+  font-size: 6.00rem;
+  color: #fff;
+  height: 6rem;
+  margin-top: 1.50rem; }
+
+.comparison__score--peers {
+  color: #F29111; }
 
 .modal {
   width: 100vw;
@@ -2928,6 +2953,8 @@ body {
       transform: translateY(-1.8rem); }
   .results__cloud--2 {
     margin-top: 3.35rem; }
+  .results__cloud--4 {
+    margin-top: 3.80rem; }
   .results__cloud--stroke {
     position: absolute;
     height: 5.40rem;
@@ -2937,6 +2964,8 @@ body {
       top: 10.40rem; }
     .results__cloud--stroke--2 {
       top: 1.90rem; }
+    .results__cloud--stroke--4 {
+      top: 8.90rem; }
 
 .results__text {
   color: #fff; }
