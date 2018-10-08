@@ -30,15 +30,11 @@
 		<div class="city__bg city__bg--10 city__bg--active"></div>
 
 		<div class="nav-bar__bg"></div>			
-		<div class="main_container main_container--1">	
-			<input class='modal__radio' type="radio" id="escape1">
-			<label class='modal__radio--container' for="escape1">
-				<span class='modal__radio--text'>X</span>
-			</label>
-			<h2 class="modal">
+		<div class="main_container main_container--1">
+
+			<div class="modal">
 				<div class="sign_in_container">
-					<h1>Almost there!</h1>
-					<h2>Fill in a few details to get your scores.</h2>
+					<p>Please fill in the form below to access your detailed scores.</p>
 					<form  method="post" name="SystemAgencyAssetDownloaded_HVC" action="https://s1973398186.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form1048 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form1048" class="elq-form">
 						<input value="SystemAgencyAssetDownloaded_HVC" type="hidden" name="elqFormName"  />
 						<input value="1973398186" type="hidden" name="elqSiteId" />
@@ -129,9 +125,10 @@
 
 					</div>
 
-					<input class='modal__radio' type="radio" id="escape1"  onclick="validateFields()">
+					<input class='modal__radio' type="radio" id="escape1" >
 					<label class='modal__radio--container' for="escape1">
 						<span class='modal__radio--text'>Submit</span>
+                        <div class="btn__arrow btn__arrow--1"></div>
 					</label>
 
 
@@ -140,7 +137,6 @@
 						<div onclick="hideAlerts()"></div>
 						<p>Please complete all required fields.</p>
 					</div>
-
 
 				</div>
 			</div>	
