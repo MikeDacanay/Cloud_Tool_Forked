@@ -12,8 +12,13 @@ $Breakpoint argument choices:
 -desk
 */
 /***TOOLTIP_ MIKE ADD TO SASS**/
+#tooltip {
+  color: #003B4D;
+  background: rgba(255, 255, 255, 0.9);
 .sign_in_container{
   position: absolute;
+  z-index: 100;
+  padding: 15px; }
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
@@ -25,8 +30,15 @@ $Breakpoint argument choices:
   max-height: 90vh;
   padding: 60px 45px 28px 45px;
 
+#tooltip.left:after {
+  left: 10px;
+  margin: 0; }
 }
 
+#tooltip.right:after {
+  right: 10px;
+  left: auto;
+  margin: 0; }
 .sign_in_container input[type="text"]{
   padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
 }
