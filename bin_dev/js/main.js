@@ -1244,7 +1244,7 @@ $(document).ready(function() {
         var calc2;
         var calc3;
         var calc4;        
-
+        console.log(curr, currsign);
         var calc_arr;
         // GET Request Currency Rate
 
