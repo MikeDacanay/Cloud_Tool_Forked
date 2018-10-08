@@ -125,7 +125,11 @@
 		cursor: pointer;
 		position: relative;
     display: inline-block;
-	}
+    display: inline-block;
+
+    margin-bottom: -.2em;
+
+    margin-top: .2em;}
 
 	&__radio-button{
     height: 1.20rem;
