@@ -1,3 +1,29 @@
+/***TOOLTIP_ MIKE ADD TO SASS**/
+#tooltip
+{
+  color: #003B4D;
+  background: rgba(270,270,270,.9);
+  position: absolute;
+  z-index: 100;
+  padding: 15px;
+}
+
+#tooltip.left:after
+{
+  left: 10px;
+  margin: 0;
+}
+
+#tooltip.right:after
+{
+  right: 10px;
+  left: auto;
+  margin: 0;
+}
+
+
+/**END TOOLTIP**/
+
 	#preloader {
   position: fixed;
   top: 0;
