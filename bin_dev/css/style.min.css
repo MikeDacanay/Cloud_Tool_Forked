@@ -1780,7 +1780,12 @@ ul.no-dots-ul {
   .meter__radio-label {
     cursor: pointer;
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    display: inline-block;
+
+    margin-bottom: -.2em;
+
+    margin-top: .2em;}
   .meter__radio-button {
     height: 1.20rem;
     width: 1rem;
