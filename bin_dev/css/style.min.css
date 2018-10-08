@@ -2715,17 +2715,19 @@ body {
 .city__bg--active {
   opacity: .99; }
 
+.city__bg--10 {
+  background-color: rgba(0, 46, 56, 0.6); }
+
 .container-comparison {
   float: left;
   width: 100%; }
   .container-comparison__header {
-    height: 16.80rem;
-    background-color: orangered; }
+    height: 16.80rem; }
   .container-comparison__main {
     height: 27.80rem; }
     .container-comparison__main:nth-child(2), .container-comparison__main:nth-child(4), .container-comparison__main:nth-child(6), .container-comparison__main:nth-child(8), .container-comparison__main:nth-child(10) {
       position: relative;
-      background-color: green; }
+      background-color: rgba(255, 255, 255, 0.1); }
 
 .backdrop {
   width: 10000%;
@@ -2743,13 +2745,11 @@ body {
   padding-right: 0.45rem; }
 
 .comparison__main {
-  display: flex;
-  background-color: orangered; }
+  display: flex; }
   .comparison__main--text {
     color: #fff; }
 
 .comparison__left {
-  background-color: blue;
   height: 14.90rem;
   flex: 0 0 20.45rem;
   margin-right: 2.40rem;
@@ -2758,20 +2758,17 @@ body {
   justify-content: space-between; }
 
 .comparison__right {
-  background-color: pink;
   height: 14.90rem;
   flex: 0 0 28.35rem; }
 
 .comparison__cloud--container {
   flex: 0 0 9.05rem;
   height: 14.05rem;
-  background-color: black;
   position: relative; }
 
 .comparison__score--container {
   flex: 0 0 8.30rem;
-  height: 100%;
-  background-color: grey; }
+  height: 100%; }
 
 .comparison__score--text {
   font-size: 1.05rem;
@@ -2813,6 +2810,20 @@ body {
     font-size: 0.70rem;
     display: block;
     font-family: Univers, Arial, Helvetica, sans-serif; }
+    .comparison__conclusion--text-1 {
+      color: #fff;
+      line-height: 1.05rem; }
+
+.comparison__bullet {
+  display: flex;
+  align-items: center; }
+  .comparison__bullet:not(:last-of-type) {
+    margin-bottom: 1.25rem; }
+
+.comparison__arrow {
+  flex: 0 0 1.05rem;
+  height: 1.05rem;
+  margin-right: 0.85rem; }
 
 .modal {
   width: 100vw;
