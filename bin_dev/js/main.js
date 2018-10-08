@@ -1311,6 +1311,7 @@ $(document).ready(function() {
         $('#dropdown__text').text()
 
         $('.dropdown__content').removeClass('dropdown__content--active');
+
     });
 
     $(window).resize(function(){    
