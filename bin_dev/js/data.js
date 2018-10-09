@@ -8,6 +8,7 @@ var a = new Vue({
 		region: '',  
 		sector: [],
 		revenue:'',
+		revenueText:'',
   },
   computed:{
 		regionSummary: function(){
@@ -1057,3 +1058,9 @@ var summary = new Vue({
 		},				
 	},
 });
+
+var summary = new Vue({
+  el: '#comparison',
+  data: {
+  	sector:"",
+  },
