@@ -90,8 +90,11 @@
 			font-size: 6.00rem;
 			color: #fff;
 			height: 6rem;
-			margin-top: 1.50rem;			
-		}
+			margin-top: 1.50rem;		
+			.mac &{
+				transform: translateY(.6rem)
+			}	
+		};
 		&--peers{
 			color: #F29111;	
 		}

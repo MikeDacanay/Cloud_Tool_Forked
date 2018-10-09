@@ -2888,6 +2888,8 @@ body {
   color: #fff;
   height: 6rem;
   margin-top: 1.50rem; }
+  .mac .comparison__score--user, .mac .comparison__score--peers {
+    transform: translateY(0.6rem); }
 
 .comparison__score--peers {
   color: #F29111; }
