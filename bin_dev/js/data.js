@@ -1083,6 +1083,8 @@ var comparison = new Vue({
   	TwoPeers: sessionStorage.secTwoPeers,  	 	
   	ThreeUser: sessionStorage.secThreeUser,
   	ThreePeers: sessionStorage.secThreePeers,
+
+
   	FourUser: sessionStorage.secFourUser,
   	FourPeers: sessionStorage.secFourPeers,
   	FiveUser: sessionStorage.secFiveUser,

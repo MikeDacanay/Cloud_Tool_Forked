@@ -1253,23 +1253,20 @@ $(document).ready(function() {
     cloud_filler(comparison.ThreeUser,'.userThree',1900);
     cloud_filler(comparison.ThreePeers,'.peersThree',2200);
 
-    // cloud_filler(comparison.ThreeUser,'.userThree',1900);
-    // cloud_filler(comparison.ThreePeers,'.peersThree',2200);
+    cloud_filler(comparison.FourUser,'.userFour',1900);
+    cloud_filler(comparison.FourPeers,'.peersFour',2200);
 
-    // cloud_filler(comparison.FourUser,'.userFour',1900);
-    // cloud_filler(comparison.FourPeers,'.peersFour',2200);
+    cloud_filler(comparison.FiveUser,'.userFive',1900);
+    cloud_filler(comparison.FivePeers,'.peersFive',2200);
 
-    // cloud_filler(comparison.FiveUser,'.userFive',1900);
-    // cloud_filler(comparison.FivePeers,'.peersFive',2200);
+    cloud_filler(comparison.SevenUser,'.userSeven',1900);
+    cloud_filler(comparison.SevenPeers,'.peersSeven',2200);
 
-    // cloud_filler(comparison.SevenUser,'.userSeven',1900);
-    // cloud_filler(comparison.SevenPeers,'.peersSeven',2200);
+    cloud_filler(comparison.EightUser,'.userEight',1900);
+    cloud_filler(comparison.EightPeers,'.peersEight',2200);
 
-    // cloud_filler(comparison.EightUser,'.userEight',1900);
-    // cloud_filler(comparison.EightPeers,'.peersEight',2200);
-
-    // cloud_filler(comparison.NineUser,'.userNine',1900);
-    // cloud_filler(comparison.NinePeers,'.peersNine',2200);    
+    cloud_filler(comparison.NineUser,'.userNine',1900);
+    cloud_filler(comparison.NinePeers,'.peersNine',2200);    
 
     $(window).on('load',function(){
         $('canvas').css('width','100%');
