@@ -10,7 +10,44 @@ var a = new Vue({
 		revenue:'',
   },
   computed:{
-		region_pic: function(){
+		regionSummary: function(){
+			if(a.region==='as'){
+				return 'Asia';
+			}else if(a.region==='na'){
+				return 'North America';
+			}else if(a.region==='sa'){
+				return 'South America';
+			}else if(a.region==='af'){
+				return 'Africa';
+			}
+			else if(a.region==='eu'){
+				return 'Europe';
+			}
+		},
+		sectorSummary: function(){
+			var sectorTemp=[];
+			for(var i=0;i<a.sector.length;i++){
+				if(a.sector[i]=='auto'){
+					sectorTemp.push('Automotive');
+				}else if(a.sector[i]=='insur'){
+					sectorTemp.push('Insurance');
+				}else if(a.sector[i]=='cons'){
+					sectorTemp.push('Consumer goods');
+				}else if(a.sector[i]=='oil'){
+					sectorTemp.push('Oil and Gas');
+				}else if(a.sector[i]=='ener'){
+					sectorTemp.push('Energy/Utilities');
+				}else if(a.sector[i]=='ret'){
+					sectorTemp.push('Retail');
+				}else if(a.sector[i]=='fin'){
+					sectorTemp.push('Financial Services');
+				}else if(a.sector[i]=='tel'){
+					sectorTemp.push('Telecom/Media/Ent.');
+				}else if(a.sector[i]=='health'){
+					sectorTemp.push('Healthcare');
+				}
+			}
+			return sectorTemp;
 		}
   }
 });

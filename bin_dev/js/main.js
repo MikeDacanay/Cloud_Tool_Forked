@@ -122,7 +122,20 @@ if ( $window.width() <= 1024) {
     };
 }
 
+var  moveComparison=function(){
+    var sectorControl='';    
+    sessionStorage.regionSummary=a.regionSummary;
+    for(var i=0;i<a.sector.length;i++){
+        if((i+1)===a.sector.length){
+            sectorControl=sectorControl+a.sectorTemp[i];
+        }else{
+            sectorControl=sectorControl+a.sectorTemp[i]+", ";
+        }
+    }
 
+    sessionStorage.sectorSummary=sectorControl;
+
+}
 var bg_changer=function(x){
     $('.city__bg--active').removeClass('city__bg--active');
     $('.city__bg--'+x).addClass('city__bg--active');
