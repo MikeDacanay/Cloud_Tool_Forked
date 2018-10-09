@@ -6,6 +6,7 @@
 		<title></title>
 		<meta name="description" content="">
 		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+		<link rel="stylesheet" href="css/backgrounds.css">
     <!-- Device Size Detection -->
     <script type="text/javascript">
         var hashRoot = '/page/';
@@ -29,12 +30,16 @@
 	<body>		
 		<div class="city__bg city__bg--10 city__bg--active"></div>
 
-		<div class="nav-bar__bg"></div>			
+		<div class="nav-bar__bg" id="header-bar">	<div  class="nav-bar nav-bar--2">
+			<div class="logo__container">
+				<img src="assets/images/desktop/oracle_intro_logo.svg" alt="oracle_intro_logo.svg" class="logo__img">
+			</div>
+		</div></div>
 		<div class="main_container main_container--1">
 
 			<div class="modal">
 				<div class="sign_in_container">
-					<p>Please fill in the form below to access your detailed scores.</p>
+					<p>Almost there! Please fill in a few details to get your scores.</p>
 					<form  method="post" name="SystemAgencyAssetDownloaded_HVC" action="https://s1973398186.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form1048 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form1048" class="elq-form">
 						<input value="SystemAgencyAssetDownloaded_HVC" type="hidden" name="elqFormName"  />
 						<input value="1973398186" type="hidden" name="elqSiteId" />
@@ -143,11 +148,7 @@
 
 
 
-			<div class="nav-bar nav-bar--2">
-				<div class="logo__container">
-					<img src="assets/images/desktop/oracle_intro_logo.svg" alt="oracle_intro_logo.svg" class="logo__img">
-				</div>
-			</div>
+
 			<!-- <div class="contact-bar">
 				<div class="contact-bar__cell contact-bar__cell--1"></div>
 				<div class="contact-bar__cell contact-bar__cell--2"></div>
@@ -1066,6 +1067,7 @@
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/form.js"></script>
 		<script type="text/javascript" src="js/countries.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
 	<script>
 		populateCountries("field17");
 	</script>
