@@ -179,6 +179,7 @@ var  moveComparison=function(){
     sessionStorage.secFiveUser=Math.round((Number(l.summary_user)/(1/7))*100);
     sessionStorage.secFivePeers=Math.round((Number(l.summary_peers)/(1/7))*100);
     //Section 6
+    // 
     sessionStorage.secSixUser=int4.summary_user;
     sessionStorage.secSixPeers=int4.summary_peers;
     //Section 7
@@ -1246,6 +1247,10 @@ $(document).ready(function() {
         'displayInput': false,
         'readOnly': true
     });          
+
+    $( ".modal__radio--container" ).click(function() {
+      comparison.FirstName = $('#field4').val();
+    });
 
     cloud_filler(comparison.TwoUser,'.userTwo',1900);
     cloud_filler(comparison.TwoPeers,'.peersTwo',2200);

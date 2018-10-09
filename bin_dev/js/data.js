@@ -1083,8 +1083,6 @@ var comparison = new Vue({
   	TwoPeers: sessionStorage.secTwoPeers,  	 	
   	ThreeUser: sessionStorage.secThreeUser,
   	ThreePeers: sessionStorage.secThreePeers,
-
-
   	FourUser: sessionStorage.secFourUser,
   	FourPeers: sessionStorage.secFourPeers,
   	FiveUser: sessionStorage.secFiveUser,
@@ -1098,5 +1096,80 @@ var comparison = new Vue({
   	NineUser: sessionStorage.secNineUser,
   	NinePeers: sessionStorage.secNinePeers,
   	
+  	FirstName: '',
   },
+  computed:{
+  	SixUserArr: function(){
+  		var arr_temp = this.SixUser.split(',');
+  		return arr_temp;
+  	},
+  	SixPeersArr: function(){
+  		var arr_temp = this.SixPeers.split(',');
+  		return arr_temp;
+  	},    
+  	VarTextTwo: function(){
+  		if(this.TwoUser>this.TwoPeers){
+  			return 'ahead';
+  		}else if(this.TwoUser===this.TwoPeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextThree: function(){
+  		if(this.ThreeUser>this.ThreePeers){
+  			return 'ahead';
+  		}else if(this.ThreeUser===this.ThreePeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextFour: function(){
+  		if(this.FourUser>this.FourPeers){
+  			return 'ahead';
+  		}else if(this.FourUser===this.FourPeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextFive: function(){
+  		if(this.FiveUser>this.FivePeers){
+  			return 'ahead';
+  		}else if(this.FiveUser===this.FivePeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextSeven: function(){
+  		if(this.SevenUser>this.SevenPeers){
+  			return 'ahead';
+  		}else if(this.SevenUser===this.SevenPeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextEight: function(){
+  		if(this.EightUser>this.EightPeers){
+  			return 'ahead';
+  		}else if(this.EightUser===this.EightPeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+  	VarTextNine: function(){
+  		if(this.NineUser>this.NinePeers){
+  			return 'ahead';
+  		}else if(this.NineUser===this.NinePeers){
+  			return 'on par with'
+  		}else{
+  			return 'behind'
+  		}
+  	},
+
+  }
 });

@@ -1,43 +1,5 @@
 /***TOOLTIP_ MIKE ADD TO SASS**/
-/***10/9 ADD TO SASS**/
-.nav-bar__bg {
-  background-color:#00758F;
-  width: 100vw;
-  height: 3.85rem;
-  position: fixed;
-  z-index: 11; }
- #header-bar{
-  -webkit-transition: top 0.3s ease-in-out;
-  -moz-transition: top 0.3s ease-in-out;
-  -o-transition: top 0.3s ease-in-out;
-  transition:top 0.3s ease-in-out;
-}
- #header-bar.nav-up {
-  top: -91px;
-}
-#header-bar.nav-top{
-  top:0px;
-}
-#comparison{
-  padding-top: 5rem;
-}
-#comparison .container--4{
-  height: auto;
-}
- .modal {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
-  position: absolute;
-  z-index: 10; }
- .modal__radio--container {
-  position: absolute;
-  z-index: 11;
-  background-color: transparent;
-  filter: blur(0px);
-  cursor: pointer;
-  transform: translateY(-1.75rem); }
- /***END 10/9**/
+
 
 .sign_in_container{
   position: absolute;

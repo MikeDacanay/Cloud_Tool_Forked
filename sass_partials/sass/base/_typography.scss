@@ -219,6 +219,9 @@ textarea {
       font-size: 1.05rem;
       font-family: $font-bold;
       color: #BDE6EE;
+      &-1{
+        font-family: $font-reg;
+      }
     }  
 
     &--text{
