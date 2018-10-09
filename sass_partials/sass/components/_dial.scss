@@ -95,8 +95,8 @@
 
 		@include bph(875){
 			// // left: 0.53rem;
-	    width: 5.6rem;
-	    top: 6px;
+	    // width: 5.6rem;
+	    // top: 6px;
 		}
 	}
 
@@ -144,17 +144,17 @@
 	    transform: rotate(60deg);
 	    left: 1.40rem;
 	    top: 0.85rem;
-			@include bph(875){
-				top: 11px;
-			}	
+			// @include bph(875){
+			// 	top: 11px;
+			// }	
 		}
 		&--2{
 	    transform: rotate(-60deg);
 	    right: 1.40rem;
 	    top: 0.85rem;
-			@include bph(875){
-				top: 11px;	
-			}	
+			// @include bph(875){
+			// 	top: 11px;	
+			// }	
 	    &-a{
 
 	    }

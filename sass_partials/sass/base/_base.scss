@@ -18,12 +18,16 @@ html {
   font-size: 125.00%;
   box-sizing: border-box;
   @include artboard-top-center;
-  @include bp(1261){
-    font-size: 84%; 
-  }
+
   @include bph(930){
     font-size: 84%;        //67% from 20px base
   }
+  @include bph(631){
+    font-size: 62.5%;  //10px base
+  }
+  @include bp(1261){
+    font-size: 84%; 
+  }  
 
   @include respond(phone){
     font-size: 46.875%;

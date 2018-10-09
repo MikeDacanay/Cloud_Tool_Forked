@@ -69,6 +69,12 @@
   left: 0;
   top: 0;
   display: block;
+
+  height: auto;
+  max-height: 100vh;
+  overflow-y: overlay;
+
+
 }
 .slick-track:before,
 .slick-track:after {

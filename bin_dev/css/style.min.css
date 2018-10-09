@@ -403,7 +403,10 @@ $Breakpoint argument choices:
   position: relative;
   left: 0;
   top: 0;
-  display: block; }
+  display: block;
+  height: auto;
+  max-height: 100vh;
+  overflow-y: overlay; }
 
 .slick-track:before,
 .slick-track:after {
@@ -481,10 +484,13 @@ html {
   transform-origin: top center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media only screen and (max-width: 1261px) {
+  @media only screen and (max-height: 930px) {
     html {
       font-size: 84%; } }
-  @media only screen and (max-height: 930px) {
+  @media only screen and (max-height: 631px) {
+    html {
+      font-size: 62.5%; } }
+  @media only screen and (max-width: 1261px) {
     html {
       font-size: 84%; } }
   @media only screen and (max-width: 767px) {
@@ -1412,10 +1418,6 @@ a.bttn {
     right: 0;
     margin: 0 auto;
     width: 5.5rem; }
-    @media only screen and (max-height: 875px) {
-      .dial__industry {
-        width: 5.6rem;
-        top: 6px; } }
   .dial__crown {
     height: 0.60rem;
     width: 0.60rem;
@@ -1451,16 +1453,10 @@ a.bttn {
       transform: rotate(60deg);
       left: 1.40rem;
       top: 0.85rem; }
-      @media only screen and (max-height: 875px) {
-        .dial__marker--1 {
-          top: 11px; } }
     .dial__marker--2 {
       transform: rotate(-60deg);
       right: 1.40rem;
       top: 0.85rem; }
-      @media only screen and (max-height: 875px) {
-        .dial__marker--2 {
-          top: 11px; } }
     .dial__marker--3 {
       transform: rotate(90deg) translateX(-50%);
       right: calc(50% + -0.50rem);
@@ -1721,9 +1717,9 @@ ul.no-dots-ul {
   display: none;
   z-index: 100; }
   .loading__container {
-    height: 96px;
-    width: 420px;
-    margin-bottom: 240px;
+    height: 4.80rem;
+    width: 21.00rem;
+    margin-bottom: 12.00rem;
     background-color: rgba(0, 59, 77, 0.95);
     display: flex;
     opacity: 0.1;

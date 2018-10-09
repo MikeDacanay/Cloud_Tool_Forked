@@ -21,6 +21,21 @@ var tracker = {
     '8':8
 };
 
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+// var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     // document.getElementById("nav-bar__bg").style.top = "0";
+//     // $('.nav-bar__bg').css('top','0');
+//     console.log('up');
+//   } else {
+//     // document.getElementById("nav-bar__bg").style.top = "-50px";
+//     // $('.nav-bar__bg').css('top','-3.85rem');
+//     console.log('down');
+//   }
+//   prevScrollpos = currentScrollPos;
+// } 
+
 var sectionSix = {
     '1': 'Embedded best practice integration recommendations',
     '2': 'Prebuilt flows for common integrations',
@@ -1639,8 +1654,7 @@ $(document).ready(function() {
             evObj.initEvent(etype, true, false);
             el.dispatchEvent(evObj);
         }
-    }
-
+    }   
 
 
     // ADD or REMOVE sector 
