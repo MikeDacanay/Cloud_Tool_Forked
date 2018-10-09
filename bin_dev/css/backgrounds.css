@@ -490,3 +490,8 @@
 
 .city__bg--active {
     opacity: .99; }
+.city__bg--10{
+    background-color: #00758F;
+    background: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"),url("../assets/images/desktop/backgrounds/bg-10-chicago.png");
+
+}
