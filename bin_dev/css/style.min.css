@@ -2925,7 +2925,8 @@ body {
       z-index: 11;
       background-color: red;
       filter: blur(0px);
-      cursor: pointer; }
+      cursor: pointer;
+      transform: translateY(-1.75rem); }
     .modal__radio--text {
       color: #fff; }
 

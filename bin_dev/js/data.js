@@ -1080,7 +1080,7 @@ var comparison = new Vue({
   	sector: sessionStorage.sectorSummary,  	  	
   	revenue: sessionStorage.revTextSummary,
   	TwoUser: sessionStorage.secTwoUser,
-  	TwoPeers: sessionStorage.secTwoPeers, 	
+  	TwoPeers: sessionStorage.secTwoPeers,  	 	
   	ThreeUser: sessionStorage.secThreeUser,
   	ThreePeers: sessionStorage.secThreePeers,
   	FourUser: sessionStorage.secFourUser,

@@ -1250,6 +1250,9 @@ $(document).ready(function() {
     cloud_filler(comparison.TwoUser,'.userTwo',1900);
     cloud_filler(comparison.TwoPeers,'.peersTwo',2200);
 
+    cloud_filler(comparison.ThreeUser,'.userThree',1900);
+    cloud_filler(comparison.ThreePeers,'.peersThree',2200);
+
     // cloud_filler(comparison.ThreeUser,'.userThree',1900);
     // cloud_filler(comparison.ThreePeers,'.peersThree',2200);
 
