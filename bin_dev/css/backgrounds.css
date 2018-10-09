@@ -1,4 +1,125 @@
 
+
+#tooltip
+{
+    color: #003B4D;
+    background: rgba(270,270,270,.9);
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+
+#tooltip.left:after
+{
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:after
+{
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+.sign_in_container{
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 59, 77, .95);
+    color: #FFFFFF;
+    max-width: 420px;
+    height: auto;
+    max-height: 90vh;
+    padding: 37px 20px 28px 29px;
+}
+.sign_in_container p{
+    font-size: 1.31rem;
+    font-family: Univers, arial, helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.sign_in_container input[type="text"]{
+    padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
+    background-color: transparent;
+    font-size: 1rem;
+
+}
+.sign_in_container select {
+    -webkit-appearance: none;
+    width: 15.5rem;
+    padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
+    border-radius: 0;
+    background-color: transparent;
+    background-image: url(../assets/images/desktop/thermo/triangle-white--1.svg);
+    background-size: 0.9375rem  0.9375rem;
+    background-repeat: no-repeat;
+    background-position: 11.38rem 0.375rem;
+    font-size: 1rem;}
+
+.sign_in_container a{
+    color: #FFFFFF;
+}
+.opt-in{
+    font-size: 1rem;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    bottom:0;
+}
+.input-left, .input-right{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+.input-full{
+    width: 100%;
+    margin-bottom: 1em;
+    float:left;
+}
+.terms{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2em;
+
+}
+.terms p{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+.modal__radio--container {
+    z-index: 11;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 6px 10px 3px 10px;
+    filter: blur(0px);
+    cursor: pointer;
+    display: table;
+    width: 130px;
+    position: relative;}
+
+.sign_in_container .btn__arrow--1{
+    position: absolute;
+    top: 8px;
+    height: 1rem;
+    width: 2rem;
+    right: .5rem;
+    -webkit-transition: rigth .5s ;
+    -moz-transition:right .5s ;
+    -o-transition:right .5s ;
+}
+.sign_in_container .modal__radio--container:hover .btn__arrow--1{
+    right: .3rem;
+}
 .city__bg {
     height: 100vh;
     min-width: 100%;
