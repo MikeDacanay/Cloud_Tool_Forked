@@ -155,7 +155,7 @@
 				<div class="contact-bar__cell contact-bar__cell--4"></div>
 				<div class="contact-bar__cell contact-bar__cell--5"></div>
 			</div> -->
-			<div class="book-slider" id='container'>				
+			<div class="book-slider book-slider--1" id='container'>				
 				<section class="page page--x" id='comparison'>
 					<div class="container container--4">
 						<div class="content-holder content-holder--2">	
@@ -186,7 +186,7 @@
 										</div> 
 										<h2 class="question__text question__text--1 widowFix">
 											Where is your company&nbsp;headquartered?
-											<span class='question__answer'>Europe</span>
+											<span class='question__answer'>{{region}}</span>
 										</h2>
 									</div>	
 									<div class="question__header question__header--1">
@@ -195,7 +195,7 @@
 										</div> 
 										<h2 class="question__text question__text--1 widowFix">
 											Sectors your company operate:
-											<span class='question__answer'>Finance, Insurance</span>
+											<span class='question__answer'>{{sector}}</span>
 										</h2>
 									</div>	
 									<div class="question__header question__header--1">
@@ -205,7 +205,7 @@
 										<h2 class="question__text question__text--1 widowFix">
 											Your company's annual global revenue:
 
-											<span class='question__answer'>More than 1 Billion</span>
+											<span class='question__answer'>{{revenue}}</span>
 										</h2>
 									</div>
 									<div class="header--sub-2">Scroll down to get additional information on 
@@ -241,7 +241,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userTwo' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -261,7 +261,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersTwo' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -282,11 +282,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{TwoUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{TwoPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -338,7 +338,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userThree' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -358,7 +358,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersThree' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -379,11 +379,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{ThreeUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{ThreePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -436,7 +436,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userFour' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -456,7 +456,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersFour' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -477,11 +477,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{FourUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{FourPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -533,7 +533,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userFive' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -553,7 +553,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersFive' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -574,11 +574,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{FiveUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{FivePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -630,7 +630,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userX' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -650,7 +650,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersX' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -728,7 +728,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userSeven' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -748,7 +748,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersSeven' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -769,11 +769,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{SevenUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{SevenPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -825,7 +825,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userEight' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -845,7 +845,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersEight' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -866,11 +866,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{EightUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{EightPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -922,7 +922,7 @@
 													<svg style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='user-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='userNine' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#fff" />
 															</linearGradient>
 															<linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
@@ -942,7 +942,7 @@
 													<svg  style='width: 100%; height: 100%;'>
 														<defs>
 															<linearGradient id="Gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-																<stop class='peers-cloud' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
+																<stop class='peersNine' offset='100%' stop-color= "rgb(255,255,255)" stop-opacity=".2" />
 																<stop offset="0%" stop-color= "#F29111" />
 															</linearGradient>
 															<linearGradient id="repeat-2" xlink:href="#Gradient-2" spreadMethod="repeat" />
@@ -963,11 +963,11 @@
 												<div class="comparison__score--text">
 													Your score:
 												</div>
-												<div class="comparison__score--user">80</div>
+												<div class="comparison__score--user">{{NineUser}}</div>
 												<div class="comparison__score--text">
 													Your peers:
 												</div>
-												<div class="comparison__score--peers">72</div>
+												<div class="comparison__score--peers">{{NinePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">

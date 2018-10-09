@@ -12,7 +12,11 @@
   width: 100%;
   height: 47.00rem;
   z-index: 3;
-  opacity:0;}
+  opacity:0;
+  &--1{
+    height: 100vh;
+  }
+}
  .book-slider.loaded {
   opacity: 1;
 }
@@ -27,6 +31,7 @@
 		
 	}
   &--x{
+    height: 100vh;
     .book-slider &{  
       overflow-y: overlay;
     }

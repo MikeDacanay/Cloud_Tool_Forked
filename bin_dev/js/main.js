@@ -21,6 +21,17 @@ var tracker = {
     '8':8
 };
 
+var sectionSix = {
+    '1': 'Embedded best practice integration recommendations',
+    '2': 'Prebuilt flows for common integrations',
+    '3': 'Ability to deploy identical integration (hybrid integration) in the cloud and on premises',
+    '4': 'Prebuilt templates for common processes',
+    '5': 'Large library of pre-integrated application connectors',
+    '6': 'End-to-end visibility of process and integration flow status',
+    '7': 'Ease of use for non-integration experts',
+    '8': 'API management to design, secure and govern application interfaces',
+}
+
 var region_currency = {
     'as': [
         ['Australian Dollar','$','AUD'],
@@ -123,8 +134,9 @@ if ( $window.width() <= 1024) {
 }
 
 var  moveComparison=function(){
-    var sectorControl='';    
-    sessionStorage.regionSummary=a.regionSummary; //region for d-results
+    var sectorControl='';
+    //region for d-results    
+    sessionStorage.regionSummary=a.regionSummary; 
     for(var i=0;i<a.sector.length;i++){
         if((i+1)===a.sector.length){
             sectorControl=sectorControl+a.sectorSummary[i];
@@ -132,10 +144,38 @@ var  moveComparison=function(){
             sectorControl=sectorControl+a.sectorSummary[i]+", ";
         }
     }
-
-    sessionStorage.sectorSummary=sectorControl; //Sector for d-results
+    //Sector for d-results
+    sessionStorage.sectorSummary=sectorControl; 
     sessionStorage.revenue=a.revenue; 
-    sessionStorage.revTextSummary=a.revenueText; //Revenue text for d-results
+    //Revenue text for d-results
+    sessionStorage.revTextSummary=a.revenueText; 
+
+
+    //Section 2
+    sessionStorage.secTwoUser=Math.round((Number(b.summary_user)/(1/7))*100);
+    sessionStorage.secTwoPeers=Math.round((Number(c.summary_peers)/(1/7))*100);
+    //Section 3
+    sessionStorage.secThreeUser=Math.round((Number(d.summary_user)/(1/7))*100);
+    sessionStorage.secThreePeers=Math.round((Number(d.summary_peers)/(1/7))*100);
+    //Section 4
+    sessionStorage.secFourUser=Math.round((Number(e.summary_user)/(1/7))*100);
+    sessionStorage.secFourPeers=Math.round((Number(e.summary_peers)/(1/7))*100); 
+    //Section 5
+    sessionStorage.secFiveUser=Math.round((Number(l.summary_user)/(1/7))*100);
+    sessionStorage.secFivePeers=Math.round((Number(l.summary_peers)/(1/7))*100);
+    //Section 6
+    sessionStorage.secSixUser=int4.summary_user;
+    sessionStorage.secSixPeers=int4.summary_peers;
+    //Section 7
+    sessionStorage.secSevenUser=Math.round((Number(dial_seven.summary_user)/(1/7))*100);
+    sessionStorage.secSevenPeers=Math.round((Number(dial_seven.summary_peers)/(1/7))*100);
+    //Section 8
+    sessionStorage.secEightUser=Math.round((Number(g.summary_user)/(1/7))*100);
+    sessionStorage.secEightPeers=Math.round((Number(g.summary_peers)/(1/7))*100);
+    //Section 9
+    sessionStorage.secNineUser=Math.round((Number(h.summary_user)/(1/7))*100);
+    sessionStorage.secNinePeers=Math.round((Number(h.summary_peers)/(1/7))*100);    
+
 }
 var bg_changer=function(x){
     $('.city__bg--active').removeClass('city__bg--active');
@@ -185,6 +225,24 @@ var cloud_filler=function(myValue,cloud,timing){
 
         $(cloud).attr('offset','100%');
     }
+
+
+    if(comparison.NinePeers){ 
+        $({
+            value:100
+        }).animate({
+            value: 100-myValue
+        },{
+            duration: timing,
+            easing: 'swing',
+            step: function(){
+                $(cloud).attr('offset',this.value+'%');
+            }
+        })
+    }else{
+
+        $(cloud).attr('offset','100%');
+    }    
 
 }
 
@@ -562,8 +620,6 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
 var isMac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
 
 $(document).ready(function() {
-
-
 
 // 1st DIAL
     $('.dial__input--1').knob({
@@ -1175,6 +1231,27 @@ $(document).ready(function() {
         'displayInput': false,
         'readOnly': true
     });          
+
+    cloud_filler(comparison.TwoUser,'.userTwo',1900);
+    cloud_filler(comparison.TwoPeers,'.peersTwo',2200);
+
+    // cloud_filler(comparison.ThreeUser,'.userThree',1900);
+    // cloud_filler(comparison.ThreePeers,'.peersThree',2200);
+
+    // cloud_filler(comparison.FourUser,'.userFour',1900);
+    // cloud_filler(comparison.FourPeers,'.peersFour',2200);
+
+    // cloud_filler(comparison.FiveUser,'.userFive',1900);
+    // cloud_filler(comparison.FivePeers,'.peersFive',2200);
+
+    // cloud_filler(comparison.SevenUser,'.userSeven',1900);
+    // cloud_filler(comparison.SevenPeers,'.peersSeven',2200);
+
+    // cloud_filler(comparison.EightUser,'.userEight',1900);
+    // cloud_filler(comparison.EightPeers,'.peersEight',2200);
+
+    // cloud_filler(comparison.NineUser,'.userNine',1900);
+    // cloud_filler(comparison.NinePeers,'.peersNine',2200);    
 
     $(window).on('load',function(){
         $('canvas').css('width','100%');

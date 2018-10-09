@@ -2537,6 +2537,8 @@ table {
   height: 47.00rem;
   z-index: 3;
   opacity: 0; }
+  .book-slider--1 {
+    height: 100vh; }
 
 .book-slider.loaded {
   opacity: 1; }
@@ -2548,8 +2550,10 @@ table {
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover !important; }
-  .book-slider .page--x {
-    overflow-y: overlay; }
+  .page--x {
+    height: 100vh; }
+    .book-slider .page--x {
+      overflow-y: overlay; }
 
 body {
   background-image: url("../assets/images/desktop/backgrounds/bg-02.png");

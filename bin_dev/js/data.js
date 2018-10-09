@@ -656,7 +656,21 @@ var int4 = new Vue({
   		}
 
   		return features;
-  	}
+  	},
+  	summary_user:function(){
+  		return [
+  			sectionSix[this.a[0]],
+  			sectionSix[this.a[1]],
+  			sectionSix[this.a[2]],
+  		];
+  	},
+  	summary_peers:function(){
+  		return [
+  			sectionSix[this.a1[0]],
+  			sectionSix[this.a1[1]],
+  			sectionSix[this.a1[2]],
+  		];
+  	},
   },
   methods:{
   	// setRank_int4: function(x, y){
@@ -1059,8 +1073,28 @@ var summary = new Vue({
 	},
 });
 
-var summary = new Vue({
+var comparison = new Vue({
   el: '#comparison',
   data: {
-  	sector:"",
+  	region: sessionStorage.regionSummary,
+  	sector: sessionStorage.sectorSummary,  	  	
+  	revenue: sessionStorage.revTextSummary,
+  	TwoUser: sessionStorage.secTwoUser,
+  	TwoPeers: sessionStorage.secTwoPeers, 	
+  	ThreeUser: sessionStorage.secThreeUser,
+  	ThreePeers: sessionStorage.secThreePeers,
+  	FourUser: sessionStorage.secFourUser,
+  	FourPeers: sessionStorage.secFourPeers,
+  	FiveUser: sessionStorage.secFiveUser,
+  	FivePeers: sessionStorage.secFivePeers,
+  	SixUser: sessionStorage.secSixUser,
+  	SixPeers: sessionStorage.secSixPeers,
+  	SevenUser: sessionStorage.secSevenUser,
+  	SevenPeers: sessionStorage.secSevenPeers,
+  	EightUser: sessionStorage.secEightUser,
+  	EightPeers: sessionStorage.secEightPeers,
+  	NineUser: sessionStorage.secNineUser,
+  	NinePeers: sessionStorage.secNinePeers,
+  	
   },
+});
