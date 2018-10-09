@@ -12,6 +12,7 @@ $Breakpoint argument choices:
 -desk
 */
 /***TOOLTIP_ MIKE ADD TO SASS**/
+
 .sign_in_container{
   position: absolute;
   z-index: 100;
@@ -24,18 +25,18 @@ $Breakpoint argument choices:
   max-width: 420px;
   height: auto;
   max-height: 90vh;
-  padding: 37px 20px 28px 29px;
+    padding: 37px 20px 28px 29px;
 }
 .sign_in_container p{
-  font-size: 1.31rem;
-  font-family: Univers, arial, helvetica, sans-serif;
-  margin-bottom: 1rem;
+    font-size: 1.31rem;
+    font-family: Univers, arial, helvetica, sans-serif;
+    margin-bottom: 1rem;
 }
 
 .sign_in_container input[type="text"]{
   padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
-  background-color: transparent;
-  font-size: 1rem;
+    background-color: transparent;
+    font-size: 1rem;
 
 }
 .sign_in_container select {
@@ -48,35 +49,13 @@ $Breakpoint argument choices:
   background-size: 0.9375rem  0.9375rem;
   background-repeat: no-repeat;
   background-position: 11.38rem 0.375rem;
-  font-size: 1rem;}
+    font-size: 1rem;}
 
 .sign_in_container a{
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 .opt-in{
-  font-size: 1rem;
-}
-
-#tooltip
-{
-  color: #003B4D;
-  background: rgba(270,270,270,.9);
-  position: absolute;
-  z-index: 100;
-  padding: 15px;
-}
-
-#tooltip.left:after
-{
-  left: 10px;
-  margin: 0;
-}
-
-#tooltip.right:after
-{
-  right: 10px;
-  left: auto;
-  margin: 0;
+    font-size: 1rem;
 }
 
 .modal {
