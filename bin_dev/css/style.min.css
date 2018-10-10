@@ -1423,6 +1423,10 @@ a.bttn {
     right: 0;
     margin: 0 auto;
     width: 5.5rem; }
+    @media only screen and (max-width: 1024px) {
+      .dial__industry {
+        top: 0.49rem;
+        width: 5.48rem; } }
   .dial__crown {
     height: 0.60rem;
     width: 0.60rem;
@@ -1454,14 +1458,23 @@ a.bttn {
     @media only screen and (max-height: 875px) {
       .dial__marker {
         width: 1rem; } }
+    @media only screen and (max-width: 1024px) {
+      .dial__marker {
+        width: 1.1rem; } }
     .dial__marker--1 {
       transform: rotate(60deg);
       left: 1.40rem;
       top: 0.85rem; }
+      @media only screen and (max-width: 1024px) {
+        .dial__marker--1 {
+          left: 1.30rem; } }
     .dial__marker--2 {
       transform: rotate(-60deg);
       right: 1.40rem;
       top: 0.85rem; }
+      @media only screen and (max-width: 1024px) {
+        .dial__marker--2 {
+          right: 1.30rem; } }
     .dial__marker--3 {
       transform: rotate(90deg) translateX(-50%);
       right: calc(50% + -0.50rem);
