@@ -1475,10 +1475,11 @@ $(document).ready(function() {
         var splicer;
         // if(int4.a.includes(value))
         if(int4.a.length===3){
-            $('.check-boxer__holder--'+int4.a[2]+' .check-boxer__checkmark--1').css('visibility','hidden');           
-            int4.a.splice(2,1,value);            
-            console.log(value);
-            $('.check-boxer__holder--'+value+' .check-boxer__checkmark--1').css('visibility','visible');
+            if(!int4.a.includes(value)){
+                $('.check-boxer__holder--'+int4.a[2]+' .check-boxer__checkmark--1').css('visibility','hidden');           
+                int4.a.splice(2,1,value);                        
+                $('.check-boxer__holder--'+value+' .check-boxer__checkmark--1').css('visibility','visible');
+            }
         }else if(int4.a.indexOf(value) != -1){
             splicer = int4.a.indexOf(value);
             int4.a.splice(splicer,1);
