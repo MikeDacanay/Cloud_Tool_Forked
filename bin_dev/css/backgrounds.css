@@ -68,7 +68,12 @@ select::-ms-expand {
 .opt-in{
     font-size: 1rem;
 }
-
+canvas{
+    cursor: pointer;
+}
+.dial__group *{
+    cursor: pointer;
+}
 .modal {
     width: 100vw;
     height: 100vh;
