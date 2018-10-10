@@ -47,6 +47,18 @@
 
 /**********Tablet POrtrait***************/
 @media only screen and (max-width: 767px) {
+  .dial__holder {
+    width: 100vw;
+    margin-left: -4.125rem;
+    border-radius: 0px;
+      background-color: transparent;}
+  .header__tut{
+    display: none;
+  }
+  .dial__holder.light{
+    background-color: rgba(270,270,270,.2);
+  }
+
   .mobile{
     display: inherit;
   }

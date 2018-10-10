@@ -28,7 +28,7 @@
 
 		<link rel="stylesheet" href="css/backgrounds.css">
 	</head>
-	<body>		
+	<body>
 		<div class="city__bg city__bg--0 city__bg--active"></div>
 		<div class="city__bg city__bg--1"></div>
 		<div class="city__bg city__bg--2"></div>
@@ -42,7 +42,7 @@
 			<div class="city__bg city__bg--9b"></div> 
 		</div>
 		<div class="nav-bar__bg" id='nav-bar__bg'></div>		
-		<div class="main_container">			
+		<div class="main_container">
 			<div class="nav-bar">
 				<div class="logo__container">
 					<img src="assets/images/desktop/oracle_intro_logo.svg" alt="oracle_intro_logo.svg" class="logo__img">
@@ -310,7 +310,7 @@
 									</div>							
 								</div>							
 								<div class="container-dial marg-top-reg container-dial__second">
-									<div class="dial__holder">
+									<div class="dial__holder light">
 										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--1",'dial--1',90);>
 												Planning
@@ -347,13 +347,13 @@
 											</div>
 										</div>																	
 									</div>
-									<div class="dial__holder">
+									<div class="dial__holder ">
 										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--2",'dial--2',90);>
 												Planning
 											</div>
 											<div class="dial dial--2 marg-top-reg-3">
-												<div class="dial__user dial__user--2">
+												<div class="dial__user--1 dial__user--2">
 													<input type="text" v-model="CL02.a" value='0' class='dial__input dial__input--2'>
 												</div>
 												<div class="dial__industry">
@@ -381,7 +381,7 @@
 											</div>
 										</div>																	
 									</div>
-									<div class="dial__holder">
+									<div class="dial__holder light">
 										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--3",'dial--3',90);>
 												Planning
@@ -443,7 +443,7 @@
 											<div class="dial__header--img dial__header--img--5">
 												<img src="assets/images/desktop/icon--2_4.svg" alt="icon--2_4" class='dial__icon'>
 											</div>
-											<div class="dial__header--text dial__header--text--1">Storing</div>
+											<div class="dial__header--text dial__header--text--1 mobile-tab">Storing</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
 												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
 												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
@@ -451,8 +451,8 @@
 											</div>
 										</div>																	
 									</div>
-									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+									<div class="dial__holder light">
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--5",'dial--5',90);>
 												Planning
 											</div>
@@ -477,7 +477,7 @@
 											<div class="dial__header--img dial__header--img--6">
 												<img src="assets/images/desktop/icon--2_5.svg" alt="icon--2_5" class='dial__icon'>
 											</div>
-											<div class="dial__header--text dial__header--text--6">Securing</div>
+											<div class="dial__header--text dial__header--text--6 mobile-tab">Securing</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
 												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
 												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
@@ -486,7 +486,7 @@
 										</div>																	
 									</div>
 									<div class="dial__holder">
-										<div class="dial__group dial__group--1" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>	
+										<div class="dial__group dial__group--1 desktop" onclick=page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);>
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--6",'dial--6',90);>
 												Planning
 											</div>
@@ -508,10 +508,10 @@
 											</div>
 										</div>															
 										<div class="dial__header--holder dial__header--holder--1 marg-top-med--2">
-											<div class="dial__header--img dial__header--img--7">
+											<div class="dial__header--img dial__header--img--7 ">
 												<img src="assets/images/desktop/icon--2_6.svg" alt="icon--2_6" class='dial__icon'>
 											</div>
-											<div class="dial__header--text dial__header--text--1">Analysis</div>
+											<div class="dial__header--text dial__header--text--1 mobile-tab">Analysis</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
 												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.f" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
 												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.f"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
@@ -581,8 +581,8 @@
 										</div>							
 									</div>	
 									<div class="container-dial marg-top-reg container-dial__third">
-										<div class="dial__holder dial__holder--1">
-											<div class="dial__group dial__group--2" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>	
+										<div class="dial__holder dial__holder--1 light">
+											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--7",'dial--7',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -608,11 +608,15 @@
 												<div class="dial__header--img dial__header--img--2">
 													<img src="assets/images/desktop/icon--3_1.svg" alt="icon--3_1" class='dial__icon'>
 												</div>
-												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1">Application performance predictability</div>
+												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1 mobile-tab">Application performance predictability</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="migrating"  v-model="d.mig6.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="migrating"  v-model="d.mig6.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+												</div>
 											</div>
 										</div>
 										<div class="dial__holder dial__holder--1">
-											<div class="dial__group dial__group--2" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>	
+											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--8",'dial--8',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -638,11 +642,15 @@
 												<div class="dial__header--img dial__header--img--2 dial__header--img--2-1">
 													<img src="assets/images/desktop/icon--2_5.svg" alt="icon--2_5" class='dial__icon'>
 												</div>
-												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1">Application security</div>
+												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1 mobile-tab">Application security</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="migrating"  v-model="d.mig6.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="migrating"  v-model="d.mig6.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+												</div>
 											</div>
 										</div>
 										<div class="dial__holder dial__holder--1">
-											<div class="dial__group dial__group--2" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>	
+											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--9",'dial--9',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -674,7 +682,7 @@
 									</div>
 									<div class="container-dial container-dial--1 marg-top-reg container-dial__third">
 										<div class="dial__holder dial__holder--1">
-											<div class="dial__group dial__group--2" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>	
+											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--10",'dial--10',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -704,7 +712,7 @@
 											</div>
 										</div>										
 										<div class="dial__holder dial__holder--1">
-											<div class="dial__group dial__group--2" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>	
+											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--11",'dial--11',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -4178,7 +4186,7 @@
 									</div>
 									<div class="results__point--container mar-top-large--9">
 										<div class="results__arrow results__arrow--1">
-											<img src="assets/images/desktop/results--arrow.svg" alt="results--arrow.svg">
+											<img src="assets/images/desktop/results--arrow.svg" alt="results--arrow.svg">F
 										</div>
 										<div class="results__point--text ">
 											Read the IT Leaders’ Guide to Oracle Autonomous Database: <a href="http://oracle.com/goto/new-frontiers" target="_blank">New Frontiers of Automation</a>.
