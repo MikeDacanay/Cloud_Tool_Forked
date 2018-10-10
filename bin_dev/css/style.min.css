@@ -3080,6 +3080,8 @@ body {
   padding-left: 1.05rem;
   cursor: pointer;
   transition: all .1s; }
+  .mac .question__revenue span {
+    transform: translateY(0.1em); }
   .question__revenue:not(:last-child) {
     margin-bottom: 0.70rem; }
   .question__revenue:hover {

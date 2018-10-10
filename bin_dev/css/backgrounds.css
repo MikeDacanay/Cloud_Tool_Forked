@@ -501,6 +501,13 @@ canvas{
     .city__bg--9 {
         background-position-y: 285px; } }
 
+@media screen and (max-width: 910px){
+.city__bg--9b {
+        background-position: bottom;
+    background-size: 1500px!important;
+}}
+
+
 .city__bg--active {
     opacity: .99; }
 .city__bg--10{
