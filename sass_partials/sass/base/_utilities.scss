@@ -81,6 +81,9 @@ img.inline{display: inline-block;}
 .marg-bot-reg{margin-bottom: 0.65rem;}
 .marg-bot-reg--1{margin-bottom: 1.5rem;}
 
+.port-n{@include bp(910){display: none;}}
+.port-w-95{@include bp(910){width: 95%;}}
+.port-ls-1{@include bp(910){letter-spacing: -.01em;}}
 
 
 

@@ -959,6 +959,18 @@ img.inline {
 .marg-bot-reg--1 {
   margin-bottom: 1.5rem; }
 
+@media only screen and (max-width: 910px) {
+  .port-n {
+    display: none; } }
+
+@media only screen and (max-width: 910px) {
+  .port-w-95 {
+    width: 95%; } }
+
+@media only screen and (max-width: 910px) {
+  .port-ls-1 {
+    letter-spacing: -.01em; } }
+
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -1368,7 +1380,7 @@ a.bttn {
   height: 3.25rem;
   cursor: pointer; }
   .dial__group {
-    display: flex;  }
+    display: flex; }
     .dial__group--1 {
       flex-direction: column;
       align-items: center; }
@@ -3316,27 +3328,17 @@ a:hover {
 .mobile {
   display: none; }
 
-
 /**********Tablet POrtrait***************/
 @media only screen and (max-width: 767px) {
-
-  /*** CSS changes  10/10***/
   .dial__holder {
     width: 100vw;
     margin-left: -4.125rem;
-  border-radius: 0px;
-    background-color: transparent;}
- .header__tut{
-    display: none;
-  }
-  .dial__holder.light{
-    background-color: rgba(270,270,270,.2);
-  }
-
-
-
-
-  /***END 10/10 ***/
+    border-radius: 0px;
+    background-color: transparent; }
+  .header__tut {
+    display: none; }
+  .dial__holder.light {
+    background-color: rgba(255, 255, 255, 0.2); }
   .mobile {
     display: inherit; }
   .desktop {
@@ -3442,7 +3444,9 @@ a:hover {
     display: block; }
   .dial__header--holder {
     display: block; }
-
+  .dial__holder {
+    width: 100vw;
+    margin-left: -4.125rem; }
   .dial__header--img {
     display: none; }
   .mobile-radio-cont {
