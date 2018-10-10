@@ -40,12 +40,14 @@
     font-family: Univers, arial, helvetica, sans-serif;
     margin-bottom: 1rem;
 }
-
-.sign_in_container input[type="text"]{
+select::-ms-expand {
+    display: none;
+}
+.sign_in_container input[type="text"] {
     padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
     background-color: transparent;
     font-size: 1rem;
-
+    width: 15.5rem
 }
 .sign_in_container select {
     -webkit-appearance: none;
@@ -54,10 +56,10 @@
     border-radius: 0;
     background-color: transparent;
     background-image: url(../assets/images/desktop/thermo/triangle-white--1.svg);
-    background-size: 0.9375rem  0.9375rem;
+    background-size: 1.1rem  0.7375rem;
     background-repeat: no-repeat;
-    background-position: 11.38rem 0.375rem;
-    font-size: 1rem;}
+    background-position: 13.5rem 0.375rem;
+    font-size: 1rem; }
 
 .sign_in_container a{
     color: #FFFFFF;
