@@ -11,17 +11,6 @@ $Breakpoint argument choices:
 -land
 -desk
 */
-
-/**10/10 css changes**/
-
-.comparison__conclusion--text  > a {
-  color: #BDE6EE;
-}
-.comparison__conclusion--text  > a:hover {
- text-decoration: underline;
-}
-
-/**END 10/10**/
 /***TOOLTIP_ MIKE ADD TO SASS**/
 .sign_in_container {
   position: absolute;
@@ -47,7 +36,17 @@ $Breakpoint argument choices:
   background-color: transparent;
   font-size: 1rem; }
 
-
+.sign_in_container select {
+  -webkit-appearance: none;
+  width: 15.5rem;
+  padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: url(../assets/images/desktop/thermo/triangle-white--1.svg);
+  background-size: 0.9375rem  0.9375rem;
+  background-repeat: no-repeat;
+  background-position: 11.38rem 0.375rem;
+  font-size: 1rem; }
 
 .sign_in_container a {
   color: #FFFFFF; }
@@ -2222,6 +2221,9 @@ table {
     width: 69%; }
   .thermo__text--2 {
     font-size: 0.70rem; }
+  .thermo__text--3 {
+    font-size: 0.80rem;
+    margin-bottom: 0px; }
 
 .thermo__wrap {
   background-color: orangered;

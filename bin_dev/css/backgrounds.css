@@ -51,6 +51,7 @@ select::-ms-expand {
 }
 .sign_in_container select {
     -webkit-appearance: none;
+    -moz-appearance: none;
     width: 15.5rem;
     padding: 0.125rem 0.9375rem 0.125rem  0.9375rem;
     border-radius: 0;
