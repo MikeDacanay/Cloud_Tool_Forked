@@ -98,6 +98,10 @@
 	    // width: 5.6rem;
 	    // top: 6px;
 		}
+		@include bp(1024){
+			top: 0.49rem;
+			width: 5.48rem;
+		}
 	}
 
 	&__crown{
@@ -140,6 +144,9 @@
 		@include bph(875){
 			width: 1rem;
 		}	
+		@include bp(1024){
+			width: 1.1rem;
+		}
 		&--1{
 	    transform: rotate(60deg);
 	    left: 1.40rem;
@@ -147,6 +154,9 @@
 			// @include bph(875){
 			// 	top: 11px;
 			// }	
+			@include bp(1024){
+				left: 1.30rem;
+			}
 		}
 		&--2{
 	    transform: rotate(-60deg);
@@ -155,6 +165,10 @@
 			// @include bph(875){
 			// 	top: 11px;	
 			// }	
+
+			@include bp(1024){
+				right: 1.30rem;
+			}
 	    &-a{
 
 	    }
