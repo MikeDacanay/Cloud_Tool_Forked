@@ -33,6 +33,7 @@
   &--x{
     height: 100vh;
     .book-slider &{  
+      overflow-y: auto;
       overflow-y: overlay;
     }
   }

@@ -2572,6 +2572,7 @@ table {
   .page--x {
     height: 100vh; }
     .book-slider .page--x {
+      overflow-y: auto;
       overflow-y: overlay; }
 
 body {
