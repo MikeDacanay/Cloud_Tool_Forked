@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comparison.html" afterPath="$PROJECT_DIR$/comparison.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/backgrounds.css" afterPath="$PROJECT_DIR$/css/backgrounds.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
     </list>
     <ignored path="bin_dev.iws" />
@@ -46,14 +46,14 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="15">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comparison.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comparison.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comparison.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backgrounds.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="backgrounds.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/backgrounds.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7410">
-              <caret line="494" column="144" selection-start-line="494" selection-start-column="144" selection-end-line="494" selection-end-column="144" />
+            <state relative-caret-position="339">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -184,9 +184,9 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/js/header.js" />
-        <option value="$PROJECT_DIR$/css/backgrounds.css" />
-        <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/comparison.html" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
+        <option value="$PROJECT_DIR$/css/backgrounds.css" />
       </list>
     </option>
   </component>
@@ -434,7 +434,7 @@
       <workItem from="1539112727018" duration="54000" />
       <workItem from="1539117857627" duration="326000" />
       <workItem from="1539118965827" duration="1434000" />
-      <workItem from="1539181679057" duration="675000" />
+      <workItem from="1539181679057" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1537971927882</created>
@@ -765,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539118001065</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="cta updates">
+      <created>1539182453476</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1539182453476</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91239000" />
+    <option name="totallyTimeSpent" value="92503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="27" width="1373" height="769" extended-state="0" />
@@ -806,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="starting mobile" />
     <MESSAGE value="Some mobile, Dave's QA" />
     <MESSAGE value="Dave's QA" />
     <MESSAGE value="Background fixes. AGAIN." />
@@ -831,7 +837,8 @@
     <MESSAGE value="results fix" />
     <MESSAGE value="top nav and bg for results" />
     <MESSAGE value="logo fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo fix" />
+    <MESSAGE value="cta updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="cta updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1428,14 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/backgrounds.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7410">
-          <caret line="494" column="144" selection-start-line="494" selection-start-column="144" selection-end-line="494" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1366">
@@ -1483,14 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comparison.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1501,6 +1492,22 @@
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/backgrounds.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
