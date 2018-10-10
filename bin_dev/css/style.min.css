@@ -493,6 +493,9 @@ html {
   @media only screen and (max-width: 1261px) {
     html {
       font-size: 84%; } }
+  @media only screen and (max-width: 800px) {
+    html {
+      font-size: 76.1%; } }
   @media only screen and (max-width: 767px) {
     html {
       font-size: 46.875%; } }
@@ -585,7 +588,7 @@ body {
 a {
   background-color: transparent;
   cursor: pointer;
-  color: #1f4f82;
+  color: #BDE6EE;
   text-decoration: none; }
   a:active {
     outline: 0; }
@@ -1294,6 +1297,9 @@ a.bttn {
   justify-content: space-between; }
   .check-boxer__holder:hover {
     transform: scale(1.05); }
+    @media only screen and (max-width: 1024px) {
+      .check-boxer__holder:hover {
+        transform: scale(1); } }
 
 .check-boxer__text {
   font-size: 1.05rem;
@@ -3311,7 +3317,7 @@ a:hover {
   display: none; }
 
 /**********Tablet POrtrait***************/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .mobile {
     display: inherit; }
   .desktop {

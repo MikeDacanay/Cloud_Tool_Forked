@@ -28,6 +28,9 @@ html {
   @include bp(1261){
     font-size: 84%; 
   }  
+  @include bp(800){
+    font-size: 76.1%;
+  }
 
   @include respond(phone){
     font-size: 46.875%;

@@ -14,6 +14,9 @@
 
 		&:hover{
 			transform: scale(1.05);
+			@include bp(1024){
+				transform: scale(1);
+			}
 		}
 	}
 
