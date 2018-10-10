@@ -11,6 +11,17 @@ $Breakpoint argument choices:
 -land
 -desk
 */
+
+/**10/10 css changes**/
+
+.comparison__conclusion--text  > a {
+  color: #BDE6EE;
+}
+.comparison__conclusion--text  > a:hover {
+ text-decoration: underline;
+}
+
+/**END 10/10**/
 /***TOOLTIP_ MIKE ADD TO SASS**/
 .sign_in_container {
   position: absolute;
