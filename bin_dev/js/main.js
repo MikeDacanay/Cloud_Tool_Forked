@@ -223,10 +223,10 @@ var ease_dial=function(x, y){
 };
 
 var cloud_filler=function(myValue,cloud,timing){
-
-    if(h.summary_user){
-    // if(sessionStorage.user_h){
-        // cloud_user=(100-summary.user)+'%';   
+   
+    if (/Edge/.test(navigator.userAgent)) {
+        $(cloud).attr('offset',(100-myValue)+'%');
+    }else{
         $({
             value:100
         }).animate({
@@ -237,30 +237,8 @@ var cloud_filler=function(myValue,cloud,timing){
             step: function(){
                 $(cloud).attr('offset',this.value+'%');
             }
-        })
-    }else{
-
-        $(cloud).attr('offset','100%');
-    }
-
-
-    if(comparison.NinePeers){ 
-        $({
-            value:100
-        }).animate({
-            value: 100-myValue
-        },{
-            duration: timing,
-            easing: 'swing',
-            step: function(){
-                $(cloud).attr('offset',this.value+'%');
-            }
-        })
-    }else{
-
-        $(cloud).attr('offset','100%');
-    }    
-
+        });
+    };
 
 };
 

@@ -493,6 +493,9 @@ html {
   @media only screen and (max-width: 1261px) {
     html {
       font-size: 84%; } }
+  @media only screen and (max-width: 800px) {
+    html {
+      font-size: 76.1%; } }
   @media only screen and (max-width: 767px) {
     html {
       font-size: 46.875%; } }
@@ -585,7 +588,7 @@ body {
 a {
   background-color: transparent;
   cursor: pointer;
-  color: #1f4f82;
+  color: #BDE6EE;
   text-decoration: none; }
   a:active {
     outline: 0; }
@@ -956,6 +959,18 @@ img.inline {
 .marg-bot-reg--1 {
   margin-bottom: 1.5rem; }
 
+@media only screen and (max-width: 910px) {
+  .port-n {
+    display: none; } }
+
+@media only screen and (max-width: 910px) {
+  .port-w-95 {
+    width: 95%; } }
+
+@media only screen and (max-width: 910px) {
+  .port-ls-1 {
+    letter-spacing: -.01em; } }
+
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -1296,6 +1311,9 @@ a.bttn {
   justify-content: space-between; }
   .check-boxer__holder:hover {
     transform: scale(1.05); }
+    @media only screen and (max-width: 1024px) {
+      .check-boxer__holder:hover {
+        transform: scale(1); } }
 
 .check-boxer__text {
   font-size: 1.05rem;
@@ -1364,7 +1382,7 @@ a.bttn {
   height: 3.25rem;
   cursor: pointer; }
   .dial__group {
-    display: flex;  }
+    display: flex; }
     .dial__group--1 {
       flex-direction: column;
       align-items: center; }
@@ -3064,6 +3082,8 @@ body {
   padding-left: 1.05rem;
   cursor: pointer;
   transition: all .1s; }
+  .mac .question__revenue span {
+    transform: translateY(0.1em); }
   .question__revenue:not(:last-child) {
     margin-bottom: 0.70rem; }
   .question__revenue:hover {
@@ -3321,84 +3341,17 @@ a:hover {
 .mobile {
   display: none; }
 
-/**********TPhone***************/
-@media only screen and (max-width: 768px) {
-
-  /*** CSS changes  10/11***/
-.page--8 .mobile-tab{
-  height: auto;
-}
-  .check-boxer__holder{
-    flex: none;
-    width: 100vw;
-    margin-left: -1rem;
-    border-radius: 0px;
-    background: transparent;
-    height: auto;
-  }
-
-  .check-boxer__text .mobile{
-    display: block;
-    margin-right: 1rem;
-    float: left;
-  }
-  .check-boxer__text input[type="radio"]{
-    margin-top: -3px;
-  }
-
-
-  /**END 10/11**/
-
-  /*** CSS changes  10/10***/
+/**********Tablet POrtrait***************/
+@media only screen and (max-width: 767px) {
   .dial__holder {
     width: 100vw;
     margin-left: -4.125rem;
-  border-radius: 0px;
-    background-color: transparent;}
- .header__tut{
-    display: none;
-  }
-  .dial__holder.light{
-    background-color: rgba(270,270,270,.2);
-  }
-  .container-dial--1 {
-    padding: 0;
-  }
-  .container-thermo {
-    display: block;
-  }
-  .thermo__group {
-    flex: none;
-    width: 100vw;
-    margin-left: -4.125rem;
     border-radius: 0px;
-  }
-  .thermo__title{
-    text-align: left;
-    font-size: 1.2rem;
-    margin-left: 2.5625rem;
-    margin-bottom: 1rem;
-  }
-  .thermo__group.light, .check-boxer__holder.light{
-    background-color: rgba(270,270,270,.2);
-  }
-  .select-group{
-    width: 100%;
-    display: block;
-    margin-bottom: 2.5rem;
-  }
-  .select-label{
-    color: #FFFFFF;
-    margin-bottom: .5rem;
-    display: inline-block;
-  }
-  .header__container {
-    width: 100%; }
-  .container-check-boxer{
-    display: block;
-  }
-
-  /***END 10/10 ***/
+    background-color: transparent; }
+  .header__tut {
+    display: none; }
+  .dial__holder.light {
+    background-color: rgba(255, 255, 255, 0.2); }
   .mobile {
     display: inherit; }
   .desktop {
@@ -3427,7 +3380,8 @@ a:hover {
   h1.header__title {
     margin-top: 0.125rem;
     font-size: 1.3125rem; }
-
+  .header__container {
+    width: 70%; }
   .nav-bar {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem; }
@@ -3503,7 +3457,9 @@ a:hover {
     display: block; }
   .dial__header--holder {
     display: block; }
-
+  .dial__holder {
+    width: 100vw;
+    margin-left: -4.125rem; }
   .dial__header--img {
     display: none; }
   .mobile-radio-cont {
