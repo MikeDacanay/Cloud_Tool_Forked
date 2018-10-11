@@ -3341,17 +3341,175 @@ a:hover {
 .mobile {
   display: none; }
 
-/**********Tablet POrtrait***************/
-@media only screen and (max-width: 767px) {
+/**********TPhone***************/
+@media only screen and (max-width: 768px) {
+
+  /*** CSS changes  10/11***/
+.page--8 .mobile-tab{
+  height: auto;
+}
+  .check-boxer__holder{
+    flex: none;
+    width: 100vw;
+    margin-left: -1rem;
+    border-radius: 0px;
+    background: transparent;
+    height: auto;
+  }
+
+  .check-boxer__text .mobile{
+    display: block;
+    margin-right: 1rem;
+    float: left;
+  }
+  .check-boxer__text input[type="radio"]{
+    margin-top: -3px;
+  }
+  .dial__icon.mobile {
+    position: absolute;
+    top: 50%;
+    left: unset;
+    right:2rem;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 100%;
+  }
+  #q02-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-01.svg");
+  }
+  #q02-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-02.svg");
+  }
+  #q02-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-03.svg");
+  }
+  #q02-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-04.svg");
+  }
+  #q02-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-05.svg");
+  }
+  #q02-06{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-06.svg");
+  }
+  #q03-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-01.svg");
+  }
+  #q03-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-02.svg");
+  }
+  #q03-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-03.svg");
+  }
+  #q03-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-04.svg");
+  }
+  #q03-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-05.svg");
+  }
+  #q04-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-01.svg");
+  }
+  #q04-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-01.svg");
+  }
+  #q04-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-02.svg");
+  }
+  #q04-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-03.svg");
+  }
+  #q04-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-04.svg");
+  }
+  #q04-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-05.svg");
+  }
+  #q07-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-01.svg");
+  }
+  #q07-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-02.svg");
+  }
+  #q07-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-03.svg");
+  }
+  #q07-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-04.svg");
+  }
+  #q07-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-05.svg");
+  }
   .dial__holder {
     width: 100vw;
     margin-left: -4.125rem;
     border-radius: 0px;
-    background-color: transparent; }
-  .header__tut {
-    display: none; }
-  .dial__holder.light {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: transparent;
+  background-position: center;
+    background-position-x: Calc(100% - 2rem);
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  }
+
+  .dial__holder--1 {
+    padding-top: .1rem;
+  }
+  .thermo__group {
+    flex: none;
+    width: 100vw;
+    margin-left: -4.125rem;
+    border-radius: 0px;
+    background-position: center;
+    background-position-x: Calc(100% - 2rem);
+    background-size: 70px auto;
+    background-repeat: no-repeat;
+  }
+  .thermo__holder--3 {
+    background-color:transparent;
+  }
+  /**END 10/11**/
+
+  /*** CSS changes  10/10***/
+
+ .header__tut{
+    display: none;
+  }
+  .dial__holder.light{
+    background-color: rgba(270,270,270,.2);
+  }
+  .container-dial--1 {
+    padding: 0;
+  }
+  .container-thermo {
+    display: block;
+  }
+
+  .thermo__title{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 2.5625rem;
+    margin-bottom: 1rem;
+  }
+  .thermo__group.light, .check-boxer__holder.light{
+    background-color: rgba(270,270,270,.2);
+  }
+  .select-group{
+    width: 100%;
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+  .select-label{
+    color: #FFFFFF;
+    margin-bottom: .5rem;
+    display: inline-block;
+  }
+  .header__container {
+    width: 100%; }
+  .container-check-boxer{
+    display: block;
+  }
+
+  /***END 10/10 ***/
   .mobile {
     display: inherit; }
   .desktop {
@@ -3380,8 +3538,7 @@ a:hover {
   h1.header__title {
     margin-top: 0.125rem;
     font-size: 1.3125rem; }
-  .header__container {
-    width: 70%; }
+
   .nav-bar {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem; }
@@ -3457,9 +3614,7 @@ a:hover {
     display: block; }
   .dial__header--holder {
     display: block; }
-  .dial__holder {
-    width: 100vw;
-    margin-left: -4.125rem; }
+
   .dial__header--img {
     display: none; }
   .mobile-radio-cont {
