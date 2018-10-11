@@ -1609,7 +1609,7 @@ $(document).ready(function() {
     );
 
     $('.map-composition__holder').click(function(){    
-        // For currency dropdown
+        // For currency dropdown        
         $('.dropdown__container').css('display','flex');
         CurrencyConversion(region_currency[$(this).attr('value')][0][2],region_currency[$(this).attr('value')][0][1] );
         setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
@@ -1644,36 +1644,19 @@ $(document).ready(function() {
 
     $('.mob-map-options').on('change', function() {    
         // For currency dropdown
-        $('.dropdown__container').css('display','flex');
-        CurrencyConversion(region_currency[$(this).val()][0][2],region_currency[$(this).val()][0][1] );
-        setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
-            $('.dropdown__content').removeClass('dropdown__content--active');
-        }, 100);
 
         a.region=$(this).val();
-        if($('.map_active')[0] !== undefined){
-            var src_hold = $('.map_active').children("img").attr('src');
-            $('.map_active').children("img").attr('src',$('.map_active').children("img").attr('alt'));
-            $('.map_active').children("img").attr('alt', src_hold);            
-            $('.map_active').removeClass('map_active'); 
-        }
-        var src_hold1 = $(this).children("img").attr('src');
-        $(this).children("img").attr('src',$(this).children("img").attr('alt'));
-        $(this).children("img").attr('alt', $(this).children("img").attr('alt-1'));  
-        $(this).children("img").attr('alt-1', src_hold1);             
-        $(this).toggleClass('map_active');
 
         // For currency options
-        $('.dropdown__option').remove();    
-        for(var i=0;i<region_currency[a.region].length;i++){        
-            $( ".dropdown__content" ).append( 
-                "<div id='dropdown__option--"+i+"' class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"' value1="+region_currency[a.region][i][1]+">"+
-                    region_currency[a.region][i][0]+
-                "</div>"
-            );
-        };   
 
-        $('#dropdown__text').text(region_currency[a.region][0][0]);        
+        $('.currency-select').children().remove();
+        for(var i=0;i<region_currency[a.region].length;i++){
+            $('.currency-select').append(
+                "<option value='"+region_currency[a.region][i][2]+"' value1="+region_currency[a.region][i][1]+">"+
+                    region_currency[a.region][i][0]+
+                "</option>"
+            );
+        };    
     });
 
 
@@ -1702,6 +1685,10 @@ $(document).ready(function() {
             a.sector.push($(this).attr('value'));            
         }        
     });  
+
+    $('.mob-section-options').on('change', function() {
+        a.sector = $(this).val();        
+    });      
     // Revenue selection 
     $('.question__revenue').click(function(){
         a.revenue=$(this).attr('value');
