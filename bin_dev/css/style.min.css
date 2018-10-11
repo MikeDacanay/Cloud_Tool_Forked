@@ -3313,6 +3313,31 @@ a:hover {
 /**********TPhone***************/
 @media only screen and (max-width: 768px) {
 
+  /*** CSS changes  10/11***/
+.page--8 .mobile-tab{
+  height: auto;
+}
+  .check-boxer__holder{
+    flex: none;
+    width: 100vw;
+    margin-left: -1rem;
+    border-radius: 0px;
+    background: transparent;
+    height: auto;
+  }
+
+  .check-boxer__text .mobile{
+    display: block;
+    margin-right: 1rem;
+    float: left;
+  }
+  .check-boxer__text input[type="radio"]{
+    margin-top: -3px;
+  }
+
+
+  /**END 10/11**/
+
   /*** CSS changes  10/10***/
   .dial__holder {
     width: 100vw;
@@ -3361,21 +3386,6 @@ a:hover {
   .container-check-boxer{
     display: block;
   }
-  .check-boxer__holder{
-    flex: none;
-    width: 100vw;
-    margin-left: 0rem;
-    border-radius: 0px;
-    background: transparent;
-  }
-  .check-boxer__text .mobile{
-    display: inline;
-    margin-right: 1rem;
-  }
-
-
-
-
 
   /***END 10/10 ***/
   .mobile {
