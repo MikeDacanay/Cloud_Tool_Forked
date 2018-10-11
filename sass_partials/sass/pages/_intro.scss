@@ -82,6 +82,12 @@
 		padding-left: 1.05rem;
 		cursor: pointer;
 		transition: all .1s;
+		& span{
+			.mac & {
+				transform: translateY(0.1em);
+			}
+		}			
+		
 
 		&:not(:last-child){
 			margin-bottom: 0.70rem;
