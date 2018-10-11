@@ -3325,6 +3325,54 @@ a:hover {
   .dial__holder.light{
     background-color: rgba(270,270,270,.2);
   }
+  .container-dial--1 {
+    padding: 0;
+  }
+  .container-thermo {
+    display: block;
+  }
+  .thermo__group {
+    flex: none;
+    width: 100vw;
+    margin-left: -4.125rem;
+    border-radius: 0px;
+  }
+  .thermo__title{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 2.5625rem;
+    margin-bottom: 1rem;
+  }
+  .thermo__group.light, .check-boxer__holder.light{
+    background-color: rgba(270,270,270,.2);
+  }
+  .select-group{
+    width: 100%;
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+  .select-label{
+    color: #FFFFFF;
+    margin-bottom: .5rem;
+    display: inline-block;
+  }
+  .header__container {
+    width: 100%; }
+  .container-check-boxer{
+    display: block;
+  }
+  .check-boxer__holder{
+    flex: none;
+    width: 100vw;
+    margin-left: 0rem;
+    border-radius: 0px;
+    background: transparent;
+  }
+  .check-boxer__text .mobile{
+    display: inline;
+    margin-right: 1rem;
+  }
+
 
 
 
@@ -3358,8 +3406,7 @@ a:hover {
   h1.header__title {
     margin-top: 0.125rem;
     font-size: 1.3125rem; }
-  .header__container {
-    width: 70%; }
+
   .nav-bar {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem; }

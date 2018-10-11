@@ -45,7 +45,7 @@ var sectionSix = {
     '6': 'End-to-end visibility of process and integration flow status',
     '7': 'Ease of use for non-integration experts',
     '8': 'API management to design, secure and govern application interfaces',
-}
+};
 
 var region_currency = {
     'as': [
@@ -104,7 +104,7 @@ var region_currency = {
         ['Trinidad and Tobago Dollar','$','TTD'],
         ['US Dollar', '$','USD']
     ]
-}
+};
 $('.book-slider').on('init', function(event, slick){
     $('.book-slider').addClass('loaded');
 });
@@ -205,6 +205,7 @@ var ease_dial=function(x, y){
     var $this = $(x);
 
     $this.knob({
+        'release' : function (v) { console.log('release') }
     });
 
     $({
@@ -260,13 +261,13 @@ var cloud_filler=function(myValue,cloud,timing){
         $(cloud).attr('offset','100%');
     }    
 
-}
+};
 
 // On-click event on text around dials
 var dial_move=function(dial, dial_group,rotate){   
     $(".dial__"+dial).val(rotate).trigger('change');
     $('.'+dial_group+' .dial__hand').css('transform',"rotate("+(rotate-90)+"deg)")
-}
+};
 
 var tracker_navigator=function(tracker){
     if(tracker <= tracker_sum){        
@@ -647,9 +648,9 @@ $(document).ready(function() {
             b.CL02.a = v;
          },
          'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");       
-            b.CL02.a = v;            
-        },
+            b.CL02.a = v;
+
+         },
         'min':0,
         'max':180,
         'angleArc':180,
