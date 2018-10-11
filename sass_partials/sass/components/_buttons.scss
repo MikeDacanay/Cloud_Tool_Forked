@@ -169,6 +169,11 @@ a.bttn{
     .ie &{
       margin-top: -0.40rem;
     }
+    &-3{
+     .ie &{
+        margin-top: 0.40rem;
+      } 
+    }
   }
 
   &--4{
