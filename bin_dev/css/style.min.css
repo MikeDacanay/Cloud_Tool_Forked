@@ -3186,6 +3186,8 @@ body {
     margin-top: 3.35rem; }
     .ie .results__cloud--2 {
       transform: translateY(0.4rem); }
+  .ie .results__cloud--3 {
+    margin-top: 0.20rem; }
   .results__cloud--4 {
     margin-top: 3.80rem; }
   .results__cloud--stroke {

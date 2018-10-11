@@ -259,7 +259,6 @@ var cloud_filler=function(myValue,cloud,timing){
 
         $(cloud).attr('offset','100%');
     }    
-
 }
 
 // On-click event on text around dials
