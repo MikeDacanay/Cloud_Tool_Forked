@@ -3343,16 +3343,112 @@ a:hover {
   .check-boxer__text input[type="radio"]{
     margin-top: -3px;
   }
-
-
-  /**END 10/11**/
-
-  /*** CSS changes  10/10***/
+  .dial__icon.mobile {
+    position: absolute;
+    top: 50%;
+    left: unset;
+    right:2rem;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 100%;
+  }
+  #q02-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-01.svg");
+  }
+  #q02-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-02.svg");
+  }
+  #q02-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-03.svg");
+  }
+  #q02-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-04.svg");
+  }
+  #q02-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-05.svg");
+  }
+  #q02-06{
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-06.svg");
+  }
+  #q03-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-01.svg");
+  }
+  #q03-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-02.svg");
+  }
+  #q03-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-03.svg");
+  }
+  #q03-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-04.svg");
+  }
+  #q03-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q03-05.svg");
+  }
+  #q04-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-01.svg");
+  }
+  #q04-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-01.svg");
+  }
+  #q04-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-02.svg");
+  }
+  #q04-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-03.svg");
+  }
+  #q04-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-04.svg");
+  }
+  #q04-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-05.svg");
+  }
+  #q07-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-01.svg");
+  }
+  #q07-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-02.svg");
+  }
+  #q07-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-03.svg");
+  }
+  #q07-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-04.svg");
+  }
+  #q07-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q07-05.svg");
+  }
   .dial__holder {
     width: 100vw;
     margin-left: -4.125rem;
-  border-radius: 0px;
-    background-color: transparent;}
+    border-radius: 0px;
+    background-color: transparent;
+  background-position: center;
+    background-position-x: Calc(100% - 2rem);
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  }
+
+  .dial__holder--1 {
+    padding-top: .1rem;
+  }
+  .thermo__group {
+    flex: none;
+    width: 100vw;
+    margin-left: -4.125rem;
+    border-radius: 0px;
+    background-position: center;
+    background-position-x: Calc(100% - 2rem);
+    background-size: 70px auto;
+    background-repeat: no-repeat;
+  }
+  .thermo__holder--3 {
+    background-color:transparent;
+  }
+  /**END 10/11**/
+
+  /*** CSS changes  10/10***/
+
  .header__tut{
     display: none;
   }
@@ -3365,12 +3461,7 @@ a:hover {
   .container-thermo {
     display: block;
   }
-  .thermo__group {
-    flex: none;
-    width: 100vw;
-    margin-left: -4.125rem;
-    border-radius: 0px;
-  }
+
   .thermo__title{
     text-align: left;
     font-size: 1.2rem;
