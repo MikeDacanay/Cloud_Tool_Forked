@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comparison.html" afterPath="$PROJECT_DIR$/comparison.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_results.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_results.scss" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4290">
-              <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+            <state relative-caret-position="3975">
+              <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,8 +41,8 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="3418" column="71" selection-start-line="3418" selection-start-column="71" selection-end-line="3418" selection-end-column="71" />
+            <state relative-caret-position="-1210">
+              <caret line="3349" column="1" selection-start-line="3349" selection-start-column="1" selection-end-line="3349" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/comparison.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14895">
-              <caret line="994" column="48" selection-start-line="994" selection-start-column="48" selection-end-line="994" selection-end-column="48" />
+              <caret line="995" column="46" selection-start-line="995" selection-start-column="46" selection-end-line="995" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -181,8 +182,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="143" />
+    <option name="x" value="31" />
+    <option name="y" value="38" />
     <option name="width" value="1373" />
     <option name="height" value="769" />
   </component>
@@ -471,14 +472,7 @@
       <workItem from="1539195028926" duration="12426000" />
       <workItem from="1539274028788" duration="327000" />
       <workItem from="1539281393590" duration="1016000" />
-      <workItem from="1539282566404" duration="5124000" />
-    </task>
-    <task id="LOCAL-00006" summary="merge">
-      <created>1538493607398</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1538493607398</updated>
+      <workItem from="1539282566404" duration="5246000" />
     </task>
     <task id="LOCAL-00007" summary="soome QA">
       <created>1538498826499</created>
@@ -816,14 +810,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539284857240</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="icons to Q7">
+      <created>1539293038201</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1539293038201</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112618000" />
+    <option name="totallyTimeSpent" value="112740000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="143" width="1373" height="769" extended-state="0" />
+    <frame x="31" y="38" width="1373" height="769" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34814274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -857,7 +858,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="results text" />
     <MESSAGE value="sector hover states" />
     <MESSAGE value="dropdown text" />
     <MESSAGE value="no seriously backgrounds" />
@@ -882,7 +882,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="conflict resolution&#10;" />
     <MESSAGE value="mobile to Q7" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile to Q7" />
+    <MESSAGE value="icons to Q7" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons to Q7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1333,7 +1334,7 @@
     <entry file="file://$PROJECT_DIR$/comparison.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14895">
-          <caret line="994" column="48" selection-start-line="994" selection-start-column="48" selection-end-line="994" selection-end-column="48" />
+          <caret line="995" column="46" selection-start-line="995" selection-start-column="46" selection-end-line="995" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1345,8 +1346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4290">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+        <state relative-caret-position="3975">
+          <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1418,8 +1419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="3418" column="71" selection-start-line="3418" selection-start-column="71" selection-end-line="3418" selection-end-column="71" />
+        <state relative-caret-position="-1210">
+          <caret line="3349" column="1" selection-start-line="3349" selection-start-column="1" selection-end-line="3349" selection-end-column="1" />
           <folding />
         </state>
       </provider>

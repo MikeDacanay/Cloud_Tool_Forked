@@ -82,7 +82,9 @@
 			}			
 		}
 		&--3{
-
+			.ie &{			
+				margin-top: 0.20rem;
+			}
 		}
 		&--4{
 	    margin-top: 3.80rem;
