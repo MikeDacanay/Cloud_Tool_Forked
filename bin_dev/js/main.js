@@ -1630,7 +1630,6 @@ $(document).ready(function() {
         $(this).toggleClass('map_active');
 
         // For currency options
-      //  $('.dropdown__text').text($('.dropdown__option--0').innerHTML);
         $('.dropdown__option').remove();    
         for(var i=0;i<region_currency[a.region].length;i++){        
             $( ".dropdown__content" ).append( 
@@ -1641,10 +1640,42 @@ $(document).ready(function() {
         };   
 
         $('#dropdown__text').text(region_currency[a.region][0][0]);
-       // $('.question__revenue--1').text('$1 Billion+ (USD)');
-       // $('.question__revenue--2').text('$50 Million - $1 Billion (USD)');
-     //   $('.question__revenue--3').text('$0 - $50 Million (USD)');
     });
+
+    $('.mob-map-options').on('change', function() {    
+        // For currency dropdown
+        $('.dropdown__container').css('display','flex');
+        CurrencyConversion(region_currency[$(this).val()][0][2],region_currency[$(this).val()][0][1] );
+        setTimeout(function(){ eventFire(document.getElementById('dropdown__option--0'),'click');
+            $('.dropdown__content').removeClass('dropdown__content--active');
+        }, 100);
+
+        a.region=$(this).val();
+        if($('.map_active')[0] !== undefined){
+            var src_hold = $('.map_active').children("img").attr('src');
+            $('.map_active').children("img").attr('src',$('.map_active').children("img").attr('alt'));
+            $('.map_active').children("img").attr('alt', src_hold);            
+            $('.map_active').removeClass('map_active'); 
+        }
+        var src_hold1 = $(this).children("img").attr('src');
+        $(this).children("img").attr('src',$(this).children("img").attr('alt'));
+        $(this).children("img").attr('alt', $(this).children("img").attr('alt-1'));  
+        $(this).children("img").attr('alt-1', src_hold1);             
+        $(this).toggleClass('map_active');
+
+        // For currency options
+        $('.dropdown__option').remove();    
+        for(var i=0;i<region_currency[a.region].length;i++){        
+            $( ".dropdown__content" ).append( 
+                "<div id='dropdown__option--"+i+"' class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"' value1="+region_currency[a.region][i][1]+">"+
+                    region_currency[a.region][i][0]+
+                "</div>"
+            );
+        };   
+
+        $('#dropdown__text').text(region_currency[a.region][0][0]);        
+    });
+
 
 //fakes an event
     function eventFire(el, etype) {
