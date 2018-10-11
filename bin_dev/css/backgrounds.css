@@ -83,6 +83,9 @@ canvas{
     top:0;
     bottom:0;
 }
+.ie .modal{
+    background-color: rgba(rgba(0, 0, 0, 0.9));
+}
 .input-left, .input-right{
     display: block;
     width: 100%;

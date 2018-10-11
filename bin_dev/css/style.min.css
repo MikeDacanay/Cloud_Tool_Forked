@@ -1170,6 +1170,8 @@ a.bttn {
       margin-top: 0.55rem; }
     .ie .btn--3 {
       margin-top: -0.40rem; }
+    .ie .btn--3-3 {
+      margin-top: 0.40rem; }
   .btn--4 {
     padding-left: 0.45rem;
     padding-top: 0.3rem;
@@ -3158,9 +3160,12 @@ body {
   .results__cloud--1 {
     margin-top: 1.70rem; }
     .ie .results__cloud--1 {
-      transform: translateY(-1.8rem); }
+      transform: translateY(1.1rem);
+      margin-top: 0; }
   .results__cloud--2 {
     margin-top: 3.35rem; }
+    .ie .results__cloud--2 {
+      transform: translateY(0.4rem); }
   .results__cloud--4 {
     margin-top: 3.80rem; }
   .results__cloud--stroke {
@@ -3211,11 +3216,15 @@ body {
 .results__score {
   font-size: 6.00rem;
   line-height: initial; }
+  .ie .results__score {
+    line-height: 7.25rem; }
   .mac .results__score {
     transform: translateY(0.8rem); }
   .results__score--1 {
     color: #fff;
     transform: translateY(-0.2rem); }
+    .ie .results__score--1 {
+      transform: translateY(0.35rem); }
   .results__score--2 {
     color: #F29111;
     line-height: 6.3rem; }
