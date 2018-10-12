@@ -46,6 +46,8 @@ var a = new Vue({
 					sectorTemp.push('Telecom/Media/Ent.');
 				}else if(a.sector[i]=='health'){
 					sectorTemp.push('Healthcare');
+				}else if(a.sector[i]=='tot'){
+					sectorTemp.push('Other');
 				}
 			}
 			return sectorTemp;

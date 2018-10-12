@@ -49,6 +49,7 @@ var clo2_developing = {
 		tel:56,
 	},
 	plan:{
+		tot:41,
 		auto:38,
 		fin:47,
 		cons:42,
@@ -60,6 +61,7 @@ var clo2_developing = {
 		tel:42,
 	},
 	not:{
+		tot:3,
 		auto:3,
 		fin:3,
 		cons:1,
@@ -86,6 +88,7 @@ var clo2_integrating = {
 		tel:57,
 	},
 	plan:{
+		tot: 43,
 		auto:46,
 		fin:44,
 		cons:40,
@@ -97,6 +100,7 @@ var clo2_integrating = {
 		tel:31,
 	},
 	not:{
+		tot: 6,
 		auto:7,
 		fin:9,
 		cons:0,
@@ -123,6 +127,7 @@ var clo2_storing = {
 		tel:61,
 	},
 	plan:{
+		tot: 35,
 		auto:37,
 		fin:29,
 		cons:32,
@@ -134,6 +139,7 @@ var clo2_storing = {
 		tel:31,
 	},
 	not:{
+		tot: 6,
 		auto:5,
 		fin:6,
 		cons:2,
@@ -160,6 +166,7 @@ var clo2_security = {
 		tel:45,
 	},
 	plan:{
+		tot: 38,
 		auto:36,
 		fin:40,
 		cons:38,
@@ -171,6 +178,7 @@ var clo2_security = {
 		tel:45,
 	},
 	not:{
+		tot: 7,
 		auto:6,
 		fin:11,
 		cons:5,
@@ -197,6 +205,7 @@ var clo2_analysis = {
 		tel:49,
 	},
 	plan:{
+		tot: 42,
 		auto:38,
 		fin:41,
 		cons:45,
@@ -208,6 +217,7 @@ var clo2_analysis = {
 		tel:45,
 	},
 	not:{
+		tot: 47,
 		auto:8,
 		fin:7,
 		cons:3,
@@ -312,6 +322,7 @@ var dev1 = {
 
 var dev2 = {
 	a:{
+		tot: 5,
 		auto:	4.7,
 		fin:	4.8,
 		cons:	5.1,
@@ -323,6 +334,7 @@ var dev2 = {
 		tel:	5.3,
 	},
 	b:{
+		tot: 4.7,
 		auto:	4.8,
 		fin:	4.7,
 		cons:	4.5,
@@ -334,6 +346,7 @@ var dev2 = {
 		tel:	4.9,
 	},	
 	c:{
+		tot: 5,
 		auto:	5,
 		fin:	4.8,
 		cons:	5,
@@ -345,6 +358,7 @@ var dev2 = {
 		tel:	5,
 	},
 	d:{
+		tot: 4.9,
 		auto:	4.9,
 		fin:	4.7,
 		cons:	4.8,
@@ -356,6 +370,7 @@ var dev2 = {
 		tel:	4.8,	
 	},
 	e:{
+		tot: 4.8,
 		auto:	4.9,
 		fin:	4.5,
 		cons:	4.7,
@@ -376,7 +391,8 @@ var dev5={
 	insur:["mp","auto","api","lang","vt","db","ai","chat","cont"],
 	oil:["mp","api","db","auto","vt","lang","ai","chat","cont"],
 	ret:["auto","api","mp","vt","db","lang","ai","cont","chat"],
-	tel:["mp","db","ai","api","auto","vt","chat","lang","cont"],	
+	tel:["mp","db","ai","api","auto","vt","chat","lang","cont"],
+	tot:["mp","auto","db","api","ai","vt","lang","cont","chat"],	
 }
 
 var dat3={
@@ -452,6 +468,7 @@ var int={
 	oil:['6','8','3','5','1','7','4','2'],
 	ret:['3','6','8','5','7','1','2','4'],
 	tel:['3','6','2','4','8','1','5','7'],		
+	tot:['3','6','8','5','1','4','7','2'],
 }
 
 var sec3={
@@ -465,6 +482,7 @@ var sec3={
 		oil:	5.5,
 		ret:	5,
 		tel:	5.1,
+		tot: 5.1,
 	},
 	b:{
 		auto:	5.1,
@@ -476,6 +494,7 @@ var sec3={
 		oil:	5.4,
 		ret:	4.9,
 		tel:	5.1,
+		tot: 5,
 	},
 	c:{
 		auto:	5.1,
@@ -487,6 +506,7 @@ var sec3={
 		oil:	5.3,
 		ret:	5,
 		tel:	5,
+		tot: 5,
 	},
 	d:{
 		auto:	5,
@@ -498,6 +518,7 @@ var sec3={
 		oil:	5.2,
 		ret:	4.9,
 		tel:	4.7,
+		tot: 4.8,
 	},	
 }
 
@@ -512,6 +533,7 @@ var ana={
 		oil:	5.6,
 		ret:	5.2,
 		tel:	5.2,
+		tot: 5.2,
 	},
 	b:{
 		auto:	5.3,
@@ -523,6 +545,7 @@ var ana={
 		oil:	5.4,
 		ret:	5.1,
 		tel:	5.2,
+		tot: 5.2,
 	},
 	c:{
 		auto:	4.8,
@@ -534,6 +557,7 @@ var ana={
 		oil:	5,
 		ret:	5,
 		tel:	5.1,
+		tot: 4.9,
 	},
 	d:{
 		auto:	5.1,
@@ -545,6 +569,7 @@ var ana={
 		oil:	5.4,
 		ret:	5,
 		tel:	4.9,
+		tot: 5,
 	},
 	e:{
 		auto:	5.1,
@@ -556,6 +581,7 @@ var ana={
 		oil:	5.2,
 		ret:	5,
 		tel:	5,
+		tot: 5,
 	},
 	f:{
 		auto:	5.1,
@@ -567,5 +593,6 @@ var ana={
 		oil:	5.2,
 		ret:	4.9,
 		tel:	5.2,
+		tot: 5,
 	}
 }

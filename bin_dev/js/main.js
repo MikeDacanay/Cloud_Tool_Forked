@@ -1284,22 +1284,6 @@ $(document).ready(function() {
     // $('.peers-cloud').attr('offset',cloud_peers);
 
     $('.results_page').click(function(){
-        // sessionStorage.user_b= b.summary_user;
-        // sessionStorage.user_d= d.summary_user;
-        // sessionStorage.user_e= e.summary_user;
-        // sessionStorage.user_l= l.summary_user;
-        // sessionStorage.user_j= j.summary_user;
-        // sessionStorage.user_g= g.summary_user;
-        // sessionStorage.user_h= h.summary_user; 
-
-        // sessionStorage.peers_c= c.summary_peers;
-        // sessionStorage.peers_d= d.summary_peers;
-        // sessionStorage.peers_e= e.summary_peers;
-        // sessionStorage.peers_l= l.summary_peers;
-        // sessionStorage.peers_j= j.summary_peers;
-        // sessionStorage.peers_g= g.summary_peers;
-        // sessionStorage.peers_h= h.summary_peers;         
-
         $('.book-slider').slick('slickGoTo', 9);
     });
 
