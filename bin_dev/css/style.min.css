@@ -3344,18 +3344,69 @@ a:hover {
 /**********TPhone***************/
 @media only screen and (max-width: 768px) {
 
-  /*** CSS changes  10/11***/
-.page--8 .mobile-tab{
-  height: auto;
-}
+  /*** CSS changes  10/12***/
+  #q08-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q08-01.svg");
+  }
+  #q08-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q08-02.svg");
+  }
+  #q08-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q08-03.svg");
+  }
+  #q08-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q08-04.svg");
+  }
+  #q09-01{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-01.svg");
+  }
+  #q09-02{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-02.svg");
+  }
+  #q09-03{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-03.svg");
+  }
+  #q09-04{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-04.svg");
+  }
+  #q09-05{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-05.svg");
+  }
+  #q09-06{
+    background-image: url("../assets/images/_mobile/_phone-icons/q09-06.svg");
+  }
+  .mobile-radio-cont {
+    display: block;
+    padding-right:6.625rem;
+  }
   .check-boxer__holder{
     flex: none;
     width: 100vw;
     margin-left: -1rem;
     border-radius: 0px;
+    padding-right: 6.625rem;
     background: transparent;
     height: auto;
   }
+  .dial__holder {
+    width: 100vw;
+    margin-left: -4.125rem;
+    border-radius: 0px;
+    background-color: transparent;
+    background-position: center;
+    background-position-x: Calc(100% - 2rem);
+    background-size: 70px auto;
+    background-repeat: no-repeat;
+    padding-right: 6.625rem;
+  }
+
+  /***END 11/12***/
+
+  /*** CSS changes  10/11***/
+.page--8 .mobile-tab{
+  height: auto;
+}
+
 
   .check-boxer__text .mobile{
     display: block;
@@ -3439,16 +3490,6 @@ a:hover {
   }
   #q07-05{
     background-image: url("../assets/images/_mobile/_phone-icons/q07-05.svg");
-  }
-  .dial__holder {
-    width: 100vw;
-    margin-left: -4.125rem;
-    border-radius: 0px;
-    background-color: transparent;
-  background-position: center;
-    background-position-x: Calc(100% - 2rem);
-  background-size: 70px auto;
-  background-repeat: no-repeat;
   }
 
   .dial__holder--1 {
@@ -3617,9 +3658,7 @@ a:hover {
 
   .dial__header--img {
     display: none; }
-  .mobile-radio-cont {
-    width: 100%;
-    display: block; }
+
   .dial__header--text {
     font-family: "Univers", Arial, Helvetica, sans-serif;
     font-size: 1.125rem;

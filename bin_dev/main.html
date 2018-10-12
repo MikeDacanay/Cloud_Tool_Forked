@@ -299,7 +299,7 @@
 								<h1 class="header__title second c-d_none">Your current position in the <b>cloud journey</b> compared to your&nbsp;peers.</h1>
 							</div>
 							<div class="container--1">
-								<div class="flexer">
+								<div class="flexer desktop">
 									<div class="container-legend">
 										<div class="container-legend__circle container-legend__circle--1"></div>
 										<div class="container-legend__text">You</div>
@@ -570,7 +570,7 @@
 								</div>						
 
 								<div class="container--1">								
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -821,7 +821,7 @@
 								</div>
 
 								<div class="container--3">
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -2135,7 +2135,7 @@
 								</div>
 
 								<div class="container--4">
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -2417,7 +2417,7 @@
 							</div>
 
 							<div class="container--1">
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -2876,7 +2876,7 @@
 								</div>
 
 								<div class="container--3 container-dial__eighth">
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -2887,10 +2887,10 @@
 										</div>
 									</div>
 									<div class="container-thermo marg-top-reg">
-										<div class="thermo__group thermo__group--6">
+										<div class="thermo__group thermo__group--6" id="q08-01">
 											<div class="thermo__holder thermo__holder--2 thermo__holder--4">
-												<div class="thermo__text thermo__text--1 c-u-marg-bot--2">Detect new threats within a day</div>
-												<div 	class="meter" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
+												<div class="thermo__text thermo__text--1 c-u-marg-bot--2 desktop">Detect new threats within a day</div>
+												<div class="meter desktop" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
 													<button class="meter__button" onclick="meter_button_2('thermo__6', 'thermo__group--6','up','a')">
 														<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 													</button>
@@ -2951,13 +2951,17 @@
 														<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 													</button>
 												</div>
-												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1">Detection after a month</div>
-												<div class="thermo__image thermo__image--6">
+												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1 desktop">Detection after a month</div>
+												<div class="thermo__image thermo__image--6 desktop">
 													<img src="assets/images/desktop/08/icon-cyber-detection.svg" alt="icon-cyber-detection.svg">
 												</div>
 												<div class="thermo__title thermo__title--1">
-													<span>Cyber security</span>
-													<span>threat detection</span>
+													<span>Cyber security <br class="desktop"> threat detection</span>
+													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+														<div class="mobile-radio-group"> <input name="g.sec3.a"  v-model="g.sec3.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Within a day</span></div>
+														<div class="mobile-radio-group"> <input name="g.sec3.a"  v-model="g.sec3.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Within a month</span></div>
+														<div class="mobile-radio-group"><input  name="g.sec3.a"  v-model="g.sec3.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">After a month</span></div>
+													</div>
 												</div>
 											</div>
 											<!-- <div class="thermo__image thermo__image--6">
@@ -2968,10 +2972,10 @@
 												<span>threat detection</span>
 											</div>	 -->
 										</div>
-										<div class="thermo__group thermo__group--7">
+										<div class="thermo__group thermo__group--7" id="q08-02">
 											<div class="thermo__holder thermo__holder--3 thermo__holder--4">
-												<div class="thermo__text thermo__text--1 c-u-marg-bot--2">Predict and mitigate potential new threats</div>
-												<div 	class="meter" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
+												<div class="thermo__text thermo__text--1 c-u-marg-bot--2 desktop">Predict and mitigate potential new threats</div>
+												<div class="meter desktop" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
 													<button class="meter__button" onclick="meter_button_2('thermo__7', 'thermo__group--7','up','b')">
 														<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 													</button>
@@ -3032,13 +3036,17 @@
 														<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 													</button>
 												</div>
-												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1">No prediction or prevention</div>
-												<div class="thermo__image thermo__image--7">
+												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1 desktop">No prediction or prevention</div>
+												<div class="thermo__image thermo__image--7 desktop">
 													<img src="assets/images/desktop/08/icon-cyber-prevention.svg" alt="icon-cyber-prevention.svg">
 												</div>
 												<div class="thermo__title thermo__title--1">
-													<span>Cyber security</span>
-													<span>prevention</span>
+													<span>Cyber security <br class="desktop"> prevention</span>
+													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+														<div class="mobile-radio-group"> <input name="g.sec3.b"  v-model="g.sec3.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Predict and Mitigate new threats</span></div>
+														<div class="mobile-radio-group"><input  name="g.sec3.b"  v-model="g.sec3.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Some prediction or prevention</span></div>
+														<div class="mobile-radio-group"><input  name="g.sec3.b"  v-model="g.sec3.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No prediction or prevention</span></div>
+													</div>
 												</div>
 											</div>
 											<!-- <div class="thermo__image thermo__image--7">
@@ -3049,13 +3057,13 @@
 												<span>prevention</span>
 											</div> -->
 										</div>
-										<div class="thermo__group thermo__group--8">
+										<div class="thermo__group thermo__group--8" id="q08-03">
 											<div class="thermo__holder thermo__holder--2 thermo__holder--4">
-												<div class="thermo__text thermo__text--1 c-u-marg-bot--2">
+												<div class="thermo__text thermo__text--1 c-u-marg-bot--2 desktop">
 													Agile and continuous
 													<span class="block">&nbsp;</span>
 												</div>
-												<div 	class="meter" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
+												<div class="meter desktop" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
 													<button class="meter__button" onclick="meter_button_2('thermo__8', 'thermo__group--8','up','c')">
 														<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 													</button>
@@ -3116,13 +3124,17 @@
 														<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 													</button>
 												</div>
-												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1">Rigid and structured</div>
-												<div class="thermo__image thermo__image--8">
+												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1 desktop">Rigid and structured</div>
+												<div class="thermo__image thermo__image--8 desktop">
 													<img src="assets/images/desktop/08/icon-capacity.svg" alt="icon-capacity.svg">
 												</div>
 												<div class="thermo__title thermo__title--1">
-													<span>Capacity</span>
-													<span>planning</span>
+													<span>Capacity <br class="desktop"> planning</span>
+													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+														<div class="mobile-radio-group"> <input name="g.sec3.c"  v-model="g.sec3.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Agile and Continuous</span></div>
+														<div class="mobile-radio-group"> <input name="g.sec3.c"  v-model="g.sec3.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Somewhat agile</span></div>
+														<div class="mobile-radio-group"><input  name="g.sec3.c"  v-model="g.sec3.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Rigid and structured</span></div>
+													</div>
 												</div>
 											</div>
 <!-- 											<div class="thermo__image thermo__image--8">
@@ -3133,13 +3145,13 @@
 												<span>planning</span>
 											</div> -->
 										</div>
-										<div class="thermo__group thermo__group--9">
-											<div class="thermo__holder thermo__holder--3 thermo__holder--4">
-												<div class="thermo__text c-u-marg-bot--2">
+										<div class="thermo__group thermo__group--9" id="q08-04">
+											<div class="thermo__holder thermo__holder--3 thermo__holder--4 ">
+												<div class="thermo__text c-u-marg-bot--2 desktop">
 													Pro-actively reduce outage
 													<span class="block">&nbsp;</span>
 												</div>
-												<div 	class="meter" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
+												<div class="meter desktop" onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);>
 													<button class="meter__button" onclick="meter_button_2('thermo__9', 'thermo__group--9','up','d')">
 														<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 													</button>
@@ -3200,13 +3212,16 @@
 														<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 													</button>
 												</div>
-												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1">Fix outages as they happen</div>
-												<div class="thermo__image thermo__image--9">
+												<div class="thermo__text c-u-marg-top--1 c-u-marg-bot--1 desktop">Fix outages as they happen</div>
+												<div class="thermo__image thermo__image--9 desktop">
 													<img src="assets/images/desktop/08/icon-outage.svg" alt="icon-outage.svg">
 												</div>
 												<div class="thermo__title thermo__title--1">
-													<span>Outage</span>
-													<span>prevention</span>
+													<span>Outage<br class="desktop"> prevention</span>
+													<div class="mobile mobile-radio-cont  mobile-tab">
+														<div class="mobile-radio-group"> <input name="g.sec3.d"  v-model="g.sec3.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Pro-actively reduce outage </span></div>
+														<div class="mobile-radio-group"><input  name="g.sec3.d"  v-model="g.sec3.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Fix outages as they happen</span></div>
+													</div>
 												</div>
 											</div>
 <!-- 											<div class="thermo__image thermo__image--9">
@@ -3590,7 +3605,7 @@
 								</div>
 
 								<div class="container--3 container-dial__meter">
-									<div class="flexer">
+									<div class="flexer desktop">
 										<div class="container-legend">
 											<div class="container-legend__circle container-legend__circle--1"></div>
 											<div class="container-legend__text">You</div>
@@ -3601,11 +3616,10 @@
 										</div>
 									</div>
 									<div class="container-thermo marg-top-reg container-dial__ninth">
-										<div class="thermo__group thermo__group--10">
+										<div class="thermo__group thermo__group--10"  id="q09-01">
 											<div class="thermo__holder thermo__holder--2 thermo__holder--5">
-												<div class="thermo__text thermo__text--2 width-80 c-u-marg-bot--2">Use the latest modeling and analysis techniques</div>
-
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
+												<div class="thermo__text thermo__text--2 width-80 c-u-marg-bot--2 desktop">Use the latest modeling and analysis techniques</div>
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__10', 'thermo__group--10','up','a')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -3666,15 +3680,16 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>
 												</div>
-
-
-												<div class="thermo__text width-70 c-u-marg-top--1 thermo__text--3">Unable to analyze data</div>
-												<div class="thermo__image thermo__image--10">
+												<div class="thermo__text width-70 c-u-marg-top--1 thermo__text--3 desktop">Unable to analyze data</div>
+												<div class="thermo__image thermo__image--10 desktop">
 													<img src="assets/images/desktop/09/icon-data-analysis.svg" alt="icon-data-analysis.svg">
 												</div>
 												<div class="thermo__title thermo__title--2 c-u-marg-top--4">
-													<span>Data analysis</span>
-													<span>sophistication</span>
+													<span>Data analysis <br class="desktop"> sophistication</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.a"  v-model="h.ana.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Use the latest modeling and analysis techniques</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.a"  v-model="h.ana.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Unable to analyze data</span></div>
 												</div>
 											</div>
 <!-- 											<div class="thermo__image thermo__image--10">
@@ -3685,14 +3700,14 @@
 												<span>sophistication</span>
 											</div> -->
 										</div>
-										<div class="thermo__group thermo__group--11">
+										<div class="thermo__group thermo__group--11" id="q09-02">
 											<div class="thermo__holder thermo__holder--3 thermo__holder--5">
-												<div class="thermo__text width-70 c-u-marg-bot--2 thermo__text--2">All types of data
+												<div class="thermo__text width-70 c-u-marg-bot--2 thermo__text--2 desktop">All types of data
 													<span class="block">&nbsp;</span>
 													<span class="block">&nbsp;</span>
 												</div>
 
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__11', 'thermo__group--11','up','b')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -3753,14 +3768,16 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>
 												</div>
-
-												<div class="thermo__text c-u-marg-top--1">Basic data<span class="block">&nbsp;</span></div>
-												<div class="thermo__image thermo__image--11">
+												<div class="thermo__text c-u-marg-top--1 desktop">Basic data<span class="block">&nbsp;</span></div>
+												<div class="thermo__image thermo__image--11 desktop">
 													<img src="assets/images/desktop/09/icon-data-sources.svg" alt="icon-data-sources.svg">
 												</div>
 												<div class="thermo__title thermo__title--2">
-													<span>Data</span>
-													<span>sources</span>
+													<span>Data <br class="desktop"> sources</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.b"  v-model="h.ana.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">All types of data</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.b"  v-model="h.ana.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Basic data</span></div>
 												</div>
 											</div>
 <!-- 											<div class="thermo__image thermo__image--11">
@@ -3771,12 +3788,11 @@
 												<span>sources</span>
 											</div> -->
 										</div>
-										<div class="thermo__group thermo__group--12">
-											<div class="thermo__holder thermo__holder--1 thermo__holder--2 thermo__holder--5">
-												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80 port-ls-1">Non-relational database and Hadoop tools and skills
+										<div class="thermo__group thermo__group--12" id="q09-03">
+											<div class="thermo__holder thermo__holder--1 thermo__holder--2 thermo__holder--5" >
+												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80 port-ls-1 desktop">Non-relational database and Hadoop tools and skills
 												</div>
-
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__12', 'thermo__group--12','up','c')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -3837,16 +3853,19 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>
 												</div>
-
-												<div class="thermo__text width-90 c-u-marg-top--1">Traditional, relational database tools and skills
+												<div class="thermo__text width-90 c-u-marg-top--1 desktop">Traditional, relational database tools and skills
 												</div>
-												<div class="thermo__image thermo__image--12 c-u-marg-top_2">	
+												<div class="thermo__image thermo__image--12 c-u-marg-top_2 desktop">
 													<img src="assets/images/desktop/09/icon-big-data.svg" alt="icon-big-data.svg">
 												</div>
 												<div class="thermo__title thermo__title--2">
-													<span>Big data</span>
-													<span>skill sets</span>
-												</div>					
+													<span>Big data <br class="desktop">skill sets</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.c"  v-model="h.ana.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Non-relational database and Hadoop tools and skills</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.c"  v-model="h.ana.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Traditional, relational database tools and skills</span></div>
+												</div>
+
 											</div>
 <!-- 											<div class="thermo__image thermo__image--12">	
 												<img src="assets/images/desktop/09/icon-big-data.svg" alt="icon-big-data.svg">
@@ -3856,12 +3875,12 @@
 												<span>skill sets</span>
 											</div>	 -->										
 										</div>
-										<div class="thermo__group thermo__group--13">
+										<div class="thermo__group thermo__group--13" id="q09-04">
 											<div class="thermo__holder thermo__holder--3 thermo__holder--5">
-												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80">
+												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80 desktop">
 													Automation and machine learning to simplify data analysis
 												</div>
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>		
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__13', 'thermo__group--13','up','d')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -3922,14 +3941,17 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>															
 												</div>
-												<div class="thermo__text width-90 c-u-marg-top--1">Manual and ad hoc data analysis</div>
-												<div class="thermo__image thermo__image--13">	
+												<div class="thermo__text width-90 c-u-marg-top--1 desktop">Manual and ad hoc data analysis</div>
+												<div class="thermo__image thermo__image--13 desktop">
 													<img src="assets/images/desktop/09/icon-machine.svg" alt="icon-machine.svg">
 												</div>
 												<div class="thermo__title thermo__title--2">
-													<span>Machine</span>
-													<span>learning</span>
-												</div>						
+													<span>Machine <br class="desktop">learning</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.d"  v-model="h.ana.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Automation and machine learning to simplify data analysis</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.d"  v-model="h.ana.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Manual and ad hoc data analysis</span></div>
+												</div>
 											</div>	
 <!-- 											<div class="thermo__image thermo__image--13">	
 												<img src="assets/images/desktop/09/icon-machine.svg" alt="icon-machine.svg">
@@ -3939,12 +3961,12 @@
 												<span>learning</span>
 											</div>	 -->																												
 										</div>
-										<div class="thermo__group thermo__group--14">
+										<div class="thermo__group thermo__group--14"  id="q09-05">
 											<div class="thermo__holder thermo__holder--2 thermo__holder--5">
-												<div class="thermo__text width-70 c-u-marg-bot--2 thermo__text--2">Easy data visualization
+												<div class="thermo__text width-70 c-u-marg-bot--2 thermo__text--2 desktop">Easy data visualization
 													<span class="block">&nbsp;</span>
 												</div>
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>		
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__14', 'thermo__group--14','up','e')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -4005,14 +4027,18 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>															
 												</div>
-												<div class="thermo__text c-u-marg-top--1">Data sent in raw or tabular form</div>
-												<div class="thermo__image thermo__image--14">	
+												<div class="thermo__text c-u-marg-top--1 desktop">Data sent in raw or tabular form</div>
+												<div class="thermo__image thermo__image--14 desktop">
 													<img src="assets/images/desktop/09/icon-visualization.svg" alt="icon-visualization.svg">
 												</div>
 												<div class="thermo__title thermo__title--2">
 													<span>Visualization</span>
-													<span>&nbsp;</span>
-												</div>	
+													<span>&nbsp</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.e"  v-model="h.ana.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Easy data visualization</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.e"  v-model="h.ana.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Data sent in raw or tabular form</span></div>
+												</div>
 											</div>	
 <!-- 											<div class="thermo__image thermo__image--14">	
 												<img src="assets/images/desktop/09/icon-visualization.svg" alt="icon-visualization.svg">
@@ -4022,12 +4048,12 @@
 												<span>&nbsp;</span>
 											</div>	 -->																											
 										</div>
-										<div class="thermo__group thermo__group--15">
+										<div class="thermo__group thermo__group--15" id="q09-06">
 											<div class="thermo__holder thermo__holder--3 thermo__holder--5">
-												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80 port-ls-1">Real time via multiple digital channels
+												<div class="thermo__text c-u-marg-bot--2 thermo__text--2 width-80 port-ls-1 desktop">Real time via multiple digital channels
 													<span class="block">&nbsp;</span>
 												</div>
-												<div 	class="meter" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>		
+												<div class="meter desktop" onclick=page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);>
 														<button class="meter__button" onclick="meter_button_3('thermo__15', 'thermo__group--15','up','f')">
 															<img src="assets/images/desktop/thermo/triangle-white.svg" alt="triangle-white.svg">
 														</button>
@@ -4088,13 +4114,17 @@
 															<img src="assets/images/desktop/thermo/triangle-white--1.svg" alt="triangle-white--1.svg">
 														</button>															
 												</div>
-												<div class="thermo__text c-u-marg-top--1">Scheduled reports or static dashboards</div>
-												<div class="thermo__image thermo__image--15">	
+												<div class="thermo__text c-u-marg-top--1 desktop">Scheduled reports or static dashboards</div>
+												<div class="thermo__image thermo__image--15 desktop">
 													<img src="assets/images/desktop/09/icon-distribution.svg" alt="icon-distribution.svg">
 												</div>	
 												<div class="thermo__title thermo__title--2">
 													<span>Distribution</span>
 													<span>&nbsp;</span>
+												</div>
+												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile-radio-group"> <input name="h.ana.f"  v-model="h.ana.f" type="radio" class="mobile-radio " value='1'><span class="radio-text">Real time via multiple digital channels</span></div>
+													<div class="mobile-radio-group"><input  name="h.ana.f"  v-model="h.ana.f"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Scheduled reports or static dashboards</span></div>
 												</div>
 											</div>	
 <!-- 											<div class="thermo__image thermo__image--15">	
