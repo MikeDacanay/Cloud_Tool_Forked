@@ -1337,13 +1337,12 @@ $(document).ready(function() {
         var option_this= $(this);
         var calc1;
         var calc2;
-        var calc3;
-        var calc4;        
+        // var calc3;
+        // var calc4;        
         var calc_arr;
         // GET Request Currency Rate
 
         $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
-
 
             function(data){
                 for(i in data){
@@ -1385,18 +1384,21 @@ $(document).ready(function() {
                 $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
                 $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
             }
-        );
+        )
+            .fail(function(d){
+                console.log('test');
+            });
 
     };
 
     function CurrencyConversionMob(curr){
         var currency= curr;
-        var curr_sign=currsign;
+        // var curr_sign=currsign;
         var option_this= $(this);
         var calc1;
         var calc2;
-        var calc3;
-        var calc4;        
+        // var calc3;
+        // var calc4;        
         var calc_arr;
         // GET Request Currency Rate
 
@@ -1416,17 +1418,13 @@ $(document).ready(function() {
                 }
 
                 if(calc1<1&&calc1>.001){
-                    calc1= Math.round(calc1*1000) + ' Million';
-                    console.log('first');
+                    calc1= Math.round(calc1*1000) + ' Million';                   
                 }else if (calc1<.001){
-                    calc1=Math.round(calc1 * 10000) / 100 + ' Million';
-                    console.log('second');
+                    calc1=Math.round(calc1 * 10000) / 100 + ' Million';                    
                 }else if (calc1>1000){
-                    calc1=Math.round(calc1/1000) + ' Trillion';
-                    console.log('second');
+                    calc1=Math.round(calc1/1000) + ' Trillion';                    
                 }else{
-                    calc1=Math.round(calc1)+' Billion';
-                    console.log('third');
+                    calc1=Math.round(calc1)+' Billion';                    
                 }
 
 
@@ -1437,20 +1435,8 @@ $(document).ready(function() {
                 }else{
                     calc2= Math.round(calc2) + ' Million';
                 }
-
-                // var option_text=region_currency[a.region][0][0];               
-                // $('#dropdown__text').text(option_text );
-                $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
-                $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
-                $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
             }
-        );
-
-
-        // $('.dropdown__text').text($(this).text());
-        // $('.question__revenue--1').text(curr_sign+1+" Billion+ ("+currency+")");
-        // $('.question__revenue--2').text(curr_sign+"50 Million - "+curr_sign+"1 Billion ("+currency+")");
-        // $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+"50 Million ("+currency+")");
+        );        
     };
 
 
