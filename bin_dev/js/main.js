@@ -1328,6 +1328,7 @@ $(document).ready(function() {
     //     });
     // });
 
+    // Desktop currency option
     $(document).on("click",'.dropdown__option',function(){
         CurrencyConversion($(this).attr('value'),$(this).attr('value1') );
         $('#dropdown__text').text($(this).text());
@@ -1339,7 +1340,72 @@ $(document).ready(function() {
         $('.dropdown__content').toggleClass('dropdown__content--active');
     });    
 
+    //Phone Currency option
+
+
+    $('.currency-select').on('change', function() { 
+        CurrencyConversionMob($(this).val());
+    });
+
     function CurrencyConversion(curr, currsign){
+        var currency= curr;
+        var curr_sign=currsign;
+        var option_this= $(this);
+        var calc1;
+        var calc2;
+        var calc3;
+        var calc4;        
+        var calc_arr;
+        // GET Request Currency Rate
+
+        $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
+
+
+            function(data){
+                for(i in data){
+                    console.log(data[i]);
+                    for(j in data[i]){                    
+                        calc1=1/data[i][j];
+                        calc2=50/data[i][j];
+                        calc3=1/data[i][j];
+                        calc4=50/data[i][j]; 
+
+                    }
+                }
+
+                if(calc1<1&&calc1>.001){
+                    calc1= Math.round(calc1*1000) + ' Million';
+                    console.log('first');
+                }else if (calc1<.001){
+                    calc1=Math.round(calc1 * 10000) / 100 + ' Million';
+                    console.log('second');
+                }else if (calc1>1000){
+                    calc1=Math.round(calc1/1000) + ' Trillion';
+                    console.log('second');
+                }else{
+                    calc1=Math.round(calc1)+' Billion';
+                    console.log('third');
+                }
+
+
+                if(calc2<1){
+                    calc2= Math.round(calc2*1000) + ' Thousand';                 
+                }else if (calc2> 1000){
+                    calc2= Math.round(calc2/1000) + ' Billion';
+                }else{
+                    calc2= Math.round(calc2) + ' Million';
+                }
+
+
+                $('.question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
+                $('.question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
+                $('.question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")"); 
+            }
+        );
+
+    };
+
+    function CurrencyConversionMob(curr){
         var currency= curr;
         var curr_sign=currsign;
         var option_this= $(this);
