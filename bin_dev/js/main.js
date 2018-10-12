@@ -620,6 +620,13 @@ $(document).ready(function() {
 
     // };
 
+    $('input:radio[name="company-size"]').change(
+        function(){
+            a.revenue=$(this).val();
+            a.revenueText=$(this).parent().children(':last').text();
+        }
+    );
+
 // 1st DIAL
     $('.dial__input--1').knob({
         'change' : function (v) {
