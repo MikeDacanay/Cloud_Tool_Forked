@@ -1339,7 +1339,7 @@ $(document).ready(function() {
         var calc2;
         // var calc3;
         // var calc4;        
-        var calc_arr;
+        // var calc_arr;
         // GET Request Currency Rate
 
         $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
@@ -1350,8 +1350,8 @@ $(document).ready(function() {
                     for(j in data[i]){                    
                         calc1=1/data[i][j];
                         calc2=50/data[i][j];
-                        calc3=1/data[i][j];
-                        calc4=50/data[i][j]; 
+                        // calc3=1/data[i][j];
+                        // calc4=50/data[i][j]; 
 
                     }
                 }
@@ -1393,14 +1393,17 @@ $(document).ready(function() {
 
     function CurrencyConversionMob(curr){
         var currency= curr;
-        // var curr_sign=currsign;
+        var curr_sign;
         var option_this= $(this);
         var calc1;
         var calc2;
-        // var calc3;
-        // var calc4;        
-        var calc_arr;
-        // GET Request Currency Rate
+        for(var i=0;i<region_currency[a.region].length;i++){            
+            if(region_currency[a.region][i][2]===currency){
+                curr_sign=region_currency[a.region][i][1];
+            };  
+        };
+
+        console.log(curr_sign);
 
         $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
 
@@ -1411,9 +1414,6 @@ $(document).ready(function() {
                     for(j in data[i]){                    
                         calc1=1/data[i][j];
                         calc2=50/data[i][j];
-                        calc3=1/data[i][j];
-                        calc4=50/data[i][j]; 
-
                     }
                 }
 
@@ -1435,6 +1435,10 @@ $(document).ready(function() {
                 }else{
                     calc2= Math.round(calc2) + ' Million';
                 }
+
+                $('.mob-question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
+                $('.mob-question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
+                $('.mob-question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")");                 
             }
         );        
     };

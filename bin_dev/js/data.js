@@ -5,7 +5,7 @@ var a = new Vue({
   el: '#intro',
   data: {
 		// global: '',
-		region: '',  
+		region: 'na',  
 		sector: [],
 		revenue:'',
 		revenueText:'',
