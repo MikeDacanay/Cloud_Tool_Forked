@@ -132,6 +132,7 @@ window.onload = function(e) {
     dial_seven.c= '';
     dial_seven.d= '';
     dial_seven.e= '';
+
 };
 
 
@@ -254,30 +255,30 @@ var tracker_navigator=function(tracker){
     }
 };
 
-var page_move= function(arr){
+// var page_move= function(arr){
 
-  var mover = true;
+//   var mover = true;
 
-  if($('.map-composition__holder').hasClass('map_active')){
-    mover = true;
-  }else{
-    mover=false;
-  }
+//   if($('.map-composition__holder').hasClass('map_active')){
+//     mover = true;
+//   }else{
+//     mover=false;
+//   }
 
-  for (var i = 0; i < arr.length; i++) {      
-    if(arr[i].length < 1 || arr[i]===0){
-       mover=false; 
-    }
-  }
+//   for (var i = 0; i < arr.length; i++) {      
+//     if(arr[i].length < 1 || arr[i]===0){
+//        mover=false; 
+//     }
+//   }
 
-  if((arr[0]==='int' && int4.a.length<3)){
-    mover=false;
-  }
-  if(mover === true){
-    $('.slick-slider').slick('slickNext');
-    // $('.slick-slider').slick('slickGoTo',9);
-  }
-};
+//   if((arr[0]==='int' && int4.a.length<3)){
+//     mover=false;
+//   }
+//   if(mover === true){
+//     $('.slick-slider').slick('slickNext');
+//     // $('.slick-slider').slick('slickGoTo',9);
+//   }
+// };
 
 var show_next= function(arr){
   var mover = true;
@@ -285,6 +286,10 @@ var show_next= function(arr){
     mover = true;
   }else{
     mover=false;
+  }
+
+  if($('body').width() < 768){
+    mover=true;
   }
 
   for (var i = 0; i < arr.length; i++) {      
@@ -301,6 +306,7 @@ var show_next= function(arr){
   if(mover === true){
     $('.btn__nxt--1').css('display','flex');  
   }
+  console.log('show_next triggered')
 };
 
 var page_trigger1= function(class_trigger,check,arr,arr1){
@@ -615,17 +621,24 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
 
 var isMac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
 
-$(document).ready(function() {
-    // if($('body').width() < 1025){
-
-    // };
-
+$(document).ready(function() {    
     $('input:radio[name="company-size"]').change(
         function(){
             a.revenue=$(this).val();
             a.revenueText=$(this).parent().children(':last').text();
+            show_next([a.sector,a.revenue]);
         }
     );
+
+    $('.section--options').change(
+        function(){
+            if($(this).attr('group') === 'groupb'){
+                b.CL02[$(this).attr('groupkey')] = $(this).val();
+                // if(b.CL02.a)
+            }
+        }
+    );
+
 
 // 1st DIAL
     $('.dial__input--1').knob({
@@ -1238,6 +1251,7 @@ $(document).ready(function() {
         'readOnly': true
     });          
 
+
     $( ".modal__radio--container" ).click(function() {
       comparison.FirstName = $('#field4').val();
     });
@@ -1266,7 +1280,7 @@ $(document).ready(function() {
     $(window).on('load',function(){
         $('canvas').css('width','100%');
         $('canvas').css('height','100%');
-        $('section').css('width','63.1rem');       
+        $('section').css('width','63.1rem');
     });
 
     $('canvas').on('touchend', function(){
@@ -1466,6 +1480,7 @@ $(document).ready(function() {
         setTimeout(
             function(){
                 $('.book-slider').slick('slickGoTo', page_tracker);
+                // $('.book-slider').slick('slickGoTo', 0);
             },
             1
         );        
@@ -1815,21 +1830,20 @@ $(document).ready(function() {
 
     }
 
-    var hash = window.location.hash.split('/');
+    // var hash = window.location.hash.split('/');
     var hashVal = hash[2];
-    $('.book-slider').slick('slickGoTo', hashVal);
+    // $('.book-slider').slick('slickGoTo', hashVal);
         $('#preloader').fadeOut('fast');
-        if(window.location.hash) {
-            var hash = window.location.hash.split('/');
-            var hashVal = hash[2];
-            $('.book-slider').slick('slickGoTo', hashVal);
-            // hash found
-        } else {
-            // No hash found
-            $('.book-slider').slick('slickGoTo', 0);
-        }
-
-
+        // if(window.location.hash) {
+        //     var hash = window.location.hash.split('/');
+        //     var hashVal = hash[2];
+        //     $('.book-slider').slick('slickGoTo', hashVal);
+        //     // hash found
+        // } else {
+        //     // No hash found
+    window.location.hash='';
+    $('.book-slider').slick('slickGoTo', 0);
+        // }
 
 
     $('.toc h1').find('a').on('click', function(e){

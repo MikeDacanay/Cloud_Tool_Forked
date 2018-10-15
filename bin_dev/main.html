@@ -192,7 +192,7 @@
 										<option class='tester' value="sa">South America</option>
 										<option class='tester' value="eu">Europe</option>
 										<option class='tester' value="as">Asia</option>
-										<option class='tester' value="af">Aftrica</option>
+										<option class='tester' value="af">Africa</option>
 									</select>
 								</div>
 
@@ -264,12 +264,17 @@
 									<div class="mobile mobile-tab">
 									<div class="mobile-radio-group"> 
 										<input name="company-size" type="radio" class="mobile-radio question__revenue--1" value='big'>
-											<span class="radio-text mob-question__revenue--1">$1 Billion+ (USD)</span></div>
-										<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--2" value='med' ><span class="radio-text mob-question__revenue--2">$50 Million - $1 Billion (USD)</span></div>
-											<div class="mobile-radio-group"><input name="company-size" type="radio" class="mobile-radio question__revenue--3" value='small'><span  class="radio-text mob-question__revenue--3">$0 - $50 Million (USD)</span></div>
+										<span class="radio-text mob-question__revenue--1">$1 Billion+ (USD)</span>
+									</div>
+									<div class="mobile-radio-group">
+										<input name="company-size" type="radio" class="mobile-radio question__revenue--2" value='med' ><span class="radio-text mob-question__revenue--2">$50 Million - $1 Billion (USD)</span>
+									</div>
+									<div class="mobile-radio-group">
+										<input name="company-size" type="radio" class="mobile-radio question__revenue--3" value='small'><span  class="radio-text mob-question__revenue--3">$0 - $50 Million (USD)</span>
+									</div>
 							</div>
 		<!-- 								<div class="btn marg-center marg-top-med--1" onclick=$('.book-slider').slick('slickGoTo',1);>		 -->
-									<div class="btn marg-center marg-top-med--1 btn__nxt btn__nxt--1 c-u-marg-left--1 btn--animate" onclick=page_move([a.sector,a.revenue]);>		
+									<div class="btn marg-center marg-top-med--1 btn__nxt btn__nxt--1 c-u-marg-left--1 btn--animate phone-c-u-marg-left--1" onclick=$('.slick-slider').slick('slickNext');>		
 										<span class="btn__txt">Next</span>
 										<div class="btn__arrow"></div>
 									</div>														
@@ -343,9 +348,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--1 mobile-tab">Migrating</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="migrating"  v-model="CL02.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="migrating"  v-model="CL02.a" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="migrating" group='groupb' groupkey='a' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="migrating" group='groupb' groupkey='a' type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="migrating" group='groupb' groupkey='a' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>
@@ -377,9 +382,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--1 mobile-tab">Developing</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="developing"  v-model="CL02.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="developing"  v-model="CL02.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="developing"  v-model="CL02.b" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="developing"  group='groupb' groupkey='b' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="developing"  group='groupb' groupkey='b'  type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="developing"  group='groupb' groupkey='b' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>
@@ -411,9 +416,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--1 mobile-tab">Integrating</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="integrating"  v-model="CL02.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="integrating"  v-model="CL02.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="integrating"  v-model="CL02.c" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="integrating"  group='groupb' groupkey='c' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="integrating"  group='groupb' groupkey='c'  type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="integrating"  group='groupb' groupkey='c' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>							
@@ -447,9 +452,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--1 mobile-tab">Storing</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="storing"  v-model="CL02.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="storing"  v-model="CL02.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="storing"  v-model="CL02.d" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="storing"  group='groupb' groupkey='d' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="storing"  group='groupb' groupkey='d'  type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="storing"  group='groupb' groupkey='d' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>
@@ -481,9 +486,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--6 mobile-tab">Securing</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="securing"  v-model="CL02.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="securing"  v-model="CL02.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="securing"  v-model="CL02.e" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="securing"  group='groupb' groupkey='e' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="securing"  group='groupb' groupkey='e'  type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="securing"  group='groupb' groupkey='e' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>
@@ -515,9 +520,9 @@
 											</div>
 											<div class="dial__header--text dial__header--text--1 mobile-tab">Analysis</div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="analysis"  v-model="CL02.f" type="radio" class="mobile-radio " value='1'><span class="radio-text">Doing</span></div>
-												<div class="mobile-radio-group"><input  name="analysis"  v-model="CL02.f"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Planning</span></div>
-												<div class="mobile-radio-group"><input  name="analysis"  v-model="CL02.f" type="radio" class="mobile-radio" value='0'><span  class="radio-text">Not Doing</span></div>
+												<div class="mobile-radio-group"> <input name="analysis"  group='groupb' groupkey='f' type="radio" class="mobile-radio section--options" value='1'><span class="radio-text">Doing</span></div>
+												<div class="mobile-radio-group"><input  name="analysis"  group='groupb' groupkey='f'  type="radio" class="mobile-radio section--options" value='.5' ><span class="radio-text">Planning</span></div>
+												<div class="mobile-radio-group"><input  name="analysis"  group='groupb' groupkey='f' type="radio" class="mobile-radio section--options" value='0'><span  class="radio-text">Not Doing</span></div>
 											</div>
 										</div>																	
 									</div>

@@ -59,7 +59,7 @@ var b = new Vue({
   el: '',
     data: {
 				CL02: {
-					a:'',
+					a:'asdfsad',
 					b:'',
 					c:'',
 					d:'',
