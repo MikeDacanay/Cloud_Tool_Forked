@@ -52,5 +52,7 @@ a{
   display: none;
 }
 .phone-c-u-marg-left--1{
-	margin-left: 40px;
+	@include bp(767){
+		margin-left: 40px;
+	}
 }

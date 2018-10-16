@@ -1157,7 +1157,10 @@ a.bttn {
   color: #00758E;
   transition: .3s all; }
   .btn__nxt {
-    display: none; }
+    display: none;
+    margin-left: auto;
+    margin-right: 2.50rem;
+    border: 1px solid transparent; }
   .btn--1 {
     flex: 0 0 10.30rem; }
   .btn--2 {
@@ -3341,8 +3344,9 @@ a:hover {
 .mobile {
   display: none; }
 
-.phone-c-u-marg-left--1 {
-  margin-left: 40px; }
+@media only screen and (max-width: 767px) {
+  .phone-c-u-marg-left--1 {
+    margin-left: 40px; } }
 
 /**********Tablet POrtrait***************/
 @media only screen and (max-width: 767px) {

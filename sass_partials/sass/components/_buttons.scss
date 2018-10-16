@@ -134,6 +134,10 @@ a.bttn{
 
   &__nxt{
     display: none;
+    margin-left: auto;
+    margin-right: 2.50rem;
+    border: 1px solid transparent;
+
   }
   &--1{
     flex: 0 0 10.30rem;

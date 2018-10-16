@@ -1090,7 +1090,11 @@ var comparison = new Vue({
   	FiveUser: sessionStorage.secFiveUser,
   	FivePeers: sessionStorage.secFivePeers,
   	SixUser: sessionStorage.secSixUser,
+  	SixUser1: sessionStorage.secSixUser1,
+  	SixUser2: sessionStorage.secSixUser2,  	
   	SixPeers: sessionStorage.secSixPeers,
+  	SixPeers1: sessionStorage.secSixPeers1,
+  	SixPeers2: sessionStorage.secSixPeers2,
   	SevenUser: sessionStorage.secSevenUser,
   	SevenPeers: sessionStorage.secSevenPeers,
   	EightUser: sessionStorage.secEightUser,
@@ -1102,11 +1106,13 @@ var comparison = new Vue({
   },
   computed:{
   	SixUserArr: function(){
-  		var arr_temp = this.SixUser.split(',');
+  		var arr_temp = [this.SixUser,this.SixUser1,this.SixUser2];
+  		// var arr_temp = this.SixUser.split(',');
   		return arr_temp;
   	},
   	SixPeersArr: function(){
-  		var arr_temp = this.SixPeers.split(',');
+  		// var arr_temp = this.SixPeers.split(',');
+  		var arr_temp = [this.SixPeers,this.SixPeers1,this.SixPeers2]
   		return arr_temp;
   	},    
   	VarTextTwo: function(){

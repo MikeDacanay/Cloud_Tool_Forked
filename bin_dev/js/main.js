@@ -37,14 +37,14 @@ var tracker = {
 // } 
 
 var sectionSix = {
-    '1': 'Embedded best practice integration recommendations',
-    '2': 'Prebuilt flows for common integrations',
-    '3': 'Ability to deploy identical integration (hybrid integration) in the cloud and on premises',
-    '4': 'Prebuilt templates for common processes',
-    '5': 'Large library of pre-integrated application connectors',
-    '6': 'End-to-end visibility of process and integration flow status',
-    '7': 'Ease of use for non-integration experts',
-    '8': 'API management to design, secure and govern application interfaces',
+    "1": "Embedded best practice integration recommendations",
+    "2": "Prebuilt flows for common integrations",
+    "3": "Ability to deploy identical integration (hybrid integration) in the cloud and on premises",
+    "4": "Prebuilt templates for common processes",
+    "5": "Large library of pre-integrated application connectors",
+    "6": "End-to-end visibility of process and integration flow status",
+    "7": "Ease of use for non-integration experts",
+    "8": "API management to design, secure and govern application interfaces",
 };
 
 var region_currency = {
@@ -181,8 +181,13 @@ var  moveComparison=function(){
     sessionStorage.secFivePeers=Math.round((Number(l.summary_peers)/(1/7))*100);
     //Section 6
     // 
-    sessionStorage.secSixUser=int4.summary_user;
-    sessionStorage.secSixPeers=int4.summary_peers;
+    sessionStorage.secSixUser=int4.summary_user[0];
+    sessionStorage.secSixUser1=int4.summary_user[1];
+    sessionStorage.secSixUser2=int4.summary_user[2];
+
+    sessionStorage.secSixPeers=int4.summary_peers[0];
+    sessionStorage.secSixPeers1=int4.summary_peers[1];
+    sessionStorage.secSixPeers2=int4.summary_peers[2];
     //Section 7
     sessionStorage.secSevenUser=Math.round((Number(dial_seven.summary_user)/(1/7))*100);
     sessionStorage.secSevenPeers=Math.round((Number(dial_seven.summary_peers)/(1/7))*100);
