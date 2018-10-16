@@ -1040,6 +1040,7 @@ img.inline {
   height: 2.15rem;
   margin-left: auto; }
   .arrow__dd--1 {
+    visibility: hidden;
     margin-left: 0; }
 
 button,
@@ -1152,7 +1153,7 @@ a.bttn {
   justify-content: space-between;
   align-items: center;
   font-size: 1.40rem;
-  border: 1px solid #00758E;
+  border: 1px solid transparent;
   cursor: pointer;
   color: #00758E;
   transition: .3s all; }
@@ -2976,7 +2977,8 @@ body {
 .comparison__bullets {
   font-size: 0.80rem;
   line-height: 0.90rem;
-  font-family: Univers-lt, Arial, Helvetica, sans-serif; }
+  font-family: Univers-lt, Arial, Helvetica, sans-serif;
+  color: #fff; }
   .comparison__bullets:not(:last-of-type) {
     margin-bottom: 0.50rem; }
   .comparison__bullets > span {
