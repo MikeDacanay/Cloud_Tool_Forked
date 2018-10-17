@@ -624,9 +624,14 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
     }
 });
 
+window.addEventListener('touchstart', function() {
+    $('body').addClass('touch');
+});
+
 var isMac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
 
 $(document).ready(function() {    
+
     $('input:radio[name="company-size"]').change(
         function(){
             a.revenue=$(this).val();

@@ -120,7 +120,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: all .1s;
+    // transition: all .1s;
 		margin-bottom: 0.95rem;
 
     &:nth-child(10),
@@ -135,20 +135,23 @@
 			transform: translateX(1.65rem);			
 		}
 
-		&:hover{
-			color: #003B4D;
-			// transform: translateY(-2px) rotate(0.02deg);		
-			background-color: rgba(255,255,255,.6);
-		}
+		// &:hover{			
+		// 	color: #003B4D;	
+		// 	background-color: rgba(255,255,255,.6);
+		// 	.touch &{
+		// 		color: #fff;	
+		// 		background-color: transparent;
+		// 	}
+		// }
 		&:active{
 			// transform: translateY(0) rotate(0.02deg);
 			background-color: rgba(255,255,255,.8);
 		}
 
-		&--active,
-		&--active:hover{
+		&--active{
 			color: #003B4D;
 			background-color: rgba(255,255,255,.8);
+
 		}
 	}
 	&__answer{
