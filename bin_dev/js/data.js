@@ -56,10 +56,10 @@ var a = new Vue({
 });
 
 var b = new Vue({
-  el: '',
+  el: '#sectwo',
     data: {
 				CL02: {
-					a:'asdfsad',
+					a:'',
 					b:'',
 					c:'',
 					d:'',
@@ -69,7 +69,7 @@ var b = new Vue({
   	},
   	computed:{
 			summary_user: function(){
-				var summary_user=(b.CL02.a/180)+(b.CL02.b/180)+(b.CL02.c/180)+(b.CL02.d/180)+(b.CL02.e/180)+(b.CL02.f/180);
+				var summary_user=(Number(b.CL02.a)/180)+(Number(b.CL02.b)/180)+(Number(b.CL02.c)/180)+(Number(b.CL02.d)/180)+(Number(b.CL02.e)/180)+(Number(b.CL02.f)/180);
 				summary_user=(summary_user/6)/7;
 				return summary_user;
 			},

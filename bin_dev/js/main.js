@@ -632,10 +632,10 @@ var isMac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
 
 $(document).ready(function() {    
 
-    $('input:radio[name="company-size"]').change(
+    $('.mob-radio__revenue').change(
         function(){
             a.revenue=$(this).val();
-            a.revenueText=$(this).parent().children(':last').text();
+            a.revenueText=$(this).next().children(':last').text();
             show_next([a.sector,a.revenue]);
         }
     );
@@ -1467,9 +1467,9 @@ $(document).ready(function() {
                     calc2= Math.round(calc2) + ' Million';
                 }
 
-                $('.mob-question__revenue--1').text(curr_sign+calc1+"+ ("+currency+")");
-                $('.mob-question__revenue--2').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
-                $('.mob-question__revenue--3').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")");                 
+                $('.mob-radio__label--revenue-1 .mob-radio__text').text(curr_sign+calc1+"+ ("+currency+")");
+                $('.mob-radio__label--revenue-2 .mob-radio__text').text(curr_sign+calc2+" - "+curr_sign+calc1+" ("+currency+")");
+                $('.mob-radio__label--revenue-3 .mob-radio__text').text(curr_sign+"0 - "+curr_sign+calc2+" ("+currency+")");                 
             }
         );        
     };
@@ -1512,7 +1512,7 @@ $(document).ready(function() {
             {
                 breakpoint: 768,
                 settings: {
-                    adaptiveHeight: true
+                    adaptiveHeight: false,
                 }
             }
         ]
@@ -1839,6 +1839,10 @@ $(document).ready(function() {
 
 
     }
+
+    if ($('body').width() < 768 ) {
+
+    };
 
     // var hash = window.location.hash.split('/');
     var hashVal = hash[2];

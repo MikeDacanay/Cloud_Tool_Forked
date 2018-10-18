@@ -26,6 +26,7 @@
 @import 'components/loading';
 @import 'components/map-composition';
 @import 'components/meter';
+@import 'components/mob-radio';
 @import 'components/nav-bar';
 @import 'components/popups-sliders';
 @import 'components/pull-quote';
@@ -322,29 +323,29 @@
     margin-bottom: .9rem; }
   .mobile-tab {
     margin-left: 2.5625rem; }
-  input[type="radio"] {
-    position: relative;
-    display: inline-block;
-    border: .35rem solid #61B3BC;
-    border-radius: 100%;
-    outline: none !important;
-    -webkit-appearance: none;
-    transform: translateY(0.1875rem);
-    color: #FFFFFF; }
-  input[type="radio"]::before {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    content: '';
-    background: white;
-    padding-right: 0.5rem;
-    border-radius: 100%;
-    width: 0.5rem;
-    height: 0.5rem; }
-  input[type="radio"]:checked::before {
-    background: #000000;
-    border-color: #c147F92; }
+  // input[type="radio"] {
+  //   position: relative;
+  //   display: inline-block;
+  //   border: .35rem solid #61B3BC;
+  //   border-radius: 100%;
+  //   outline: none !important;
+  //   -webkit-appearance: none;
+  //   transform: translateY(0.1875rem);
+  //   color: #FFFFFF; }
+  // input[type="radio"]::before {
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  //   display: block;
+  //   content: '';
+  //   background: white;
+  //   padding-right: 0.5rem;
+  //   border-radius: 100%;
+  //   width: 0.5rem;
+  //   height: 0.5rem; }
+  // input[type="radio"]:checked::before {
+  //   background: #000000;
+  //   border-color: #c147F92; }
   .radio-text {
     color: #FFFFFF;
     margin-left: 0.9375rem; }
