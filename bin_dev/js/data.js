@@ -77,11 +77,7 @@ var b = new Vue({
 		watch:{
 			CL02: {
 				handler: function(val, oldval){
-					page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);					
-					if(this.CL02.a.length > 0 && this.CL02.b.length > 0 && this.CL02.c.length > 0 && this.CL02.d.length > 0 && this.CL02.e.length > 0 && this.CL02.f.length > 0){
-						b.CL02.__ob__.dep.subs[0].cb = function(){
-						};
-					}										
+					page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);								
 				},
 				deep: true
 			},
@@ -376,7 +372,7 @@ var c = new Vue({
 });
 
 var d = new Vue({
-  el: '#mig6',
+  el: '#secThree',
   data: {
 		mig6: {
 			a:'',
@@ -453,6 +449,14 @@ var d = new Vue({
 		summary_peers: function(){
 			return (((d.a_comp/180)+(d.b_comp/180)+(d.c_comp/180)+(d.d_comp/180)+(d.e_comp/180))/5)/7;
 		},									
+	},
+	watch:{
+		mig6: {
+			handler: function(val, oldval){
+				page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);						
+			},
+			deep: true
+		},
 	},
 });
 

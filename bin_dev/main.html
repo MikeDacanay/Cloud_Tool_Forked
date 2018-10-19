@@ -706,7 +706,7 @@
 						</div>
 					</div>					
 				</section>
-				<section class="page page--4" id='4'>			
+				<section class="page page--4" id='secThree'>			
 						<div class="loading loading--third">
 							<div class="loading__container">
 								<div class="loading__text">
@@ -740,7 +740,7 @@
 									</div>	
 									<div class="container-dial marg-top-reg container-dial__third">
 										<div class="dial__holder dial__holder--1 light" id="q03-01">
-											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
+											<div class="dial__group dial__group--2 desktop">
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--7",'dial--7',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -759,7 +759,7 @@
 													</div>												
 													<span class="dial__marker dial__marker--3"></span>		
 													<div class="dial__crown"></div>
-													<div class="dial__hand" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);></div>
+													<div class="dial__hand"></div>
 												</div>
 											</div>															
 											<div class="dial__header--holder dial__header--holder--2 mar-top-large--1">
@@ -768,13 +768,27 @@
 												</div>
 												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1 mobile-tab">Application performance predictability</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-													<div class="mobile-radio-group"> <input name="app_perf"  v-model="d.mig6.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
-													<div class="mobile-radio-group"><input  name="app_perf"  v-model="d.mig6.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3a" id="mob_q3a--less" value=0 class="mob-radio__input" v-model="mig6.a"> 
+														<label for="mob_q3a--less" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">Less impact</span>
+														</label>
+													</div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3a" id="mob_q3a--more" value=180 class="mob-radio__input" v-model="mig6.a"> 
+														<label for="mob_q3a--more" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">More impact</span>
+														</label>
+													</div>
+<!-- 													<div class="mobile-radio-group"> <input name="app_perf"  v-model="d.mig6.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="app_perf"  v-model="d.mig6.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div> -->
 												</div>
 											</div>
 										</div>
 										<div class="dial__holder dial__holder--1" id="q03-02">
-											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
+											<div class="dial__group dial__group--2 desktop">
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--8",'dial--8',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -793,7 +807,7 @@
 													</div>												
 													<span class="dial__marker dial__marker--3"></span>		
 													<div class="dial__crown"></div>
-													<div class="dial__hand" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);></div>
+													<div class="dial__hand"></div>
 												</div>
 											</div>															
 											<div class="dial__header--holder dial__header--holder--2 mar-top-large--1">
@@ -802,13 +816,28 @@
 												</div>
 												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1 mobile-tab">Application security</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-													<div class="mobile-radio-group"> <input name="app_sec"  v-model="d.mig6.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
-													<div class="mobile-radio-group"><input  name="app_sec"  v-model="d.mig6.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3b" id="mob_q3b--less" value=0 class="mob-radio__input" v-model="mig6.b"> 
+														<label for="mob_q3b--less" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">Less impact</span>
+														</label>
+													</div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3b" id="mob_q3b--more" value=180 class="mob-radio__input" v-model="mig6.b"> 
+														<label for="mob_q3b--more" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">More impact</span>
+														</label>
+													</div>
+
+<!-- 													<div class="mobile-radio-group"> <input name="app_sec"  v-model="d.mig6.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="app_sec"  v-model="d.mig6.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div> -->
 												</div>
 											</div>
 										</div>
 										<div class="dial__holder dial__holder--1 light" id="q03-03">
-											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
+											<div class="dial__group dial__group--2 desktop">
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--9",'dial--9',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -827,7 +856,7 @@
 													</div>												
 													<span class="dial__marker dial__marker--3"></span>		
 													<div class="dial__crown"></div>
-													<div class="dial__hand" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);></div>
+													<div class="dial__hand"></div>
 												</div>
 											</div>															
 											<div class="dial__header--holder dial__header--holder--2 mar-top-large--1">
@@ -836,15 +865,29 @@
 												</div>
 												<div class="dial__header--text dial__header--text--2 dial__header--text--2_1 mobile-tab">Ease with Application governance</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-													<div class="mobile-radio-group"> <input name="application_gov"  v-model="d.mig6.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
-													<div class="mobile-radio-group"><input  name="application_gov"  v-model="d.mig6.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3c" id="mob_q3c--less" value=0 class="mob-radio__input" v-model="mig6.c"> 
+														<label for="mob_q3c--less" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">Less impact</span>
+														</label>
+													</div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3c" id="mob_q3c--more" value=180 class="mob-radio__input" v-model="mig6.c"> 
+														<label for="mob_q3c--more" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">More impact</span>
+														</label>
+													</div>
+						<!-- 							<div class="mobile-radio-group"> <input name="application_gov"  v-model="d.mig6.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="application_gov"  v-model="d.mig6.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div> -->
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="container-dial container-dial--1 marg-top-reg container-dial__third">
 										<div class="dial__holder dial__holder--1" id="q03-04">
-											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
+											<div class="dial__group dial__group--2 desktop">
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--10",'dial--10',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -863,7 +906,7 @@
 													</div>												
 													<span class="dial__marker dial__marker--3"></span>		
 													<div class="dial__crown"></div>
-													<div class="dial__hand" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);></div> 
+													<div class="dial__hand"></div> 
 												</div>
 											</div>															
 											<div class="dial__header--holder dial__header--holder--2 mar-top-large--1">
@@ -872,13 +915,27 @@
 												</div>
 												<div class="dial__header--text dial__header--text--2 dial__header--text--2_2 mobile-tab">Choice of deployment model</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-													<div class="mobile-radio-group"> <input name="deployment_model"  v-model="d.mig6.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
-													<div class="mobile-radio-group"><input  name="deployment_model"  v-model="d.mig6.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3d" id="mob_q3d--less" value=0 class="mob-radio__input" v-model="mig6.d"> 
+														<label for="mob_q3d--less" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">Less impact</span>
+														</label>
+													</div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3d" id="mob_q3d--more" value=180 class="mob-radio__input" v-model="mig6.d"> 
+														<label for="mob_q3d--more" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">More impact</span>
+														</label>
+													</div>
+<!-- 													<div class="mobile-radio-group"> <input name="deployment_model"  v-model="d.mig6.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="deployment_model"  v-model="d.mig6.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div> -->
 												</div>
 											</div>
 										</div>										
 										<div class="dial__holder dial__holder--1 light" id="q03-05">
-											<div class="dial__group dial__group--2 desktop" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);>
+											<div class="dial__group dial__group--2 desktop">
 												<div class="dial__group--text dial__group--text-3">
 													<span onclick=dial_move("input--11",'dial--11',.5);>Less 
 														<span class="block">&nbsp;</span>
@@ -897,7 +954,7 @@
 													</div>												
 													<span class="dial__marker dial__marker--3"></span>		
 													<div class="dial__crown"></div>
-													<div class="dial__hand" onclick=page_trigger1('third',[d.mig6.a,d.mig6.b,d.mig6.c,d.mig6.d,d.mig6.e],['.dial__industry--7','.dial__industry--8','.dial__industry--9','.dial__industry--10','.dial__industry--11'],[d.a_comp,d.b_comp,d.c_comp,d.d_comp,d.e_comp]);></div>
+													<div class="dial__hand"></div>
 												</div>
 											</div>															
 											<div class="dial__header--holder dial__header--holder--2 mar-top-large--1">
@@ -906,8 +963,22 @@
 												</div>
 												<div class="dial__header--text dial__header--text--2 dial__header--text--2_2 mobile-tab">Application integration ability</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-													<div class="mobile-radio-group"> <input name="app_int"  v-model="d.mig6.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
-													<div class="mobile-radio-group"><input  name="app_int"  v-model="d.mig6.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3e" id="mob_q3e--less" value=0 class="mob-radio__input" v-model="mig6.e"> 
+														<label for="mob_q3e--less" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">Less impact</span>
+														</label>
+													</div>
+													<div class="mob-radio__group">
+														<input type="radio" name="mob_q3e" id="mob_q3e--more" value=180 class="mob-radio__input" v-model="mig6.e"> 
+														<label for="mob_q3e--more" class="mob-radio__label">
+															<div class="mob-radio__button"></div> 
+															<span class="mob-radio__text">More impact</span>
+														</label>
+													</div>									
+									<!-- 				<div class="mobile-radio-group"> <input name="app_int"  v-model="d.mig6.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Less impact</span></div>
+													<div class="mobile-radio-group"><input  name="app_int"  v-model="d.mig6.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">More impact</span></div> -->
 												</div>
 											</div>
 										</div>

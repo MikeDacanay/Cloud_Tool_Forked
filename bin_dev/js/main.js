@@ -326,6 +326,13 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
 
     if(mover===true){
 
+        if(class_trigger==='second'){
+            b.CL02.__ob__.dep.subs[0].cb = function(){};
+        }
+        if(class_trigger==='third'){
+            d.mig6.__ob__.dep.subs[0].cb = function(){};
+        }
+
         $('.loading--'+class_trigger).css('display','flex');
         $('.loading__container').fadeIn();
         $('.loading__container').addClass('loading__container--active');          
@@ -657,10 +664,10 @@ $(document).ready(function() {
     $('.dial__input--1').knob({
         'change' : function (v) {
             $('.dial--1 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.a = v;
+            // b.CL02.a = v;
          },
          'release' : function (v) {
-            // b.CL02.a = v;
+            b.CL02.a = v;
 
          },
         'min':0,
@@ -699,10 +706,10 @@ $(document).ready(function() {
     $('.dial__input--2').knob({
         'change' : function (v) {             
             $('.dial--2 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.b = v;
+            // b.CL02.b = v;
          },
          'release' : function (v) {            
-            // b.CL02.b = v;            
+            b.CL02.b = v;            
         },
         'min':0,
         'max':180,
@@ -733,11 +740,11 @@ $(document).ready(function() {
     $('.dial__input--3').knob({
         'change' : function (v) {             
             $('.dial--3 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.c = v;
+            // b.CL02.c = v;
          },
          'release' : function (v) {
             // $('.dial--3 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // b.CL02.c = v;            
+            b.CL02.c = v;            
         },
         'min':0,
         'max':180,
@@ -769,11 +776,11 @@ $(document).ready(function() {
     $('.dial__input--4').knob({
         'change' : function (v) {             
             $('.dial--4 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.d = v;
+            // b.CL02.d = v;
          },
          'release' : function (v) {
             // $('.dial--4 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // b.CL02.d = v;            
+            b.CL02.d = v;            
         },
         'min':0,
         'max':180,
@@ -805,11 +812,11 @@ $(document).ready(function() {
     $('.dial__input--5').knob({
         'change' : function (v) {             
             $('.dial--5 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.e = v;
+            // b.CL02.e = v;
          },
          'release' : function (v) {
             // $('.dial--5 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // b.CL02.e = v;            
+            b.CL02.e = v;            
         },
         'min':0,
         'max':180,
@@ -841,11 +848,11 @@ $(document).ready(function() {
     $('.dial__input--6').knob({
         'change' : function (v) {             
             $('.dial--6 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            b.CL02.f = v;
+            // b.CL02.f = v;
          },
          'release' : function (v) {
             // $('.dial--6 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // b.CL02.f = v;            
+            b.CL02.f = v;            
         },
         'min':0,
         'max':180,
@@ -877,7 +884,7 @@ $(document).ready(function() {
     $('.dial__input--7').knob({
         'change' : function (v) {             
             $('.dial--7 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            d.mig6.a = v;
+            // d.mig6.a = v;
          },
          'release' : function (v) {
             // $('.dial--7 .dial__hand').css('transform',"rotate("+v+"deg)");            
@@ -913,7 +920,7 @@ $(document).ready(function() {
     $('.dial__input--8').knob({
         'change' : function (v) {             
             $('.dial--8 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            d.mig6.b = v;
+            // d.mig6.b = v;
          },
          'release' : function (v) {
             // $('.dial--8 .dial__hand').css('transform',"rotate("+v+"deg)");            
@@ -949,7 +956,7 @@ $(document).ready(function() {
     $('.dial__input--9').knob({
         'change' : function (v) {             
             $('.dial--9 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            d.mig6.c = v;
+            // d.mig6.c = v;
          },
          'release' : function (v) {
             // $('.dial--9 .dial__hand').css('transform',"rotate("+v+"deg)");            
@@ -985,7 +992,7 @@ $(document).ready(function() {
     $('.dial__input--10').knob({
         'change' : function (v) {             
             $('.dial--10 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            d.mig6.d = v;
+            // d.mig6.d = v;
          },
          'release' : function (v) {
             // $('.dial--10 .dial__hand').css('transform',"rotate("+v+"deg)");            
@@ -1021,7 +1028,7 @@ $(document).ready(function() {
     $('.dial__input--11').knob({
         'change' : function (v) {             
             $('.dial--11 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            d.mig6.e = v;
+            // d.mig6.e = v;
          },
          'release' : function (v) {
             // $('.dial--11 .dial__hand').css('transform',"rotate("+v+"deg)");            
