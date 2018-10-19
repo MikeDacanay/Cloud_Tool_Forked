@@ -3,12 +3,19 @@
  */
 
 
+
 function validateFields() {
+
+    //THIS IS WHERE RESULTS GO
+    document.getElementById("field18").value="";
+
+
     //bPopup.close();
     test = document.forms[0];
     var incomplete = false;
 
-    if ($('input[name=firstName]').val() == "") {
+    if ($('input[name=firstName]').val() == ""|| $('input[name=firstName]').val() == "First Name" ) {
+
         $('input[name=firstName]').addClass("error");
         incomplete = true;
     }
@@ -19,7 +26,7 @@ function validateFields() {
     }
 
 
-    if ($('input[name=lastName]').val() == "") {
+    if ($('input[name=lastName]').val() == ""|| $('input[name=lastName]').val() == "Last Name" ) {
         $('input[name=lastName]').addClass("error");
         incomplete = true;
     }
@@ -31,24 +38,63 @@ function validateFields() {
         $('input[name=emailAddress]').addClass("error");
         incomplete = true;
     }
-
+    var selectedCountryIndex = document.getElementById('field17').selectedIndex;
+    switch (selectedCountryIndex) {
+        case 122:
+            if ($('.korea:checked').length < $('.korea').length) {
+                $('.korea').addClass('error');
+                $('.korea:checked').removeClass('error');
+                incomplete = true;
+            }
+            break;
+        case 186:
+            if ($('.russia:checked').length < $('.russia').length) {
+                $('.russia').addClass('error');
+                $('.russia:checked').removeClass('error');
+                incomplete = true;
+            }
+            break;
+        default:
+        //everyone else
+    }
     if (incomplete == true) {
-
+        $('#end_alert').show();
         return;
-
     }
     else {
-      //  $('#form-popup').bPopup().close();
-//THIS IS WHERE RESULTS GO
-        document.getElementById("field18").value="";
-
-
-        //testing
-        // $('#form196').submit();
-
-        //production
-        $('#form1048').submit();
     }
 
+    document.getElementById('header-name').innerHTML= $('input[name=firstName]').val();
+    $('.modal').remove();
+
+
+
+
+        //production
+       // $('#form1048').submit();
+    }
+
+
+
+function setLegal(){
+    var selectedCountryIndex = document.getElementById('field17').selectedIndex;
+    switch(selectedCountryIndex) {
+        case 122:
+            $('.terms').hide();
+            $('#terms_korea').show();
+            break;
+        case 178:
+            $('.terms').hide();
+            $('#terms_phillipines').show();
+            break;
+        case 186:
+            $('.terms').hide();
+            $('#terms_russia').show();
+            break;
+
+        default:
+            $('.terms').hide();
+            $('#terms_main').show();
+    }
 
 }
