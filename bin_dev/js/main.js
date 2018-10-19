@@ -353,7 +353,10 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
                 ease_dial(arr[i], arr1[i]);
             }        
             $('.'+class_trigger).toggleClass('c-d_none');        
-            $('.container-dial__'+class_trigger+' .dial__group').removeAttr('onclick');              
+            $('.container-dial__'+class_trigger+' .dial__group').removeAttr('onclick');
+            if($('body').width() < 768){
+                $('.container-dial__'+class_trigger+' .mob-radio__label').removeAttr('onclick');                
+            };              
         }, 2000);     
     }
 };
@@ -657,7 +660,7 @@ $(document).ready(function() {
             b.CL02.a = v;
          },
          'release' : function (v) {
-            b.CL02.a = v;
+            // b.CL02.a = v;
 
          },
         'min':0,
@@ -699,7 +702,7 @@ $(document).ready(function() {
             b.CL02.b = v;
          },
          'release' : function (v) {            
-            b.CL02.b = v;            
+            // b.CL02.b = v;            
         },
         'min':0,
         'max':180,
@@ -734,7 +737,7 @@ $(document).ready(function() {
          },
          'release' : function (v) {
             // $('.dial--3 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            b.CL02.c = v;            
+            // b.CL02.c = v;            
         },
         'min':0,
         'max':180,
@@ -770,7 +773,7 @@ $(document).ready(function() {
          },
          'release' : function (v) {
             // $('.dial--4 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            b.CL02.d = v;            
+            // b.CL02.d = v;            
         },
         'min':0,
         'max':180,
@@ -806,7 +809,7 @@ $(document).ready(function() {
          },
          'release' : function (v) {
             // $('.dial--5 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            b.CL02.e = v;            
+            // b.CL02.e = v;            
         },
         'min':0,
         'max':180,
@@ -842,7 +845,7 @@ $(document).ready(function() {
          },
          'release' : function (v) {
             // $('.dial--6 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            b.CL02.f = v;            
+            // b.CL02.f = v;            
         },
         'min':0,
         'max':180,

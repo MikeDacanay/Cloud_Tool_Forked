@@ -73,8 +73,19 @@ var b = new Vue({
 				summary_user=(summary_user/6)/7;
 				return summary_user;
 			},
-
-		}
+		},
+		watch:{
+			CL02: {
+				handler: function(val, oldval){
+					page_trigger1('second',[b.CL02.a,b.CL02.b,b.CL02.c,b.CL02.d,b.CL02.e,b.CL02.f],['.dial__industry--1','.dial__industry--2','.dial__industry--3','.dial__industry--4','.dial__industry--5','.dial__industry--6'],[c.d_migrate,c.d_dev,c.d_int,c.d_stor,c.d_sec,c.d_an]);					
+					if(this.CL02.a.length > 0 && this.CL02.b.length > 0 && this.CL02.c.length > 0 && this.CL02.d.length > 0 && this.CL02.e.length > 0 && this.CL02.f.length > 0){
+						b.CL02.__ob__.dep.subs[0].cb = function(){
+						};
+					}										
+				},
+				deep: true
+			},
+		},
 });
 
 
