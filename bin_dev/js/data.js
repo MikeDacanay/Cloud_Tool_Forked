@@ -461,14 +461,14 @@ var d = new Vue({
 });
 
 var e = new Vue({
-  el: '#dev2',
+  el: '#secFour',
   data: {
 		dev2: {
-			a:0,
-			b:0,
-			c:0,
-			d:0,
-			e:0,
+			a:"",
+			b:"",
+			c:"",
+			d:"",
+			e:"",
 		},
 		tot: {
 			a:5,                        
@@ -558,6 +558,14 @@ var e = new Vue({
 			return (1/7)*(a_peers+b_peers+c_peers+d_peers+e_peers)/5;
   	}
 	},
+	watch:{
+		dev2: {
+			handler: function(val, oldval){
+				page_trigger2('forth',[e.dev2.a,e.dev2.b,e.dev2.c,e.dev2.d,e.dev2.e],['.meter__sector--1','.meter__sector--2','.meter__sector--3','.meter__sector--4','.meter__sector--5'],[e.a1,e.b1,e.c1,e.d1,e.e1,]);						
+			},
+			deep: true
+		},
+	},	
 });
 
 var l = new Vue({

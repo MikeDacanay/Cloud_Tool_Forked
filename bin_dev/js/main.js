@@ -382,6 +382,10 @@ var page_trigger2= function(class_trigger,check,arr,arr1){
     }
 
     if(mover===true){
+        if(class_trigger==='forth'){
+            d.mig6.__ob__.dep.subs[0].cb = function(){};
+        }        
+
         $('.loading--'+class_trigger).css('display','flex');
         $('.loading__container').fadeIn();
         $('.loading__container').addClass('loading__container--active');  
