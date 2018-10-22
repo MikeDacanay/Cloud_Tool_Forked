@@ -11,52 +11,6 @@ $Breakpoint argument choices:
 -land
 -desk
 */
-/**** FOR GATE 10-19***/
-.error{
-  border: 2px solid #f80000;
-}
-.alert{
-  position: absolute;
-  bottom: -8px;
-  line-height: normal;
-  left: 29px;
-}
-.bttn.submit-bttn{
-  display: inline-flex;
-  height: 36px;
-  background-color: transparent;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-weight: 400;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 16px;
-  border: 1px solid  #FFFFFF;
-  width: max-content;
-  width:-moz-max-content;
-  position: relative;
-  line-height: 36px;
-  -webkit-transition: background-color  500ms ease;
-  -ms-transition: background-color 500ms ease;
-  -o-transition: background-color 500ms ease;
-  transition:background-color 500ms ease;
-}
-.b.submit-bttn:hover{
-  color:#00758f ;
-  background-color: #ffffff;
-  border-left:1px solid #00758f;
-}
-
-.terms td.chex{
-  position: relative;
-  width: 30px;
-}
-.terms .korea, .terms .russia{
-  position: absolute;
-  top:5px
-
-
-}
 /***TOOLTIP_ MIKE ADD TO SASS**/
 .sign_in_container {
   position: absolute;
@@ -1694,6 +1648,48 @@ a.bttn {
     background-color: #00758f;
     color: #fff; }
 
+.error {
+  border: 2px solid #f80000; }
+
+.alert {
+  position: absolute;
+  bottom: -8px;
+  line-height: normal;
+  left: 29px; }
+
+.bttn.submit-bttn {
+  display: inline-flex;
+  height: 36px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid  #FFFFFF;
+  width: max-content;
+  width: -moz-max-content;
+  position: relative;
+  line-height: 36px;
+  -webkit-transition: background-color  500ms ease;
+  -ms-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease; }
+
+.b.submit-bttn:hover {
+  color: #00758f;
+  background-color: #ffffff;
+  border-left: 1px solid #00758f; }
+
+.terms td.chex {
+  position: relative;
+  width: 30px; }
+
+.terms .korea, .terms .russia {
+  position: absolute;
+  top: 5px; }
+
 .header__container {
   display: flex;
   align-items: flex-start; }
@@ -2008,7 +2004,7 @@ ul.no-dots-ul {
     margin-bottom: 15px; }
   .mob-radio__label {
     display: flex;
-    align-items: flex-end; }
+    align-items: flex-start; }
   .mob-radio__button {
     background-color: rgba(255, 255, 255, 0.4);
     height: 18px;
