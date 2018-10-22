@@ -112,7 +112,8 @@ window.onload = function(e) {
     $("input.dial__input").val('0%');
     $("input.dial__input").trigger('change');
     $("input.dial__industry").val('0%');
-    $("input.dial__industry").trigger('change');    
+    $("input.dial__industry").trigger('change');
+
 
     b.CL02.a= '';
     b.CL02.b= '';
@@ -133,6 +134,8 @@ window.onload = function(e) {
     dial_seven.d= '';
     dial_seven.e= '';
 
+
+
 };
 
 
@@ -146,7 +149,7 @@ if ( $window.width() <= 1024) {
 
     if ($window.width() <= 767) {
         context = 'small';
-    };
+    }
 }
 
 var  moveComparison=function(){

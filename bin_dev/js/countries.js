@@ -570,6 +570,11 @@ function populateCountries(countryElementId, stateElementId) {
         option_str.options[option_str.length] = new Option(country_arr[i],codes_arr[i]);
     }
 
+    option_str.onchange = function() {
+        setLegal();
+
+    };
+
     //now get local storage
 /*
     if(localStorage.getItem('test.country')!=""){
