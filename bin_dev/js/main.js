@@ -435,6 +435,7 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
 
     if(mover===true){
                     console.log('made1');
+        l.dev1.__ob__.dep.subs[0].cb = function(){};                    
         $('.loading--'+class_trigger).css('display','flex');
         $('.loading__container').fadeIn();
         $('.loading__container').addClass('loading__container--active');
@@ -1627,12 +1628,12 @@ $(document).ready(function() {
         $('.slider__ticker--'+value).show("slide", { direction: "down" }, 500);     
 
 
-        if(slider_trigger!==true){
-        	page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
-        }
-        if(l.dev1.a>0&&l.dev1.b>0){
-        	slider_trigger=true;
-        }
+        // if(slider_trigger!==true){
+        // 	page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
+        // }
+        // if(l.dev1.a>0&&l.dev1.b>0){
+        // 	slider_trigger=true;
+        // }
     		
     });
 

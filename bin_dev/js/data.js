@@ -640,7 +640,15 @@ var l = new Vue({
 			)();										
 			return (1/7)*((((24-a_peers)/24)+((24-b_peers)/24))/2);
 		},
-	}
+	},
+	watch:{
+		dev1: {
+			handler: function(val, oldval){
+				page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);						
+			},
+			deep: true
+		},
+	},		
 });
 
 var f = new Vue({
