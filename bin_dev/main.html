@@ -2684,7 +2684,7 @@
 							</div>
 						</div>
 				</section>	 -->
-				<section class="page page--12" id="12">
+				<section class="page page--12" id="sectSeven">
 					<div class="loading loading--seventh">
 						<div class="loading__container">
 							<div class="loading__text">
@@ -2748,11 +2748,32 @@
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop"> access</span></div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="dial_seven.a"  v-model="dial_seven.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7a" id="mob_q7a--improve" value=180 class="mob-radio__input" v-model="a"> 
+													<label for="mob_q7a--improve" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Improve</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7a" id="mob_q7a--noimp" value=90 class="mob-radio__input" v-model="a"> 
+													<label for="mob_q7a--noimp" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">No Impact</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7a" id="mob_q7a--impede" value=0 class="mob-radio__input" v-model="a"> 
+													<label for="mob_q7a--impede" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Impede</span>
+													</label>
+												</div>														
+<!--  												<div class="mobile-radio-group"> <input name="dial_seven.a"  v-model="dial_seven.a" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
 												<div class="mobile-radio-group"><input  name="dial_seven.a"  v-model="dial_seven.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No impact</span></div>
-												<div class="mobile-radio-group"><input  name="dial_seven.a"  v-model="dial_seven.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div>
+												<div class="mobile-radio-group"><input  name="dial_seven.a"  v-model="dial_seven.a"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div> -->
 
-											</div>
+											</div> 
 										</div>
 									</div>
 									<div class="dial__holder light" id="q07-02">
@@ -2786,9 +2807,30 @@
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">storage</span></div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="dial_seven.b"  v-model="dial_seven.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
+												<div class="mob-radio__group">	
+													<input type="radio" name="mob_q7b" id="mob_q7b--improve" value=180 class="mob-radio__input" v-model="b"> 
+													<label for="mob_q7b--improve" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Improve</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7b" id="mob_q7b--noimp" value=90 class="mob-radio__input" v-model="b"> 
+													<label for="mob_q7b--noimp" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">No Impact</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7b" id="mob_q7b--impede" value=0 class="mob-radio__input" v-model="b"> 
+													<label for="mob_q7b--impede" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Impede</span>
+													</label>
+												</div>						
+					<!-- 							<div class="mobile-radio-group"> <input name="dial_seven.b"  v-model="dial_seven.b" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
 												<div class="mobile-radio-group"><input  name="dial_seven.b"  v-model="dial_seven.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No impact</span></div>
-												<div class="mobile-radio-group"><input  name="dial_seven.b"  v-model="dial_seven.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div>
+												<div class="mobile-radio-group"><input  name="dial_seven.b"  v-model="dial_seven.b"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div> -->
 
 											</div>
 										</div>
@@ -2824,9 +2866,30 @@
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">management</span></div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="dial_seven.c"  v-model="dial_seven.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
+												<div class="mob-radio__group">	
+													<input type="radio" name="mob_q7c" id="mob_q7c--improve" value=180 class="mob-radio__input" v-model="c"> 
+													<label for="mob_q7c--improve" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Improve</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7c" id="mob_q7c--noimp" value=90 class="mob-radio__input" v-model="c"> 
+													<label for="mob_q7c--noimp" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">No Impact</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7c" id="mob_q7c--impede" value=0 class="mob-radio__input" v-model="c"> 
+													<label for="mob_q7c--impede" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Impede</span>
+													</label>
+												</div>														
+												<!-- <div class="mobile-radio-group"> <input name="dial_seven.c"  v-model="dial_seven.c" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
 												<div class="mobile-radio-group"><input  name="dial_seven.c"  v-model="dial_seven.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No impact</span></div>
-												<div class="mobile-radio-group"><input  name="dial_seven.c"  v-model="dial_seven.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div>
+												<div class="mobile-radio-group"><input  name="dial_seven.c"  v-model="dial_seven.c"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div> -->
 
 											</div>
 										</div>
@@ -2864,9 +2927,30 @@
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">security</span></div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="dial_seven.d"  v-model="dial_seven.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
+												<div class="mob-radio__group">	
+													<input type="radio" name="mob_q7d" id="mob_q7d--improve" value=180 class="mob-radio__input" v-model="d"> 
+													<label for="mob_q7d--improve" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Improve</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7d" id="mob_q7d--noimp" value=90 class="mob-radio__input" v-model="d"> 
+													<label for="mob_q7d--noimp" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">No Impact</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7d" id="mob_q7d--impede" value=0 class="mob-radio__input" v-model="d"> 
+													<label for="mob_q7d--impede" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Impede</span>
+													</label>
+												</div>												
+				<!-- 								<div class="mobile-radio-group"> <input name="dial_seven.d"  v-model="dial_seven.d" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
 												<div class="mobile-radio-group"><input  name="dial_seven.d"  v-model="dial_seven.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No impact</span></div>
-												<div class="mobile-radio-group"><input  name="dial_seven.d"  v-model="dial_seven.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div>
+												<div class="mobile-radio-group"><input  name="dial_seven.d"  v-model="dial_seven.d"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div> -->
 											</div>
 										</div>
 									</div>
@@ -2901,9 +2985,30 @@
 											</div>
 											<div class="dial__header--text"><span class="block">Data<br class="desktop"> compliance</span></div>
 											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
-												<div class="mobile-radio-group"> <input name="dial_seven.e"  v-model="dial_seven.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
+												<div class="mob-radio__group">	
+													<input type="radio" name="mob_q7e" id="mob_q7e--improve" value=180 class="mob-radio__input" v-model="e"> 
+													<label for="mob_q7e--improve" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Improve</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7e" id="mob_q7e--noimp" value=90 class="mob-radio__input" v-model="e"> 
+													<label for="mob_q7e--noimp" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">No Impact</span>
+													</label>
+												</div>
+												<div class="mob-radio__group">
+													<input type="radio" name="mob_q7e" id="mob_q7e--impede" value=0 class="mob-radio__input" v-model="e"> 
+													<label for="mob_q7e--impede" class="mob-radio__label">
+														<div class="mob-radio__button"></div> 
+														<span class="mob-radio__text">Impede</span>
+													</label>
+												</div>														
+												<!-- <div class="mobile-radio-group"> <input name="dial_seven.e"  v-model="dial_seven.e" type="radio" class="mobile-radio " value='1'><span class="radio-text">Impede</span></div>
 												<div class="mobile-radio-group"><input  name="dial_seven.e"  v-model="dial_seven.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">No impact</span></div>
-												<div class="mobile-radio-group"><input  name="dial_seven.e"  v-model="dial_seven.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div>
+												<div class="mobile-radio-group"><input  name="dial_seven.e"  v-model="dial_seven.e"  type="radio" class="mobile-radio " value='.5' ><span class="radio-text">Improve</span></div> -->
 											</div>
 										</div>
 									</div>

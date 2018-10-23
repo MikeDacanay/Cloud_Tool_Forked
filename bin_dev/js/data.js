@@ -717,7 +717,7 @@ var int4 = new Vue({
   },  
 });
 var dial_seven = new Vue({
-	el: '#dat3',
+	el: "#sectSeven",
   data: {
   	a:"",
   	b:"",
@@ -795,16 +795,24 @@ var dial_seven = new Vue({
 			return (((dial_seven.a1/180)+(dial_seven.b1/180)+(dial_seven.c1/180)+(dial_seven.d1/180)+(dial_seven.e1/180))/5)/7;
 		},	
   },
-  methods:{
-  	setRank_int4: function(x, y){
-  		for(i in this._data){  			  	
-  			if(y === this._data[i]){
-  				this._data[i] = '';
-  			}
-  		}
-  		this[x]=y;
-  	}
-  },  
+	// watch:{
+	// 	dev1: {
+	// 		handler: function(val, oldval){
+	// 			page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);						
+	// 		},
+	// 		deep: true
+	// 	},
+	// },	  
+  // methods:{
+  // 	setRank_int4: function(x, y){
+  // 		for(i in this._data){  			  	
+  // 			if(y === this._data[i]){
+  // 				this._data[i] = '';
+  // 			}
+  // 		}
+  // 		this[x]=y;
+  // 	}
+  // },  
 });
 
 var g = new Vue({
