@@ -1776,7 +1776,7 @@ $(document).ready(function() {
     });  
 
     $('.mob-section-options').on('change', function() {
-        a.sector = $(this).val();        
+        a.sector.push($(this).val());        
     });      
     // Revenue selection 
     $('.question__revenue').click(function(){

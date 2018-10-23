@@ -3563,7 +3563,7 @@ a:hover {
   .select-label {
     color: #FFFFFF;
     margin-bottom: .5rem;
-    display: inline-block; }
+    display: block; }
   .header__container {
     width: 100%; }
   .container-check-boxer {

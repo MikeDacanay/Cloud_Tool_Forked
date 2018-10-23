@@ -569,11 +569,11 @@ var e = new Vue({
 });
 
 var l = new Vue({
-  el: '#dev1',
+  el: '#secFive',
   data: {
 		dev1: {
-			a:0,
-			b:0,
+			a:"",
+			b:"",
 		}
   },
   computed:{
