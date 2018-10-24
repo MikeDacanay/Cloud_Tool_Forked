@@ -5,6 +5,10 @@
 		line-height: 4.05rem;
     transform: translateY(-0.85rem);
 		font-family: $font-bold;
+		@include bp(767){
+			font-size: 24px;
+			line-height: normal;
+		}
 	}
 
 	&__container{
@@ -18,7 +22,14 @@
 		    padding-left: 1.45rem;
 		    padding-top: 1.80rem;
 		    padding-right: 2.10rem;
-        padding-bottom: 1.60rem;
+		    padding-bottom: 1.60rem;
+    		@include bp(767){
+    			flex: 0;
+			    padding-left: 5px;
+			    padding-top: 15px;
+			    padding-right: 5px;
+	        padding-bottom: 1.60rem;
+        }
 
         .ie & {
         	flex: 0 0 20.45rem;
@@ -28,6 +39,9 @@
 				flex: 0 0 28.50rem;
 				justify-content: normal;
 		    align-items: flex-end;
+		    @include bp(767){
+		    	flex: 0;
+		    }
 			}
 		}
 		&--main{
@@ -55,8 +69,10 @@
 				margin-left: 1.05rem;
         justify-content: space-between;
         @include bp(767){
-        	height: auto;
+        	height: 120px;
         	flex-direction: row;
+        	flex: 1;
+        	margin-left: 0;
         }
 			}
 		}
@@ -69,11 +85,25 @@
 			.ie &{
 				width: 28.50rem;
 			}
+			@include bp(767){
+				flex-direction: column;
+			}
 		}
 
 		&--3,
 		&--4{
 			justify-content: space-between;
+		}
+		&--4{
+			@include bp(767){
+				flex: 0 0;
+			}
+		}
+
+		& .img{
+			@include bp(767){
+				display: none;
+			}
 		}
 	}
 
@@ -132,12 +162,18 @@
 	    transform: translateY(-0.15rem);
 	    color: #BDE6EE;
 	    font-family: $font-reg;
+	    @include bp(767){
+	    	transform: translateY(0);
+	    }
 		}
 		&--2{
 			font-size: 0.70rem;
 			line-height: 1.05rem;
 			font-family: $font-reg;
 	    transform: translateY(-0.15rem);
+	    @include bp(767){
+	    	transform: translateY(0);
+	    }
 	    & .results__text--header{
 	    	font-size: .8rem;
 	    	font-family: $font-bold;
@@ -188,6 +224,9 @@
 		&--2{
 			color: #F29111;
 			line-height: 6.3rem;
+			@include bp(767){
+				line-height: initial;
+			}
 		}
 	}
 
@@ -214,6 +253,9 @@
 	    		text-decoration: underline;
 	    	}
 	    }
+	    @include bp(767){
+  	    flex: 1;
+	    }
 		}
 	}	
 	&__arrow{
@@ -223,6 +265,12 @@
     &--1{
 	    align-self: flex-start;
     }
+	}
+	&__group{
+		@include bp(767){
+			flex: 0 0 102px;
+			height: 120px;
+		}
 	}
 }
 

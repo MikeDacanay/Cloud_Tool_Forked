@@ -1182,9 +1182,19 @@ a.bttn {
     margin-top: 0.70rem; }
     .btn--3a {
       transform: translateY(-2.6rem); }
+      @media only screen and (max-width: 767px) {
+        .btn--3a {
+          transform: translateY(0);
+          margin-left: 0;
+          margin-right: auto; } }
+    @media only screen and (max-width: 767px) {
+      .btn--3b {
+        transform: translateY(0);
+        margin-left: 0;
+        margin-right: auto; } }
     .btn--3-1 {
       width: 14.77rem;
-      margin-left: auto;
+      margin-left: 0;
       margin-right: 0;
       margin-top: .4rem; }
     .btn--3-2 {
@@ -3213,6 +3223,10 @@ body {
   line-height: 4.05rem;
   transform: translateY(-0.85rem);
   font-family: Univers-Bold, Arial, Helvetica, sans-serif; }
+  @media only screen and (max-width: 767px) {
+    .results__header {
+      font-size: 24px;
+      line-height: normal; } }
 
 .results__container {
   display: flex;
@@ -3226,12 +3240,22 @@ body {
       padding-top: 1.80rem;
       padding-right: 2.10rem;
       padding-bottom: 1.60rem; }
+      @media only screen and (max-width: 767px) {
+        .results__container--1-1 {
+          flex: 0;
+          padding-left: 5px;
+          padding-top: 15px;
+          padding-right: 5px;
+          padding-bottom: 1.60rem; } }
       .ie .results__container--1-1 {
         flex: 0 0 20.45rem; }
     .results__container--1-2 {
       flex: 0 0 28.50rem;
       justify-content: normal;
       align-items: flex-end; }
+      @media only screen and (max-width: 767px) {
+        .results__container--1-2 {
+          flex: 0; } }
   @media only screen and (max-width: 767px) {
     .results__container--main {
       flex-flow: column; } }
@@ -3253,14 +3277,25 @@ body {
       justify-content: space-between; }
       @media only screen and (max-width: 767px) {
         .results__content--1-1 {
-          height: auto;
-          flex-direction: row; } }
+          height: 120px;
+          flex-direction: row;
+          flex: 1;
+          margin-left: 0; } }
   .results__content--2 {
     flex-direction: column; }
   .ie .results__content--3 {
     width: 28.50rem; }
+  @media only screen and (max-width: 767px) {
+    .results__content--3 {
+      flex-direction: column; } }
   .results__content--3, .results__content--4 {
     justify-content: space-between; }
+  @media only screen and (max-width: 767px) {
+    .results__content--4 {
+      flex: 0 0; } }
+  @media only screen and (max-width: 767px) {
+    .results__content .img {
+      display: none; } }
 
 .results__cloud {
   width: 9.00rem;
@@ -3298,11 +3333,17 @@ body {
     transform: translateY(-0.15rem);
     color: #BDE6EE;
     font-family: Univers, Arial, Helvetica, sans-serif; }
+    @media only screen and (max-width: 767px) {
+      .results__text--1 {
+        transform: translateY(0); } }
   .results__text--2 {
     font-size: 0.70rem;
     line-height: 1.05rem;
     font-family: Univers, Arial, Helvetica, sans-serif;
     transform: translateY(-0.15rem); }
+    @media only screen and (max-width: 767px) {
+      .results__text--2 {
+        transform: translateY(0); } }
     .results__text--2 .results__text--header {
       font-size: .8rem;
       font-family: Univers-Bold, Arial, Helvetica, sans-serif; }
@@ -3338,6 +3379,9 @@ body {
   .results__score--2 {
     color: #F29111;
     line-height: 6.3rem; }
+    @media only screen and (max-width: 767px) {
+      .results__score--2 {
+        line-height: initial; } }
 
 .results__point--container {
   display: flex;
@@ -3357,6 +3401,9 @@ body {
     color: #BDE6EE; }
     .results__point--text > a:hover {
       text-decoration: underline; }
+  @media only screen and (max-width: 767px) {
+    .results__point--text {
+      flex: 1; } }
 
 .results__arrow {
   height: 1.05rem;
@@ -3364,6 +3411,11 @@ body {
   margin-right: 0.35rem; }
   .results__arrow--1 {
     align-self: flex-start; }
+
+@media only screen and (max-width: 767px) {
+  .results__group {
+    flex: 0 0 102px;
+    height: 120px; } }
 
 .social-media__container {
   margin-top: 0.60rem;
@@ -3432,6 +3484,10 @@ a:hover {
 @media only screen and (max-width: 767px) {
   .phone-c-u-marg-left--1 {
     margin-left: 40px; } }
+
+@media only screen and (max-width: 767px) {
+  .c-u-pmarg-top {
+    margin-top: 0; } }
 
 /**********Tablet POrtrait***************/
 @media only screen and (max-width: 767px) {

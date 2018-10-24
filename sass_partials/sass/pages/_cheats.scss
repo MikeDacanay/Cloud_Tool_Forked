@@ -56,3 +56,8 @@ a{
 		margin-left: 40px;
 	}
 }
+@include bp(767){
+	.c-u-pmarg-top{
+		margin-top: 0;
+	}
+}

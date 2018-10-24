@@ -158,10 +158,22 @@ a.bttn{
     margin-top: 0.70rem;
     &a{
       transform: translateY(-2.60rem);
+      @include bp(767){
+        transform: translateY(0);
+        margin-left: 0;
+        margin-right: auto;
+      }
+    }
+    &b{
+      @include bp(767){
+        transform: translateY(0);
+        margin-left: 0;
+        margin-right: auto;
+      }
     }
     &-1{
       width: 14.77rem;
-      margin-left: auto;
+      margin-left: 0;
       margin-right: 0;
       margin-top: .4rem;
     }
