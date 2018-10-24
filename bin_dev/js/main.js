@@ -335,6 +335,10 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
         if(class_trigger==='third'){
             d.mig6.__ob__.dep.subs[0].cb = function(){};
         }
+        if(class_trigger==='seventh'){
+            dial_seven.dev.__ob__.dep.subs[0].cb = function(){};
+        }
+
 
         $('.loading--'+class_trigger).css('display','flex');
         $('.loading__container').fadeIn();
@@ -384,6 +388,9 @@ var page_trigger2= function(class_trigger,check,arr,arr1){
     if(mover===true){
         if(class_trigger==='forth'){
             d.mig6.__ob__.dep.subs[0].cb = function(){};
+        }
+        if(class_trigger==='ninth'){
+            h.ana.__ob__.dep.subs[0].cb = function(){};
         }        
 
         $('.loading--'+class_trigger).css('display','flex');
@@ -1071,13 +1078,12 @@ $(document).ready(function() {
 // 12th DIAL
     $('.dial__input--12').knob({
         'change' : function (v) {
-            $('.dial--12 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.a = v;            
+            $('.dial--12 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");         
          },
         'release' : function (v) {
             // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
             // $('.dial--12 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.a = v; 
+            dial_seven.dev.a = v; 
         },
         'min':0,
         'max':180,
@@ -1114,12 +1120,11 @@ $(document).ready(function() {
     $('.dial__input--13').knob({
         'change' : function (v) {
             $('.dial--13 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.b = v;
          },
         'release' : function (v) {
             // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
             // $('.dial--13 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.b = v;
+            dial_seven.dev.b = v;
         },
         'min':0,
         'max':180,
@@ -1156,12 +1161,11 @@ $(document).ready(function() {
     $('.dial__input--14').knob({
         'change' : function (v) {
             $('.dial--14 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.c = v;
          },
         'release' : function (v) {
             // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
             // $('.dial--14 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.c = v;
+            dial_seven.dev.c = v;
         },
         'min':0,
         'max':180,
@@ -1198,12 +1202,11 @@ $(document).ready(function() {
     $('.dial__input--15').knob({
         'change' : function (v) {
             $('.dial--15 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.d = v;
          },
         'release' : function (v) {
             // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
             // $('.dial--15 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.d = v;
+            dial_seven.dev.d = v;
         },
         'min':0,
         'max':180,
@@ -1240,12 +1243,11 @@ $(document).ready(function() {
     $('.dial__input--16').knob({
         'change' : function (v) {
             $('.dial--16 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.e = v;
          },
         'release' : function (v) {
             // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
             // $('.dial--16 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            dial_seven.e = v;
+            dial_seven.dev.e = v;
         },
         'min':0,
         'max':180,

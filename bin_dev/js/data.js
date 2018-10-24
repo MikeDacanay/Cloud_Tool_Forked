@@ -719,11 +719,13 @@ var int4 = new Vue({
 var dial_seven = new Vue({
 	el: "#sectSeven",
   data: {
-  	a:"",
-  	b:"",
-  	c:"",
-  	d:"",
-  	e:"",  	
+  	dev:{
+	  	a:"",
+	  	b:"",
+	  	c:"",
+	  	d:"",
+	  	e:"",
+  	},  	
   },
   computed:{
   	a1: function(){
@@ -795,28 +797,18 @@ var dial_seven = new Vue({
 			return (((dial_seven.a1/180)+(dial_seven.b1/180)+(dial_seven.c1/180)+(dial_seven.d1/180)+(dial_seven.e1/180))/5)/7;
 		},	
   },
-	// watch:{
-	// 	dev1: {
-	// 		handler: function(val, oldval){
-	// 			page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);						
-	// 		},
-	// 		deep: true
-	// 	},
-	// },	  
-  // methods:{
-  // 	setRank_int4: function(x, y){
-  // 		for(i in this._data){  			  	
-  // 			if(y === this._data[i]){
-  // 				this._data[i] = '';
-  // 			}
-  // 		}
-  // 		this[x]=y;
-  // 	}
-  // },  
+	watch:{
+		dev: {
+			handler: function(val, oldval){
+				page_trigger1('seventh',[dial_seven.dev.a,dial_seven.dev.b,dial_seven.dev.c,dial_seven.dev.d,dial_seven.dev.e],['.dial__industry--12','.dial__industry--13','.dial__industry--14','.dial__industry--15','.dial__industry--16'],[dial_seven.a1,dial_seven.b1,dial_seven.c1,dial_seven.d1,dial_seven.e1]);				
+			},
+			deep: true
+		},
+	},	  
 });
 
 var g = new Vue({
-  el: '#sec3',
+  el: '#sectEight',
   data: {
 		sec3: {
 			a:'',
@@ -897,17 +889,25 @@ var g = new Vue({
 			return (1/7)*(a_peers+b_peers+c_peers+d_peers)/4;
   	},  	
 	},
+	watch:{
+		sec3: {
+			handler: function(val, oldval){
+				onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);
+			},
+			deep: true
+		}
+	}
 });
 var h = new Vue({
-  el: '#ana2',
+  el: '#sectNine',
   data: {
 		ana: {
-			a:0,
-			b:0,
-			c:0,
-			d:0,
-			e:0,
-			f:0,
+			a:"",
+			b:"",
+			c:"",
+			d:"",
+			e:"",
+			f:"",
 		},
 		tot: {
 			a:5.2,                        
@@ -1012,6 +1012,14 @@ var h = new Vue({
 			return (1/7)*(a_peers+b_peers+c_peers+d_peers+e_peers+f_peers)/6;
   	}    	
 	},
+	watch:{
+		ana: {
+			handler: function(val, oldval){
+				page_trigger2('ninth',[h.ana.a,h.ana.b,h.ana.c,h.ana.d,h.ana.e,h.ana.f],['.meter__sector--10','.meter__sector--11','.meter__sector--12','.meter__sector--13','.meter__sector--14','.meter__sector--15'],[h.a1,h.b1,h.c1,h.d1,h.e1,h.f1]);
+			},
+			deep: true
+		}
+	}
 });
 var summary = new Vue({
   el: '#summary',
