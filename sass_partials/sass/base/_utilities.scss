@@ -50,7 +50,11 @@ img.inline{display: inline-block;}
 .marg-top-tiny{margin-top: 0.20rem;}
 .marg-top-tiny--2{margin-top: 0.25rem;}
 .marg-top-reg-5{margin-top: 0.4rem;}
-.marg-top-reg-4{margin-top: .5rem;}
+.marg-top-reg-4{margin-top: .5rem;
+	@include bp(767){
+		margin-top: 0;
+	}
+}
 .marg-top-reg-3{margin-top: 0.55rem;}
 .marg-top-reg-1{margin-top: .7rem;}
 .marg-top-reg-6{margin-top: .8rem;}

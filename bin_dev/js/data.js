@@ -789,7 +789,7 @@ var dial_seven = new Vue({
 			return dial_path;		
   	},  
 		summary_user: function(){
-			var summary_user=(dial_seven.a/180)+(dial_seven.b/180)+(dial_seven.c/180)+(dial_seven.d/180)+(dial_seven.e/180);
+			var summary_user=(Number(dial_seven.dev.a)/180)+(Number(dial_seven.dev.b)/180)+(Number(dial_seven.dev.c)/180)+(Number(dial_seven.dev.d)/180)+(Number(dial_seven.dev.e)/180);
 			summary_user=(summary_user/5)/7;
 			return summary_user;
 		},

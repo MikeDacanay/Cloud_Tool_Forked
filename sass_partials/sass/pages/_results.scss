@@ -30,6 +30,11 @@
 		    align-items: flex-end;
 			}
 		}
+		&--main{
+			@include bp(767){
+				flex-flow: column;
+			}
+		}
 	}
 
 	&__content{
@@ -40,10 +45,19 @@
 			padding-top: .3rem;
 			flex-direction: column;
 	    justify-content: space-between;
+	    &:first-child{
+	    	@include bp(767){
+	    		display: none;
+	    	}
+	    }
 			&-1{
 				padding-top: 0;
 				margin-left: 1.05rem;
         justify-content: space-between;
+        @include bp(767){
+        	height: auto;
+        	flex-direction: row;
+        }
 			}
 		}
 
