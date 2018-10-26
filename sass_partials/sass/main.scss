@@ -12,6 +12,7 @@
 @import 'base/utilities';
 
 @import 'components/arrows';
+@import 'components/background';
 @import 'components/buttons';
 @import 'components/callout';
 @import 'components/check-boxer';
@@ -281,14 +282,17 @@
   .tracker__group {
     display: none; }
   .tracker__group:last-of-type {
+    height: 23px;
+    width: 23px;
     display: block; }
   h1.header__title {
-    margin-top: 0.125rem;
+    margin-top: 0px;
+    transform: translateY(-4px);
     font-size: 1.3125rem; }
 
   .nav-bar {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding: 15px;    
+    background-color: #00758F;}
   .slick-slide > .container {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem; }
@@ -299,7 +303,7 @@
   .question__text {
     font-size: 1rem;
     margin-bottom: 17px;
-    transform: translateY(0); }
+    transform: translateY(-4px); }
   .question__container {
     display: block; }
   .question__group {
@@ -323,6 +327,7 @@
   .mobile-radio-group {
     margin-bottom: .9rem; }
   .mobile-tab {
+    // width: 85%;
     margin-left: 2.5625rem; }
   // input[type="radio"] {
   //   position: relative;

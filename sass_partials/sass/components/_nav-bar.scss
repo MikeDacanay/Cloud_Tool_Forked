@@ -28,6 +28,9 @@
     height: 3.85rem;
     position: fixed;
     z-index: 11;
+    @include bp(767){
+      display: none;
+    }
   }  
 
   &--1{

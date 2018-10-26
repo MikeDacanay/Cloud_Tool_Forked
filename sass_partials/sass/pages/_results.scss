@@ -24,11 +24,13 @@
 		    padding-right: 2.10rem;
 		    padding-bottom: 1.60rem;
     		@include bp(767){
+    			background-color: transparent;
     			flex: 0;
-			    padding-left: 5px;
+			    padding-left: 0px;
 			    padding-top: 15px;
-			    padding-right: 5px;
-	        padding-bottom: 1.60rem;
+			    padding-right: 0px;
+          padding-bottom: 45px;
+	        position: relative;
         }
 
         .ie & {
@@ -40,6 +42,7 @@
 				justify-content: normal;
 		    align-items: flex-end;
 		    @include bp(767){
+		    	margin-top: 30px;		    	
 		    	flex: 0;
 		    }
 			}
@@ -164,6 +167,7 @@
 	    font-family: $font-reg;
 	    @include bp(767){
 	    	transform: translateY(0);
+	    	font-size: 18px;
 	    }
 		}
 		&--2{
@@ -172,11 +176,17 @@
 			font-family: $font-reg;
 	    transform: translateY(-0.15rem);
 	    @include bp(767){
+	    	font-size: 14px;
+	    	line-height: 21px;
 	    	transform: translateY(0);
 	    }
 	    & .results__text--header{
 	    	font-size: .8rem;
 	    	font-family: $font-bold;
+	    	@include bp(767){
+	    		font-size: 16px;
+	    		line-height: 21px;
+	    	}
 	    }
 			&-1{
 				
@@ -184,11 +194,18 @@
 			&-2{
 				font-size: 0.90rem;
 				line-height: 1.20rem;
+				@include bp(767){
+					font-size: 14px;
+					line-height: 24px;
+				}
 				&a{
 					margin-right: 3rem;
 				}
 				&b{
-			    margin-right: 0.2rem;			    
+			    margin-right: 0.2rem;			
+			    @include bp(767){
+			    	margin-top: 30px;
+			    }    
 				}
 			}
 		}
@@ -207,6 +224,9 @@
 	&__score{
 		font-size: 6.00rem;
 		line-height: initial;
+		@include bp(767){
+			font-size: 72px;
+		}
 		.ie &{
 			line-height: 7.25rem;
 			// margin-top: 0.50rem;
@@ -216,7 +236,10 @@
 		}
 		&--1{
 			color: #fff;
-	    transform: translateY(-0.20rem);    
+	    transform: translateY(-0.20rem);  
+	    @include bp(767){
+	    	transform: translateY(0);	
+	    }  
 	    .ie &{
 	    	transform: translateY(0.35rem);
 	    }
@@ -255,6 +278,8 @@
 	    }
 	    @include bp(767){
   	    flex: 1;
+  	    font-size: 14px;
+  	    line-height: 21px;
 	    }
 		}
 	}	
@@ -262,6 +287,10 @@
 		height: 1.05rem;
     flex: 0 0 1.05rem;
     margin-right: 0.35rem;
+    @include bp(767){
+    	height: 21px;
+    	width: 21px;
+    }
     &--1{
 	    align-self: flex-start;
     }

@@ -7,6 +7,11 @@
     padding-top: 	0.70rem;
 		padding-left: 	1.20rem;
     animation: fadeIn .3s;
+    @include bp(767){
+	    height: auto;
+    	flex: 0;
+	    padding: 20px 15px;    	
+    }
 	}	
 	&__header{
 		font-size: 0.70rem;
@@ -14,6 +19,11 @@
 		transform: translateY(-0.25rem);
 		color: #003B4D;
 		font-family: $font-reg;
+		@include bp(767){
+			transform: translateY(0rem);
+			font-size: 14px;
+			line-height: 21px;
+		}
 		&--bold{
 			font-family: $font-bold;			
 			font-size: .9rem;
@@ -31,6 +41,11 @@
 		font-size: 0.60rem;
 		line-height: 1.20rem;
 		transform: translateY(-0.30rem);
+		@include bp(767){
+			transform: translateY(0rem);
+			font-size: 12px;
+			margin-top: 15px;
+		}
 	}
 	&__action{
 		flex: 0 0 11.25rem;

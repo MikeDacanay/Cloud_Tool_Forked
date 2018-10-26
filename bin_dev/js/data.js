@@ -1123,7 +1123,7 @@ var summary = new Vue({
 });
 
 var comparison = new Vue({
-  el: '#comparison',
+  el: '#comparisonSect',
   data: {
   	region: sessionStorage.regionSummary,
   	sector: sessionStorage.sectorSummary,  	  	
@@ -1226,5 +1226,5 @@ var comparison = new Vue({
   		}
   	},
 
-  }
+  },
 });

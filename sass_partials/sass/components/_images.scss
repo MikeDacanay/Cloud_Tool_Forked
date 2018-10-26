@@ -16,6 +16,10 @@ svg:not(:root) {
 	height: 2.40rem;
 	width: 7.30rem;
 	margin-right: auto;
+	@include bp(767){
+		height: 28px;
+    width: 85.5px;
+	}
 
 	&--1{
 		width: 9.25rem;

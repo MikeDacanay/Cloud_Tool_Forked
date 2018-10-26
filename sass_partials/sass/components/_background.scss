@@ -1,0 +1,10 @@
+.bg--1{
+	@include bp(767){	
+		position: absolute;
+		background-color: rgba(255,255,255,.1);
+		height: 100%;
+		width: 200%;
+    transform: translate(-30px,-15px);	
+    z-index: -1;	
+	}
+}

@@ -8,6 +8,11 @@
   align-items: center;
   display: none;
   z-index: 100;
+  @include bp(767){
+  	position: fixed;
+  	height: 100vh;
+    width: 100vw;
+  }
 	
 	&__container{
 		height: 4.80rem; 

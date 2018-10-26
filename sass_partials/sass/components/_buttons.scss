@@ -176,6 +176,9 @@ a.bttn{
       margin-left: 0;
       margin-right: 0;
       margin-top: .4rem;
+      @include bp(767){
+        margin-top: 15px;  
+      }
     }
     &-2{
       width: 14.77rem;
@@ -199,6 +202,12 @@ a.bttn{
     width: 7.62rem;
     padding-right: 0.55rem;
     transform: translateY(-0.30rem);
+    @include bp(767){
+      transform: translateY(0rem);
+      padding: 8px;
+      width: 152.4px;
+      margin-top: 5px;
+    }
   }
 
   &--5{
@@ -208,9 +217,17 @@ a.bttn{
     padding-right: 0.55rem;
     transform: translateY(-0.30rem);
     width: 10.60rem;
+    @include bp(767){
+      width: 12.60rem;
+      margin-top: 5px;
+    }
   }
   &--6{
     padding-left: 2.40rem;
+    @include bp(767){
+      align-self: center;
+      margin-top: 40px;
+    }
   }
 
   &--animate{
@@ -232,6 +249,10 @@ a.bttn{
     &--2{
       flex: 0 0 0.78rem;
       height: 0.62rem;
+      @include bp(767){
+        flex: 0 0 15.5px;
+        height: 12.4px;
+      }
     }
   }
 
@@ -268,6 +289,9 @@ a.bttn{
       font-family: $font-reg;
       .mac &{
         transform: translateY(0.1em);
+      }
+      @include bp(767){
+        font-size: 12px;
       }
     }
     &--2{
