@@ -492,7 +492,7 @@ html {
       font-size: 62.5%; } }
   @media only screen and (max-width: 1261px) {
     html {
-      font-size: 84%; } }
+      font-size: 88%; } }
   @media only screen and (max-width: 800px) {
     html {
       font-size: 76.1%; } }
@@ -1521,7 +1521,6 @@ a.bttn {
     width: 5.5rem; }
     @media only screen and (max-width: 1024px) {
       .dial__industry {
-        top: 0.49rem;
         width: 5.48rem; } }
   .dial__crown {
     height: 0.60rem;
@@ -2362,6 +2361,10 @@ ul.no-dots-ul {
     background-image: url("../assets/images/desktop/flag-you.svg");
     background-repeat: no-repeat;
     background-size: contain; }
+    @media only screen and (max-width: 1261px) {
+      .slider__flag--1 {
+        margin-left: 0px;
+        margin-top: 2px; } }
 
 table {
   border-collapse: collapse;
@@ -3037,7 +3040,8 @@ body {
   float: left;
   width: 100%; }
   .container-comparison__header {
-    height: 16.80rem; }
+    height: 16.80rem;
+    margin-top: 5.00rem; }
   .container-comparison__main {
     height: 27.80rem; }
     .container-comparison__main:nth-child(2), .container-comparison__main:nth-child(4), .container-comparison__main:nth-child(6), .container-comparison__main:nth-child(8), .container-comparison__main:nth-child(10) {

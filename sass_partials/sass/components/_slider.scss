@@ -151,7 +151,12 @@
 			background-image: url('../assets/images/desktop/flag-you.svg');
 			background-repeat: no-repeat;
 			background-size: contain;
+			@include bp(1261){
+		    margin-left: 0px;
+		    margin-top: 2px;
+			}
 		}
+
 		// &--text{
 		// 	font-size: 0.60rem;
 		// 	color: #003B4D;
