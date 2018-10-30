@@ -2443,6 +2443,10 @@ table {
   .thermo__holder--5 {
     padding-top: 0.65rem;
     padding-bottom: 0.75rem; }
+  @media only screen and (max-width: 767px) {
+    .thermo__holder {
+      padding-top: 24px;
+      padding-bottom: 24px; } }
 
 .thermo__overlay {
   height: 100%;
@@ -2537,6 +2541,10 @@ table {
     margin-top: 0.55rem; }
   .thermo__title--4 {
     margin-top: 1.05rem; }
+  @media only screen and (max-width: 767px) {
+    .thermo__title {
+      margin-top: 0;
+      margin-left: 65px; } }
 
 .video-thumbnail {
   cursor: pointer;
@@ -3787,7 +3795,6 @@ a:hover {
   .thermo__title {
     text-align: left;
     font-size: 1.2rem;
-    margin-left: 2.5625rem;
     margin-bottom: 1rem; }
   .thermo__group.light, .check-boxer__holder.light {
     background-color: rgba(255, 255, 255, 0.2); }

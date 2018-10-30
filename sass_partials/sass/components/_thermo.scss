@@ -33,6 +33,11 @@
 			padding-top: 0.65rem;
 			padding-bottom: 0.75rem;
 		}
+
+		@include bp(767){
+			padding-top: 24px;
+			padding-bottom: 24px;
+		}
 	}
 
 	&__overlay{
@@ -175,5 +180,10 @@
     &--4{
     	margin-top: 1.05rem;
     }    
+
+    @include bp(767){
+	    margin-top: 0;
+	    margin-left: 65px;
+    }
 	}
 }
