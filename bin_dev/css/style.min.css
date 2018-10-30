@@ -495,7 +495,9 @@ html {
       font-size: 88%; } }
   @media only screen and (max-width: 800px) {
     html {
-      font-size: 76.1%; } }
+      font-size: 76.1%;
+      position: fixed;
+      overflow: hidden; } }
   @media only screen and (max-width: 767px) {
     html {
       font-size: 46.875%; } }
@@ -507,6 +509,10 @@ body {
   transform-origin: top center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  @media only screen and (max-width: 767px) {
+    body {
+      position: fixed;
+      overflow: hidden; } }
 
 article,
 aside,
@@ -1390,17 +1396,28 @@ a.bttn {
     @media only screen and (max-width: 1024px) {
       .check-boxer__holder:hover {
         transform: scale(1); } }
+  @media only screen and (max-width: 767px) {
+    .check-boxer__holder {
+      flex-direction: row;
+      padding: 15px; } }
 
 .check-boxer__text {
   font-size: 1.05rem;
   line-height: 1.33;
   color: #fff; }
+  @media only screen and (max-width: 767px) {
+    .check-boxer__text {
+      order: 2; } }
 
 .check-boxer__container {
   width: 100%;
   height: 2.00rem;
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 767px) {
+    .check-boxer__container {
+      margin-right: 9px;
+      width: auto; } }
 
 .check-boxer__checkmark {
   height: 2.01rem;
@@ -2083,6 +2100,8 @@ ul.no-dots-ul {
 @media only screen and (max-width: 768px) {
   .mob-radio__input:checked ~ label .mob-radio__button::after {
     background-color: #000; }
+  .mob-radio__input--1 {
+    display: m; }
   .mob-radio__group {
     width: Calc(100vw - 60px); }
     .mob-radio__group:not(:last-of-type) {
@@ -2626,7 +2645,8 @@ table {
       bottom: 0;
       position: relative;
       flex-direction: column;
-      margin-top: 25px; } }
+      margin-top: 25px;
+      margin-bottom: 250px; } }
 
 .container--2_1 {
   bottom: 1rem;
@@ -2639,7 +2659,8 @@ table {
       bottom: 0;
       margin-top: 25px;
       position: relative;
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-bottom: 110px; } }
 
 .container--3 {
   display: flex;
@@ -2768,6 +2789,12 @@ table {
   overflow: hidden; }
   .main_container--1 {
     width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .main_container {
+      width: 100vw;
+      height: 100vh;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch; } }
 
 .book-slider {
   width: 100%;
@@ -3641,7 +3668,6 @@ a:hover {
     width: 100vw;
     margin-left: -1rem;
     border-radius: 0px;
-    padding-right: 6.625rem;
     background: transparent;
     height: auto; }
   .dial__holder {

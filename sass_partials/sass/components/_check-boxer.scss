@@ -18,19 +18,31 @@
 				transform: scale(1);
 			}
 		}
+
+		@include bp(767){
+	    flex-direction: row;
+    	padding: 15px;
+		}
 	}
 
 	&__text{
 		font-size: 1.05rem;
 		line-height: 1.33;
 		color: #fff;
+		@include bp(767){
+	    order: 2;
+		}
 	}
 	&__container{
 		width: 100%;
 		height: 2.00rem;
 		display: flex;
-    justify-content: space-between	
-	}
+    justify-content: space-between;	
+		@include bp(767){
+	    margin-right: 9px;
+			width: auto;
+		}
+  }
 	&__checkmark{
 		height: 2.01rem;
 		flex: 0 0 2.63rem;

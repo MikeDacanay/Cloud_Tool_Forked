@@ -30,6 +30,8 @@ html {
   }    
   @include bp(800){
     font-size: 76.1%;
+    position: fixed;
+    overflow: hidden;    
   }
 
   @include respond(phone){
@@ -40,7 +42,11 @@ html {
 
 body {
   @include artboard-top-center;
-
+  
+  @include bp(767){
+    position: fixed;
+    overflow: hidden;
+  }
 }
 
 // @media screen and (max-height: 875px) {
