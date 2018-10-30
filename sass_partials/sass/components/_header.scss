@@ -22,6 +22,9 @@
     .mac &{
     	transform: translateY(0.1em);
     }
+    @include bp(767){
+    	transform: translateY(0.1em);
+    }
 	}	
 	&__title{
     font-size: 2.40rem;   

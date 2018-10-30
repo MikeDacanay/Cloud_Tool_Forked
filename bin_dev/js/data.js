@@ -892,7 +892,7 @@ var g = new Vue({
 	watch:{
 		sec3: {
 			handler: function(val, oldval){
-				onclick=page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);
+				page_trigger2('eighth',[g.sec3.a,g.sec3.b,g.sec3.c,g.sec3.d],['.meter__sector--6','.meter__sector--7','.meter__sector--8','.meter__sector--9'],[g.a1,g.b1,g.c1,g.d1]);
 			},
 			deep: true
 		}

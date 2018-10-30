@@ -1,6 +1,9 @@
 input{
 	@include bp(768){
 		display: none;
+		&.input__eloqua{
+			display: block;
+		}
 	}
 }
 
@@ -47,6 +50,9 @@ input{
 			color: #fff;
 			margin-left: 15px;
 			// flex: 0 0 18px;
+			.page--16 &{
+		    flex: 0 0 80%;
+			}
 		}	
 	}
 }

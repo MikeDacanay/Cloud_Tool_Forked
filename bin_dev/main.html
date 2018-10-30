@@ -1510,7 +1510,7 @@
 
 								<h1 class="header__title fifth c-d_none">The time needed to <b>develop an application</b> compared to your peers.</h1>
 							</div>
-							<div class="mobile mobile-tab">
+							<div class="mobile mobile-tab--2">
 								<div class="select-group">
 									<label class="select-label">Typical mid-size web application</label>
 									<select class="mobile-select" v-model='dev1.a'>
@@ -1906,7 +1906,7 @@
 										</div>
 									</div>
 								<div class="container-dial marg-top-reg container-dial__seventh">
-									<div class="dial__holder" id="q07-01" >
+									<div class="dial__holder dial__holder--2" id="q07-01" >
 										<div class="dial__group dial__group--1 desktop">
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--12",'dial--12',90);>
 											No Impact
@@ -1936,7 +1936,7 @@
 												<img src="assets/images/desktop/07/data-access.svg" alt="data-access.svg" class='dial__icon'>
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop"> access</span></div>
-											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+											<div class="mobile mobile-radio-cont bg-migrating">
 												<div class="mob-radio__group">
 													<input type="radio" name="mob_q7a" id="mob_q7a--improve" value=180 class="mob-radio__input" v-model="dev.a"> 
 													<label for="mob_q7a--improve" class="mob-radio__label">
@@ -1962,7 +1962,7 @@
 											</div> 
 										</div>
 									</div>
-									<div class="dial__holder light" id="q07-02">
+									<div class="dial__holder dial__holder--2 light" id="q07-02">
 										<div class="dial__group dial__group--1 desktop">
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--13",'dial--13',90);>
 											No Impact
@@ -1992,7 +1992,7 @@
 												<img src="assets/images/desktop/07/data-storage.svg" alt="data-storage.svg" class='dial__icon'>
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">storage</span></div>
-											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+											<div class="mobile mobile-radio-cont bg-migrating">
 												<div class="mob-radio__group">	
 													<input type="radio" name="mob_q7b" id="mob_q7b--improve" value=180 class="mob-radio__input" v-model="dev.b"> 
 													<label for="mob_q7b--improve" class="mob-radio__label">
@@ -2018,7 +2018,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="dial__holder" id="q07-03">
+									<div class="dial__holder dial__holder--2" id="q07-03">
 										<div class="dial__group dial__group--1 desktop">
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--14",'dial--14',90);>
 											No Impact
@@ -2048,7 +2048,7 @@
 												<img src="assets/images/desktop/07/data-mgmt.svg" alt="data-mgmt.svg" class='dial__icon'>
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">management</span></div>
-											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+											<div class="mobile mobile-radio-cont bg-migrating">
 												<div class="mob-radio__group">	
 													<input type="radio" name="mob_q7c" id="mob_q7c--improve" value=180 class="mob-radio__input" v-model="dev.c"> 
 													<label for="mob_q7c--improve" class="mob-radio__label">
@@ -2076,8 +2076,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="container-dial container-dial--1 marg-top-reg container-dial__seventh">
-									<div class="dial__holder light" id="q07-04">
+								<div class="container-dial container-dial--1 marg-top-reg container-dial__seventh phone-marg-top--0">
+									<div class="dial__holder dial__holder--2 light" id="q07-04">
 										<div class="dial__group dial__group--1 desktop">
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--15",'dial--15',90);>
 											No Impact
@@ -2107,7 +2107,7 @@
 												<img src="assets/images/desktop/07/data-security.svg" alt="data-security.svg" class='dial__icon'>
 											</div>
 											<div class="dial__header--text"><span class="block">Data <br class="desktop">security</span></div>
-											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+											<div class="mobile mobile-radio-cont bg-migrating">
 												<div class="mob-radio__group">	
 													<input type="radio" name="mob_q7d" id="mob_q7d--improve" value=180 class="mob-radio__input" v-model="dev.d"> 
 													<label for="mob_q7d--improve" class="mob-radio__label">
@@ -2133,7 +2133,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="dial__holder" id="q07-05">
+									<div class="dial__holder dial__holder--2" id="q07-05">
 										<div class="dial__group dial__group--1 desktop">
 											<div class="dial__group--text dial__group--text-1" onclick=dial_move("input--16",'dial--16',90);>
 											No Impact
@@ -2163,7 +2163,7 @@
 												<img src="assets/images/desktop/07/data-compliance.svg" alt="data-compliance.svg" class='dial__icon'>
 											</div>
 											<div class="dial__header--text"><span class="block">Data<br class="desktop"> compliance</span></div>
-											<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+											<div class="mobile mobile-radio-cont bg-migrating">
 												<div class="mob-radio__group">	
 													<input type="radio" name="mob_q7e" id="mob_q7e--improve" value=180 class="mob-radio__input" v-model="dev.e"> 
 													<label for="mob_q7e--improve" class="mob-radio__label">
@@ -2316,9 +2316,9 @@
 												<div class="thermo__image thermo__image--6 desktop">
 													<img src="assets/images/desktop/08/icon-cyber-detection.svg" alt="icon-cyber-detection.svg">
 												</div>
-												<div class="thermo__title thermo__title--1">
+												<div class="thermo__title thermo__title--1 thermo__title--5">
 													<span>Cyber security <br class="desktop"> threat detection</span>
-													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile mobile-radio-cont bg-migrating">
 														<div class="mob-radio__group">
 															<input type="radio" name="mob_q8a" id="mob_q8a--doing" value=7 class="mob-radio__input" v-model="sec3.a"> 
 															<label for="mob_q8a--doing" class="mob-radio__label" >
@@ -2412,9 +2412,9 @@
 												<div class="thermo__image thermo__image--7 desktop">
 													<img src="assets/images/desktop/08/icon-cyber-prevention.svg" alt="icon-cyber-prevention.svg">
 												</div>
-												<div class="thermo__title thermo__title--1">
+												<div class="thermo__title thermo__title--1 thermo__title--5">
 													<span>Cyber security <br class="desktop"> prevention</span>
-													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile mobile-radio-cont bg-migrating">
 														<div class="mob-radio__group">
 															<input type="radio" name="mob_q8b" id="mob_q8b--doing" value=7 class="mob-radio__input" v-model="sec3.b"> 
 															<label for="mob_q8b--doing" class="mob-radio__label" >
@@ -2511,9 +2511,9 @@
 												<div class="thermo__image thermo__image--8 desktop">
 													<img src="assets/images/desktop/08/icon-capacity.svg" alt="icon-capacity.svg">
 												</div>
-												<div class="thermo__title thermo__title--1">
+												<div class="thermo__title thermo__title--1 thermo__title--5">
 													<span>Capacity <br class="desktop"> planning</span>
-													<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+													<div class="mobile mobile-radio-cont bg-migrating">
 														<div class="mob-radio__group">
 															<input type="radio" name="mob_q8c" id="mob_q8c--doing" value=7 class="mob-radio__input" v-model="sec3.c"> 
 															<label for="mob_q8c--doing" class="mob-radio__label" >
@@ -2610,9 +2610,9 @@
 												<div class="thermo__image thermo__image--9 desktop">
 													<img src="assets/images/desktop/08/icon-outage.svg" alt="icon-outage.svg">
 												</div>
-												<div class="thermo__title thermo__title--1">
+												<div class="thermo__title thermo__title--1 thermo__title--5">
 													<span>Outage<br class="desktop"> prevention</span>
-													<div class="mobile mobile-radio-cont  mobile-tab">
+													<div class="mobile mobile-radio-cont">
 														<div class="mob-radio__group">
 															<input type="radio" name="mob_q8d" id="mob_q8d--doing" value=7 class="mob-radio__input" v-model="sec3.d"> 
 															<label for="mob_q8d--doing" class="mob-radio__label" >
@@ -2763,10 +2763,10 @@
 												<div class="thermo__image thermo__image--10 desktop">
 													<img src="assets/images/desktop/09/icon-data-analysis.svg" alt="icon-data-analysis.svg">
 												</div>
-												<div class="thermo__title thermo__title--2 c-u-marg-top--4">
+												<div class="thermo__title thermo__title--2 c-u-marg-top--4 c-u-pmarg-top">
 													<span>Data analysis <br class="desktop"> sophistication</span>
 												</div>
-												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
+												<div class="mobile mobile-tab mobile-radio-cont bg-migrating">
 													<div class="mob-radio__group">
 														<input type="radio" name="mob_q9a" id="mob_q9a--less" value=7 class="mob-radio__input" v-model="ana.a"> 
 														<label for="mob_q9a--less" class="mob-radio__label">
@@ -3139,7 +3139,7 @@
 												</div>
 												<div class="thermo__title thermo__title--2">
 													<span>Visualization</span>
-													<span>&nbsp</span>
+													<span class='desktop'>&nbsp;</span>
 												</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
 													<div class="mob-radio__group">
@@ -3232,7 +3232,7 @@
 												</div>	
 												<div class="thermo__title thermo__title--2">
 													<span>Distribution</span>
-													<span>&nbsp;</span>
+													<span class='desktop'>&nbsp;</span>
 												</div>
 												<div class="mobile mobile-radio-cont bg-migrating mobile-tab">
 													<div class="mob-radio__group">
@@ -3276,7 +3276,7 @@
 										</a>				
 									</div>
 
-									<a class='marg-left results_page'>	
+									<a class='marg-left results_page phone-marg-left-0'>	
 										<div class="btn btn--6 phone-marg-left-0 btn--animate">
 											<span class="btn__txt">Next</span>
 											<div class="btn__arrow"></div>
@@ -3354,8 +3354,7 @@
 									</div>
 
 									<div class="results__text results__text--2 results__text--2-1 mar-top-large--6 phone-marg-top--1">
-										TESTCongratulations! Your business is ahead of its peers. A score in this range means that your company realizes the business value in upgrading to the Cloud.TEST
-										<!-- {{uservpeer}}<b>{{uservpeer1}}</b>{{uservpeer2}} -->
+										{{uservpeer}}<b>{{uservpeer1}}</b>{{uservpeer2}}
 									</div>
 									<a onclick='moveComparison();' href="comparison.html" target="_blank">			
 										<div class="btn btn--3 btn--3-1 btn--3-3">

@@ -377,7 +377,8 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
             $('.'+class_trigger).toggleClass('c-d_none');        
             $('.container-dial__'+class_trigger+' .dial__group').removeAttr('onclick');
             if($('body').width() < 768){
-                $('.container-dial__'+class_trigger+' .mob-radio__label').removeAttr('onclick');                
+                $('.container-dial__'+class_trigger+' .mob-radio__label').removeAttr('onclick');            
+
             };              
         }, 2000);     
     }
@@ -438,6 +439,10 @@ var page_trigger2= function(class_trigger,check,arr,arr1){
                 }
             });
             $('.container-dial__'+class_trigger+' .meter').removeAttr('onclick');
+
+            if($('body').width() < 768){     
+      
+            };              
         }, 2000);
     }
 };
@@ -482,6 +487,9 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
             };
             
             $('.slider__group').removeAttr('onclick');
+
+            if($('body').width() < 768){     
+            };               
         }, 2000);          
     }
 };

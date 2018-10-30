@@ -300,6 +300,9 @@
 				&_2{
 					flex: 0 0 7.75rem;
 				}
+			}
+			@include bp(767){
+				margin-left: 0;
 			}						
 		}
 	}

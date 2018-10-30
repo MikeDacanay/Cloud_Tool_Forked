@@ -184,6 +184,14 @@
     @include bp(767){
 	    margin-top: 0;
 	    margin-left: 65px;
+			
+			&--5{
+				margin-bottom: 0;
+			}
+
+	    & > span{
+	    	margin-bottom: 16px;
+	    }	    
     }
 	}
 }

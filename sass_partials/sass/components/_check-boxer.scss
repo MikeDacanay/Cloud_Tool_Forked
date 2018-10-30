@@ -41,7 +41,7 @@
 		display: flex;
     justify-content: space-between;	
 		@include bp(767){
-	    margin-right: 9px;
+	    margin-right: -14px;
 			width: auto;
 		}
   }
