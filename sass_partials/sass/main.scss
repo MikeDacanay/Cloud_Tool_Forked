@@ -198,10 +198,6 @@
   #q07-05{
     background-image: url("../assets/images/_mobile/_phone-icons/q07-05.svg");
   }
-
-  .dial__holder--1 {
-    padding-top: .1rem;
-  }
   .thermo__group {
     flex: none;
     width: 100vw;
@@ -328,7 +324,11 @@
     margin-bottom: .9rem; }
   .mobile-tab {
     // width: 85%;
-    margin-left: 2.5625rem; }
+    margin-left: 65px; 
+    &--1{
+      margin-left: 40px;
+    }
+  }
   // input[type="radio"] {
   //   position: relative;
   //   display: inline-block;
