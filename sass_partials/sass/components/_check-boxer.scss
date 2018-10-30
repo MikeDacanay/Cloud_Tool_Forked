@@ -44,6 +44,9 @@
 			transition: transform .333s;			
 	    margin-left: auto;
 			display: none;
+			@include bp(767){
+				display: none!important;
+			}
 		}		
 	}
 }

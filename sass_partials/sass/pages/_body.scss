@@ -6,6 +6,12 @@
   &--1{
     width: 100%;
   }
+  // @include bp(767){
+  //   height: 100vh;
+  //   width: 100vw;
+  //   max-height: 100vh;
+  //   max-width: 100vw;
+  // }
 }
 
 .book-slider {
@@ -16,6 +22,12 @@
   &--1{
     height: 100vh;
   }
+  // @include bp(767){
+  //   height: 100vh;
+  //   width: 100vw;
+  //   max-height: 100vh;
+  //   max-width: 100vw;
+  // }
 }
  .book-slider.loaded {
   opacity: 1;
@@ -37,6 +49,12 @@
       overflow-y: overlay;
     }
   }
+  // @include bp(767){
+  //   height: 100vh;
+  //   width: 100vw;
+  //   max-height: 100vh;
+  //   max-width: 100vw;
+  // }  
 }
 
 body{

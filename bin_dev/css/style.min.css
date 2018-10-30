@@ -1411,6 +1411,9 @@ a.bttn {
     transition: transform .333s;
     margin-left: auto;
     display: none; }
+    @media only screen and (max-width: 767px) {
+      .check-boxer__checkmark--2 {
+        display: none !important; } }
 
 .contact-bar {
   width: 2.75rem;
@@ -3828,8 +3831,6 @@ a:hover {
   .radio-text {
     color: #FFFFFF;
     margin-left: 0.9375rem; }
-  .mobile-radio {
-    display: block; }
   .question__num-box {
     margin-right: 1.125rem; }
   .currency-select {
