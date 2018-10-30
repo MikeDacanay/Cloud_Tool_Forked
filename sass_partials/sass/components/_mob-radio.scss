@@ -10,6 +10,10 @@ input{
 			&:checked ~ label .mob-radio__button::after{
 				 background-color: #000;
 			}
+
+			&--1{
+				display: m
+			}
 		}
 		&__group{
 			width: Calc(#{100vw} - #{60px});
