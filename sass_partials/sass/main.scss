@@ -292,10 +292,13 @@
   .slick-slide > .container {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;  
-  }
+  }  
   .page--x .container {
     padding-left: 0rem;
     padding-right: 0rem;  
+  }
+  .page--18 .container {
+    margin-bottom: 75px;  
   }
   html {
     font-size: 100%; }

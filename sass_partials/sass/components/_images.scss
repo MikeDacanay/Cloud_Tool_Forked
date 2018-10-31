@@ -24,6 +24,11 @@ svg:not(:root) {
 	&--1{
 		width: 9.25rem;
 		height: 3.00rem;
+
+		@include bp(767){
+			height: 28px;
+    	width: 85.5px;
+		}
 		& > img{
 			width: 100%;
 			height: 100%;
@@ -72,5 +77,8 @@ svg:not(:root) {
 		width: 13.98rem;
 		height: 26.85rem;	
 		right: 0;
+		@include bp(767){
+			display: none;
+		}
 	}
 }

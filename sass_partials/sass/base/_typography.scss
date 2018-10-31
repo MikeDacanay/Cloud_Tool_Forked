@@ -197,11 +197,19 @@ textarea {
   
     &--sub{
       font-size: 2.40rem;
+      @include bp(767){
+        font-size: 36.00px;
+      }
     }
     &--main{
       font-size: 3.60rem;
       line-height: 1;
       letter-spacing: 0;
+      @include bp(767){
+        font-size: 50.00px;
+        margin-top: -4px;
+        letter-spacing: -.033em;
+      }
     }
   } 
 
@@ -211,6 +219,9 @@ textarea {
       font-size: 1.10rem;
       letter-spacing: .04em;
       line-height: 2.40rem;
+      @include bp(767){
+        line-height: normal;
+      }
     }
     &--2{
       font-size: 0.90rem;
@@ -225,6 +236,9 @@ textarea {
     color: #fff;
     &--1{
       width: 62%;
+      @include bp(767){
+        width: 100%;
+      }
     }
   } 
 }

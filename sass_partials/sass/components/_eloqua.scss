@@ -3,9 +3,12 @@
 }
 .alert{
   position: absolute;
-  bottom: -8px;
+  bottom: 60px;
   line-height: normal;
   left: 29px;
+  @include bp(767){
+    bottom: 47px;
+  }
 }
 .bttn.submit-bttn{
   display: inline-flex;
@@ -25,7 +28,11 @@
   -webkit-transition: background-color  500ms ease;
   -ms-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
-  transition:background-color 500ms ease;
+  transition:background-color 500ms ease;    
+  margin-top: 12px;
+  @include bp(767){
+    margin-top: 14px;
+  }
 }
 .b.submit-bttn:hover{
   color:#00758f ;
