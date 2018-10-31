@@ -21,6 +21,8 @@ var tracker = {
     '8':8
 };
 
+var currency;
+
 // var prevScrollpos = window.pageYOffset;
 // window.onscroll = function() {
 // var currentScrollPos = window.pageYOffset;
@@ -1406,7 +1408,7 @@ $(document).ready(function() {
     });
 
     function CurrencyConversion(curr, currsign){
-        var currency= curr;
+        currency= curr;
         var curr_sign=currsign;
         var option_this= $(this);
         var calc1;
@@ -1477,14 +1479,13 @@ $(document).ready(function() {
             };  
         };
 
-        console.log(curr_sign);
 
         $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
 
 
             function(data){
                 for(i in data){
-                    console.log(data[i]);
+                   // console.log(data[i]);
                     for(j in data[i]){                    
                         calc1=1/data[i][j];
                         calc2=50/data[i][j];
@@ -1822,10 +1823,8 @@ $(document).ready(function() {
         var lastScrollTop = 0;
         var delta = 5;
         var didScroll;
-        var navbarHeight=$('.footer-phone').outerHeight();
         $( window ).on( "swipe", function( event ) {
             $('.page').animate({ scrollTop: 0 }, 'fast');
-            $(".footer-phone").removeClass('up');
         } );
 
         setInterval(function() {
@@ -1837,23 +1836,10 @@ $(document).ready(function() {
         $('.page').scroll(function() {
             didScroll = true;
             var st = $(this).scrollTop();
-            console.log('st: ' + st)
 
             // Make sure they scroll more than delta
             if(Math.abs(lastScrollTop - st) <= delta)
                 return;
-
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down
-                $(".footer-phone").addClass('up');
-            } else {
-                // Scroll Up
-                if(st <150) {
-                    $(".footer-phone").removeClass('up');
-                }
-            }
-
             lastScrollTop = st;
 
         });
@@ -1886,29 +1872,7 @@ $(document).ready(function() {
     if ($('body').width() < 768 ) {
         $(".loading").detach().prependTo($('body'));
 
-    };
-
-    // var hash = window.location.hash.split('/');
-    var hashVal = hash[2];
-    // $('.book-slider').slick('slickGoTo', hashVal);
-        $('#preloader').fadeOut('fast');
-        // if(window.location.hash) {
-        //     var hash = window.location.hash.split('/');
-        //     var hashVal = hash[2];
-        //     $('.book-slider').slick('slickGoTo', hashVal);
-        //     // hash found
-        // } else {
-        //     // No hash found
-    window.location.hash='';
-    $('.book-slider').slick('slickGoTo', 0);
-        // }
-
-
-    $('.toc h1').find('a').on('click', function(e){
-        e.preventDefault();
-        var $slide = $(this).data('slide');
-        $('.book-slider').slick('slickGoTo', $slide);
-    }); 
+    }
     
     //stop video when closing     
     $('.modal__close').on('click',function(){		
@@ -1945,7 +1909,6 @@ $(document).ready(function() {
 //         e.preventDefault();
 //     }
 //     if(e.keyCode == 39) {
-
 //         $carousel.slick('slickNext');
 //         e.preventDefault();
 //     }
@@ -1961,17 +1924,6 @@ $('.book-slider').on('afterChange', function(event, slick, currentSlide, nextSli
     $('html, body').animate({ scrollTop: 0}, 200);
     var lastSlide = $('section.slick-slide:not(.slick-cloned)').length - 1;
     $('#mobile-tracker').innerHTML=(currentSlide+"/9");
-
-	//set URL bar
-    if(flag==false){
-    	flag=true;
-    }else{
-        window.location.hash = '/page/' + currentSlide;
-    }
-
-    $('.footer').fadeIn();
-
-    console.log(currentSlide);
 
     bg_changer(currentSlide);
 
