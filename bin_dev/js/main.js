@@ -203,6 +203,10 @@ var  moveComparison=function(){
     sessionStorage.secNineUser=Math.round((Number(h.summary_user)/(1/7))*100);
     sessionStorage.secNinePeers=Math.round((Number(h.summary_peers)/(1/7))*100);    
 
+    //Overall
+    sessionStorage.summary_user=summary.user;
+    sessionStorage.summary_peers=summary.peers;
+
 }
 
 

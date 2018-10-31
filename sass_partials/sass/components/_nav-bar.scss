@@ -30,6 +30,9 @@
     z-index: 11;
     @include bp(767){
       display: none;
+      &--1{
+        display: block;        
+      }
     }
   }  
 
