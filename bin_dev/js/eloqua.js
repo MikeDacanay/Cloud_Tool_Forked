@@ -6,12 +6,10 @@
 
 function validateFields() {
 
-    //THIS IS WHERE RESULTS GO
-    var results= "Region: " + a.region + " Sector: " + a.sector + " Currency: " + currency + " Q2: " + comparison.TwoUser + " Q3: " + comparison.ThreeUser +
+    //RESULTS READOUT
+    var results= "Region: " + sessionStorage.regionSummary + " Sector: " + sessionStorage.sectorSummary + " Q2: " + comparison.TwoUser + " Q3: " + comparison.ThreeUser +
         " Q4: " + comparison.FourUser + " Q5: " + comparison.FiveUser + " Q6A: " + comparison.SixUser + " Q6B:" + comparison.SixUser1 + " Q6C: " + comparison.SixUser2 +
-        " Q7: " + comparison.SevenUser + " Q8: " + comparison.EightUser + " Q9: " + comparison.NineUser + " Summary: " + comparison.summary_user();
-
-
+        " Q7: " + comparison.SevenUser + " Q8: " + comparison.EightUser + " Q9: " + comparison.NineUser + " Summary: " + comparison.summary_user;
 
 
 

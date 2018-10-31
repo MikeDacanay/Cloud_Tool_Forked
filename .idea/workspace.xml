@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0239b01b-7a8f-464d-ad31-d7050cd50444" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon-reset.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon-reset.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/.idea/workspace.xml" afterPath="$PROJECT_DIR$/bin_dev/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/comparison.html" afterPath="$PROJECT_DIR$/bin_dev/comparison.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/css/backgrounds.css" afterPath="$PROJECT_DIR$/bin_dev/css/backgrounds.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/js/eloqua.js" afterPath="$PROJECT_DIR$/bin_dev/js/eloqua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/js/main.js" afterPath="$PROJECT_DIR$/bin_dev/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/main.html" afterPath="$PROJECT_DIR$/bin_dev/main.html" />
     </list>
     <ignored path="cloud-assessment-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,9 +31,9 @@
         <entry file="file://$PROJECT_DIR$/bin_dev/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <marker date="1540997645515" expanded="true" signature="92704:92707" ph="{...}" />
+                <marker date="1541009867491" expanded="true" signature="93119:93122" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,11 +98,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="1063" column="33" selection-start-line="1063" selection-start-column="33" selection-end-line="1063" selection-end-column="33" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,8 +106,8 @@
       <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="-1033">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -125,8 +116,8 @@
       <file leaf-file-name="backgrounds.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/css/backgrounds.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="522" column="33" selection-start-line="522" selection-start-column="33" selection-end-line="522" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -145,8 +136,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="1822" column="44" selection-start-line="1822" selection-start-column="44" selection-end-line="1822" selection-end-column="44" />
+            <state relative-caret-position="-1708">
+              <caret line="1311" column="7" selection-start-line="1311" selection-start-column="7" selection-end-line="1311" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin_dev/js/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="1128" column="12" selection-start-line="1128" selection-start-column="12" selection-end-line="1128" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -175,8 +176,8 @@
         <option value="$PROJECT_DIR$/bin_dev/main.html" />
         <option value="$PROJECT_DIR$/bin_dev/js/legacy/main-test.js" />
         <option value="$PROJECT_DIR$/bin_dev/js/main.js" />
-        <option value="$PROJECT_DIR$/bin_dev/css/backgrounds.css" />
         <option value="$PROJECT_DIR$/bin_dev/comparison.html" />
+        <option value="$PROJECT_DIR$/bin_dev/css/backgrounds.css" />
         <option value="$PROJECT_DIR$/bin_dev/js/eloqua.js" />
       </list>
     </option>
@@ -188,10 +189,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="104" />
+    <option name="x" value="17" />
+    <option name="y" value="122" />
     <option name="width" value="1348" />
-    <option name="height" value="764" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -372,7 +373,7 @@
       <updated>1537813082336</updated>
       <workItem from="1537813083438" duration="8523000" />
       <workItem from="1540917836765" duration="1154000" />
-      <workItem from="1540997637393" duration="4062000" />
+      <workItem from="1540997637393" duration="4581000" />
     </task>
     <task id="LOCAL-00001" summary="files into bin-dev">
       <created>1537813507852</created>
@@ -395,26 +396,33 @@
       <option name="project" value="LOCAL" />
       <updated>1537820431573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first pass at Eloqua results, missing first three">
+      <created>1541009859515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541009859515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13739000" />
+    <option name="totallyTimeSpent" value="14258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="104" width="1348" height="764" extended-state="0" />
+    <frame x="17" y="122" width="1348" height="797" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2670623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10935252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38186812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -455,7 +463,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="files into bin-dev" />
     <MESSAGE value="Wilson's width change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wilson's width change" />
+    <MESSAGE value="first pass at Eloqua results, missing first three" />
+    <option name="LAST_COMMIT_MESSAGE" value="first pass at Eloqua results, missing first three" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -467,7 +476,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1540997645515" expanded="true" signature="92704:92707" ph="{...}" />
+            <marker date="1541009867491" expanded="true" signature="93119:93122" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -519,7 +528,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1540997645515" expanded="true" signature="92704:92707" ph="{...}" />
+            <marker date="1541009867491" expanded="true" signature="93119:93122" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -591,9 +600,9 @@
     <entry file="file://$PROJECT_DIR$/bin_dev/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1540997645515" expanded="true" signature="92704:92707" ph="{...}" />
+            <marker date="1541009867491" expanded="true" signature="93119:93122" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -614,22 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1822" column="44" selection-start-line="1822" selection-start-column="44" selection-end-line="1822" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/css/backgrounds.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="522" column="33" selection-start-line="522" selection-start-column="33" selection-end-line="522" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin_dev/results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -642,11 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="1063" column="33" selection-start-line="1063" selection-start-column="33" selection-end-line="1063" selection-end-column="33" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,10 +681,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1708">
+          <caret line="1311" column="7" selection-start-line="1311" selection-start-column="7" selection-end-line="1311" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1128" column="12" selection-start-line="1128" selection-start-column="12" selection-end-line="1128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/css/backgrounds.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="-1033">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
