@@ -15,8 +15,10 @@
 
 		@include flexCenter;
 		@include bp(767){
-			flex: 0 0 28px;
-			height: 28px;
+			.page--x &{
+				flex: 0 0 28px;
+				height: 28px;
+			}
 		}
 
 	}
@@ -32,8 +34,12 @@
     	transform: translateY(0.1em);
     }
     @include bp(767){
-    	font-size: 21px;
+    	font-size: 26px;
     	transform: translateY(0.1em);
+    	.page--x &{
+		    font-size: 21px;
+		    transform: translateY(0.1em);
+    	}
     }
 	}	
 	&__title{

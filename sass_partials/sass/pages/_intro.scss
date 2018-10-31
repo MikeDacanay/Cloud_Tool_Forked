@@ -47,8 +47,10 @@
 		}
 
 		@include bp(767){
-			height: 16px;
-			flex: 0 0 16px;
+			.page--x &{
+				height: 16px;
+				flex: 0 0 16px;
+			}
 		}
 	}
 	&__num{
@@ -58,8 +60,10 @@
 			transform: translateY(0.1em);
 		}
 		@include bp(767){
-			font-size: 10.29px;
-			line-height: 16px;
+			.page--x &{
+				font-size: 10.29px;
+				line-height: 16px;
+			}
 		}
 	}
 	&__text{
