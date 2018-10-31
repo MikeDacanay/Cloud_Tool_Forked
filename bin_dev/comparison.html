@@ -8,13 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
 		<link rel="stylesheet" href="css/backgrounds.css">
     <!-- Device Size Detection -->
-    <script type="text/javascript">
-        var hashRoot = '/page/';
-        var init = '';
-        var hash = window.location.hash.split('/');
-        var hashVal = hash[2];
-    </script>
-	  <script async="async" type="text/javascript" src='//consent.truste.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true' crossorigin></script>
+
+
+</head>
+		<script async="async" type="text/javascript" src='//consent.truste.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true' crossorigin></script>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -1061,9 +1058,16 @@
 		<script type="text/javascript" src="js/form.js"></script>
 		<script type="text/javascript" src="js/countries.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
-	<script>
-		populateCountries("field17");
-	</script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				var options = {
+					iframe: true,
+					target:'#output1'
+				}
+				$('#form1048').ajaxForm(options);
+				populateCountries("field17");
+			});
+		</script>
 
 
 	</body>

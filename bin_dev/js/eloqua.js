@@ -7,15 +7,18 @@
 function validateFields() {
 
     //THIS IS WHERE RESULTS GO
-    document.getElementById("field18").value="";
+    var results= "Region: " + a.region + " Sector: " + a.sector + " Currency: " + currency + " Q2: " + comparison.TwoUser + " Q3: " + comparison.ThreeUser +
+        " Q4: " + comparison.FourUser + " Q5: " + comparison.FiveUser + " Q6A: " + comparison.SixUser + " Q6B:" + comparison.SixUser1 + " Q6C: " + comparison.SixUser2 +
+        " Q7: " + comparison.SevenUser + " Q8: " + comparison.EightUser + " Q9: " + comparison.NineUser + " Summary: " + comparison.summary_user();
 
 
-    //bPopup.close();
+
+
+
     test = document.forms[0];
     var incomplete = false;
 
     if ($('input[name=firstName]').val() == ""|| $('input[name=firstName]').val() == "First Name" ) {
-
         $('input[name=firstName]').addClass("error");
         incomplete = true;
     }
@@ -63,11 +66,10 @@ function validateFields() {
     }
     else {
     }
-
+    console.log('results: ' + results)
+    document.getElementById("field18").value=results;
     document.getElementById('header-name').innerHTML= $('input[name=firstName]').val();
     $('.modal').remove();
-
-
 
 
         //production

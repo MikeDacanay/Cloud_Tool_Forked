@@ -1,4 +1,6 @@
-
+.sign_in_container input[type="text"] {
+   border: 1px solid white;
+}
 
 #tooltip
 {
@@ -518,7 +520,7 @@ canvas{
     background: url("../assets/images/desktop/backgrounds/bg-results-overlay.png"),url("../assets/images/desktop/backgrounds/bg-10-chicago.png");
 
 }
-@media screen and (max-width: 7678px){
+@media screen and (max-width: 767px){
     .city__bg{
         background-image: none;
     }
