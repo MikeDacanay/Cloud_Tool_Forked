@@ -42,7 +42,8 @@
     justify-content: space-between;	
 		@include bp(767){
 	    margin-right: -14px;
-			width: auto;
+			flex: 0 0 42px;
+
 		}
   }
 	&__checkmark{

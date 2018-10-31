@@ -1148,7 +1148,10 @@ var comparison = new Vue({
   	EightPeers: sessionStorage.secEightPeers,
   	NineUser: sessionStorage.secNineUser,
   	NinePeers: sessionStorage.secNinePeers,
-  	
+  	summary_user: sessionStorage.summary_user,
+  	summary_peers: sessionStorage.summary_peers, 
+
+
   	FirstName: '',
   },
   computed:{
