@@ -2,6 +2,10 @@
 	&__container{
 		display: flex;
 		align-items: flex-start;
+		&--1,
+		.page--x &{
+			@include mar-phone15;
+		}
 	}
 	&__box{
 		flex: 0 0 2.15rem;
@@ -10,6 +14,11 @@
 		margin-right: 0.95rem;
 
 		@include flexCenter;
+		@include bp(767){
+			flex: 0 0 28px;
+			height: 28px;
+		}
+
 	}
 	&__num{
 		font-size: 1.80rem;
@@ -23,6 +32,7 @@
     	transform: translateY(0.1em);
     }
     @include bp(767){
+    	font-size: 21px;
     	transform: translateY(0.1em);
     }
 	}	
@@ -35,6 +45,9 @@
 
 		.mac &{
 			transform: translateY(-0.25rem);
+		}
+		@include bp(767){
+	    width: 82%;
 		}
 	}
 	&__tut{

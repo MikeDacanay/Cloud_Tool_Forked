@@ -18,7 +18,17 @@
 	    padding-left: 4.65rem;
 			&:not(:last-of-type){
 				margin-bottom: 1.50rem;
+				@include bp(767){
+					margin-bottom: 20px;
+				}
 			}		
+			@include bp(767){
+				padding-left: 15px;
+			}
+		}
+
+		.page--x &{
+			@include mar-phone15;
 		}		
 	}
 	&__num-box{
@@ -31,6 +41,14 @@
 	
 		&--1{
 			margin-right: 0.80rem;
+			@include bp(767){
+				margin-right: 11px;
+			}
+		}
+
+		@include bp(767){
+			height: 16px;
+			flex: 0 0 16px;
 		}
 	}
 	&__num{
@@ -38,6 +56,10 @@
 		color: #003B4D;
 		.mac & {
 			transform: translateY(0.1em);
+		}
+		@include bp(767){
+			font-size: 10.29px;
+			line-height: 16px;
 		}
 	}
 	&__text{
@@ -48,6 +70,13 @@
 		&--1{			
 			margin-bottom: 0;
 		}
+		.page--x &{
+			@include bp(767){
+				margin-bottom: 0;
+				font-size: 14px;			
+			}
+		}
+
 	}
 
 
@@ -160,6 +189,11 @@
 		font-size: 1.05rem;		
 		display: block;
     transform: translateY(0.15rem);
+		.page--x &{
+			@include bp(767){
+				font-size: 14px;			
+			}
+		}
 	}
 }
 

@@ -78,9 +78,19 @@
     width: 0.95rem;
     height: 2.15rem;
     margin-left: auto;
+    @include bp(767){
+      position: absolute;
+      margin-left: 15px;
+      margin-top: -50px;
+      width: 19px;
+      height: 43px;
+    }
     &--1{
       visibility: hidden;
       margin-left: 0;
+      @include bp(767){
+        display: none;
+      }
     }
   }  
 }

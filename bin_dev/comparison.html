@@ -37,7 +37,7 @@
 		</div></div>
 		<div class="main_container main_container--1">
 
-			<div class="modal">
+<!-- 			<div class="modal">
 				<div class="sign_in_container">
 					<p>Almost there! Please fill in a few details to get your scores.</p>
 					<form  method="post" name="SystemAgencyAssetDownloaded_HVC" action="https://s1973398186.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form1048 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form1048" class="elq-form">
@@ -147,7 +147,7 @@
 					</div>
 
 				</div>
-			</div>
+			</div> -->
 
 
 
@@ -170,14 +170,14 @@
 										<!-- Hello {{FirstName}}, thanks for taking the assessment. Scroll down for your detailed information. -->
 									Hello <span id="header-name"></span>, thanks for taking the assessment. Scroll down for your detailed information.
 									</h2>
-									<div class="arrow__dd marg-top-reg-1">
+									<div class="desktop arrow__dd marg-top-reg-1">
 										<img src="assets/images/desktop/dd_arrow.svg" alt="dd_arrow.svg">
 									</div>
 								</div>								
 							</div>
 							<div class="container-comparison container-comparison__main container-comparison__main--1">
 								<div class="comparison__content">
-									<div class="header__container">
+									<div class="header__container header__container--1">
 										<div class="header__box">
 											<span class="header__num">1</span>
 										</div> 
@@ -213,9 +213,13 @@
 											<span class='question__answer'>{{revenue}}</span>
 										</h2>
 									</div>
-									<div class="header--sub-2">Scroll down to get additional information on 
+									<div class="header--sub-2 desktop">Scroll down to get additional information on 
 										<span class="block">your assessment and the answers you provided.</span>
 									</div>
+									<div class="header--sub-2 mobile">
+									<span class="block">Scroll down to get additional</span> <span class="block">information
+									on your assessment and</span><span class="block"> the answers you provided.</span>
+									</div>									
 									<div class="arrow__dd arrow__dd--1 marg-top-reg-1">
 										<img src="assets/images/desktop/dd_arrow.svg" alt="dd_arrow.svg">
 									</div>		
@@ -284,14 +288,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{TwoUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{TwoUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{TwoPeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{TwoPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -381,14 +389,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{ThreeUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{ThreeUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{ThreePeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{ThreePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -479,14 +491,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{FourUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{FourUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{FourPeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{FourPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -576,14 +592,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{FiveUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{FiveUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{FivePeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{FivePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -626,7 +646,7 @@
 										<div class="comparison__left comparison__left--1">
 											<div class="comparison__main--header comparison__main--header-1">
 												Your choices:
-												<div class="comparison__bullets marg-top-reg-4">
+												<div class="comparison__bullets marg-top-reg-4 phone-marg-top--4">
 													<span>1. </span>{{SixUserArr[0]}}
 												</div>
 												<div class="comparison__bullets">
@@ -636,7 +656,7 @@
 													<span>3. </span>{{SixUserArr[2]}}
 												</div>
 												<span class='marg-top-reg-6 block'>Your peers' choices:</span>
-												<div class="comparison__bullets marg-top-reg-4">
+												<div class="comparison__bullets marg-top-reg-4 phone-marg-top--4">
 													<span>1. </span>{{SixPeersArr[0]}}
 												</div>
 												<div class="comparison__bullets">
@@ -736,14 +756,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{SevenUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{SevenUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{SevenPeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{SevenPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -833,14 +857,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{EightUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{EightUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{EightPeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{EightPeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">
@@ -930,14 +958,18 @@
 												</div>																								
 											</div>
 											<div class="comparison__score--container">
-												<div class="comparison__score--text">
-													Your score:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your score:
+													</div>
+													<div class="comparison__score--user">{{NineUser}}</div>
 												</div>
-												<div class="comparison__score--user">{{NineUser}}</div>
-												<div class="comparison__score--text">
-													Your peers:
+												<div class="comparison__score--group">
+													<div class="comparison__score--text">
+														Your peers:
+													</div>
+													<div class="comparison__score--peers">{{NinePeers}}</div>
 												</div>
-												<div class="comparison__score--peers">{{NinePeers}}</div>
 											</div>
 										</div>
 										<div class="comparison__right">

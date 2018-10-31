@@ -41,6 +41,13 @@
 	position: absolute;
 }
 
+@mixin mar-phone15{
+	@include bp(767){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
 @mixin bp($point) {
   @media only screen and (max-width: $point+px){ @content; }           
 }

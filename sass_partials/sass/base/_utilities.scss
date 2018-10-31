@@ -64,9 +64,13 @@ img.inline{display: inline-block;}
 .marg-top-med{margin-top: 1.05rem}
 .marg-top-med--2{margin-top: 1.20rem}
 .marg-top-med--1{margin-top: 1.45rem;}
-.marg-top-med--3{margin-top: 1.5rem;}
+.marg-top-med--3{margin-top: 1.5rem;
+	@include bp(767){margin-top: 20px;}
+}
 .marg-top-med--4{margin-top: 1.35rem;}
-.marg-top-med--6{margin-top: 1.65rem;}
+.marg-top-med--6{margin-top: 1.65rem;
+	@include bp(767){margin-top: 20px;}
+}
 .marg-top-med--5{margin-top: 1.75rem;}
 .mar-top-large--9{margin-top: 1.5rem;
 	@include bp(767){margin-top: 30px;}
@@ -77,7 +81,9 @@ img.inline{display: inline-block;}
 .mar-top-large--11{margin-top: 2.60rem;}
 .mar-top-large--1{margin-top: 2.75rem;}
 .mar-top-large--8{margin-top: 2.55rem;}
-.mar-top-large--12{margin-top: 3rem;}
+.mar-top-large--12{margin-top: 3rem;
+	@include bp(767){margin-top: 35px;}
+}
 .mar-top-large--7{margin-top: 3.1rem;}
 .mar-top-large--10{margin-top: 3.90rem;}
 .mar-top-large--4{margin-top: 14.10rem;}
@@ -96,6 +102,7 @@ img.inline{display: inline-block;}
 	.phone-marg-top--1{margin-top: -5px;}
 	.phone-marg-top--0{margin-top: 0px;}
 	.phone-marg-top--2{margin-top: 30px;}
+	.phone-marg-top--4{margin-top: 15px;}	
 	.phone-marg-top--3{margin-top: 20px;}
 	.phone-marg-left-0{margin-left: 0;}
 

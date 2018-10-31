@@ -291,7 +291,12 @@
     background-color: #00758F;}
   .slick-slide > .container {
     padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-right: 0.9375rem;  
+  }
+  .page--x .container {
+    padding-left: 0rem;
+    padding-right: 0rem;  
+  }
   html {
     font-size: 100%; }
   .main_container {
