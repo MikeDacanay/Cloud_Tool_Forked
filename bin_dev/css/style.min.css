@@ -1379,6 +1379,9 @@ a.bttn {
     .btn__txt--2 {
       font-size: 0.80rem;
       font-family: Univers, Arial, Helvetica, sans-serif; }
+    @media only screen and (max-width: 767px) {
+      .btn__txt {
+        transform: translateY(0.1em); } }
 
 .callout__holder {
   flex: 0 0 28.30rem;
@@ -4086,7 +4089,8 @@ a:hover {
     background-color: #00758F; }
   .slick-slide > .container {
     padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-right: 0.9375rem;
+    margin-bottom: 350px; }
   .page--x .container {
     padding-left: 0rem;
     padding-right: 0rem; }
