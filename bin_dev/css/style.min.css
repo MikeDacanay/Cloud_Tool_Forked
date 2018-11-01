@@ -1922,7 +1922,9 @@ a.bttn {
     transform: translateY(-0.25rem); }
   @media only screen and (max-width: 767px) {
     .header__title {
-      width: 82%; } }
+      width: 82%; }
+      .page--10 .header__title {
+        width: auto; } }
 
 .header__tut {
   font-size: 0.60rem;

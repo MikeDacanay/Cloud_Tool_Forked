@@ -527,4 +527,8 @@ canvas{
     .city__bg{
         background-image: none;
     }
+    
+    .sign_in_container{
+        padding: 37px 20px 25px 29px;
+    }
 }

@@ -52,9 +52,12 @@
 		.mac &{
 			transform: translateY(-0.25rem);
 		}
-		@include bp(767){
+		@include bp(767){	  	
 	    width: 82%;
-		}
+	    .page--10 &{
+	    	width: auto;
+	    }
+		}		
 	}
 	&__tut{
 		font-size: 0.60rem;
