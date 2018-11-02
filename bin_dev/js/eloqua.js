@@ -64,14 +64,14 @@ function validateFields() {
     }
     else {
     }
-    console.log('results: ' + results)
     document.getElementById("field18").value=results;
     document.getElementById('header-name').innerHTML= $('input[name=firstName]').val();
-    $('.modal').remove();
+    //production
+    $('#form1048').submit();
+    setTimeout(function(){
+        $('.modal').remove();
+    },250)
 
-
-        //production
-       // $('#form1048').submit();
     }
 
 

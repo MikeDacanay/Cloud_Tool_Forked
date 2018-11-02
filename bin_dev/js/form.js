@@ -241,7 +241,6 @@
         if (options.iframe !== false && (options.iframe || shouldUseFrame)) {
             // hack to fix Safari hang (thanks to Tim Molendijk for this)
             // see:  http://groups.google.com/group/jquery-dev/browse_thread/thread/36395b7ab510dd5d
-            console.log("USE IFRAME");
             if (options.closeKeepAlive) {
                 $.get(options.closeKeepAlive, function() {
                     jqxhr = fileUploadIframe(a);
@@ -852,7 +851,6 @@
     $.fn.ajaxForm = function(options) {
         options = options || {};
         options.delegation = options.delegation && $.isFunction($.fn.on);
-
         // in jQuery 1.3+ we can fix mistakes with the ready state
         if (!options.delegation && this.length === 0) {
             var o = { s: this.selector, c: this.context };
