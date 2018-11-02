@@ -2785,8 +2785,7 @@ table {
       bottom: 0;
       position: relative;
       flex-direction: column;
-      margin-top: 25px;
-      margin-bottom: 250px; } }
+      margin-top: 25px; } }
 
 .container--2_1 {
   bottom: 1rem;
@@ -2800,7 +2799,6 @@ table {
       margin-top: 25px;
       position: relative;
       flex-direction: column;
-      margin-bottom: 110px;
       align-items: center; } }
 
 .container--3 {
@@ -3915,10 +3913,9 @@ a:hover {
   /** CHANGES 11-1**/
   .slick-initialized .slick-slide {
     height: 100vh;
-  overflow-y:scroll;}
-  .slick-initialized .slick-slide .container{
-    height: auto;
-  display: table}
+    overflow-y: scroll; }
+  .slick-initialized .slick-slide .container {
+    height: auto; }
   /*** CSS changes  10/12***/
   #q08-01 {
     background-image: url("../assets/images/_mobile/_phone-icons/q08-01.svg"); }
@@ -4072,7 +4069,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: scroll; }
-
   .city__bg--0, .city__bg--1, .city__bg--2.city__bg--3.city__bg--4, .city__bg--5, .city__bg--6, .city__bg--7.city__bg--8 {
     background-image: none; }
   .mobile-tracker {
@@ -4098,7 +4094,7 @@ a:hover {
   .slick-slide > .container {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    margin-bottom: 0px; }
+    margin-bottom: 150px; }
   .page--x .container {
     padding-left: 0rem;
     padding-right: 0rem; }
