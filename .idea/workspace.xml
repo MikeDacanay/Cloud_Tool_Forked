@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0239b01b-7a8f-464d-ad31-d7050cd50444" name="Default" comment="Eloqua fix">
+    <list default="true" id="0239b01b-7a8f-464d-ad31-d7050cd50444" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/js/eloqua.js" afterPath="$PROJECT_DIR$/bin_dev/js/eloqua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/js/form.js" afterPath="$PROJECT_DIR$/bin_dev/js/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/css/style.min.css" afterPath="$PROJECT_DIR$/bin_dev/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_dev/js/main.js" afterPath="$PROJECT_DIR$/bin_dev/js/main.js" />
     </list>
     <ignored path="cloud-assessment-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,6 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin_dev/css/style.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="3920" column="17" selection-start-line="3920" selection-start-column="17" selection-end-line="3920" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/main.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +109,8 @@
       <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/js/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="18870">
+              <caret line="1270" column="54" selection-start-line="1270" selection-start-column="54" selection-end-line="1270" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#32935#33472#0" expanded="false" />
@@ -109,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="345">
               <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
               <folding />
             </state>
@@ -129,21 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datasets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin_dev/js/datasets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7440">
-              <caret line="496" column="15" selection-start-line="496" selection-start-column="15" selection-end-line="496" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8610">
-              <caret line="574" column="2" selection-start-line="574" selection-start-column="2" selection-end-line="574" selection-end-column="2" />
+            <state relative-caret-position="23220">
+              <caret line="1548" column="24" selection-start-line="1548" selection-start-column="24" selection-end-line="1548" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -178,14 +178,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bin_dev/css/style-update.css" />
-        <option value="$PROJECT_DIR$/bin_dev/css/style.min.css" />
         <option value="$PROJECT_DIR$/bin_dev/main.html" />
         <option value="$PROJECT_DIR$/bin_dev/js/legacy/main-test.js" />
         <option value="$PROJECT_DIR$/bin_dev/css/backgrounds.css" />
-        <option value="$PROJECT_DIR$/bin_dev/js/main.js" />
         <option value="$PROJECT_DIR$/bin_dev/comparison.html" />
         <option value="$PROJECT_DIR$/bin_dev/js/form.js" />
         <option value="$PROJECT_DIR$/bin_dev/js/eloqua.js" />
+        <option value="$PROJECT_DIR$/bin_dev/js/main.js" />
+        <option value="$PROJECT_DIR$/bin_dev/css/style.min.css" />
       </list>
     </option>
   </component>
@@ -196,8 +196,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="60" />
+    <option name="x" value="237" />
+    <option name="y" value="118" />
     <option name="width" value="1277" />
     <option name="height" value="677" />
   </component>
@@ -226,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -298,6 +297,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +382,9 @@
       <workItem from="1540917836765" duration="1154000" />
       <workItem from="1540997637393" duration="6148000" />
       <workItem from="1541164136285" duration="1472000" />
-      <workItem from="1541170685988" duration="30000" />
+      <workItem from="1541170685988" duration="641000" />
+      <workItem from="1541179915746" duration="3563000" />
+      <workItem from="1541185054935" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="files into bin-dev">
       <created>1537813507852</created>
@@ -419,33 +421,40 @@
       <option name="project" value="LOCAL" />
       <updated>1541010370470</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Eloqua fix">
+      <created>1541170722345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541170722345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17327000" />
+    <option name="totallyTimeSpent" value="21709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="60" width="1277" height="677" extended-state="0" />
+    <frame x="237" y="118" width="1277" height="677" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28191072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.108552635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38157895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38186812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,6 +499,143 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16920">
+          <caret line="1128" column="12" selection-start-line="1128" selection-start-column="12" selection-end-line="1128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/legacy/main-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4410">
+          <caret line="294" column="32" selection-start-line="294" selection-start-column="32" selection-end-line="294" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10905">
+          <caret line="727" column="65" selection-start-line="727" selection-start-column="63" selection-end-line="727" selection-end-column="65" />
+          <folding>
+            <element signature="e#5488#5494#0" expanded="true" />
+            <element signature="e#7914#7920#0" expanded="true" />
+            <element signature="e#14133#14139#0" expanded="true" />
+            <element signature="e#35979#35985#1" expanded="true" />
+            <element signature="e#36139#36145#1" expanded="true" />
+            <element signature="e#38408#38414#1" expanded="true" />
+            <element signature="e#38568#38574#1" expanded="true" />
+            <element signature="e#40850#40856#1" expanded="true" />
+            <element signature="e#41010#41016#1" expanded="true" />
+            <element signature="e#43817#43823#1" expanded="true" />
+            <element signature="e#43979#43985#1" expanded="true" />
+            <element signature="e#46260#46266#1" expanded="true" />
+            <element signature="e#46422#46428#1" expanded="true" />
+            <element signature="e#51072#51078#1" expanded="true" />
+            <element signature="e#81060#81066#0" expanded="true" />
+            <element signature="e#81977#81981#0" expanded="true" />
+            <element signature="e#82621#82625#0" expanded="true" />
+            <element signature="e#99394#99400#1" expanded="true" />
+            <element signature="e#131429#131435#1" expanded="true" />
+            <element signature="e#137176#137182#1" expanded="true" />
+            <element signature="e#144540#144546#0" expanded="true" />
+            <element signature="e#151191#151197#1" expanded="true" />
+            <element signature="e#151238#151244#1" expanded="true" />
+            <element signature="e#155094#155100#1" expanded="true" />
+            <element signature="e#167926#167932#1" expanded="true" />
+            <element signature="e#172377#172383#1" expanded="true" />
+            <element signature="e#173695#173701#1" expanded="true" />
+            <element signature="e#178150#178156#1" expanded="true" />
+            <element signature="e#180702#180708#0" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#svg#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#svg#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/comparison.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32935#33472#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/css/backgrounds.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/datasets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7440">
+          <caret line="496" column="15" selection-start-line="496" selection-start-column="15" selection-end-line="496" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8610">
+          <caret line="574" column="2" selection-start-line="574" selection-start-column="2" selection-end-line="574" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16920">
+          <caret line="1128" column="12" selection-start-line="1128" selection-start-column="12" selection-end-line="1128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/legacy/main-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4410">
+          <caret line="294" column="32" selection-start-line="294" selection-start-column="32" selection-end-line="294" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin_dev/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10905">
@@ -584,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7440">
           <caret line="496" column="15" selection-start-line="496" selection-start-column="15" selection-end-line="496" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7440">
           <caret line="496" column="15" selection-start-line="496" selection-start-column="15" selection-end-line="496" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,9 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,16 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -861,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7440">
           <caret line="496" column="15" selection-start-line="496" selection-start-column="15" selection-end-line="496" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,11 +1040,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8610">
-          <caret line="574" column="2" selection-start-line="574" selection-start-column="2" selection-end-line="574" selection-end-column="2" />
+        <state relative-caret-position="345">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18870">
+          <caret line="1270" column="54" selection-start-line="1270" selection-start-column="54" selection-end-line="1270" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32935#33472#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,21 +1101,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/js/form.js">
+    <entry file="file://$PROJECT_DIR$/bin_dev/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#32935#33472#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="23220">
+          <caret line="1548" column="24" selection-start-line="1548" selection-start-column="24" selection-end-line="1548" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin_dev/js/eloqua.js">
+    <entry file="file://$PROJECT_DIR$/bin_dev/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="109">
+          <caret line="3920" column="17" selection-start-line="3920" selection-start-column="17" selection-end-line="3920" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -1551,15 +1551,6 @@ $(document).ready(function() {
         arrows: false,
         slidesToShow: 1,
 
-        // variableWidth: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    adaptiveHeight: true,
-                }
-            }
-        ]
     });
 
     $('.session_reset').click(function(){
