@@ -2274,6 +2274,10 @@ ul.no-dots-ul {
     height: 3.85rem;
     position: fixed;
     z-index: 11; }
+    @media only screen and (max-width: 1200px) {
+      .nav-bar__bg {
+        z-index: 0;
+        position: absolute; } }
     @media only screen and (max-width: 767px) {
       .nav-bar__bg {
         display: none; }
