@@ -2274,6 +2274,10 @@ ul.no-dots-ul {
     height: 3.85rem;
     position: fixed;
     z-index: 11; }
+    @media only screen and (max-width: 1200px) {
+      .nav-bar__bg {
+        z-index: 0;
+        position: absolute; } }
     @media only screen and (max-width: 767px) {
       .nav-bar__bg {
         display: none; }
@@ -2785,8 +2789,7 @@ table {
       bottom: 0;
       position: relative;
       flex-direction: column;
-      margin-top: 25px;
-      margin-bottom: 250px; } }
+      margin-top: 25px; } }
 
 .container--2_1 {
   bottom: 1rem;
@@ -2800,7 +2803,6 @@ table {
       margin-top: 25px;
       position: relative;
       flex-direction: column;
-      margin-bottom: 110px;
       align-items: center; } }
 
 .container--3 {
@@ -3919,8 +3921,8 @@ a:hover {
   .slick-initialized .slick-slide .container{
     height: auto;
   display: table}
-
-
+  .slick-initialized .slick-slide .container {
+    height: auto; }
   /*** CSS changes  10/12***/
   #q08-01 {
     background-image: url("../assets/images/_mobile/_phone-icons/q08-01.svg"); }
@@ -3981,9 +3983,11 @@ a:hover {
     width: 70px;
     height: 100%; }
   #q02-01 {
-    background-image: url("../assets/images/_mobile/_phone-icons/q02-01.svg"); }
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-01.svg");
+    background-size: 80px 58.8px; }
   #q02-02 {
-    background-image: url("../assets/images/_mobile/_phone-icons/q02-02.svg"); }
+    background-image: url("../assets/images/_mobile/_phone-icons/q02-02.svg");
+    background-size: 70px 61px; }
   #q02-03 {
     background-image: url("../assets/images/_mobile/_phone-icons/q02-03.svg"); }
   #q02-04 {
@@ -4007,7 +4011,8 @@ a:hover {
   #q04-01 {
     background-image: url("../assets/images/_mobile/_phone-icons/q04-01.svg"); }
   #q04-02 {
-    background-image: url("../assets/images/_mobile/_phone-icons/q04-02.svg"); }
+    background-image: url("../assets/images/_mobile/_phone-icons/q04-02.svg");
+    background-size: 82px 48px; }
   #q04-03 {
     background-image: url("../assets/images/_mobile/_phone-icons/q04-03.svg"); }
   #q04-04 {
@@ -4074,7 +4079,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: scroll; }
-
   .city__bg--0, .city__bg--1, .city__bg--2.city__bg--3.city__bg--4, .city__bg--5, .city__bg--6, .city__bg--7.city__bg--8 {
     background-image: none; }
   .mobile-tracker {
@@ -4100,7 +4104,7 @@ a:hover {
   .slick-slide > .container {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    margin-bottom: 0px; }
+    margin-bottom: 150px; }
   .page--x .container {
     padding-left: 0rem;
     padding-right: 0rem; }

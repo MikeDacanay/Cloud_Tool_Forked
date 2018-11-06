@@ -28,6 +28,10 @@
     height: 3.85rem;
     position: fixed;
     z-index: 11;
+    @include bp(1200){
+      z-index: 0;
+      position: absolute;
+    }
     @include bp(767){
       display: none;
       &--1{
