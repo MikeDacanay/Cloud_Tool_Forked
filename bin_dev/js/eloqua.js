@@ -64,7 +64,7 @@ function validateFields() {
     }
     else {
     }
-    var src=GetURLParameter('source');
+    var src=GetURLParameter(sessionStorage.regionSummary);
     var d = new Date();
     var timestamp = (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes();
     $("#src1").val(src);
