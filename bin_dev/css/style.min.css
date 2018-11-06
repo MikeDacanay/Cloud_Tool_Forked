@@ -3920,7 +3920,7 @@ a:hover {
   overflow-y:scroll;}
   .slick-initialized .slick-slide .container{
     height: auto;
-  display: table}
+    }
   .slick-initialized .slick-slide .container {
     height: auto; }
   /*** CSS changes  10/12***/

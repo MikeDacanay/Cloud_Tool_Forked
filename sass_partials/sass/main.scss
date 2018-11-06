@@ -48,12 +48,12 @@
 @import 'pages/results';
 @import 'pages/cheats';
 
-/**********Tablet POrtrait***************/
+/**********Tablet POrtrait***************/i
 @media only screen and (max-width: 767px) {
   /** CHANGES 11-1**/
   .slick-initialized .slick-slide {
     height: 100vh;
-  overflow-y:scroll;}
+  overflow-y: scroll;}
   .slick-initialized .slick-slide .container{
     height: auto;
   // display: table;
