@@ -110,6 +110,8 @@ var region_currency = {
 $('.book-slider').on('init', function(event, slick){
     $('.book-slider').addClass('loaded');
 });
+
+
 window.onload = function(e) {
     $("input.dial__input").val('0%');
     $("input.dial__input").trigger('change');
@@ -277,6 +279,16 @@ var tracker_navigator=function(tracker){
     }
 };
 
+function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
+        }
+    }
+}
 // var page_move= function(arr){
 
 //   var mover = true;

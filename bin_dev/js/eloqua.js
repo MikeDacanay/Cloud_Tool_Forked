@@ -64,7 +64,7 @@ function validateFields() {
     }
     else {
     }
-    var src=GetURLParameter(sessionStorage.regionSummary);
+    var src=localStorage.getItem('sourceParam');
     var d = new Date();
     var timestamp = (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes();
     $("#src1").val(src);
@@ -79,16 +79,7 @@ function validateFields() {
 
     }
 
-function GetURLParameter(sParam) {
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++) {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam) {
-            return sParameterName[1];
-        }
-    }
-}
+
 
 function setLegal(){
     var selectedCountryIndex = document.getElementById('field17').selectedIndex;
