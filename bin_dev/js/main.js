@@ -672,6 +672,8 @@ if(isMac==true || context==='medium'){
     // $('.question__num').addClass('mac');
     // $('.btn__txt').addClass('mac');
     $("html").addClass("mac"); 
+}else{
+    $('html').addClass('win');
 }
 
 if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)){

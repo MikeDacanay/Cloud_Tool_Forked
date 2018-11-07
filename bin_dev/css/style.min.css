@@ -1875,6 +1875,9 @@ a.bttn {
   position: absolute;
   top: 5px; }
 
+.win option {
+  color: #003b4d; }
+
 .header__container {
   display: flex;
   align-items: flex-start; }
@@ -3917,10 +3920,7 @@ a:hover {
   /** CHANGES 11-1**/
   .slick-initialized .slick-slide {
     height: 100vh;
-  overflow-y:scroll;}
-  .slick-initialized .slick-slide .container{
-    height: auto;
-    }
+    overflow-y: scroll; }
   .slick-initialized .slick-slide .container {
     height: auto; }
   /*** CSS changes  10/12***/
