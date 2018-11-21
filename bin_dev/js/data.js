@@ -1167,65 +1167,65 @@ var comparison = new Vue({
   	},    
   	VarTextTwo: function(){
   		if(this.TwoUser>this.TwoPeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.TwoUser===this.TwoPeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextThree: function(){
   		if(this.ThreeUser>this.ThreePeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.ThreeUser===this.ThreePeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextFour: function(){
   		if(this.FourUser>this.FourPeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.FourUser===this.FourPeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextFive: function(){
   		if(this.FiveUser>this.FivePeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.FiveUser===this.FivePeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextSeven: function(){
   		if(this.SevenUser>this.SevenPeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.SevenUser===this.SevenPeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextEight: function(){
   		if(this.EightUser>this.EightPeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.EightUser===this.EightPeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
   	VarTextNine: function(){
   		if(this.NineUser>this.NinePeers){
-  			return 'ahead';
+  			return 'ahead of';
   		}else if(this.NineUser===this.NinePeers){
   			return 'on par with'
   		}else{
-  			return 'behind'
+  			return 'behind of'
   		}
   	},
 
