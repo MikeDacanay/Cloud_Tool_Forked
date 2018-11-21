@@ -12,6 +12,7 @@
   	position: fixed;
   	height: 100vh;
     width: 100vw;
+    visibility: hidden;
   }
 	
 	&__container{
@@ -48,5 +49,8 @@
 
 	&__period{
 		visibility: hidden;
+		@include bp(767){
+			display: none;
+		}
 	}
 }

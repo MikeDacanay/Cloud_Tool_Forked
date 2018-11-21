@@ -11,7 +11,7 @@ input{
 	@include bp(768){
 		&__input{
 			&:checked ~ label .mob-radio__button::after{
-				 background-color: #000;
+				 background-color: #fff;
 			}
 
 			&--1{
@@ -41,7 +41,7 @@ input{
 				height: 6px;
 				width: 6px;
 				border-radius: 50%;
-				background-color: rgb(255,255,255);
+				background-color: #00758F;
 			}
 		}
 		&__text{
