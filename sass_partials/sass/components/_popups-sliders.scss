@@ -7,9 +7,9 @@
 }
 
 .b-close{
-    background-image: url(../assets/graphics/icons/btn-close-video.svg);
+    background-image: url(../assets/images/desktop/close-bttn.svg);
     float: right;
-    height: 0.95rem;
+    height: 1.50rem;
     width: 3.60rem;
     background-size: contain;
     background-repeat: no-repeat;
@@ -24,6 +24,7 @@
     cursor: pointer;
     position: relative;
     top: -.1.50rem;
+    margin-bottom: 0.25rem;
 }
 .b-close.pop-close{
     margin-right: .3.50rem;

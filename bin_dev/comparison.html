@@ -326,12 +326,12 @@
 													Companies with most of their applications in the cloud report the <span class="callout__header--bold">greatest increases</span> in productivity and competitiveness.
 												</div>
 												<div class="callout__sub">Oracle Your Platform – Journey to the Cloud</div>
-												<a href="https://video.oracle.com/detail/video/5703531352001" target="_blank">
-													<div class="btn btn--4">
-														<span class="btn__txt btn__txt--1">Watch the video</span>
-														<div class="btn__arrow btn__arrow--2"></div>
-													</div>									
-												</a>
+												<!-- <a href="https://video.oracle.com/detail/video/5703531352001" target="_blank"> -->
+												<div class="btn btn--4" onclick="openVideoOverlay('5703531352001')">
+													<span class="btn__txt btn__txt--1">Watch the video</span>
+													<div class="btn__arrow btn__arrow--2"></div>
+												</div>									
+												<!-- </a> -->
 											</div>											
 										</div>
 									</div>
@@ -1089,7 +1089,10 @@
 							</div>
 						</div>						
 					</div>	
-				</section>			
+				</section>
+        <div class="popupContainer" id="voverlay-container" style="display:none">
+         <div class="close-holder"> <span class="button b-close" id="vid-close"></span></div>
+         <div id="voverlay-content"></div>							
 			</div>
 		</div>
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -1101,6 +1104,8 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/bpopup.min.js"></script>
+		<script type="text/javascript" src="js/videos_and_popups.js"></script>		
 		<script type="text/javascript" src="js/datasets.js"></script>
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/form.js"></script>
