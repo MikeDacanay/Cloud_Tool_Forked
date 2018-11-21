@@ -1,237 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_holder/index_non_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/legacy/main-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/legacy/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/bin_dev.iml" afterPath="$PROJECT_DIR$/../.idea/bin_dev.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/cloud-assessment-test.iml" afterPath="$PROJECT_DIR$/../.idea/cloud-assessment-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/graphics/arrow-blue.svg" afterPath="$PROJECT_DIR$/../assets/graphics/arrow-blue.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/graphics/arrow-white.svg" afterPath="$PROJECT_DIR$/../assets/graphics/arrow-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/graphics/icons/logo-intel.svg" afterPath="$PROJECT_DIR$/../assets/graphics/icons/logo-intel.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/aus.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/aus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/aus1.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/aus1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/checkmark-blue.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/checkmark-blue.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/cloud__orange.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/cloud__orange.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/cloud__white.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/cloud__white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/eu.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/eu.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/eu1.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/eu1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/flag-you.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/flag-you.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/icon--fb.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/icon--fb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/icon--twitter.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/icon--twitter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/icon--youtube.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/icon--youtube.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/icon-reset.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/icon-reset.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/longitude-logo.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/longitude-logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/na.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/na.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/oracle_intro_logo.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/oracle_intro_logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/test.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/test.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../assets/images/desktop/triangle-white.svg" afterPath="$PROJECT_DIR$/../assets/images/desktop/triangle-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bin_dev.iml" afterPath="$PROJECT_DIR$/.idea/bin_dev.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="two gates">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/arrow-blue.svg" afterPath="$PROJECT_DIR$/assets/graphics/arrow-blue.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/arrow-white.svg" afterPath="$PROJECT_DIR$/assets/graphics/arrow-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/icons/comparison__b.svg" afterPath="$PROJECT_DIR$/assets/graphics/icons/comparison__b.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/icons/comparison__fb.svg" afterPath="$PROJECT_DIR$/assets/graphics/icons/comparison__fb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/icons/comparison__linkedIn.svg" afterPath="$PROJECT_DIR$/assets/graphics/icons/comparison__linkedIn.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/icons/comparison__twitter.svg" afterPath="$PROJECT_DIR$/assets/graphics/icons/comparison__twitter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/graphics/icons/logo-intel.svg" afterPath="$PROJECT_DIR$/assets/graphics/icons/logo-intel.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-05.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-05.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-06.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q02-06.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-05.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q03-05.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-05.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q04-05.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-05.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q07-05.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q08-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-01.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-01.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-02.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-02.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-03.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-03.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-04.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-04.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-05.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-05.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-06.svg" afterPath="$PROJECT_DIR$/assets/images/_mobile/_phone-icons/q09-06.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/04/icon-architecture.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/04/icon-architecture.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/04/icon-coding.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/04/icon-coding.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/04/icon-design.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/04/icon-design.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/04/icon-interface.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/04/icon-interface.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/04/icon-teams.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/04/icon-teams.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/07/data-access.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/07/data-access.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/07/data-compliance.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/07/data-compliance.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/07/data-mgmt.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/07/data-mgmt.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/07/data-security.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/07/data-security.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/07/data-storage.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/07/data-storage.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/08/icon-capacity.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/08/icon-capacity.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/08/icon-cyber-detection.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/08/icon-cyber-detection.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/08/icon-cyber-prevention.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/08/icon-cyber-prevention.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/08/icon-outage.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/08/icon-outage.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-big-data.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-big-data.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-data-analysis.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-data-analysis.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-data-sources.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-data-sources.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-distribution.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-distribution.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-machine.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-machine.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/09/icon-visualization.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/09/icon-visualization.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/af.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/af.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/af1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/af1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/af2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/af2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/arrow-white.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/arrow-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/as.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/as.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/as1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/as1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/as2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/as2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/aus.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/aus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/aus1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/aus1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/aus2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/aus2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/callout__icon--1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/callout__icon--1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/checkmark-blue.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/checkmark-blue.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/checkmark-orange.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/checkmark-orange.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/cloud__orange.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/cloud__orange.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/cloud__white.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/cloud__white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/composition-1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/composition-1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/dd_arrow.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/dd_arrow.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/eu.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/eu.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/eu1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/eu1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/eu2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/eu2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/flag-peers.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/flag-peers.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/flag-you.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/flag-you.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_3.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_4.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_4.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_5.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_5.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--2_6.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--2_6.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--3_1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--3_1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--3_2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--3_2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--fb.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--fb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--linkedin.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--linkedin.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--twitter.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--twitter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon--youtube.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon--youtube.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/icon-reset.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/icon-reset.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/img--1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/img--1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/logo-longitude.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/logo-longitude.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/na.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/na.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/na1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/na1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/na2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/na2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/needle.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/needle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/oracle-logo.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/oracle-logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/oracle_intro_logo.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/oracle_intro_logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/orange_cloud-stroke.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/orange_cloud-stroke.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/results--arrow.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/results--arrow.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/sa.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/sa.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/sa1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/sa1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/sa2.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/sa2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/test.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/test.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-orange--1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-orange--1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-orange.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-orange.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-white--1.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-white--1.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-white.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/thermo/triangle-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/triangle-white.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/triangle-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/white-80.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/white-80.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/desktop/white_cloud-stroke.svg" afterPath="$PROJECT_DIR$/assets/images/desktop/white_cloud-stroke.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comparison.html" afterPath="$PROJECT_DIR$/comparison.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/backgrounds.css" afterPath="$PROJECT_DIR$/css/backgrounds.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/countries.js" afterPath="$PROJECT_DIR$/js/countries.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/data.js" afterPath="$PROJECT_DIR$/js/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datasets.js" afterPath="$PROJECT_DIR$/js/datasets.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/eloqua.js" afterPath="$PROJECT_DIR$/js/eloqua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/form.js" afterPath="$PROJECT_DIR$/js/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/header.js" afterPath="$PROJECT_DIR$/js/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/js/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.redrawKnob.js" afterPath="$PROJECT_DIR$/js/jquery.redrawKnob.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/svgxuse.js" afterPath="$PROJECT_DIR$/js/svgxuse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/videos_and_popups.js" afterPath="$PROJECT_DIR$/js/videos_and_popups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vue.min.js" afterPath="$PROJECT_DIR$/js/vue.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.html" afterPath="$PROJECT_DIR$/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/config.rb" afterPath="$PROJECT_DIR$/slick/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/css/oracle-brand.css" afterPath="$PROJECT_DIR$/slick/css/oracle-brand.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/css/style.css" afterPath="$PROJECT_DIR$/slick/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/fonts/slick.svg" afterPath="$PROJECT_DIR$/slick/fonts/slick.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick-theme.css" afterPath="$PROJECT_DIR$/slick/slick-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick-theme.less" afterPath="$PROJECT_DIR$/slick/slick-theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick-theme.scss" afterPath="$PROJECT_DIR$/slick/slick-theme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.css" afterPath="$PROJECT_DIR$/slick/slick.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.js" afterPath="$PROJECT_DIR$/slick/slick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.less" afterPath="$PROJECT_DIR$/slick/slick.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.min.js" afterPath="$PROJECT_DIR$/slick/slick.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.scss" afterPath="$PROJECT_DIR$/slick/slick.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/css/style.comp.css" afterPath="$PROJECT_DIR$/../sass_partials/css/style.comp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/css/style.prefix.css" afterPath="$PROJECT_DIR$/../sass_partials/css/style.prefix.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/package-lock.json" afterPath="$PROJECT_DIR$/../sass_partials/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/package.json" afterPath="$PROJECT_DIR$/../sass_partials/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_functions.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_functions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_mixins.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_variables.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/abstracts/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/base/_animations.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/base/_animations.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/base/_base.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/base/_utilities.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/base/_utilities.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_arrows.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_arrows.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_background.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_background.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_callout.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_callout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_check-boxer.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_check-boxer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_contact-bar.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_contact-bar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_copyright.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_copyright.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_dev-meter.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_dev-meter.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_dial.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_dial.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_dropdown-toc.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_dropdown-toc.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_dropdown.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_dropdown.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_eloqua.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_eloqua.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_header.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_images.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_images.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_list.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_loading.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_loading.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_map-composition.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_map-composition.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_meter.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_meter.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_mob-radio.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_mob-radio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_nav-bar.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_nav-bar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_popups-sliders.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_popups-sliders.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_pull-quote.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_pull-quote.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_slider.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_table.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_table.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_thermo.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_thermo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/components/_videos.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/components/_videos.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/layout/_container.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/layout/_container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/layout/_cover.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/layout/_cover.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/layout/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/layout/_grid.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/layout/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/main.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_body.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_cheats.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_cheats.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_comparison.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_comparison.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_intro.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_intro.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/pages/_results.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/pages/_results.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/vendors/_preloader.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/vendors/_preloader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/vendors/_scrollbar.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/vendors/_scrollbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sass_partials/sass/vendors/_slick.scss" afterPath="$PROJECT_DIR$/../sass_partials/sass/vendors/_slick.scss" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,8 +36,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="29" />
+            <state relative-caret-position="114">
+              <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
               <folding>
                 <element signature="e#8328#8377#0" expanded="false" />
               </folding>
@@ -269,8 +48,8 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="-10">
+              <caret line="2223" column="17" selection-start-line="2223" selection-start-column="17" selection-end-line="2223" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -279,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="103" column="75" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+            <state relative-caret-position="218">
+              <caret line="110" column="71" selection-start-line="110" selection-start-column="71" selection-end-line="110" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -299,8 +78,8 @@
       <file leaf-file-name="comparison.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comparison.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
+            <state relative-caret-position="103">
+              <caret line="55" column="114" selection-start-line="55" selection-start-column="114" selection-end-line="55" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -314,23 +93,22 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51855">
-              <caret line="3459" column="0" selection-start-line="3459" selection-start-column="0" selection-end-line="3459" selection-end-column="0" />
+            <state relative-caret-position="106">
+              <caret line="3283" column="83" selection-start-line="3283" selection-start-column="83" selection-end-line="3283" selection-end-column="83" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#180703#180709#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svgxuse.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/svgxuse.js">
+      <file leaf-file-name="results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="61" column="84" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -338,8 +116,8 @@
       <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17265">
-              <caret line="1151" column="9" selection-start-line="1151" selection-start-column="9" selection-end-line="1151" selection-end-column="9" />
+            <state relative-caret-position="219">
+              <caret line="1118" column="26" selection-start-line="1118" selection-start-column="26" selection-end-line="1118" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -348,9 +126,11 @@
       <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/eloqua.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#2766#3364#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -358,8 +138,8 @@
       <file leaf-file-name="countries.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/countries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8400">
-              <caret line="572" column="38" selection-start-line="572" selection-start-column="38" selection-end-line="572" selection-end-column="38" />
+            <state relative-caret-position="4019">
+              <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -383,15 +163,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/results.html" />
         <option value="$PROJECT_DIR$/js/header.js" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/js/data.js" />
-        <option value="$PROJECT_DIR$/js/countries.js" />
         <option value="$PROJECT_DIR$/css/backgrounds.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
-        <option value="$PROJECT_DIR$/comparison.html" />
+        <option value="$PROJECT_DIR$/results.html" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/countries.js" />
+        <option value="$PROJECT_DIR$/comparison.html" />
         <option value="$PROJECT_DIR$/js/eloqua.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -404,8 +184,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="80" />
+    <option name="x" value="13" />
+    <option name="y" value="35" />
     <option name="width" value="1395" />
     <option name="height" value="710" />
   </component>
@@ -658,14 +438,7 @@
       <workItem from="1539961866412" duration="3220000" />
       <workItem from="1541532364918" duration="1535000" />
       <workItem from="1541536441706" duration="2158000" />
-      <workItem from="1542815693531" duration="136000" />
-    </task>
-    <task id="LOCAL-00014" summary="merge">
-      <created>1538513372149</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1538513372149</updated>
+      <workItem from="1542815693531" duration="5794000" />
     </task>
     <task id="LOCAL-00015" summary="ie results fixes">
       <created>1538515641255</created>
@@ -1003,33 +776,40 @@
       <option name="project" value="LOCAL" />
       <updated>1541533859990</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="merging">
+      <created>1542815917113</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1542815917113</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127450000" />
+    <option name="totallyTimeSpent" value="133108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="80" width="1395" height="710" extended-state="0" />
+    <frame x="13" y="35" width="1395" height="710" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15053764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15053764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28393134" sideWeight="0.56344086" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28081122" sideWeight="0.43655914" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41965678" sideWeight="0.5261649" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41965678" sideWeight="0.4738351" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27925116" sideWeight="0.43369177" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.49175626" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.4888889" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41965678" sideWeight="0.4767025" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39937598" sideWeight="0.49749103" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1044,7 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OK fine theres a BG css" />
     <MESSAGE value="url change/form js" />
     <MESSAGE value="eloqua js" />
     <MESSAGE value="css" />
@@ -1069,7 +848,8 @@
     <MESSAGE value="eloqua" />
     <MESSAGE value="Merge branch 'master' of https://github.com/CPR-North/cloud-assessment-test&#10;&#10;# Conflicts:&#10;#&#9;bin_dev/css/style.min.css&#10;" />
     <MESSAGE value="timestamp and src1&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="timestamp and src1&#10;" />
+    <MESSAGE value="merging" />
+    <option name="LAST_COMMIT_MESSAGE" value="merging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1110,6 +890,7 @@
           <caret line="2960" column="16" selection-start-line="2960" selection-start-column="16" selection-end-line="2960" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#180703#180709#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1125,7 +906,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2766#3364#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,6 +959,7 @@
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#180703#180709#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1234,6 +1018,7 @@
           <caret line="4132" column="128" selection-start-line="4132" selection-start-column="128" selection-end-line="4132" selection-end-column="128" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#180703#180709#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1402,13 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1366">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.knob.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1420,6 +1198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="5" column="36772" selection-start-line="5" selection-start-column="36772" selection-end-line="5" selection-end-column="36772" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,15 +1206,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="11895" selection-start-line="2" selection-start-column="11895" selection-end-line="2" selection-end-column="11895" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51855">
-          <caret line="3459" column="0" selection-start-line="3459" selection-start-column="0" selection-end-line="3459" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1445,25 +1217,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17265">
-          <caret line="1151" column="9" selection-start-line="1151" selection-start-column="9" selection-end-line="1151" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/countries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8400">
-          <caret line="572" column="38" selection-start-line="572" selection-start-column="38" selection-end-line="572" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1476,18 +1230,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="61" column="84" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="3283" column="83" selection-start-line="3283" selection-start-column="83" selection-end-line="3283" selection-end-column="83" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#180703#180709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1118" column="26" selection-start-line="1118" selection-start-column="26" selection-end-line="1118" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="-10">
+          <caret line="2223" column="17" selection-start-line="2223" selection-start-column="17" selection-end-line="2223" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/countries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4019">
+          <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+          <folding>
+            <element signature="e#8328#8377#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comparison.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
+        <state relative-caret-position="103">
+          <caret line="55" column="114" selection-start-line="55" selection-start-column="114" selection-end-line="55" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1499,26 +1300,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/eloqua.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="e#8328#8377#0" expanded="false" />
+            <element signature="e#2766#3364#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="103" column="75" selection-start-line="103" selection-start-column="75" selection-end-line="103" selection-end-column="75" />
+        <state relative-caret-position="218">
+          <caret line="110" column="71" selection-start-line="110" selection-start-column="71" selection-end-line="110" selection-end-column="71" />
           <folding />
         </state>
       </provider>

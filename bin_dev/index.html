@@ -102,6 +102,13 @@
 	<script>
 		window.onload = function() {
 			localStorage.setItem('sourceParam', GetURLParameter('source'));
+			if(GetURLParameter('ver') != 'undefined'){
+				localStorage.setItem('gateVersion',GetURLParameter('ver'));
+			}
+			else{
+				localStorage.setItem('gateVersion','shortGate');
+			}
+			localStorage.setItem('gateVersion',GetURLParameter('ver'));
 		};
 
 	</script>

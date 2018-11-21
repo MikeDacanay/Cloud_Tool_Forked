@@ -340,11 +340,10 @@ var show_next= function(arr){
   if(mover === true){
     $('.btn__nxt--1').css('display','flex');  
   }
-  console.log('show_next triggered')
+  //console.log('show_next triggered')
 };
 
 var page_trigger1= function(class_trigger,check,arr,arr1){
-    console.log(check);
     var mover = true;
 
     for(var i=0; i < check.length; i++){
@@ -406,7 +405,7 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
 var page_trigger2= function(class_trigger,check,arr,arr1){   
     var mover = true;
 
-    console.log(check);
+   // console.log(check);
     for(var i=0; i < check.length; i++){
         if(check[i].length < 1 || check[i]===0){
             mover = false;
@@ -503,13 +502,13 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
             for(var i=0; i < arr.length; i++){
                 $(arr[i]).css('left',arr1[i]+'rem');
                 $(arr[i]).show("slide", { direction: "down" });                    
-            };
+            }
             
             $('.slider__group').removeAttr('onclick');
 
             if($('body').width() < 768){     
                 $("section").animate({ scrollTop: $('.container').height()+1000 }, 1500);
-            };               
+            };
         }, 2000);          
     }
 };
@@ -518,8 +517,8 @@ var page_trigger4= function(class_trigger,arr){
     var mover=true;
 
     if(arr.length<3){
-        var mover=false;        
-    };
+         mover=false;
+    }
 
     if(mover===true){
         $('.loading--'+class_trigger).css('display','flex');
@@ -544,7 +543,7 @@ var page_trigger4= function(class_trigger,arr){
             setTimeout(function(){
                 $('.loading--'+class_trigger).toggle();
                 $('.loading__period').css('visibility','hidden');    
-            },400)   
+            },400) ;
             $('.'+class_trigger).toggleClass('c-d_none', function(){
                 $('.check-boxer__holder').removeAttr('onclick');
                 $('.check-boxer__holder--'+int4.a1[0]+ ' .check-boxer__checkmark--2').show(
@@ -633,12 +632,12 @@ var meter_button_2= function(section, group, direction, data_section){
     if(direction === 'up' && g.sec3[data_section] < 7){
         g.sec3[data_section]++;
         meter_filler_2(section, group, g.sec3[data_section]);
-    };
+    }
 
     if(direction === 'down' && g.sec3[data_section] > 0){
         g.sec3[data_section]--;
         meter_filler_2(section, group,g.sec3[data_section]);
-    };
+    }
 };
 
 var meter_filler_3= function(section, group, grade, data_section){
@@ -656,12 +655,12 @@ var meter_button_3= function(section, group, direction, data_section){
     if(direction === 'up' && h.ana[data_section] < 7){
         h.ana[data_section]++;
         meter_filler_2(section, group, h.ana[data_section]);
-    };
+    }
 
     if(direction === 'down' && h.ana[data_section] > 0){
         h.ana[data_section]--;
         meter_filler_3(section, group,h.ana[data_section]);
-    };
+    }
 };
 
 var isMac = navigator.platform.toUpperCase().indexOf('MACINTEL')>=0;

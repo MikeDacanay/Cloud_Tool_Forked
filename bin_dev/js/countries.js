@@ -592,7 +592,7 @@ function populateCountries(countryElementId, stateElementId) {
 
             populateStates(countryElementId, stateElementId);
             //setCountry();
-           // setState();
+            setState();
             setLegal();
 
         };

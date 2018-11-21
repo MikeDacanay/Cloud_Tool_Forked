@@ -43,17 +43,17 @@
 						<input name="elqCampaignId" type="hidden"/>
 						<input name="src1" id="src1" type="hidden"/>
 						<input id="field0" type="hidden" name="Source_Name" value="CPR Interactive">
-						<input id="field1" type="hidden" name="cmid"  value="WWMK181008P00030">
+						<input id="field1" type="hidden" name="cmid"  value="WWMK181008P00030C0002">
 						<input id="field2"  type="hidden" name="RESPONSE_TYPE" value="Agency High Value Asset Downloaded">
-						<input  id="field3" type="hidden" name="RESPONSE_DATE">
-						<input id="field6"  name="jobTitle"  type="hidden" value="Unknown"/>
+						<input id="field3" type="hidden" name="RESPONSE_DATE">
+						<input id="field6" class="form-short"  name="jobTitle"  type="hidden" value="Unknown"/>
 						<input id="field8"  name="phoneNumber"  type="hidden" value="Unknown"/>
-						<input id="field10" name="company1" type="hidden" value="Unknown">
+						<input id="field10" class="form-short" name="company1" type="hidden" value="Unknown">
 						<input id="field11" name="companySize1" type="hidden" value="Unknown">
 						<input id="field12" name="address" type="hidden" value="Unknown">
 						<input id="field14" name="city" type="hidden" value="Unknown">
-						<input id="field15" name="stateOrProvince" type="hidden" value="Unknown">
-						<input id="field16" name="zipPostalCode" type="hidden" value="Unknown">
+						<input id="field15" class="form-short" name="stateOrProvince" type="hidden" value="Unknown">
+						<input id="field16" class="form-short" name="zipPostalCode" type="hidden" value="Unknown">
 						<input id="field18" name="NOTE" type="hidden" value=""/>
 						<input id="field19" name="NO_LEAD_FLOW_FLAG" type="hidden" value="" />
 						<input id="field20" name="Source_Type" type="hidden" value=""  />
@@ -72,6 +72,14 @@
 							<input class='input__eloqua' type="text" name="lastName" placeholder="Last Name" value="Last Name" id="field5"
 								   onclick="if (this.defaultValue==this.value) this.value=''; $('input[name=lastName]').removeClass('error');$('#end_alert').hide()">
 						</div>
+						<div class="input-left full-form">
+							<input class='input__eloqua' type="text" name="company1" value="Company" placeholder="Company" id="field10"
+								   onclick="if (this.defaultValue==this.value) this.value='';  $('input[name=company1]').removeClass('error'); $('#end_alert').hide()">
+						</div>
+						<div class="input-right full-form">
+							<input class='input__eloqua' type="text" name="jobTitle"  value="Title" placeholder="Title" id="field6"
+								   onclick="if (this.defaultValue==this.value) this.value='';  $('input[name=jobTitle]').removeClass('error'); $('#end_alert').hide()">
+						</div>
 						<div class="input-left">
 							<input class='input__eloqua' type="text" class="email" id="field9" name="emailAddress" value="E-mail Address"
 								   placeholder="E-mail Address"
@@ -80,6 +88,14 @@
 						<div class="input-right">
 							<select class='eloqua_country' id="field17" name="country" value="-1"
 									onfocus="$('select[name=country]').removeClass('error');$('#end_alert').hide()"> </select>
+						</div>
+						<div class="input-left full-form">
+							<select class='eloqua_country' id="field15"  name="stateOrProvince" value="-1"
+									onfocus="$('select[name=stateOrProvince]').removeClass('error');$('#end_alert').hide()"> </select>
+						</div>
+						<div class="input-right full-form">
+							<input class='input__eloqua' type="text" name="zipPostalCode" value="Zip/Postcode" placeholder="Zip/Postcode" id="field16"
+								   onclick="if (this.defaultValue==this.value) this.value='';  $('input[name=zipPostalCode]').removeClass('error'); $('#end_alert').hide()">
 						</div>
 
 						<div class="input-full">
@@ -162,7 +178,7 @@
 						<div class="content-holder content-holder--2">	
 							<div class="container-comparison container-comparison__header">								
 								<div class="comparison__content">
-									<h1 class="header--main header--main-1">YOUR CLOUD CONFIDENCE SCORE</h1>
+									<h1 class="header--main header--main-1">YOUR CLOUD-CONFIDENCE SCORE</h1>
 									<h2 class="header--sub header--sub-1 mar-top-large--11 phone-marg-top--3">
 										<!-- Hello {{FirstName}}, thanks for taking the assessment. Scroll down for your detailed information. -->
 									Hello <span id="header-name"></span>, thanks for taking the assessment. Scroll down for your detailed information.
@@ -1097,7 +1113,7 @@
 					target:'#output1'
 				}
 				$('#form1048').ajaxForm(options);
-				populateCountries("field17");
+				populateCountries("field17","field15");
 			});
 		</script>
 

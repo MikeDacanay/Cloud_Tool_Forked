@@ -1106,13 +1106,13 @@ var summary = new Vue({
 			var text;
 			if(this.user && this.peers){
 				if(Number(summary.user) > Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
+					text = ' with cloud-confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
 				}
 				if(Number(summary.user) < Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
+					text = ' with cloud-confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
 				}
 				if(Number(summary.user) === Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
+					text = ' with cloud-confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
 				}
 				return text;
 			}else{
