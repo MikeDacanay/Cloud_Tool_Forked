@@ -1860,7 +1860,7 @@ a.bttn {
   margin-top: 12px; }
   @media only screen and (max-width: 767px) {
     .bttn.submit-bttn {
-      margin-top: 14px; } }
+      margin-top: 0px; } }
 
 .b.submit-bttn:hover {
   color: #00758f;
@@ -2257,6 +2257,9 @@ ul.no-dots-ul {
     margin-left: 15px; }
     .page--16 .mob-radio__text {
       flex: 0 0 80%; } }
+  @media only screen and (max-width: 768px) and (max-width: 767px) {
+    .mob-radio__text {
+      transform: translateY(0.1em); } }
 
 .nav-bar {
   width: 100%;
@@ -2976,6 +2979,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../assets/images/desktop/backgrounds/bg-cover-complete.png"); }
+  @media only screen and (max-width: 767px) {
+    .background--1 {
+      background-image: url("../assets/images/_mobile/bg-cover-mobile.png"); } }
 
 /**ERIN FIXIN**/
 .blue-city-bg {
@@ -4079,6 +4085,8 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: scroll; }
+  .book-slider--1 {
+    background-image: url(../assets/images/_mobile/cover-phone.png); }
   .city__bg--0, .city__bg--1, .city__bg--2.city__bg--3.city__bg--4, .city__bg--5, .city__bg--6, .city__bg--7.city__bg--8 {
     background-image: none; }
   .mobile-tracker {

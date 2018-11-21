@@ -87,6 +87,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../assets/images/desktop/backgrounds/bg-cover-complete.png');
+  @include bp(767){
+    background-image: url('../assets/images/_mobile/bg-cover-mobile.png');
+  }
 }
 
 // .city__bg{

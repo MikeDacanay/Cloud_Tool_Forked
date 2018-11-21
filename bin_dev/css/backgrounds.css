@@ -109,8 +109,8 @@ canvas{
 
 }
 .terms p{
-    font-size: .8rem;
-    line-height: 1rem;
+    font-size: 12rem;
+    line-height: normal;
 }
 .modal__radio--container {
     z-index: 11;
@@ -529,6 +529,24 @@ canvas{
     }
     
     .sign_in_container{
-        padding: 37px 20px 25px 29px;
+        padding: 20px 20px 25px 20px;
+        overflow-y: hidden;
+        top: 47%;
+    }
+    .sign_in_container p{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .input-left, .input-right {     
+        margin-bottom: 7px;
+    }
+    .input-full{
+        margin-bottom: 5px;
+    }
+    .terms{
+        margin-bottom: 5px;
+    }
+    .terms p{
+        font-size: 12px;
     }
 }

@@ -31,7 +31,7 @@
   transition:background-color 500ms ease;    
   margin-top: 12px;
   @include bp(767){
-    margin-top: 14px;
+    margin-top: 0px;
   }
 }
 .b.submit-bttn:hover{

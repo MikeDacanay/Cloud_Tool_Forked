@@ -53,6 +53,9 @@ input{
 			.page--16 &{
 		    flex: 0 0 80%;
 			}
+			@include bp(767){
+		    transform: translateY(0.1em);
+			}
 		}	
 	}
 }
