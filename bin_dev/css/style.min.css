@@ -3424,7 +3424,7 @@ body {
   display: flex;
   align-items: center; }
   .comparison__bullet:not(:last-of-type) {
-    margin-bottom: 1.25rem; }
+    margin-bottom: 1.05rem; }
     @media only screen and (max-width: 767px) {
       .comparison__bullet:not(:last-of-type) {
         margin-bottom: 15px; } }
