@@ -5,6 +5,8 @@
 var fullGate=false;
 var cmid='WWMK181008P00030C0002';
 
+console.log("gate version from eloqua.js:" + localStorage.getItem('gateVersion'));
+
 if(localStorage.getItem('gateVersion')=='elqComplete'){
     fullGate=true;
     $('.form-short').remove();

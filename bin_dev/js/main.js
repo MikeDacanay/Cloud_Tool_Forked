@@ -1441,13 +1441,9 @@ $(document).ready(function() {
 
             function(data){
                 for(i in data){
-                    console.log(data[i]);
-                    for(j in data[i]){                    
+                    for(j in data[i]){
                         calc1=1/data[i][j];
                         calc2=50/data[i][j];
-                        // calc3=1/data[i][j];
-                        // calc4=50/data[i][j]; 
-
                     }
                 }
 
@@ -1462,7 +1458,6 @@ $(document).ready(function() {
                     console.log('second');
                 }else{
                     calc1=Math.round(calc1)+' Billion';
-                    console.log('third');
                 }
 
 
