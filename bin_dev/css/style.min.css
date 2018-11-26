@@ -585,7 +585,6 @@ html {
   font-weight: 400; }
 
 body {
-  /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5em;
   font-family: Univers-lt, Arial, Helvetica, sans-serif;
   font-weight: 400;
