@@ -865,6 +865,9 @@ img.inline {
 .letter-0 {
   letter-spacing: 0; }
 
+.letter-1 {
+  letter-spacing: -0.03em; }
+
 .tight {
   letter-spacing: -.005em; }
 
