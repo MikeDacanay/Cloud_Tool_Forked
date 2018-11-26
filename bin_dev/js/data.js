@@ -4,7 +4,6 @@
 var a = new Vue({
   el: '#intro',
   data: {
-		// global: '',
 		region: 'na',  
 		sector: [],
 		revenue:'',
@@ -588,8 +587,7 @@ var l = new Vue({
 
 			sector_average=(sector_average-5.8)/3.8;
 
-			sector_average=(544+(sector_average*170))/20;
-			// sector_average=(544+(sector_average*170));			
+			sector_average=(544+(sector_average*170))/20;	
   		return sector_average;
 		},
 		b1: function(){
@@ -604,7 +602,6 @@ var l = new Vue({
 			sector_average=(sector_average-5.8)/3.8;
 
 			sector_average=(489+(sector_average*170))/20;
-			// sector_average=(489+(sector_average*170));			
   		return sector_average;
 		},
 		summary_user: function(){
@@ -706,14 +703,6 @@ var int4 = new Vue({
   	},
   },
   methods:{
-  	// setRank_int4: function(x, y){
-  	// 	for(i in this._data){  			  	
-  	// 		if(y === this._data[i]){
-  	// 			this._data[i] = '';
-  	// 		}asasdfasdf
-  	// 	}
-  	// 	this[x]=y;
-  	// }
   },  
 });
 var dial_seven = new Vue({
@@ -1030,13 +1019,6 @@ var summary = new Vue({
 		user: function(){
 			var aggregate_user_score;
 			aggregate_user_score = 
-				// Number(sessionStorage.user_b)+
-				// Number(sessionStorage.user_d)+
-				// Number(sessionStorage.user_e)+
-				// Number(sessionStorage.user_l)+
-				// Number(sessionStorage.user_j)+
-				// Number(sessionStorage.user_g)+
-				// Number(sessionStorage.user_h);
          	b.summary_user
         + d.summary_user
         + e.summary_user
@@ -1050,13 +1032,6 @@ var summary = new Vue({
 		peers: function(){
 			var aggregate_user_score;
 			aggregate_user_score = 
-				// Number(sessionStorage.peers_c)+
-				// Number(sessionStorage.peers_d)+
-				// Number(sessionStorage.peers_e)+
-				// Number(sessionStorage.peers_l)+
-				// Number(sessionStorage.peers_j)+
-				// Number(sessionStorage.peers_g)+
-				// Number(sessionStorage.peers_h);
 
         c.summary_peers+
         d.summary_peers+
@@ -1106,13 +1081,13 @@ var summary = new Vue({
 			var text;
 			if(this.user && this.peers){
 				if(Number(summary.user) > Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future';
+					text = ' with cloud confidence and cloud adoption.  Your company understands the promise of lower costs, greater topline growth, and easier access to innovation and is well positioned to benefit and evolve with emerging technologies well into the future.';
 				}
 				if(Number(summary.user) < Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption';
+					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
 				}
 				if(Number(summary.user) === Number(summary.peers)){
-					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption';
+					text = ' with cloud confidence and cloud adoption.  To remain competitive, your company should actively pursue the promise of lower costs, greater topline growth, and easier access to innovation that comes with cloud adoption.';
 				}
 				return text;
 			}else{
@@ -1157,11 +1132,9 @@ var comparison = new Vue({
   computed:{
   	SixUserArr: function(){
   		var arr_temp = [this.SixUser,this.SixUser1,this.SixUser2];
-  		// var arr_temp = this.SixUser.split(',');
   		return arr_temp;
   	},
   	SixPeersArr: function(){
-  		// var arr_temp = this.SixPeers.split(',');
   		var arr_temp = [this.SixPeers,this.SixPeers1,this.SixPeers2]
   		return arr_temp;
   	},    

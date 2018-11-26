@@ -64,6 +64,10 @@ function validateFields() {
             $('input[name=zipPostalCode]').addClass("error");
             incomplete = true;
         }
+        if ($('input[name=phoneNumber]').val() == ""|| $('input[name=phoneNumber]').val() == "Phone Number" ) {
+            $('input[name=phoneNumber]').addClass("error");
+            incomplete = true;
+        }
 
 
 

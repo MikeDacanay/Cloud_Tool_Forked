@@ -23,20 +23,7 @@ var tracker = {
 
 var currency;
 
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-// var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     // document.getElementById("nav-bar__bg").style.top = "0";
-//     // $('.nav-bar__bg').css('top','0');
-//     console.log('up');
-//   } else {
-//     // document.getElementById("nav-bar__bg").style.top = "-50px";
-//     // $('.nav-bar__bg').css('top','-3.85rem');
-//     console.log('down');
-//   }
-//   prevScrollpos = currentScrollPos;
-// } 
+
 
 var sectionSix = {
     "1": "Embedded best practice integration recommendations",
@@ -215,7 +202,6 @@ var  moveComparison=function(){
 var moveToNext=function(){
     $('section').animate({ scrollTop: 0 },0);
     $('.slick-slider').slick('slickNext');
-    // $('.slick-track').animate({ scrollTop: 0 },0);
 };
 
 var bg_changer=function(x){
@@ -289,30 +275,6 @@ function GetURLParameter(sParam) {
         }
     }
 }
-// var page_move= function(arr){
-
-//   var mover = true;
-
-//   if($('.map-composition__holder').hasClass('map_active')){
-//     mover = true;
-//   }else{
-//     mover=false;
-//   }
-
-//   for (var i = 0; i < arr.length; i++) {      
-//     if(arr[i].length < 1 || arr[i]===0){
-//        mover=false; 
-//     }
-//   }
-
-//   if((arr[0]==='int' && int4.a.length<3)){
-//     mover=false;
-//   }
-//   if(mover === true){
-//     $('.slick-slider').slick('slickNext');
-//     // $('.slick-slider').slick('slickGoTo',9);
-//   }
-// };
 
 var show_next= function(arr){
   var mover = true;
@@ -340,7 +302,6 @@ var show_next= function(arr){
   if(mover === true){
     $('.btn__nxt--1').css('display','flex');  
   }
-  //console.log('show_next triggered')
 };
 
 var page_trigger1= function(class_trigger,check,arr,arr1){
@@ -405,7 +366,6 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
 var page_trigger2= function(class_trigger,check,arr,arr1){   
     var mover = true;
 
-   // console.log(check);
     for(var i=0; i < check.length; i++){
         if(check[i].length < 1 || check[i]===0){
             mover = false;
@@ -666,10 +626,6 @@ var meter_button_3= function(section, group, direction, data_section){
 var isMac = navigator.platform.toUpperCase().indexOf('MACINTEL')>=0;
 
 if(isMac==true || context==='medium'){
-    // $('.header__num').addClass('mac');
-    // $('.tracker__num').addClass('mac');
-    // $('.question__num').addClass('mac');
-    // $('.btn__txt').addClass('mac');
     $("html").addClass("mac"); 
 }else{
     $('html').addClass('win');
@@ -723,7 +679,6 @@ $(document).ready(function() {
     $('.dial__input--1').knob({
         'change' : function (v) {
             $('.dial--1 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.a = v;
          },
          'release' : function (v) {
             b.CL02.a = v;
@@ -736,24 +691,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': "50%",
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--1').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--1').knob({          
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': '50%',
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -765,7 +712,6 @@ $(document).ready(function() {
     $('.dial__input--2').knob({
         'change' : function (v) {             
             $('.dial--2 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.b = v;
          },
          'release' : function (v) {            
             b.CL02.b = v;            
@@ -777,7 +723,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -788,7 +733,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -799,10 +743,8 @@ $(document).ready(function() {
     $('.dial__input--3').knob({
         'change' : function (v) {             
             $('.dial--3 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.c = v;
          },
-         'release' : function (v) {
-            // $('.dial--3 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {          
             b.CL02.c = v;            
         },
         'min':0,
@@ -812,7 +754,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -823,7 +764,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -835,10 +775,8 @@ $(document).ready(function() {
     $('.dial__input--4').knob({
         'change' : function (v) {             
             $('.dial--4 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.d = v;
          },
-         'release' : function (v) {
-            // $('.dial--4 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {          
             b.CL02.d = v;            
         },
         'min':0,
@@ -848,7 +786,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -859,7 +796,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -871,10 +807,8 @@ $(document).ready(function() {
     $('.dial__input--5').knob({
         'change' : function (v) {             
             $('.dial--5 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.e = v;
          },
-         'release' : function (v) {
-            // $('.dial--5 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {          
             b.CL02.e = v;            
         },
         'min':0,
@@ -884,7 +818,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -895,7 +828,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -907,10 +839,8 @@ $(document).ready(function() {
     $('.dial__input--6').knob({
         'change' : function (v) {             
             $('.dial--6 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // b.CL02.f = v;
          },
-         'release' : function (v) {
-            // $('.dial--6 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {      
             b.CL02.f = v;            
         },
         'min':0,
@@ -920,7 +850,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -931,7 +860,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -943,11 +871,9 @@ $(document).ready(function() {
     $('.dial__input--7').knob({
         'change' : function (v) {             
             $('.dial--7 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // d.mig6.a = v;
          },
          'release' : function (v) {
-            // $('.dial--7 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            d.mig6.a = v;            ;            
+            d.mig6.a = v;                      
         },
         'min':0,
         'max':180,
@@ -956,7 +882,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -967,7 +892,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -979,10 +903,8 @@ $(document).ready(function() {
     $('.dial__input--8').knob({
         'change' : function (v) {             
             $('.dial--8 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // d.mig6.b = v;
          },
-         'release' : function (v) {
-            // $('.dial--8 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {          
             d.mig6.b = v;                        
         },
         'min':0,
@@ -992,7 +914,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -1003,7 +924,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1015,10 +935,8 @@ $(document).ready(function() {
     $('.dial__input--9').knob({
         'change' : function (v) {             
             $('.dial--9 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // d.mig6.c = v;
          },
-         'release' : function (v) {
-            // $('.dial--9 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {         
             d.mig6.c = v;                        
         },
         'min':0,
@@ -1028,7 +946,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -1039,7 +956,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1051,10 +967,8 @@ $(document).ready(function() {
     $('.dial__input--10').knob({
         'change' : function (v) {             
             $('.dial--10 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // d.mig6.d = v;
          },
-         'release' : function (v) {
-            // $('.dial--10 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {            
             d.mig6.d = v;                        
         },
         'min':0,
@@ -1064,7 +978,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -1075,7 +988,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1087,10 +999,8 @@ $(document).ready(function() {
     $('.dial__input--11').knob({
         'change' : function (v) {             
             $('.dial--11 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
-            // d.mig6.e = v;
          },
-         'release' : function (v) {
-            // $('.dial--11 .dial__hand').css('transform',"rotate("+v+"deg)");            
+         'release' : function (v) {        
             d.mig6.e = v;                        
         },
         'min':0,
@@ -1100,7 +1010,6 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
@@ -1111,7 +1020,6 @@ $(document).ready(function() {
         'angleArc':180,
         'angleOffset': -90, 
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1125,8 +1033,6 @@ $(document).ready(function() {
             $('.dial--12 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");         
          },
         'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // $('.dial--12 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
             dial_seven.dev.a = v; 
         },
         'min':0,
@@ -1136,24 +1042,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--12').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--12').knob({           
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1166,8 +1064,6 @@ $(document).ready(function() {
             $('.dial--13 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
          },
         'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // $('.dial--13 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
             dial_seven.dev.b = v;
         },
         'min':0,
@@ -1177,24 +1073,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--13').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--13').knob({          
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1207,8 +1095,6 @@ $(document).ready(function() {
             $('.dial--14 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
          },
         'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // $('.dial--14 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
             dial_seven.dev.c = v;
         },
         'min':0,
@@ -1218,24 +1104,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--14').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--14').knob({        
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1248,8 +1126,6 @@ $(document).ready(function() {
             $('.dial--15 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
          },
         'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // $('.dial--15 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
             dial_seven.dev.d = v;
         },
         'min':0,
@@ -1259,24 +1135,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--15').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--15').knob({         
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1289,8 +1157,6 @@ $(document).ready(function() {
             $('.dial--16 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
          },
         'release' : function (v) {
-            // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-            // $('.dial--16 .dial__hand').css('transform',"rotate("+(v-90)+"deg)");
             dial_seven.dev.e = v;
         },
         'min':0,
@@ -1300,24 +1166,16 @@ $(document).ready(function() {
         'thickness':  0.1538461538461538, 
         'displayInput': false,
         'width': '100%',
-        // 'height': 65,
         'bgColor': 'rgba(255,255,255,.3)',
         'fgColor': '#BDE6EE',
     });
 
-    $('.dial__industry--16').knob({     
-        // 'change' : function (v) { 
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");            
-        //  },
-        //  'release' : function (v) {
-        //     // $('.dial--1 .dial__hand').css('transform',"rotate("+v+"deg)");                                                
-        // },      
+    $('.dial__industry--16').knob({          
         'min':0,
         'max':180,
         'angleArc':180,
         'angleOffset': -90,  
         'width': '100%',
-        // 'height': 55,
         'thickness': 0.1818181818181818,
         'bgColor': 'rgba(255,255,255,.4)',
         'fgColor' : '#F29111',
@@ -1361,51 +1219,17 @@ $(document).ready(function() {
         var clickEvent_Context = $(this).parentsUntil(".dial__holder")[3];
         clickEvent_Context.click();
     });
-    // if(sessionStorage.user_h){
-    //     cloud_user=(100-summary.user)+'%';   
-    // }else{
-    //     cloud_user="100%";
-    // }
-
-    // if(sessionStorage.peers_h){
-    //     cloud_peers=(100-summary.peers)+'%';   
-    // }else{
-    //     cloud_peers="100%";
-    // }    
+  
 
 
     
-    // $('.user-cloud').attr('offset',cloud_user);
-    // $('.peers-cloud').attr('offset',cloud_peers);
+
 
     $('.results_page').click(function(){
         moveToNext();
     });
 
-    // cloud_filler(summary.user,'.user-cloud',1900);
-    // cloud_filler(summary.peers,'.peers-cloud',2200);
 
-    // $('.dial__hand').mousedown(function(e){
-
-    //     var getDistance = function(x1,y1,x2,y2){
-    //         return Math.sqrt((x1-x2) * (x1-x2) + (y2-y1) * (y2-y1));
-    //     };
-    //     var lastX = e.clientX;
-    //     var lastY = e.clientY;
-    //     var rotate;
-    //     var rotateCSS;
-    //     $(this).mousemove(function(d){
-    //         var curX = d.clientX;
-    //         var curY = d.clientY;
-    //         rotate = getDistance(curX,curY,lastX,lastY);
-    //         var rotateCSS = 'rotate('+rotate + 'deg)';
-    //         $(this).css({
-    //             'transform': rotateCSS
-    //         });  
-    //         lastX = curX;
-    //         lastY = curY;
-    //     });
-    // });
 
     // Desktop currency option
     $(document).on("click",'.dropdown__option',function(){
@@ -1432,10 +1256,7 @@ $(document).ready(function() {
         var option_this= $(this);
         var calc1;
         var calc2;
-        // var calc3;
-        // var calc4;        
-        // var calc_arr;
-        // GET Request Currency Rate
+
 
         $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
 
@@ -1499,7 +1320,6 @@ $(document).ready(function() {
 
             function(data){
                 for(i in data){
-                   // console.log(data[i]);
                     for(j in data[i]){                    
                         calc1=1/data[i][j];
                         calc2=50/data[i][j];
@@ -1548,20 +1368,17 @@ $(document).ready(function() {
         setTimeout(
             function(){
                 $('.book-slider').slick('slickGoTo', page_tracker);
-                // $('.book-slider').slick('slickGoTo', 0);
             },
             1
         );        
     });
 
-    var slider = $('.book-slider').slick({      
-        // vertical: true,  
+    var slider = $('.book-slider').slick({       
         adaptiveHeight: false,
         accessibility:false,
         draggable: false,
         swipe: false,
         infinite: false,
-        // arrows: true,
         arrows: false,
         slidesToShow: 1,
 
@@ -1574,7 +1391,6 @@ $(document).ready(function() {
     $('.check-boxer__holder').click(function(){
         var value=$(this).attr('value');
         var splicer;
-        // if(int4.a.includes(value))
         if(int4.a.length===3){
             if(!int4.a.includes(value)){
                 $('.check-boxer__holder--'+int4.a[2]+' .check-boxer__checkmark--1').css('visibility','hidden');           
@@ -1659,55 +1475,9 @@ $(document).ready(function() {
         $('.slider__ticker--'+value).show("slide", { direction: "down" }, 500);     
 
 
-        // if(slider_trigger!==true){
-        // 	page_trigger3('fifth',[l.dev1.a,l.dev1.b],['.slider__ticker--3','.slider__ticker--4'],[l.a1,l.b1]);
-        // }
-        // if(l.dev1.a>0&&l.dev1.b>0){
-        // 	slider_trigger=true;
-        // }
     		
     });
 
-    // Select region in map
-        // Multiple region 
-    // $('.map-composition__holder').click(function(){
-    //     var src_hold = $(this).children("img").attr('src');
-    //     $(this).children("img").attr('src',$(this).children("img").attr('alt'));
-    //     $(this).children("img").attr('alt', src_hold);
-    //     $(this).toggleClass('map_active');
-    // });
-
-    // Single region
-    
-
-    // Click event over map
-    // $('.map-composition__holder').click(function(){    
-    //     // For currency dropdown
-    //     $('.dropdown__container').css('display','flex');    
-        
-    //     a.region=$(this).attr('value');
-    //     if($('.map_active')[0] !== undefined){
-    //         var src_hold = $('.map_active').children("img").attr('src');
-    //         $('.map_active').children("img").attr('src',$('.map_active').children("img").attr('alt'));
-    //         $('.map_active').children("img").attr('alt', src_hold);            
-    //         $('.map_active').removeClass('map_active'); 
-    //     }
-    //     var src_hold1 = $(this).children("img").attr('src');
-    //     $(this).children("img").attr('src',$(this).children("img").attr('alt'));
-    //     $(this).children("img").attr('alt', src_hold1);           
-    //     $(this).toggleClass('map_active');
-
-    //     // For currency options
-    //     $('.dropdown__text').text('Choose Your Currency');    
-    //     $('.dropdown__option').remove();    
-    //     for(var i=0;i<region_currency[a.region].length;i++){        
-    //         $( ".dropdown__content" ).append( 
-    //             "<div class='dropdown__option dropdown__option--"+i+"' value='"+region_currency[a.region][i][2]+"'>"+
-    //                 region_currency[a.region][i][0]+
-    //             "</div>"
-    //         );
-    //     };             
-    // });
 
 
     //TEST
@@ -1850,26 +1620,6 @@ $(document).ready(function() {
         });
 
         $('body').css('height', window.innerHeight);
-        /*
-        $('.book-slider').slick('unslick');
-        $('.book-slider').slick({
-            infinite: false,
-            responsive: [
-                {
-                    breakpoint: 750,
-                    settings: {
-                        speed: 300,
-                        slidesToShow: 1,
-                        adaptiveHeight: true,
-                        mobileFirst: true,
-                        accessibility:false,
-                        infinite:false,
-                        swipeToSlide:true
-                    },
-                }
-            ]
-        });
-        */
 
 
     }
@@ -1906,18 +1656,6 @@ $(document).ready(function() {
 });
 
 
-//fix keyboard controls
-// var $carousel = $('.book-slider');
-// $(document).on('keydown', function(e) {
-//     if(e.keyCode == 37) {
-//         $carousel.slick('slickPrev');
-//         e.preventDefault();
-//     }
-//     if(e.keyCode == 39) {
-//         $carousel.slick('slickNext');
-//         e.preventDefault();
-//     }
-// });
 
 
 

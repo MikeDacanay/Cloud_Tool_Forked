@@ -11,7 +11,6 @@ $Breakpoint argument choices:
 -land
 -desk
 */
-/***TOOLTIP_ MIKE ADD TO SASS**/
 .sign_in_container {
   position: absolute;
   z-index: 100;
@@ -128,8 +127,7 @@ $Breakpoint argument choices:
   transform: translate(-50%, -50%);
   background-image: url("../assets/images/preloader.gif");
   background-repeat: no-repeat;
-  background-size: 16.00rem 4.00rem;
-  /* is width and height divided by two */ }
+  background-size: 16.00rem 4.00rem; }
 
 .scroll-wrapper {
   overflow: hidden !important;
@@ -337,7 +335,6 @@ $Breakpoint argument choices:
 /* Slider */
 .slick-slide > .container {
   padding: 3.90rem 3.60rem;
-  /*  padding: 119px 33px 0 64px;*/
   padding-bottom: 0.50rem;
   height: 100%;
   width: auto;
@@ -1210,7 +1207,6 @@ a.bttn {
 
 .bttn-txt {
   padding-left: 1.00rem;
-  /*    padding-right: 15px;*/
   line-height: 1.80rem;
   display: inline-block; }
 
@@ -2887,7 +2883,6 @@ table {
   height: 2.10rem;
   position: absolute;
   bottom: 0;
-  /*    background-color: rgba(0,117,143, .2);*/
   font-family: Univers, Arial, Helvetica, sans-serif;
   font-size: 0.80rem;
   letter-spacing: -.05em;

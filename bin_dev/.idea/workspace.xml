@@ -4,11 +4,7 @@
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comparison.html" afterPath="$PROJECT_DIR$/comparison.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/eloqua.js" afterPath="$PROJECT_DIR$/js/eloqua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.html" afterPath="$PROJECT_DIR$/results.html" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="21615">
               <caret line="1443" column="0" selection-start-line="1443" selection-start-column="0" selection-end-line="1443" selection-end-column="0" />
               <folding>
                 <element signature="e#8328#8377#0" expanded="false" />
@@ -46,9 +42,11 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33465">
-              <caret line="2231" column="17" selection-start-line="2231" selection-start-column="17" selection-end-line="2231" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="33495">
+              <caret line="2233" column="17" selection-start-line="2233" selection-start-column="17" selection-end-line="2233" selection-end-column="17" />
+              <folding>
+                <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comparison.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="comparison.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comparison.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16410">
-              <caret line="1094" column="69" selection-start-line="1094" selection-start-column="62" selection-end-line="1094" selection-end-column="69" />
+            <state relative-caret-position="-1086">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -120,13 +118,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eloqua.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/eloqua.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
-                <element signature="e#2850#3448#0" expanded="false" />
+                <element signature="e#3063#3661#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,7 +133,7 @@
       <file leaf-file-name="countries.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/countries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8730">
+            <state relative-caret-position="347">
               <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -166,11 +164,11 @@
         <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/countries.js" />
         <option value="$PROJECT_DIR$/css/backgrounds.css" />
-        <option value="$PROJECT_DIR$/js/eloqua.js" />
         <option value="$PROJECT_DIR$/results.html" />
-        <option value="$PROJECT_DIR$/comparison.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/eloqua.js" />
+        <option value="$PROJECT_DIR$/comparison.html" />
       </list>
     </option>
   </component>
@@ -181,8 +179,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="45" />
+    <option name="x" value="202" />
+    <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="766" />
   </component>
@@ -293,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../2017/Assessment Tools/Digital Maturity Assessment/bin-dev" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -439,6 +437,7 @@
       <workItem from="1542830467606" duration="1727000" />
       <workItem from="1543252099452" duration="2202000" />
       <workItem from="1543258494989" duration="532000" />
+      <workItem from="1543264437611" duration="991000" />
     </task>
     <task id="LOCAL-00016" summary="starting mobile">
       <created>1538583484639</created>
@@ -787,29 +786,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138776000" />
+    <option name="totallyTimeSpent" value="139767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="45" width="1396" height="766" extended-state="0" />
+    <frame x="202" y="23" width="1396" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1504298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189383" sideWeight="0.53151864" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27925116" sideWeight="0.43369177" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.49175626" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.4888889" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189383" sideWeight="0.46848136" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.49175626" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -862,7 +861,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41355">
           <caret line="2757" column="17" selection-start-line="2757" selection-start-column="17" selection-end-line="2757" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +897,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2850#3448#0" expanded="false" />
+            <element signature="e#3063#3661#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,7 +931,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39510">
           <caret line="2634" column="17" selection-start-line="2634" selection-start-column="17" selection-end-line="2634" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -988,7 +991,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41505">
           <caret line="2767" column="17" selection-start-line="2397" selection-start-column="0" selection-end-line="2767" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,7 +1054,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5445">
           <caret line="363" column="0" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,7 +1074,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5445">
           <caret line="363" column="0" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,7 +1094,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5235">
           <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,7 +1114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5235">
           <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,18 +1239,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33465">
-          <caret line="2231" column="17" selection-start-line="2231" selection-start-column="17" selection-end-line="2231" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/countries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8730">
-          <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+        <state relative-caret-position="33495">
+          <caret line="2233" column="17" selection-start-line="2233" selection-start-column="17" selection-end-line="2233" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1543262410000" expanded="true" signature="12760:12764" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1265,22 +1270,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comparison.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16410">
-          <caret line="1094" column="69" selection-start-line="1094" selection-start-column="62" selection-end-line="1094" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="21615">
           <caret line="1443" column="0" selection-start-line="1443" selection-start-column="0" selection-end-line="1443" selection-end-column="0" />
           <folding>
             <element signature="e#8328#8377#0" expanded="false" />
@@ -1296,12 +1288,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/countries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/eloqua.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
-            <element signature="e#2850#3448#0" expanded="false" />
+            <element signature="e#3063#3661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparison.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
