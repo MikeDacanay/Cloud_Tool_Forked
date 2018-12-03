@@ -19,12 +19,12 @@ html {
   box-sizing: border-box;
   @include artboard-top-center;
 
-  @include bph(930){
-    font-size: 84%;        
-  }
-  @include bph(631){
-    font-size: 62.5%;  
-  }
+  // @include bph(930){
+  //   font-size: 84%;        
+  // }
+  // @include bph(631){
+  //   font-size: 62.5%;  
+  // }
   @include bp(1261){
     font-size: 88%; 
   }    

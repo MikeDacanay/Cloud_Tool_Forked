@@ -481,12 +481,6 @@ html {
   transform-origin: top center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media only screen and (max-height: 930px) {
-    html {
-      font-size: 84%; } }
-  @media only screen and (max-height: 631px) {
-    html {
-      font-size: 62.5%; } }
   @media only screen and (max-width: 1261px) {
     html {
       font-size: 88%; } }
