@@ -200,7 +200,11 @@ var  moveComparison=function(){
 
 
 var moveToNext=function(){
-    $('section').animate({ scrollTop: 0 },0);
+    if($('body').width() > 768){        
+        $('.slick-track').animate({ scrollTop: 0 },0);
+    }else{
+        $('section').animate({ scrollTop: 0 },0);
+    }    
     $('.slick-slider').slick('slickNext');
 };
 
@@ -357,7 +361,11 @@ var page_trigger1= function(class_trigger,check,arr,arr1){
             if($('body').width() < 768){
                 $('.container-dial__'+class_trigger+' .mob-radio__label').removeAttr('onclick');            
                 $("section").animate({ scrollTop: $('.container').height()+1000 }, 1500);
-            };                          
+            };                                      
+
+            if($('body').width() > 768){
+                $(".slick-track").animate({ scrollTop: $('.container').height()+1000 }, 1500);
+            }
         }, 2000);     
 
     }
@@ -420,7 +428,12 @@ var page_trigger2= function(class_trigger,check,arr,arr1){
 
             if($('body').width() < 768){     
                 $("section").animate({ scrollTop: $('.container').height()+1000 }, 1500);
-            };              
+            };
+
+            if($('body').width() > 768){
+                $(".slick-track").animate({ scrollTop: $('.container').height()+1000 }, 1500);
+            }
+                          
         }, 2000);
     }
 };
@@ -469,6 +482,11 @@ var page_trigger3= function(class_trigger,check,arr,arr1){
             if($('body').width() < 768){     
                 $("section").animate({ scrollTop: $('.container').height()+1000 }, 1500);
             };
+            
+            if($('body').width() > 768){
+                $(".slick-track").animate({ scrollTop: $('.container').height()+1000 }, 1500);
+            }
+
         }, 2000);          
     }
 };
@@ -546,6 +564,11 @@ var page_trigger4= function(class_trigger,arr){
             if($('body').width() < 768){     
                 $("section").animate({ scrollTop: $('.container').height()+1000 }, 1500);
             };
+            
+            if($('body').width() > 768){
+                $(".slick-track").animate({ scrollTop: $('.container').height()+1000 }, 1500);
+            }
+            
         }, 2000);
                        
     }
