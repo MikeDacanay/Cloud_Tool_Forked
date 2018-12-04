@@ -146,9 +146,9 @@
 		width: 1rem;
 		position: absolute;
 		z-index: 2;
-		@include bph(875){
-			width: 1rem;
-		}	
+		// @include bph(875){
+		// 	width: 1rem;
+		// }	
 		@include bp(1024){
 			width: 1.1rem;
 		}
@@ -178,9 +178,9 @@
 	    transform: rotate(90deg) translateX(-50%);
 	    right: calc(50% + -0.50rem);
 	    top: 1.00rem;
-  		@include bph(875){
-				top: 1rem;
-			}	
+  	// 	@include bph(875){
+			// 	top: 1rem;
+			// }	
 		}
 
 

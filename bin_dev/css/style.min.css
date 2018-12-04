@@ -478,11 +478,16 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow: hidden;
-  font-size: 125.00%;
   box-sizing: border-box;
   transform-origin: top center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  @media only screen and (max-width: 2800px) {
+    html {
+      font-size: 138.5%; } }
+  @media only screen and (max-width: 1900px) {
+    html {
+      font-size: 125.00%; } }
   @media only screen and (max-width: 1261px) {
     html {
       font-size: 88%; } }
@@ -1645,9 +1650,6 @@ a.bttn {
     width: 1rem;
     position: absolute;
     z-index: 2; }
-    @media only screen and (max-height: 875px) {
-      .dial__marker {
-        width: 1rem; } }
     @media only screen and (max-width: 1024px) {
       .dial__marker {
         width: 1.1rem; } }
@@ -1669,9 +1671,6 @@ a.bttn {
       transform: rotate(90deg) translateX(-50%);
       right: calc(50% + -0.50rem);
       top: 1.00rem; }
-      @media only screen and (max-height: 875px) {
-        .dial__marker--3 {
-          top: 1rem; } }
   .dial__header--holder {
     display: flex;
     color: #fff;
@@ -2151,10 +2150,6 @@ ul.no-dots-ul {
       margin: 0 auto;
       left: 0;
       right: 0; }
-      @media only screen and (max-height: 875px) {
-        .meter__group::before {
-          border-top: solid 1.34px rgba(255, 255, 255, 0.2);
-          width: 10.72px; } }
     .meter__group:first-of-type {
       margin-top: 0.70rem; }
     .meter__group:last-of-type {

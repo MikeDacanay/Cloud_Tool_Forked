@@ -15,7 +15,12 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow:hidden;
-  font-size: 125.00%;
+  @include bp(2800){
+    font-size: 138.5%;
+  }
+  @include bp(1900){
+    font-size: 125.00%;
+  }
   box-sizing: border-box;
   @include artboard-top-center;
 

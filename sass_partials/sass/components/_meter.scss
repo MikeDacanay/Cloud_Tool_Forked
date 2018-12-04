@@ -56,10 +56,10 @@
 	    left: 0;
 	    right: 0;
 
-	    @include bph(875){
-		    border-top: solid 1.34px rgba(255,255,255,.2);
-	    	width: 10.72px;
-	    }
+	    // @include bph(875){
+		   //  border-top: solid 1.34px rgba(255,255,255,.2);
+	    // 	width: 10.72px;
+	    // }
 		}
 
 		&:first-of-type{
