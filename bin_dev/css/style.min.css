@@ -1581,7 +1581,7 @@ a.bttn {
   .dial__holder {
     height: 12.30rem;
     flex: 0 0 13.00rem;
-    background-color: rgba(0, 59, 77, 0.2);
+    background-color: rgba(0, 59, 77, 0.6);
     padding-top: 1.05rem;
     border-radius: 1.05rem;
     position: relative; }
@@ -2117,7 +2117,7 @@ ul.no-dots-ul {
   padding: 0.40rem 0.30rem;
   width: 1.60rem;
   position: relative;
-  background-color: rgba(0, 59, 77, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 0.80rem;
   margin-bottom: 1.05rem; }
   .meter__sector {
@@ -2545,9 +2545,9 @@ table {
   .thermo__holder--1 {
     padding-bottom: 1.55rem; }
   .thermo__holder--2 {
-    background-color: rgba(0, 59, 77, 0.2); }
+    background-color: rgba(0, 59, 77, 0.6); }
   .thermo__holder--3 {
-    background-color: rgba(0, 59, 77, 0.3); }
+    background-color: rgba(0, 59, 77, 0.8); }
   .thermo__holder--4 {
     padding-top: 0.65rem;
     padding-bottom: 1.80rem; }
