@@ -404,6 +404,8 @@ $Breakpoint argument choices:
   height: auto;
   max-height: 100vh;
   overflow-y: overlay; }
+  .book-slider--1 .slick-track {
+    overflow-y: initial; }
 
 .slick-track:before,
 .slick-track:after {
@@ -2934,6 +2936,8 @@ table {
   overflow: hidden; }
   .main_container--1 {
     width: 100%; }
+  .main_container--2 {
+    overflow: auto; }
   @media only screen and (max-width: 767px) {
     .main_container {
       width: 100vw;
