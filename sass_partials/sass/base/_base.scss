@@ -21,6 +21,15 @@ html {
   @include bp(1900){
     font-size: 125.00%;
   }
+  @include bp(1260){
+    font-size: 123%;
+  }
+  @include bp(1200){
+    font-size: 119%;
+  }
+  @include bp(1025){
+    font-size: 85%;
+  }
   box-sizing: border-box;
   @include artboard-top-center;
 
@@ -30,9 +39,9 @@ html {
   // @include bph(631){
   //   font-size: 62.5%;  
   // }
-  @include bp(1261){
-    font-size: 88%; 
-  }    
+  // @include bp(1261){
+  //   font-size: 88%; 
+  // }    
   @include bp(800){
     font-size: 76.1%;
     position: fixed;

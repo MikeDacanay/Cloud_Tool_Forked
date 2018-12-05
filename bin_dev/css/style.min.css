@@ -403,7 +403,7 @@ $Breakpoint argument choices:
   display: block;
   height: auto;
   max-height: 100vh;
-  overflow-y: overlay; }
+  overflow-y: auto; }
   .book-slider--1 .slick-track {
     overflow-y: initial; }
 
@@ -488,9 +488,15 @@ html {
   @media only screen and (max-width: 1900px) {
     html {
       font-size: 125.00%; } }
-  @media only screen and (max-width: 1261px) {
+  @media only screen and (max-width: 1260px) {
     html {
-      font-size: 88%; } }
+      font-size: 123%; } }
+  @media only screen and (max-width: 1200px) {
+    html {
+      font-size: 119%; } }
+  @media only screen and (max-width: 1025px) {
+    html {
+      font-size: 85%; } }
   @media only screen and (max-width: 800px) {
     html {
       font-size: 76.1%;
