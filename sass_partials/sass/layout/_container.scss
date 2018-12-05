@@ -67,10 +67,13 @@
 	}
 	&--2{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     position: absolute;
-    bottom: 1rem;
+    // bottom: 1rem;
     width: 100%;
+    background-color: rgba(0,59,77,.95);
+    margin-top: -4.80rem;
+    padding-right: 1.90rem;
     @include bp(767){
     	bottom: 0;
     	position: relative;
@@ -81,11 +84,15 @@
 		// padding-right: 3.20rem;
 	}
 	&--2_1{
-		bottom: 1rem;
+		// bottom: 1rem;
+    background-color: rgba(0,59,77,.95);
+    margin-top: -4.80rem;		
     position: absolute;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
+    padding-right: 1.90rem;
+    z-index: 100;
     @include bp(767){
     	bottom: 0;
     	margin-top: 25px;
@@ -98,7 +105,7 @@
 	&--3{
     display: flex;
     flex-direction: column;
-		padding: 0 3.20rem;
+		// padding: 0 3.20rem;
 		padding-right: 0;
 	}
 	&--4{

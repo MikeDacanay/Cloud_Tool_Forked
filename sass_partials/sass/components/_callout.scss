@@ -2,7 +2,7 @@
 	&__holder{
 		flex: 0 0 28.30rem;
 		height: 6.00rem;
-		background-color: rgba(255,255,255,.9);
+		// background-color: rgba(255,255,255,.9);
     // display: flex;
     padding-top: 	0.70rem;
 		padding-left: 	1.20rem;
@@ -17,7 +17,7 @@
 		font-size: 0.70rem;
 		line-height: 1.05rem;		
 		transform: translateY(-0.25rem);
-		color: #003B4D;
+		color: #fff;
 		font-family: $font-reg;
 		@include bp(767){
 			transform: translateY(0rem);
@@ -37,7 +37,7 @@
 	}
 	&__sub{
 		font-family: $font-reg;
-		color: #00758F;
+		color: #fff;
 		font-size: 0.60rem;
 		line-height: 1.20rem;
 		transform: translateY(-0.30rem);
