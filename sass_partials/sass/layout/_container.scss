@@ -75,6 +75,8 @@
     margin-top: -4.80rem;
     padding-right: 1.90rem;
     @include bp(767){
+    	background-color: transparent;
+    	padding-right: 0;
     	bottom: 0;
     	position: relative;
     	flex-direction: column;
@@ -94,6 +96,8 @@
     padding-right: 1.90rem;
     z-index: 100;
     @include bp(767){
+    	background-color: transparent;
+    	padding-right: 0rem;
     	bottom: 0;
     	margin-top: 25px;
     	position: relative;
@@ -107,6 +111,9 @@
     flex-direction: column;
 		// padding: 0 3.20rem;
 		padding-right: 0;
+		@include bp(767){
+	    padding: 0 3.20rem;
+		}
 	}
 	&--4{
 		padding: 0;

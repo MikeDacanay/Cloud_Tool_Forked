@@ -1396,6 +1396,7 @@ a.bttn {
   animation: fadeIn .3s; }
   @media only screen and (max-width: 767px) {
     .callout__holder {
+      background-color: rgba(255, 255, 255, 0.9);
       height: auto;
       flex: 0;
       padding: 20px 15px; } }
@@ -1410,7 +1411,8 @@ a.bttn {
     .callout__header {
       transform: translateY(0rem);
       font-size: 14px;
-      line-height: 21px; } }
+      line-height: 21px;
+      color: #003B4D; } }
   .callout__header--bold {
     font-family: Univers-Bold, Arial, Helvetica, sans-serif;
     font-size: .9rem; }
@@ -1430,7 +1432,8 @@ a.bttn {
     .callout__sub {
       transform: translateY(0rem);
       font-size: 12px;
-      margin-top: 15px; } }
+      margin-top: 15px;
+      color: #00758F; } }
 
 .callout__action {
   flex: 0 0 11.25rem;
@@ -2793,6 +2796,8 @@ table {
   padding-right: 1.90rem; }
   @media only screen and (max-width: 767px) {
     .container--2 {
+      background-color: transparent;
+      padding-right: 0;
       bottom: 0;
       position: relative;
       flex-direction: column;
@@ -2809,6 +2814,8 @@ table {
   z-index: 100; }
   @media only screen and (max-width: 767px) {
     .container--2_1 {
+      background-color: transparent;
+      padding-right: 0rem;
       bottom: 0;
       margin-top: 25px;
       position: relative;
@@ -2819,6 +2826,9 @@ table {
   display: flex;
   flex-direction: column;
   padding-right: 0; }
+  @media only screen and (max-width: 767px) {
+    .container--3 {
+      padding: 0 3.20rem; } }
 
 .container--4 {
   padding: 0; }

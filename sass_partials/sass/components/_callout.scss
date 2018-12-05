@@ -8,6 +8,7 @@
 		padding-left: 	1.20rem;
     animation: fadeIn .3s;
     @include bp(767){
+    	background-color: rgba(255,255,255,.9);
 	    height: auto;
     	flex: 0;
 	    padding: 20px 15px;    	
@@ -23,6 +24,7 @@
 			transform: translateY(0rem);
 			font-size: 14px;
 			line-height: 21px;
+	    color: #003B4D;
 		}
 		&--bold{
 			font-family: $font-bold;			
@@ -45,6 +47,7 @@
 			transform: translateY(0rem);
 			font-size: 12px;
 			margin-top: 15px;
+	    color: #00758F;
 		}
 	}
 	&__action{
