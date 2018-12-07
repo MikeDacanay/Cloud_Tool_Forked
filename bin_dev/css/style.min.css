@@ -1883,31 +1883,6 @@ a.bttn {
 .win option {
   color: #003b4d; }
 
-.footr {
-  width: 100vw;
-  height: 1.85rem;
-  position: fixed;
-  z-index: 11;
-  bottom: 0;
-  background-color: #00758F;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .footr__content {
-    display: flex;
-    font-family: Univers-lt, Arial, Helvetica, sans-serif;
-    height: 0.60rem; }
-    .footr__content > * {
-      font-size: 0.60rem;
-      display: inline-flex;
-      height: 0.65rem;
-      color: #BDE6EE;
-      align-items: center;
-      padding-left: 0.70rem;
-      padding-right: 0.70rem; }
-      .footr__content > *:not(:last-of-type) {
-        border-right: 1px solid #fff; }
-
 .header__container {
   display: flex;
   align-items: flex-start; }
@@ -2930,32 +2905,30 @@ table {
   width: 100%;
   top: 58%; }
 
-.footer {
-  width: 100%;
-  height: 2.10rem;
-  position: absolute;
+.footr {
+  width: 100vw;
+  height: 1.85rem;
+  position: fixed;
+  z-index: 11;
   bottom: 0;
-  font-family: Univers, Arial, Helvetica, sans-serif;
-  font-size: 0.80rem;
-  letter-spacing: -.05em;
-  color: #fff;
-  pointer-events: none; }
-  .footer-book-title {
-    float: right;
-    margin-top: 0.75rem;
-    margin-right: 0.75rem; }
-  .footer-chap-title {
-    margin-top: 3.75rem;
-    margin-left: 3.45rem;
-    display: inline-block; }
-
-#footNum {
-  float: right;
-  margin-top: 0.2 0.5rem;
-  font-family: Univers-Bold, Arial, Helvetica, sans-serif;
-  padding-right: 1.10rem;
-  font-size: 1.05rem;
-  color: #fff; }
+  background-color: #00758F;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footr__content {
+    display: flex;
+    font-family: Univers-lt, Arial, Helvetica, sans-serif;
+    height: 0.60rem; }
+    .footr__content > * {
+      font-size: 0.60rem;
+      display: inline-flex;
+      height: 0.65rem;
+      color: #BDE6EE;
+      align-items: center;
+      padding-left: 0.70rem;
+      padding-right: 0.70rem; }
+      .footr__content > *:not(:last-of-type) {
+        border-right: 1px solid #fff; }
 
 .row {
   max-width: 70rem;
@@ -3018,7 +2991,8 @@ table {
   height: 47.00rem;
   background-repeat: no-repeat;
   background-color: transparent;
-  background-size: cover !important; }
+  background-size: cover !important;
+  margin-bottom: 1.85rem; }
   .page--x {
     height: 100vh; }
     .book-slider .page--x {
