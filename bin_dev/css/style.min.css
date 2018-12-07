@@ -1741,7 +1741,8 @@ a.bttn {
   .dial__header--text {
     font-size: 0.90rem;
     line-height: 1;
-    margin-left: 0.50rem; }
+    margin-left: 0.50rem;
+    font-family: Univers-Bold, Arial, Helvetica, sans-serif; }
     .dial__header--text--1 {
       margin-left: 0.5rem; }
     .dial__header--text--2 {
@@ -2656,6 +2657,7 @@ table {
     align-items: center; }
 
 .thermo__title {
+  font-family: Univers-Bold, Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 0.90rem;
   line-height: 1;
