@@ -1,0 +1,28 @@
+.footr{
+	width: 100vw;
+  height: 1.85rem;
+  position: fixed;
+  z-index: 11;
+  bottom: 0;
+	background-color: #00758F;
+  display: flex;
+  align-items: center;
+	justify-content: center;
+	&__content{
+		display: flex;
+		font-family: $font-lt;
+		height: 0.60rem;
+		& > *{			
+			font-size: 0.60rem;
+			display: inline-flex;
+	    height: 0.65rem;
+	    color: #BDE6EE;
+	    align-items: center;
+	    padding-left: 0.70rem;
+	    padding-right: 0.70rem;
+			&:not(:last-of-type){
+				border-right: 1px solid #fff;
+			}
+		}
+	}
+}
