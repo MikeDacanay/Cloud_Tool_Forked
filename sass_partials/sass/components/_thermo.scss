@@ -20,10 +20,10 @@
 		}
 
 		&--2{
-			background-color: rgba(0,59,77,.6);
+			background-color: rgba(0,59,77,.75);
 		}
 		&--3{
-			background-color: rgba(0,59,77,.8);
+			background-color: rgba(0,59,77,.9);
 		}
 		&--4{
 			padding-top: 0.65rem;
@@ -50,7 +50,7 @@
 		font-size: 0.80rem;
 		line-height: 1.12;
 		color: #fff;
-		font-family: $font-lt;
+		font-family: $font-bold;
 		text-align: center;
 		margin-bottom: 1.20rem;
 		
@@ -86,9 +86,11 @@
 
 		&--1{
 			width: 2.40rem;
+			transform: translateY(0.75rem);
 		}
 		&--2{
 			width: 3.60rem;
+			transform: translateY(.7rem);
 		}
 		&--3{
 			width: 3.13rem;
@@ -97,9 +99,11 @@
 		&--4{
 			width: 1.65rem;
 			height: 2.30rem;
+	    transform: translateY(0.68rem);
 		}
 		&--5{
 			width: 3.05rem;
+			transform: translateY(.7rem);
 		}		
 
 		&--6{
@@ -109,18 +113,22 @@
 		&--7{
 			width: 2rem;
 			height: 2.70rem;	
+			transform: translateY(0.10rem);
 		}
 		&--8{
 			width: 3.20rem;
 			height: 2.70rem;	
+			transform: translateY(0.40rem);
 		}
 		&--9{
 			width: 2.68rem;
-			height: 2.70rem;	
+			height: 2.70rem;
+			transform: translateY(0.10rem);	
 		}
 
 		&--10{
 			width: 3.60rem;
+			transform: translateY(0.50rem);
 		}
 		&--11,
 		&--15{
@@ -128,12 +136,14 @@
 		}
 		&--12{
 			width: 4.85rem;	
+	    transform: translateY(0.30rem);
 		}
 		&--13{
 			width: 3.10rem;	
 		}		
 		&--14{
 			width: 3.35rem;	
+			transform: translateY(0.40rem);
 		}	
 
 		&--10,

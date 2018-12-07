@@ -71,8 +71,8 @@
     position: absolute;
     // bottom: 1rem;
     width: 100%;
-    background-color: rgba(0,59,77,.95);
-    margin-top: -4.80rem;
+    background-color: rgba(0,59,77,.9);
+    margin-top: 0rem;
     padding-right: 1.90rem;
     @include bp(767){
     	background-color: transparent;
@@ -87,14 +87,17 @@
 	}
 	&--2_1{
 		// bottom: 1rem;
-    background-color: rgba(0,59,77,.95);
-    margin-top: -4.80rem;		
+    background-color: rgba(0,59,77,.9);
+    margin-top: 0rem;		
     position: absolute;
     display: flex;
     align-items: center;
     width: 100%;
     padding-right: 1.90rem;
     z-index: 100;
+    .page--8 &{
+    	width: 95.1%;
+    }
     @include bp(767){
     	background-color: transparent;
     	padding-right: 0rem;

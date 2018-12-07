@@ -42,7 +42,7 @@
 		display: flex;
 		z-index: 13;
     position: relative;		
-	  background-color: rgba(255, 255, 255, 0.4)
+	  background-color: rgba(0, 59, 77, 0.9);
 	}
 	&__progress{
 		width: 100%;
@@ -61,7 +61,8 @@
 		& span{
 			font-size: 0.60rem;
 			line-height: 1.14;
-			color: #003B4D;
+			color: #fff;
+			font-family: 	$font-bold;
 		}
 
 		& > label{
@@ -78,21 +79,21 @@
 		} 
 		&:nth-child(2){
 			flex: 0 0 4.30rem;	
-			background-color: rgba(255,255,255,.2);		
+			background-color: rgba(255, 255, 255,.2);		
 		}
 		&:nth-child(3){
 			flex: 0 0 4.98rem;
 		}
 		&:nth-child(4){
 			flex: 0 0 5.97rem;
-			background-color: rgba(255,255,255,.2);
+			background-color: rgba(255, 255, 255,.2);
 		}
 		&:nth-child(5){
 			flex: 0 0 7.18rem;
 		}
 		&:nth-child(6){
 			flex: 0 0 8.63rem;
-			background-color: rgba(255,255,255,.2);
+			background-color: rgba(255, 255, 255,.2);
 		}
 		&:nth-child(7){
 			flex: 0 0 9.17rem;
@@ -100,7 +101,7 @@
 		&:nth-child(8){
 			flex: 0 0 10.40rem;
 			border-right: 0;
-			background-color: rgba(255,255,255,.2);
+			background-color: rgba(255, 255, 255,.2);
 		}		
 	}	
 	&__input{
