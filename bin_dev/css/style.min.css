@@ -2931,6 +2931,11 @@ table {
       padding-right: 0.70rem; }
       .footr__content > *:not(:last-of-type) {
         border-right: 1px solid #fff; }
+      @media only screen and (max-width: 767px) {
+        .footr__content > * {
+          font-size: .55rem;
+          padding-left: .3rem;
+          padding-right: .3rem; } }
 
 .row {
   max-width: 70rem;

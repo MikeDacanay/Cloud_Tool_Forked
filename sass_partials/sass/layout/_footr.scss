@@ -23,6 +23,11 @@
 			&:not(:last-of-type){
 				border-right: 1px solid #fff;
 			}
+			@include bp(767){
+				font-size: .55rem;
+				padding-left: .3rem;
+				padding-right: .3rem;
+			}
 		}
 	}
 }
