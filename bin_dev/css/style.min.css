@@ -3958,7 +3958,7 @@ a:hover {
   .c-u-pmarg-top {
     margin-top: 0; } }
 
-/**********Tablet POrtrait***************/
+/**********Tablet POrtrait******************/
 @media only screen and (max-width: 767px) {
   /** CHANGES 11-1**/
   .slick-initialized .slick-slide {
