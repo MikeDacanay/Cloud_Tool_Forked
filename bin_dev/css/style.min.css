@@ -2187,11 +2187,8 @@ ul.no-dots-ul {
     transform: scale(1);
     transition: all .2s ease;
     display: flex;
-    justify-content: center; }
-    .meter__button:hover {
-      transform: scale(1.07) translateY(-0.05rem); }
-    .meter__button:active {
-      transform: scale(1.05) translateY(-0.05rem); }
+    justify-content: center;
+    cursor: default; }
   .meter__radio-input {
     display: none; }
   .meter__radio-label {
@@ -3958,7 +3955,7 @@ a:hover {
   .c-u-pmarg-top {
     margin-top: 0; } }
 
-/**********Tablet POrtrait******************/
+/**********Tablet POrtrait****************/
 @media only screen and (max-width: 767px) {
   /** CHANGES 11-1**/
   .slick-initialized .slick-slide {
