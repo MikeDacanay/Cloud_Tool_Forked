@@ -2204,7 +2204,7 @@ ul.no-dots-ul {
     background-color: transparent;
     display: block;
     transition: background-color .3s ease, transform .2s ease;
-    transform: scale(1);
+    transform: scale(1) translateY(-0.45rem);
     margin-bottom: -0.20em;
     margin-top: 0.20em; }
   .meter--1 {
