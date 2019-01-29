@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="961e1d91-0f68-4070-9cb3-ed7498d96512" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="bin_dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,25 +33,8 @@
             <state relative-caret-position="3585">
               <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
               <folding>
-                <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-                <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-                <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-                <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-                <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-                <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-                <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
                 <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
                 <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-                <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -59,18 +43,18 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33270">
-              <caret line="2222" column="17" selection-start-line="2222" selection-start-column="17" selection-end-line="2222" selection-end-column="17" />
+            <state relative-caret-position="33330">
+              <caret line="2222" column="0" selection-start-line="2222" selection-start-column="0" selection-end-line="2222" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="63" column="62" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="62" />
+            <state relative-caret-position="210">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -89,7 +73,7 @@
       <file leaf-file-name="comparison.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comparison.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
+            <state relative-caret-position="960">
               <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="75" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -103,14 +87,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17376">
-              <caret line="3307" column="105" selection-start-line="3307" selection-start-column="100" selection-end-line="3307" selection-end-column="105" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,11 +163,11 @@
         <option value="$PROJECT_DIR$/js/countries.js" />
         <option value="$PROJECT_DIR$/css/backgrounds.css" />
         <option value="$PROJECT_DIR$/results.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/comparison.html" />
         <option value="$PROJECT_DIR$/js/eloqua.js" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -196,10 +178,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="119" />
-    <option name="y" value="-794" />
-    <option name="width" value="1348" />
-    <option name="height" value="773" />
+    <option name="y" value="297" />
+    <option name="width" value="1780" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -254,6 +235,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,13 +270,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../CPR Promotional/CPR_website/create-child" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -445,6 +426,7 @@
       <workItem from="1543504737608" duration="928000" />
       <workItem from="1543857049323" duration="257000" />
       <workItem from="1543878414239" duration="429000" />
+      <workItem from="1548264909781" duration="1199000" />
     </task>
     <task id="LOCAL-00016" summary="starting mobile">
       <created>1538583484639</created>
@@ -793,15 +775,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143450000" />
+    <option name="totallyTimeSpent" value="144649000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="-794" width="1348" height="773" extended-state="0" />
+    <frame x="0" y="297" width="1780" height="698" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15578635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16797753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41477272" sideWeight="0.5400593" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12559618" sideWeight="0.5400593" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27925116" sideWeight="0.43369177" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -884,9 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43590">
           <caret line="2960" column="16" selection-start-line="2960" selection-start-column="16" selection-end-line="2960" selection-end-column="16" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,25 +907,8 @@
         <state relative-caret-position="810">
           <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -970,9 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,25 +964,8 @@
         <state relative-caret-position="810">
           <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1046,9 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61170">
           <caret line="4132" column="128" selection-start-line="4132" selection-start-column="128" selection-end-line="4132" selection-end-column="128" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,25 +1014,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1100,25 +1025,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1136,25 +1044,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1172,25 +1063,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1208,25 +1082,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1244,25 +1101,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1272,25 +1112,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1300,25 +1123,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1328,25 +1134,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1356,25 +1145,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1384,25 +1156,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
             <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
             <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1456,8 +1211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33270">
-          <caret line="2222" column="17" selection-start-line="2222" selection-start-column="17" selection-end-line="2222" selection-end-column="17" />
+        <state relative-caret-position="33330">
+          <caret line="2222" column="0" selection-start-line="2222" selection-start-column="0" selection-end-line="2222" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1495,34 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3585">
-          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
-          <folding>
-            <marker date="1543883075000" expanded="true" signature="252:364" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="401:943" ph="{&quot;1&quot;: &quot;Embedded best practice integration recommendations&quot;...}" />
-            <marker date="1543883075000" expanded="true" signature="968:2814" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="980:1394" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1406:1805" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="1817:2298" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2310:2437" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2449:2812" ph="[...]" />
-            <marker date="1543883075000" expanded="true" signature="2945:3437" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3583:3678" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3642:3676" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3710:5970" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3858:4052" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="3970:4046" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="4962:4981" ph="//..." />
-            <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18065" ph="{...}" />
-            <marker date="1543883075000" expanded="true" signature="18017:18067" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/eloqua.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1535,7 +1262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comparison.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
+        <state relative-caret-position="960">
           <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="75" />
           <folding>
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1548,21 +1275,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="63" column="62" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="3585">
+          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+          <folding>
+            <marker date="1543883075000" expanded="true" signature="5998:6004" ph="{...}" />
+            <marker date="1543883075000" expanded="true" signature="18017:18027" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17376">
-          <caret line="3307" column="105" selection-start-line="3307" selection-start-column="100" selection-end-line="3307" selection-end-column="105" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
