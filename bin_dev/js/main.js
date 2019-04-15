@@ -164,33 +164,79 @@ var  moveComparison=function(){
     //Section 2
     sessionStorage.secTwoUser=Math.round((Number(b.summary_user)/(1/7))*100);
     sessionStorage.secTwoPeers=Math.round((Number(c.summary_peers)/(1/7))*100);
+    sessionStorage.secTwoA=b.CL02.a;
+    sessionStorage.secTwoB=b.CL02.b;
+    sessionStorage.secTwoC=b.CL02.c;
+    sessionStorage.secTwoD=b.CL02.d;
+    sessionStorage.secTwoE=b.CL02.e;
+    sessionStorage.secTwoF=b.CL02.f;
+
     //Section 3
     sessionStorage.secThreeUser=Math.round((Number(d.summary_user)/(1/7))*100);
     sessionStorage.secThreePeers=Math.round((Number(d.summary_peers)/(1/7))*100);
+    sessionStorage.secThreeA=d.mig6.a;
+    sessionStorage.secThreeB=d.mig6.b;
+    sessionStorage.secThreeC=d.mig6.c;
+    sessionStorage.secThreeD=d.mig6.d;
+    sessionStorage.secThreeE=d.mig6.e;
+
     //Section 4
     sessionStorage.secFourUser=Math.round((Number(e.summary_user)/(1/7))*100);
     sessionStorage.secFourPeers=Math.round((Number(e.summary_peers)/(1/7))*100); 
+    sessionStorage.secFourA=e.dev2.a;
+    sessionStorage.secFourB=e.dev2.b;    
+    sessionStorage.secFourC=e.dev2.c;
+    sessionStorage.secFourD=e.dev2.d;
+    sessionStorage.secFourE=e.dev2.e;
+
     //Section 5
     sessionStorage.secFiveUser=Math.round((Number(l.summary_user)/(1/7))*100);
     sessionStorage.secFivePeers=Math.round((Number(l.summary_peers)/(1/7))*100);
+    sessionStorage.secFiveA=l.dev1.a;
+    sessionStorage.secFiveB=l.dev1.b;
+
+
     //Section 6
-    // 
-    sessionStorage.secSixUser=int4.summary_user[0];
-    sessionStorage.secSixUser1=int4.summary_user[1];
-    sessionStorage.secSixUser2=int4.summary_user[2];
+    sessionStorage.secSixUser=int4.summary_user[0]; //eloqua this
+    sessionStorage.secSixUser1=int4.summary_user[1]; //eloqua this
+    sessionStorage.secSixUser2=int4.summary_user[2]; //eloqua this
 
     sessionStorage.secSixPeers=int4.summary_peers[0];
     sessionStorage.secSixPeers1=int4.summary_peers[1];
     sessionStorage.secSixPeers2=int4.summary_peers[2];
+
+    sessionStorage.secSixA= int4.summary_user[0];
+    sessionStorage.secSixB= int4.summary_user[1];
+    sessionStorage.secSixC=int4.summary_user[2];
+
+
     //Section 7
     sessionStorage.secSevenUser=Math.round((Number(dial_seven.summary_user)/(1/7))*100);
     sessionStorage.secSevenPeers=Math.round((Number(dial_seven.summary_peers)/(1/7))*100);
+
+    sessionStorage.secSevenA=dial_seven.dev.a;
+    sessionStorage.secSevenB=dial_seven.dev.b;
+    sessionStorage.secSevenC=dial_seven.dev.c;
+    sessionStorage.secSevenD=dial_seven.dev.d;
+    sessionStorage.secSevenE=dial_seven.dev.e;
     //Section 8
     sessionStorage.secEightUser=Math.round((Number(g.summary_user)/(1/7))*100);
     sessionStorage.secEightPeers=Math.round((Number(g.summary_peers)/(1/7))*100);
+
+    sessionStorage.secEightA=g.sec3.a;
+    sessionStorage.secEightB=g.sec3.b;
+    sessionStorage.secEightC=g.sec3.c;
+    sessionStorage.secEightD=g.sec3.d;
+
     //Section 9
     sessionStorage.secNineUser=Math.round((Number(h.summary_user)/(1/7))*100);
-    sessionStorage.secNinePeers=Math.round((Number(h.summary_peers)/(1/7))*100);    
+    sessionStorage.secNinePeers=Math.round((Number(h.summary_peers)/(1/7))*100);
+
+    sessionStorage.secNineA=h.ana.a;
+    sessionStorage.secNineB=h.ana.b;    
+    sessionStorage.secNineC=h.ana.c;
+    sessionStorage.secNineD=h.ana.d;
+    sessionStorage.secNineE=h.ana.e;
 
     //Overall
     sessionStorage.summary_user=summary.user;

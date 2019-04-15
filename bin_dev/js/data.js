@@ -69,7 +69,7 @@ var b = new Vue({
   	computed:{
 			summary_user: function(){
 				var summary_user=(Number(b.CL02.a)/180)+(Number(b.CL02.b)/180)+(Number(b.CL02.c)/180)+(Number(b.CL02.d)/180)+(Number(b.CL02.e)/180)+(Number(b.CL02.f)/180);
-				summary_user=(summary_user/6)/7;
+				summary_user=(summary_user/6)/7;				
 				return summary_user;
 			},
 		},
