@@ -1,3 +1,5 @@
+// START Q2
+
 var clo2_migrating = {
 	currently:{
 		tot: 68,
@@ -230,10 +232,14 @@ var clo2_analysis = {
 	},
 }
 
+// END Q2
+
+// START Q3
 var mig6 = {
 	a:{
 		tot:5.4,
-		auto:5.3,
+		// auto:5.3,
+		auto:0,
 		fin:5.1,
 		cons:5.4,
 		ener:5.5,
@@ -292,7 +298,10 @@ var mig6 = {
 		tel:5.3,
 	},		
 }
+// END Q3
 
+
+// START Q5 * each number represents weeks
 var dev1 = {
 	a:{
 		tot:	7.7,
@@ -319,7 +328,9 @@ var dev1 = {
 		tel:	6.4,
 	}
 }
+// END Q5
 
+// START Q4
 var dev2 = {
 	a:{
 		tot: 5,
@@ -382,6 +393,9 @@ var dev2 = {
 		tel:	5,
 	},
 }
+// END Q4
+
+// START Q6
 var dev5={
 	auto:["auto","api","db","mp","vt","cont","ai","lang","chat"],
 	fin:["ai","api","auto","chat","cont","db","lang","mp","vt"],
@@ -394,7 +408,11 @@ var dev5={
 	tel:["mp","db","ai","api","auto","vt","chat","lang","cont"],
 	tot:["mp","auto","db","api","ai","vt","lang","cont","chat"],	
 }
+// END Q6
 
+
+// START Q7 rating 1-7
+// impede = 0 to 2.31 / no impact = 2.32 to 4.62 / improve = 4.63 to 7
 var dat3={
 	a:{
 		tot:	5.2,
@@ -457,7 +475,10 @@ var dat3={
 		tel:	5.2,
 	},
 }
+// END Q7
 
+// START Q6
+// Each number represents a feature 8 = API management, 1 = Embedded best practice
 var int={
 	auto:['8','5','3','6','1','4','7','2'],
 	fin:['3','8','7','6','1','5','4','2'],
@@ -470,7 +491,9 @@ var int={
 	tel:['3','6','2','4','8','1','5','7'],		
 	tot:['3','6','8','5','1','4','7','2'],
 }
+// END Q6
 
+// START Q8
 var sec3={
 	a:{
 		auto:	5.2,
@@ -521,7 +544,10 @@ var sec3={
 		tot: 4.8,
 	},	
 }
+// END Q8
 
+// START Q9
+// 1st thermo = a, 6 thermo = f
 var ana={
 	a:{
 		auto:	5,
@@ -596,3 +622,4 @@ var ana={
 		tot: 5,
 	}
 }
+// END Q9

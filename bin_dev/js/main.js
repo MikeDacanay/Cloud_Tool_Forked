@@ -311,6 +311,8 @@ var show_next= function(arr){
 var page_trigger1= function(class_trigger,check,arr,arr1){
     var mover = true;
 
+    console.log(arr1);
+
     for(var i=0; i < check.length; i++){
         if(check[i].length < 1 || arr[i]===0){
             mover = false;
@@ -1281,14 +1283,13 @@ $(document).ready(function() {
         var calc2;
 
 
-        $.getJSON('https://free.currencyconverterapi.com/api/v5/convert?q='+currency+'_USD&compact=y',
+        $.getJSON('https://free.currencyconverterapi.com/api/v6/convert?q=USD_'+currency+'&compact=ultra&apiKey=c06fc50bbb144bdce680',
 
             function(data){
+                console.log(data);
                 for(i in data){
-                    for(j in data[i]){
-                        calc1=1/data[i][j];
-                        calc2=50/data[i][j];
-                    }
+                    calc1=1/data[i];
+                    calc2=50/data[i];
                 }
 
                 if(calc1<1&&calc1>.001){

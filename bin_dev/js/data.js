@@ -113,81 +113,169 @@ var c = new Vue({
 	computed:{
 		// Retrieves sector's overall cloud journey position from datasets.js
 		d_migrate: function(){
+			// var x = a._data.sector;
+			// var sector_average = 0;
+			// var dial_path = 0;
+			// for(var i=0; i < x.length;i++){
+			// 	sector_average = sector_average + clo2_migrating.currently[x[i]];				
+			// };
+			// sector_average = sector_average/x.length;
+			// console.log(sector_average);
+			// dial_path=(60*(sector_average/100))+120;
+			// console.log(dial_path);
+			// return dial_path;			
+
+
 			var x = a._data.sector;
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_migrating.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_migrating.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_migrating.plan[x[i]];
+				secAveNot = secAveNot + clo2_migrating.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
 
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
 			return dial_path;			
 		},
 		d_dev: function(){
 			var x = a._data.sector;
 
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_developing.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_developing.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_developing.plan[x[i]];
+				secAveNot = secAveNot + clo2_developing.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
 
-			return dial_path;		
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
+			return dial_path;	
 		},
 		d_int: function(){
 			var x = a._data.sector;
 
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_integrating.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_integrating.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_integrating.plan[x[i]];
+				secAveNot = secAveNot + clo2_integrating.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
-						
-			return dial_path;		
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
+
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
+			return dial_path;				
 		},
 		d_stor: function(){
+			// var x = a._data.sector;
+
+			// var sector_average = 0;
+			// var dial_path = 0;
+			// for(var i=0; i < x.length;i++){
+			// 	sector_average = sector_average + clo2_storing.currently[x[i]];				
+			// };
+			// sector_average = sector_average/x.length;
+			// dial_path=(60*(sector_average/100))+120;
+						
+			// return dial_path;
 			var x = a._data.sector;
 
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_storing.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_storing.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_storing.plan[x[i]];
+				secAveNot = secAveNot + clo2_storing.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
-						
-			return dial_path;			
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
+
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
+			return dial_path;						
 		},
 		d_sec: function(){
+			// var x = a._data.sector;
+
+			// var sector_average = 0;
+			// var dial_path = 0;
+			// for(var i=0; i < x.length;i++){
+			// 	sector_average = sector_average + clo2_security.currently[x[i]];				
+			// };
+			// sector_average = sector_average/x.length;
+			// dial_path=(60*(sector_average/100))+120;
+
+			// return dial_path;		
 			var x = a._data.sector;
 
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_security.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_security.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_security.plan[x[i]];
+				secAveNot = secAveNot + clo2_security.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
 
-			return dial_path;		
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
+			return dial_path;			
 		},
 		d_an: function(){
+			// var x = a._data.sector;
+
+			// var sector_average = 0;
+			// var dial_path = 0;
+			// for(var i=0; i < x.length;i++){
+			// 	sector_average = sector_average + clo2_analysis.currently[x[i]];				
+			// };
+			// sector_average = sector_average/x.length;
+			// dial_path=(60*(sector_average/100))+120;
+
+			// return dial_path;		
 			var x = a._data.sector;
 
-			var sector_average = 0;
+			var secAveCurr = 0;
+			var secAvePlan = 0;
+			var secAveNot = 0;
 			var dial_path = 0;
 			for(var i=0; i < x.length;i++){
-				sector_average = sector_average + clo2_analysis.currently[x[i]];				
+				secAveCurr = secAveCurr + clo2_analysis.currently[x[i]];
+				secAvePlan = secAvePlan + clo2_analysis.plan[x[i]];
+				secAveNot = secAveNot + clo2_analysis.not[x[i]];				
 			};
-			sector_average = sector_average/x.length;
-			dial_path=(60*(sector_average/100))+120;
+			secAveCurr = secAveCurr/x.length;
+			secAvePlan = secAvePlan/x.length;
+			secAveNot = secAveNot/x.length;
 
-			return dial_path;		
+			dial_path=((secAveCurr/100)*.99+(secAvePlan/100)*.66+(secAveNot/100)*.33)*180;
+			console.log(dial_path);
+			return dial_path;				
 		},
 		summary_peers: function(){
 			return (((c.d_migrate/180)+(c.d_dev/180)+(c.d_int/180)+(c.d_stor/180)+(c.d_sec/180)+(c.d_an/180))/6)/7;
