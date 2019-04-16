@@ -27,53 +27,58 @@ function validateFields() {
     //     " Q7: " + comparison.SevenUser + " Q8: " + comparison.EightUser + " Q9: " + comparison.NineUser + " Summary: " + comparison.summary_user;
 
     var results= 
-    "Region: " + sessionStorage.regionSummary + 
-    " Sector: " + sessionStorage.sectorSummary + 
-    
-    " Q2A: " +     sessionStorage.secTwoA +
-    " Q2B: " +     sessionStorage.secTwoB +
-    " Q2C: " +     sessionStorage.secTwoC +
-    " Q2D: " +     sessionStorage.secTwoD +
-    " Q2E: " +     sessionStorage.secTwoE +
-    " Q2F: " +     sessionStorage.secTwoF +
 
-    " Q3A: " +     sessionStorage.secThreeA +
-    " Q3B: " +     sessionStorage.secThreeB +
-    " Q3C: " +     sessionStorage.secThreeC +
-    " Q3D: " +     sessionStorage.secThreeD +
-    " Q3E: " +     sessionStorage.secThreeE +
+        {
+            Region: sessionStorage.regionSummary, 
+            Sector: sessionStorage.sectorSummary, 
+            
+            Q2A: sessionStorage.secTwoA,
+            Q2B: sessionStorage.secTwoB,
+            Q2C: sessionStorage.secTwoC,
+            Q2D: sessionStorage.secTwoD,
+            Q2E: sessionStorage.secTwoE,
+            Q2F: sessionStorage.secTwoF,
 
-    " Q4A: " +     sessionStorage.secFourA +
-    " Q4B: " +     sessionStorage.secFourB +
-    " Q4C: " +     sessionStorage.secFourC +
-    " Q4D: " +     sessionStorage.secFourD +
-    " Q4E: " +     sessionStorage.secFourE +
+            Q3A: sessionStorage.secThreeA,
+            Q3B: sessionStorage.secThreeB,
+            Q3C: sessionStorage.secThreeC,
+            Q3D: sessionStorage.secThreeD,
+            Q3E: sessionStorage.secThreeE,
 
-    " Q5A: " +     sessionStorage.secFiveA +
-    " Q5B: " +     sessionStorage.secFiveB +
+            Q4A: sessionStorage.secFourA,
+            Q4B: sessionStorage.secFourB,
+            Q4C: sessionStorage.secFourC,
+            Q4D: sessionStorage.secFourD,
+            Q4E: sessionStorage.secFourE,
 
-    " Q6A: " +     sessionStorage.secSixA +
-    " Q6B: " +     sessionStorage.secSixB +
-    " Q6C: " +     sessionStorage.secSixC +            
+            Q5A: sessionStorage.secFiveA,
+            Q5B: sessionStorage.secFiveB,
 
-    " Q7A: " +     sessionStorage.secSevenA +
-    " Q7B: " +     sessionStorage.secSevenB +
-    " Q7C: " +     sessionStorage.secSevenC +
-    " Q7D: " +     sessionStorage.secSevenD +
-    " Q7E: " +     sessionStorage.secSevenE +
+            Q6A: sessionStorage.secSixA,
+            Q6B: sessionStorage.secSixB,
+            Q6C: sessionStorage.secSixC,            
 
-    " Q8A: " +     sessionStorage.secEightA +
-    " Q8B: " +     sessionStorage.secEightB +
-    " Q8C: " +     sessionStorage.secEightC +
-    " Q8D: " +     sessionStorage.secEightD +
+            Q7A: sessionStorage.secSevenA,
+            Q7B: sessionStorage.secSevenB,
+            Q7C: sessionStorage.secSevenC,
+            Q7D: sessionStorage.secSevenD,
+            Q7E: sessionStorage.secSevenE,
 
-    " Q9A: " +     sessionStorage.secNineA +
-    " Q9B: " +     sessionStorage.secNineB +
-    " Q9C: " +     sessionStorage.secNineC +
-    " Q9D: " +     sessionStorage.secNineD +
-    " Q9E: " +     sessionStorage.secNineE +
+            Q8A: sessionStorage.secEightA,
+            Q8B: sessionStorage.secEightB,
+            Q8C: sessionStorage.secEightC,
+            Q8D: sessionStorage.secEightD,
 
-    " Summary: " + comparison.summary_user;
+            Q9A: sessionStorage.secNineA,
+            Q9B: sessionStorage.secNineB,
+            Q9C: sessionStorage.secNineC,
+            Q9D: sessionStorage.secNineD,
+            Q9E: sessionStorage.secNineE,
+
+            Summary: comparison.summary_user,
+        };
+
+
 
             
 
